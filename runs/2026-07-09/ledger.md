@@ -1,0 +1,67 @@
+# Week Ledger — run 2026-07-09 (window 2026-07-03 → 2026-07-09)
+
+Mode: **Weekly**. Prior report: `MacroBasis_Dashboard_2026-07-03.docx`. Daily files consolidated (6): 07-03, 07-05 (covers the missed 07-04), 07-06, 07-07, 07-08, 07-09. Built BEFORE the Phase 2 sweep. Entries are leads; verification/tier-conversion happens in Phase 2.
+
+**Headline of the week:** last week's central call — "the war premium finished unwinding, oil at $67.59 is the cleanest support for moderating inflation" — REVERSED. The US-Iran June ceasefire/MoU collapsed (tanker strikes → two nights of US CENTCOM strikes → Iran hitting three Gulf states), oil ran +$10 to $78-79, and the first Warsh-era FOMC minutes landed hawkish (9-8-1 hike-lean, "The Committee will deliver price stability"). The disinflation impulse that anchored 07-03 flipped to an inflation-risk rebuild.
+
+## Story threads (day-by-day progression)
+
+| # | Thread | Days seen | Progression / latest | Theme(s) | Flagged candidate? |
+|---|---|---|---|---|---|
+| T1 | **US-Iran ceasefire collapse / Hormuz** | 03,05,06,07,08,09 (all 6) | 03: fresh Hormuz warning, Doha talks paused for funeral. 05: Iran says will "definitely" charge Hormuz fees. 07: tanker struck near Limah (first since MoU), Brent to ~$73. 08: Iran IRGC hits 3 vessels → US CENTCOM strikes 80+ targets + 60+ IRGC boats → Iran hits Bahrain/Kuwait; Treasury revokes oil waiver (GL X→X1); Trump declares ceasefire "over," oil +7% (Brent ~$79.7). 09: 2nd night of US strikes (~80-90 targets, Bushehr/Chabahar/Bandar Abbas/Kharg mil assets), Iran hits Bahrain/Kuwait/Qatar, Jordan intercepts 8 missiles; Khamenei buried Mashhad; Brent $78-79, Hormuz transits ~34 vs ~88 baseline. | Geopolitics, Energy, Currency | YES (carried→escalated) |
+| T2 | **Russia-Ukraine escalation** | 03,05,06,07,08,09 | 03: Kyiv mass strike (toll →22-27, 500+ drones), day of mourning. 06: new Kyiv barrage, zero of 29 ballistic intercepted (Patriot shortage). 07: Omsk refinery (~460 kb/d, ~2,500km — deepest strike of war) + Yaroslavl. 08: new wave 169 drones/7 missiles; NATO €70B pledge; Trump Patriot-manufacturing license. 09: new wave 2 ballistic/94 drones, Kyiv hit 2nd straight night; Ukraine hits Saratov/Tatarstan refineries, 21 vessels near Crimea. | Geopolitics, Fiscal, Energy | YES (carried) |
+| T3 | **NATO Ankara summit → Declaration** | 03,05,06,07,08,09 | 03-06: previews (5%-by-2035 roadmaps, "tens of billions" contracts). 07: day-1 forum — GlobalEye (Saab, 10-nation), Triton drones, Airbus MRTT; €70B Ukraine pledge expected. 08: Ankara Declaration adopted — "ironclad" Article 5, Russia "long-term threat," >$50B procurement, €70B Ukraine, €27B fuel-storage; Trump orders Spain trade cutoff + Ukraine Patriot license. 09: procurement breakdown ($40B counter-drone/5yr, >$26B air-missile defence); NATO Drone Edge/Front Door/Engine; Turkey CAATSA relief floated. | Fiscal | YES (carried→concluded) |
+| T4 | **FOMC June minutes (first Warsh-era)** | 05,06,07,08,09 | 05-07: previewed, due Wed Jul 8 2pm; FedWatch ~73-74% July hold. 08: released — unanimous hold 3.50-3.75% (4th straight); 9-8-1 dot split (9 see ≥1 hike by year-end, 8 no change, 1 cut); statement cut to 132 words, "The Committee will deliver price stability"; cites May PCE 4.1%/3.4% (both up), tariff + Mideast energy + AI-electricity as price pressures. 09: 10y to seven-week high ~4.57-4.58%, 2y 4.21%; hold-odds eased, hike odds up. | Monetary | YES (carried→materialized) |
+| T5 | **Chip/memory whiplash → rebound** | 03,05,06,07,08,09 | 03: Meta-Compute rout day 2 (SOX -5.4%, ~$1.3T erased). 06: Monday rebound (SOX +3.8%, Broadcom-Apple). 07: Samsung record Q2 (₩89.4T op profit +19x) but sold -6.9%, Kospi -4.91% (circuit breaker). 08: 2nd day — Kospi -5.35% (2nd circuit breaker), Samsung -12.8% over two sessions; DeepSeek in-house chip (Reuters); Amazon $25B+ 8-tranche bond (order book ~$62B→$41B, ~1.6x, weakest hyperscaler demand since Oct 2025). 09: REVERSAL — Apple-Broadcom $30B+ deal through 2031, Kospi +0.62% (SK Hynix +5.83%), US semis rally (Nvidia +3.65%). | AI | YES (carried→reversing) |
+| T6 | **SK Hynix ~$28-29B Nasdaq ADR** | 03,05,06,07,08,09 | Marketing launched 06 (~$28.07B, 17.79M ADS); $7B early anchor interest (Baillie Gifford/Coatue). 08: bookbuild closed >7x, debut Fri Jul 10. 09: >7x oversubscribed, ~$171B orders, pricing today. Largest-ever US listing by a foreign company (2nd-largest share sale after SpaceX IPO). | AI | YES (carried) |
+| T7 | **Yen at 40-year low / intervention watch** | 03,05,06,07,08,09 | USD/JPY 162.66 (40-yr low) Tue; MoF "ambush" tactics (no line); record ¥11.73T Apr-May spend failed. 09: ~162.4-162.7, no confirmed intervention; last week's sudden ~1% jump "widely suspected" stealth MoF (unconfirmable until month-end). | Currency Debasement | YES (carried) |
+| T8 | **Gold — post-payrolls bid → divergence** | 03,05,06,07,08,09 | 03-06: extended to ~$4,183-4,188, first weekly gain in 5. 07-08: reversed despite war escalation. 09: fell to one-week low ~$4,069 despite the sharpest war escalation, on hawkish-minutes repricing; recovered to ~$4,105-4,116. BofA cut 2026 avg forecast 14% to $4,360. WGC H1 ETF: weakest H1 NA flows since 2013 (June -$5.5B NA). China 20th straight month buying (+14.93t). | Currency Debasement | YES (carried→divergence) |
+| T9 | **Trump-Spain NATO trade cutoff** | 08,09 | 08: Trump orders Bessent cut all trade with Spain over 5% refusal (2nd threat; March one unimplemented). 09: IBEX 35 -2.6% (worst EU index Wed), Bono yields +9bp; EU Commission says states can't be singled out on trade; Trump later claims Spain "generous," Spain denies policy shift. | Fiscal, Geopolitics | YES (promoted to standalone) |
+| T10 | **Canada submarine procurement (TKMS) → NATO build-out** | 06,07,08,09 | 06: "sources say" Germany chosen. 08: PM Carney confirms TKMS (Type 212CD, up to 12 boats), largest defence procurement in Canadian history; Hanwha reserve. 09: Hanwha -22%, Algoma Steel re-engaged; Canada-Germany Strategic Partnership + Canada-Türkiye FTA talks + $800M Kongsberg + Telesat + DSRB (Canada-chaired multilateral defence bank, 8 countries); PBO cost estimate still pending. | Domestic Canada, Fiscal | YES (carried→broadened) |
+| T11 | **BoC Q2 BOS/CSCE → Jul 15** | 06,07,08,09 | 06: surveys released — inflation expectations ~4-yr high (44% of firms see >3% vs 11% Q1; consumers 2yr 4.0%), recession fears 17% vs 9%; BoC split indicator into activity vs price because war pushed them opposite. Caveat: fielded May (pre oil-normalization). 07-09: quiet; consensus hold at 2.25% Jul 15; export outlook improved. | Domestic Canada, Monetary | YES (carried, then dropped as standalone 08) |
+| T12 | **Amazon $25B+ AI bond mega-deal** | 08,09 | 08: launched 8-tranche (3-40yr), order book ~$62B→$41B. 09: priced tight but ~1.6x covered, weakest hyperscaler demand since Meta Oct 2025; ~$54B Amazon bonds YTD; global AI IG bonds ~$182B YTD (vs <$13B yr-ago); MS forecasts ~$570B AI-related 2026. | AI | YES (new) |
+| T13 | **TeraWulf-Anthropic $19B 401MW lease** | 06,07,08,09 | 06: announced (20-yr, ~401MW Hawesville KY, ~$19B revenue, first power 2H27). 07-08: WULF -8% on KBW unfinalized-credit-support caveat despite PT raises. 09: caveat still outstanding. | AI, Energy | YES (carried) |
+| T14 | **OPEC+ August +188 kb/d** | 03,05,06,07,08,09 | Approved Jul 4-5 (3rd/5th straight monthly add depending on count); "largely on paper" given war-capped Gulf output. No emergency response to the war; next meeting Aug 2. | Energy | Context |
+| T15 | **PJM heat/grid strain → easing** | 03,05,06,07,08,09 | 03-06: record ~166 GW demand, DOE emergency curtailment, spot >$2,000/MWh, data-centre curtailment. 07-09: heat moderated, DOE order 202-26-33A lapsed Jul 7; 09: load back to 108,058 MW, price $29.65/MWh. Jul 2 record peak pending 60-day settlement. | Energy | Carried (easing) |
+| T16 | **Germany 2027 budget** | 07,08,09 | Cabinet-approved Jul 6: total €555.4B, borrowing €203.6B, core defence €109B (+33%), €130.1B total security; defence to top €200B by 2030. Parliamentary approval by year-end. | Fiscal | Context→candidate |
+| T17 | **US Treasury coupon auctions (3y/10y/30y)** | 07,08,09 | 3y (Jul 7, $58B) stopped through, indirect 67.5% (highest since April, war flight-to-safety). 10y reopening (Jul 8, $39B) high yield 4.580%, stopped through 0.6bp (largest since Sept), b/c 2.59. 30y ($22B, Jul 9 1pm) pending at file cutoff. 30y traded >5%. | Fiscal, Currency | Context |
+| T18 | **CUSMA / Section 122 / trade** | 03,05,06,07,08,09 | Core dispute quiet all week (post 07-01 non-renewal → annual reviews to 2036). Section 122 10% surcharge expires by law Jul 24. USITC forced-labor tariff hearing (Jul 7-9) touches Canada. 3rd US-Mexico round week of Jul 20; Canada no formal track yet. | Geopolitics/Trade | Carried (quiet) |
+| T19 | **Fertilizer/urea channel** | 03,05,06,07,08,09 | Flat ~$377/MT (Jul 7, -14.9% y/y), a print that PRE-dates the oil spike; no updated post-escalation print. China Jun-Aug export quotas (~1.5-1.6Mt, floors $660-670 FOB); India tender ~$445 CFR. US retail urea $718/ton (3rd weekly decline). | Geopolitics/Trade, Energy | Carried (quiet) |
+| T20 | **EIA July STEO** | 07,08 | Released Jul 7: cut Brent to $74 Q3 / $70 Q4 / $65 FY27 on assumed Hormuz reopening — assumptions finalized BEFORE the Jul 7-8 re-escalation, overtaken within a day. US summer power ~$45/MWh (~$4 below last summer). | Energy | Context |
+| T21 | **Bitcoin flows** | 03,05,06,07,08,09 | June record ETF outflows (~$4.5B) → first inflows (+$266M Jul 6). 08-09: whipsawed on "ceasefire over," ~$62,900; Fear & Greed 22 ("Extreme Fear"). Strategy sold 3,588 BTC (~$216M). | Currency Debasement | Carried |
+| T22 | **China gold buying / reserves** | 07,08,09 | PBoC +14.93t June (20th straight month, 2,346t). China FX reserves -$26B to $3.416T. OMFIF survey: more CBs plan to cut than raise USD; 82% hold physical gold. | Currency Debasement | Context (structural) |
+
+## Weekly Signal — union of flagged candidates (deduped, latest flag kept)
+From 07-07 (first formal Weekly Signal), 07-08, 07-09 blocks:
+1. US-Iran ceasefire collapse / Hormuz (T1) — CARRIED, escalated
+2. NATO Ankara Declaration + Spain cutoff + Ukraine Patriot license (T3/T9/T2) — CARRIED, concluded
+3. Chip/memory rout → rebound (T5) — CARRIED, reversing
+4. SK Hynix ADR (T6) — CARRIED
+5. Canada submarine + DSRB + bilateral deals (T10) — CARRIED, broadened
+6. Russia-Ukraine deep-strike + Patriot license (T2) — CARRIED
+7. FOMC June minutes hawkish 9-8-1 (T4) — CARRIED, materialized
+8. Yen at 162 / intervention watch (T7) — CARRIED
+9. Gold's divergence from the war/haven trade (T8) — CARRIED, now clearer divergence
+10. Trump-Spain trade cutoff (T9) — promoted to standalone
+11. Amazon $25B AI bond + SK Hynix ADR (T12/T6) — NEW
+12. Canada submarine (T10) — NEW→confirmed
+13. BoC Q2 BOS/CSCE (T11) — flagged then dropped as standalone (persistent, pending Jul 15)
+
+Every candidate must appear in the report or on an explicit triage discard line.
+
+## Coverage map (per theme: covered vs blind spots for Phase 2)
+- **Fiscal:** COVERED — NATO Ankara (declaration, procurement, Ukraine), Germany 2027 budget, Canada subs/DSRB, Spain cutoff, Treasury auctions, France €3B cuts, US deregulation tracker. BLIND/verify: CBO update (none in window), Treasury quarterly refunding (next Aug 3/5 — checked-null), OBBBA (none).
+- **Monetary:** COVERED — FOMC minutes, jobless claims, BoJ lending, PBoC "appropriately loose," RBNZ +25bp. BLIND/verify: no Fed speakers Jul 8-9; ECB Jul 23; next CPI Jul 14 (out of window).
+- **Currency Debasement:** COVERED — gold divergence, WGC H1 ETF, BofA cut, yen, bitcoin, China gold, OMFIF, TIC (April vintage). BLIND: no new COFER/TIC in window (checked-null).
+- **Energy & Transition:** COVERED — oil spike (Geopolitics-owned), OPEC+, EIA STEO, PJM easing, TTF gas, TeraWulf/SunZia/Tallgrass, First Solar, EIA weekly petroleum. BLIND/verify: FERC (only ongoing tech conference), no new LNG FID/renewables cancellation, no nuclear/SMR.
+- **AI:** COVERED — Samsung/Kospi, Apple-Broadcom, SK Hynix ADR, Amazon bond, TeraWulf, DeepSeek chip, Allianz capex deceleration, TrendForce DRAM +13-18% (moderating), model launches (GPT-5.6/Grok/Claude Fable 5). BLIND: hyperscaler capex guidance (late-July earnings), White House frontier standards (none).
+- **Geopolitics & Trade:** COVERED — both war legs BY NAME (US-Iran, Russia-Ukraine), CUSMA/Section 122/USITC, Spain, fertilizer. BLIND: no new OPEC+ emergency action.
+- **Domestic (Canada):** COVERED — submarine/DSRB/bilateral deals, BoC Q2 surveys, PBO $159B estimate, USD/CAD, Ivey PMI, June LFS (due Jul 10, out of window). BLIND/checked-null: Canada Strong Fund / CGF / CIB (no deployment), 30% rule, Major Projects Office, peer plans (CPPIB/OMERS/OTPP) — all null in window.
+
+## Notes / NEEDS-VERIFICATION carried from dailies (convert in Phase 2)
+- Precise Tuesday/Wednesday closes for SOX, DXY, USD/CAD (aggregator conflicts).
+- Canada submarine cost figures ($20B-$100B+ across outlets) — use "no single official figure; estimates range."
+- CME FedWatch precise post-minutes hold probability (63.5-74.9% conflict) — use direction (hawkish repricing), not a point estimate.
+- 30-year auction result (Jul 9 1pm) fell after the 07-09 file cutoff — sweep in Phase 2 late-breaking.
+- Spain "folded"/policy-shift claim — unconfirmed; do not state as fact.
+- Kyiv toll reconciliation (counts diverge) — report as "at least" ranges.
