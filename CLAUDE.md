@@ -15,7 +15,7 @@ Weekly macro-theme tracker for the OCIO team: **6 themes** (Fiscal & Deregulatio
 
 ## Environment (GitHub deployment, since 12 Aug 2026)
 This repo IS the agent's working directory; it runs in Claude Code's cloud sandbox (no Claude Desktop, no local folders, no attachments).
-- **Session setup, every fresh sandbox, before Phase 8:** `sudo apt-get update && sudo apt-get install -y libreoffice poppler-utils` and `pip install python-docx lxml matplotlib pillow numpy`. (`check_layout.py` needs headless LibreOffice + poppler; the engine needs python-docx + lxml.)
+- **Session setup, every fresh sandbox, before Phase 8:** `sudo apt-get install -y libreoffice poppler-utils` (no `apt-get update` first — the sandbox image carries dead third-party PPAs that 403 and abort the chain) and `pip install python-docx lxml matplotlib pillow numpy`. (`check_layout.py` needs headless LibreOffice + poppler; the engine needs python-docx + lxml.)
 - **Prior state comes from the repo, never from attachments:** last week's approved dashboard = the newest `MacroBasis_Dashboard_*.docx` in `Dashboards_Eduardo_Updated/`; prior histories = the newest `engine/content_*.json`.
 - **Outputs are committed, same layout as always:** generated dashboard → `Dashboards_Claude_Generated/`; content JSON → `engine/`; charts → `engine/charts/YYYY-MM-DD/`; checkpoints → `runs/YYYY-MM-DD/`. Commit messages: "Weekly run YYYY-MM-DD" / "Daily news YYYY-MM-DD". Never commit to `Dashboards_Eduardo_Updated/` — only Eduardo uploads there (his upload = approval).
 - The OneDrive folder and `archive/` live outside this repo; never reference them as available paths.
