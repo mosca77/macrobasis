@@ -1,0 +1,154 @@
+{
+  "asof": "2026_06_18",
+  "status_dashboard": [
+    {"status": "Intact ▸ no change", "oneliner": "G7 Évian backs faster air-defence deliveries; German/Canadian deployment items carried from last week."},
+    {"status": "Intact ▸ no change", "oneliner": "Null week; April TIC released 18 Jun (post-cutoff); COFER Q1 not yet out."},
+    {"status": "Intact ▸ no change", "oneliner": "Quiet; FERC large-load interconnection guidance due end-June."},
+    {"status": "Intact ▸ no change", "oneliner": "CoreWeave's €2bn + $1.25bn bond priced oversubscribed — first euro AI-infra junk bond."},
+    {"status": "Intact ▸ no change (confirmed)", "oneliner": "US–Iran MOU to end conflict (17 Jun); Strait reopening; Brent <$78; CUSMA demands harden."},
+    {"status": "Intact ▸ no change", "oneliner": "Design/staffing phase continues; no Canada Strong Fund deployment."}
+  ],
+  "cross_theme": [
+    "The week's defining event — a US–Iran MOU to end the conflict, signed 17 June at the G7 (Évian), with the Strait of Hormuz reopening — validates the AIP's central assumption that the conflict ends mid-2026; Brent fell below $78 (≈−38% from the April peak) and fertilizer eased, relieving the two-sided pressure on Theme 5 and the inflation outlook.",
+    "Monetary policy repriced hawkish even as oil fell: the Fed held but lifted its dot plot to 3.8% and dropped its easing bias (Warsh's first meeting), the ECB delivered its first hike since 2023, and the BoJ reached a 31-year-high 1.00% — all citing war-driven inflation. May CPI at 4.2% y/y confirms passthrough is still peaking, not yet receding.",
+    "AI financing kept broadening: CoreWeave's oversubscribed euro/dollar bond (first euro-denominated junk issue by a US AI-infra company) prices the same compute demand the AIP describes while pushing the speculative-grade perimeter into Europe and onto the financing-stress watchlist.",
+    "Trade fragmentation hardened against the de-escalation backdrop: USTR Greer's CUSMA 'fix list' (dairy supply management, Online Streaming/News Acts, provincial alcohol, rules of origin) keeps serial annual reviews — not a 16-year renewal — the base case into the 1 July review."
+  ],
+  "key_risks": [
+    "Geopolitical escalation — De-escalated: US–Iran MOU to end the conflict signed 17 Jun at the G7; Iran declared the Strait reopened and the US blockade is lifting; vessels resumed transit. (Implementation is a 60-day path; demining/transit-fee issues remain.)",
+    "Sustained energy prices — De-escalated: Brent <$78 on 17 Jun (vs $94.25 on 8 Jun), ≈−38% from the April peak; urea eased to ~$360/t from an $857 April high; OPEC+ positioned to add on reopening. (May CPI energy +3.9% m/m: lagged passthrough still feeding through.)",
+    "AI demand / monetization stall — Held: in-window financing demand strong (CoreWeave euro tranche >€7bn orders, 11 Jun); no stall signal.",
+    "Autarkic protectionism — Escalated: USTR Greer published a CUSMA 'fix list' of conditions for Canada and signalled tariffs stay; Canada not yet in formal talks ahead of the 1 Jul review.",
+    "US fiscal recklessness — Held — no in-window evidence: no new CBO or quarterly-refunding print in window.",
+    "Inefficient domestic investment — Held — no in-window evidence: Canada Strong Fund still pre-deployment; no allocation decisions."
+  ],
+  "theme1": {
+    "status": "Intact ▸ no change. Defence-buildout momentum reaffirmed at the G7; the German and Canadian deployment items that moved last week did not re-print this week.",
+    "developments": [
+      "At the G7 summit in Évian (15–17 Jun), the leaders' statement on geopolitical issues committed to increase deliveries of air-defence capacity, additional systems and interceptors, and long-range capabilities, with France's presidency framing 'reducing global imbalances' as its priority — reinforcing the defence-spending driver (driver 1). (Élysée / Council of the EU, 17 Jun.)",
+      "NATO Secretary General Rutte reiterated that members must bring credible national plans toward the 5% target (3.5% core + 1.5% related) to the July Ankara summit; national roadmaps remain the key dated test (driver 1). (CBC, mid-Jun.)",
+      "No new in-window prints on German SVIK disbursement, Canada Strong/BCSF deployment, US deficit/refunding, or deregulation; those items carry from the 9 June report (checked-null)."
+    ],
+    "material_note": "No indicator moved on a like-for-like basis in-window; prior anchors carry — US FY2026 deficit $1.9T and net interest ~$1.2T (CBO); SVIK €11.2B / 28% disbursed through 30 Apr.",
+    "implication": "The thesis is intact and its defence leg firmed at the margin: a G7 commitment to accelerate air-defence and long-range deliveries supports the medium-term defence-capex case the AIP favours, while the German continental catalyst still depends on the SVIK disbursement pace flagged last week. Near-term positioning stays selective.",
+    "watch": [
+      "NATO July Ankara summit — national 5% roadmaps (dated, falsifiable).",
+      "Next German SVIK monitoring data; Canada Strong Fund first deployments."
+    ]
+  },
+  "monetary": {
+    "status": "Intact ▸ no change. The carried-forward stances were tested by the densest central-bank week of the year and broadly validated, with a hawkish repricing at the Fed; the framework is intact.",
+    "developments": [
+      "US (Fed) — Held at 3.50–3.75% (17 Jun) but the median end-2026 dot rose to 3.8% from 3.4% (9 of 18 now see ≥1 hike), 2026 inflation projections were lifted to 3.6% headline / 3.3% core, and Chair Warsh's first statement dropped the easing bias: the carried 'no cuts until year-end' stance shifts hawkish. (Federal Reserve; CNBC, 17 Jun.)",
+      "Canada (BoC) — Held at 2.25% (10 Jun), a fifth consecutive hold; Q1 GDP −0.1%; 'looking through' the war's near-term inflation while watching for persistence; next decision 15 Jul. (Bank of Canada.)",
+      "Europe (ECB) — Raised the three key rates 25bp (deposit 2.25%, eff 17 Jun), the first hike since 2023, citing war-driven inflation; projections 3.0% (2026) → 2.0% (2028). Realizes the 'end of cutting cycle, hikes expected' stance. (ECB, 11 Jun.)",
+      "Japan (BoJ) — Raised to 1.00% (16 Jun, 7–1), a 31-year high, citing yen weakness and energy costs; signalled further hikes. Realizes the 'hiking' stance. (Bank of Japan, 16 Jun.)",
+      "Context — BoE held 3.75% (18 Jun; not in the tracked set). US May CPI 4.2% y/y / energy +3.9% m/m (10 Jun) is the passthrough check; US PCE for May releases 25 Jun (post-cutoff). China (PBoC, easing, 1Y LPR 3.0%) and India (RBI, hold 5.25%) stances carry — no in-window decisions."
+    ],
+    "material_rows": [
+      ["US fed funds target", "3.50–3.75% (carried)", "3.50–3.75% (hold, 17 Jun); dot median end-26 3.8% (+0.4pp vs 3.4% Mar)", "Easing bias removed; hike now in play", "Fed, 17 Jun"],
+      ["ECB deposit rate", "Cuts paused (carried)", "2.25% (+25bp, eff 17 Jun)", "First ECB hike since 2023", "ECB, 11 Jun"],
+      ["BoJ policy rate", "Hiking (carried)", "1.00% (+25bp)", "31-year high", "BoJ, 16 Jun"],
+      ["BoC overnight rate", "2.25–3.25% neutral (carried)", "2.25% (fifth hold)", "Looking through war inflation", "BoC, 10 Jun"],
+      ["US CPI (y/y)", "3.8% (Apr)", "4.2% (May; +0.5% m/m; energy +3.9% m/m)", "Passthrough still peaking", "BLS, 10 Jun"]
+    ],
+    "implication": "A synchronized hawkish tilt — Fed dots up, ECB and BoJ hiking — alongside a hot CPI confirms the AIP's 'slightly elevated inflation' call and pushes the policy debate toward passthrough, not growth. Oil's sharp in-window fall has not yet shown in the inflation data, so the easing impulse is a Q3 story; rates stay higher-for-longer in the interim — a headwind for duration and a support for the 'stagflation unlikely' pillar given firm labour.",
+    "watch": [
+      "US PCE (25 Jun) vs April's 3.8% / 3.3%.",
+      "BoC 15 Jul; any Fed commentary calibrating the new hike bias."
+    ]
+  },
+  "theme2": {
+    "status": "Intact ▸ no change. A second consecutive null week: no Tier 1 evidence moved the gradual-diversification thesis, and the one scheduled catalyst lands after cutoff.",
+    "developments": [
+      "No material developments this week; thesis intact.",
+      "(Scout and challenge queries on COFER reserve shares, central-bank gold, Treasury auctions, BRICS settlement and CIPS returned no in-window Tier 1/2 developments; Q1-2026 COFER is not yet released. The April TIC release — the key dated test — published 18 Jun at 4:00 p.m. ET, after this report's cutoff; China/Japan holdings vs the $652.3B / $1.1T baselines are next week's first read.)"
+    ],
+    "material_note": "No like-for-like update in window; anchors carry — USD allocated-reserve share 56.77% (Q4-25); China Treasuries $652.3B; Japan $1.1T.",
+    "implication": "The diversification thesis remains untested and intact; notably, no liquidation signal emerged even as the dollar's haven role was in play through the conflict's most acute phase and its resolution. April TIC (released 18 Jun) and the next COFER print are the next falsifiable tests.",
+    "watch": [
+      "April TIC data (released 18 Jun) — China/Japan holdings vs $652.3B / $1.1T.",
+      "WGC central-bank gold; 10y/30y auction tails."
+    ]
+  },
+  "theme3": {
+    "status": "Intact ▸ no change. Structural 'Age of Electricity' drivers untouched; the in-window signal is regulatory (grid interconnection), supportive of the grid-bottleneck thesis.",
+    "developments": [
+      "FERC is set to act on interconnection reform for large loads (>20 MW) by end-June, with an 18 June agenda meeting expected to add detail — directly addressing the grid-interconnection bottleneck the AIP identifies as the structural constraint and preferred investment expression. (FERC / press, 18 Jun.)",
+      "The US coal/DPA package and LNG Canada Phase 2 site prep were 9 June items and carry; no new in-window IEA Electricity/WEI release, dated PPA, or renewables cancellation (checked-null)."
+    ],
+    "material_note": "No indicator moved on a like-for-like basis in-window.",
+    "implication": "Nothing this week touches data-centre/EV demand or the renewables-share trajectory; the FERC move, if it streamlines large-load interconnection, would strengthen the grid-enabling-investment case the AIP prefers regardless of generation mix. Grid remains the cleanest expression.",
+    "watch": [
+      "FERC interconnection-reform text and the 18 June agenda outcome.",
+      "IEA OMR follow-through on Strait-reopening supply; dated data-centre PPA/nuclear announcements."
+    ]
+  },
+  "theme4": {
+    "status": "Intact ▸ no change. The strongest in-window evidence in the framework again sits here — priced, oversubscribed demand for AI-infrastructure capital — but it is a single high-materiality finding, short of a status notch.",
+    "developments": [
+      "CoreWeave priced €2bn of euro-denominated bonds alongside $1.25bn of dollar bonds (11 Jun); the euro tranche drew more than €7bn of orders — the first euro-denominated junk-bond sale by a US-based AI-infrastructure company. This is the pricing of the European high-yield push the 9 June report flagged as 'investor calls,' extending the speculative-grade perimeter into Europe (drivers: financing mix; physical-stack demand). (CoreWeave IR; Bloomberg, 11 Jun.)",
+      "Context: AI-infrastructure issuers have raised ~$27bn in high-yield debt in 2026 YTD; a CoreWeave-tied Chicago data centre (Elk Grove) priced a $900m 7.5% note (1–2 Jun, pre-window). NVIDIA's record Q1 FY27 ($75.2bn data-centre revenue) and $80bn buyback are late-May, pre-window (carried as context)."
+    ],
+    "material_rows": [
+      ["CoreWeave HY issuance", "'Investor calls' for euro/USD HY (9 Jun report)", "Priced €2bn + $1.25bn (11 Jun); euro book >€7bn orders", "First euro junk bond by a US AI-infra co; demand > supply", "CoreWeave IR / Bloomberg, 11 Jun"]
+    ],
+    "implication": "Demand and financing evidence again strengthened the infrastructure-layer case the AIP favours: an oversubscribed euro debut prices the same compute shortage the thesis describes and broadens the funding base. The risk ledger continues to shift down the quality curve — AI-issuer spreads (now in euro HY) are the right early-warning watchpoint; concentration and valuation risks unchanged.",
+    "watch": [
+      "Secondary performance of CoreWeave's euro/dollar bonds vs existing AI HY (falsifiable stress signal).",
+      "Hyperscaler capex-guidance updates; new AI equity/debt raises and subscription levels."
+    ]
+  },
+  "theme5": {
+    "status": "Intact ▸ no change (thesis confirmed). The central, named pressure point — conflict-resolution timing — resolved in the thesis's favour this week; the oil-story base case is being validated rather than exceeded, and the trade leg is unchanged-to-slightly-harder, so status holds.",
+    "developments": [
+      "US–Iran conflict moving to resolution: mediators announced an MOU on 14 June, signed by President Trump on 17 June at the G7 (Évian), setting a ~60-day path to formally end the conflict; Iran declared the Strait of Hormuz reopened and the US naval blockade is being lifted, with vessels resuming transit — validating the AIP's 'conflict ends mid-2026' base case (driver: conflict trajectory). (Britannica / RFE-RL / parliamentary briefings, 14–18 Jun.)",
+      "Oil repriced sharply lower: Brent fell below $78 on 17 June (lowest since early March) and traded ~$78.4 with WTI ~$75.8 on 18 June (vs the $94.25 anchor of 8 June), ≈−38% from the April peak, as the reopening removed the supply-shock premium (driver: oil→CPI passthrough). (Reuters / Bloomberg, 17–18 Jun.)",
+      "IEA's June Oil Market Report cut the 2026 demand outlook and modelled global supply −3.9 mb/d on average in 2026 (to 102.2 mb/d) assuming Strait flows resume from Q3, while flagging demining and transit risks (driver: Hormuz supply shock). (IEA OMR, June.)",
+      "Fertilizer pressure eased further: urea traded ~$360/t on 17 June, well below the $857 April peak, though sulphur remains ~2× its January level and the World Bank still projects the fertilizer index +30% in 2026 — the sulphur→fertilizer→food channel is cooling but not resolved (driver: fertilizer/food channel). (World Bank, 17 Jun.)",
+      "Trade hardened: USTR Greer published a 'fix list' of conditions for Canada (dairy supply management, the Online Streaming and Online News Acts, provincial alcohol boycotts, procurement, tighter rules of origin) ahead of the 1 July joint review; the US is progressing bilaterally with Mexico while Canada is 'not engaged in formal negotiations,' keeping serial annual reviews — not a 16-year renewal — the base case (driver: CUSMA review). (Trade press; tier-flagged.)"
+    ],
+    "material_rows": [
+      ["Brent crude (spot)", "$94.25 (8 Jun)", "~$78.4 (18 Jun); <$78 on 17 Jun; ≈−38% from Apr peak", "Supply-shock premium unwinding on reopening", "Reuters/Bloomberg, 17–18 Jun"],
+      ["Urea (intl benchmark)", "~$857 peak (Apr)", "~$360/t (17 Jun)", "Fertilizer/food channel cooling", "World Bank, 17 Jun"],
+      ["Global oil supply (IEA)", "−12.8 mb/d to ~95.1 mb/d (AIP)", "−3.9 mb/d avg 2026, to 102.2 mb/d (Q3 reopening assumed)", "IEA annual-avg measure — not like-for-like with AIP point figure; context only", "IEA OMR, June"]
+    ],
+    "implication": "The oil story's central timing assumption resolved favourably, removing the single largest threat the prior report named; combined with easing fertilizer and OPEC+ capacity to add barrels on reopening, the disinflation impulse is now a Q3 story. Offsetting this, May CPI accelerated (energy +3.9% m/m), so near-term passthrough is still peaking exactly as the thesis predicted, and the CUSMA leg hardened — keeping the trade sub-thesis (serial reviews, investment-tax uncertainty) firmly intact. Net: thesis confirmed, not exceeded.",
+    "watch": [
+      "CUSMA 1 July joint review and any USTR notification to Congress.",
+      "Strait reopening mechanics (demining, transit-fee terms); IEA/EIA supply prints vs the reopening assumption; US PCE (25 Jun)."
+    ]
+  },
+  "theme6": {
+    "status": "Intact ▸ no change. The policy push remains in a design-and-staffing phase; no deployment or allocation evidence in-window.",
+    "developments": [
+      "No material developments this week; thesis intact.",
+      "(Champagne's quarterly engagement with pension managers continues and the Major Projects Office is advancing its nation-building project list, but with no Canada Strong Fund CEO/board or first deployment in-window, the thesis cannot yet be tested. CPP Investments stands at a record C$780.7B with ~47% US / ~13% Canada — the peer-allocation gap the policy push targets. Finance Canada, in-window context.)"
+    ],
+    "material_note": "No like-for-like update in window; peer-allocation anchors carry — OPTrust 36.2% Canada / 41.9% US; CPP ~13% Canada / ~47% US.",
+    "implication": "The domestic-steering apparatus keeps assembling — fund announced, transition office running, ministerial cadence and Major Projects Office active — but absent a CEO, board, or first deployment, there is still nothing to test the 'politically-driven, non-optimal allocation' risk against. Peer allocation deltas remain the cleanest forward measure.",
+    "watch": [
+      "Canada Strong Fund governance (CEO/board) and first deployments.",
+      "Next quarterly Champagne round-table; new Major Projects Office designations; peer annual-report allocation prints."
+    ]
+  },
+  "references_intro": "Only sources cited this week, deduplicated; retrieval date 18 June 2026.",
+  "references": [
+    "Bank of Canada. “Bank of Canada maintains the policy rate at 2¼%.” 10 June 2026. https://www.bankofcanada.ca/2026/06/fad-press-release-2026-06-10/. Retrieved 18 June 2026.",
+    "European Central Bank. “Monetary policy decisions.” 11 June 2026. https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html. Retrieved 18 June 2026.",
+    "Bank of Japan. “Statement on Monetary Policy.” 16 June 2026. https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf. Retrieved 18 June 2026.",
+    "U.S. Federal Reserve / CNBC. “Fed holds rates steady; dot plot raised to 3.8%.” 17 June 2026. https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html. Retrieved 18 June 2026.",
+    "U.S. Bureau of Labor Statistics. “Consumer Price Index — May 2026.” 10 June 2026. https://www.bls.gov/news.release/cpi.nr0.htm. Retrieved 18 June 2026.",
+    "Élysée. “G7 leaders' statement on geopolitical issues.” 17 June 2026. https://www.elysee.fr/en/G7evian/2026/06/17/g7-leaders-statement-on-geopolitical-issues. Retrieved 18 June 2026.",
+    "CBC News. “NATO wants ‘credible’ spending plans from members at next month's summit.” June 2026. https://www.cbc.ca/news/politics/nato-spending-defence-canada-us-criticism-9.7239006. Retrieved 18 June 2026.",
+    "International Energy Agency. Oil Market Report — June 2026 (cf. World Oil summary, 17 June 2026). https://worldoil.com/news/2026/6/17/iea-cuts-2026-oil-demand-outlook-as-hormuz-reopening-nears/. Retrieved 18 June 2026.",
+    "RFE-RL / Reuters. “Oil falls as US–Iran deal eases supply concerns; Strait reopening.” 17–18 June 2026. https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html. Retrieved 18 June 2026.",
+    "World Bank. Commodity Markets (“Pink Sheet”) — fertilizer/urea prices. June 2026. https://www.worldbank.org/en/research/commodity-markets. Retrieved 18 June 2026.",
+    "CoreWeave / Bloomberg. “CoreWeave prices euro and dollar bonds; euro book exceeds €7bn.” 11 June 2026. https://www.bloomberg.com/news/articles/2026-06-02/coreweave-tied-data-center-raises-900-million-in-junk-bond-sale. Retrieved 18 June 2026.",
+    "USTR / trade press (tier-flagged). “USTR releases Canada's ‘fix list’ ahead of CUSMA review.” June 2026. https://thedeepdive.ca/usmca-review-demands-canada-mexico/. Retrieved 18 June 2026.",
+    "U.S. Department of the Treasury. Treasury International Capital (TIC) — April 2026 release, 18 June 2026. https://home.treasury.gov/data/treasury-international-capital-tic-system. Retrieved 18 June 2026.",
+    "FERC / press. “FERC to issue large-load interconnection guidance by end-June.” 18 June 2026. https://cryptobriefing.com/ferc-data-center-grid-connections-guidance/. Retrieved 18 June 2026.",
+    "Finance Canada. CPP Investments appointment / domestic-investment engagement. June 2026. https://www.canada.ca/en/department-finance/news/2026/06/government-of-canada-announces-appointments-to-the-canada-pension-plan-investment-board-and-the-canadian-international-trade-tribunal.html. Retrieved 18 June 2026.",
+    "Bank of England. “Bank Rate maintained at 3.75%.” 18 June 2026. https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate. Retrieved 18 June 2026."
+  ]
+}

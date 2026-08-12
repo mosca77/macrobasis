@@ -1,0 +1,399 @@
+{
+ "asof": "2026_07_09",
+ "weekly_direction": "**Firming inflation** pressure and **held growth**.",
+ "influencing_factors": [
+  "Growth held: claims steady at 215,000 and ISM services at 54.0, a 24th month of expansion.",
+  "Inflation risk rebuilt: the ceasefire broke, Brent jumped from $72 to $78, and the minutes flagged May PCE up to 4.1%.",
+  "Hawkish tape: the 2-year rose to 4.21%, the 10-year hit a seven-week high, the dollar firmed, gold slipped."
+ ],
+ "quadrant_marker": {
+  "label": "07/09",
+  "x_emu": 5760000,
+  "y_emu": -2505000
+ },
+ "quadrant_shift_up_emu": 0,
+ "quadrant_scale": 0.5,
+ "exec_r1_height_twips": 900,
+ "exec_r2_height_twips": 900,
+ "theme_row_min_twips": 700,
+ "central_bank": [
+  [
+   "US (Fed)",
+   "3.50-3.75%",
+   "Hold; hike bias back (minutes)"
+  ],
+  [
+   "Canada (BoC)",
+   "2.25%",
+   "Hold expected July 15"
+  ],
+  [
+   "ECB",
+   "2.25%",
+   "Leaning to a July pause"
+  ],
+  [
+   "Japan (BoJ)",
+   "1.00%",
+   "Hiking; lending at post-2020 high"
+  ],
+  [
+   "China (PBoC)",
+   "3.00%",
+   "Easing; 'appropriately loose'"
+  ],
+  [
+   "New Zealand (RBNZ)",
+   "2.50%",
+   "Hiked 25bp July 8"
+  ]
+ ],
+ "status_dashboard": [
+  {
+   "status": "Escalating",
+   "oneliner": "NATO signed over $50B of procurement and €70B for Ukraine, and Canada bought German submarines; equities still sold the news."
+  },
+  {
+   "status": "Held",
+   "oneliner": "Gold fell to a one-week low and the dollar firmed despite the war on the hawkish Fed minutes; China's buying held the structural bid."
+  },
+  {
+   "status": "Held",
+   "oneliner": "Grid strain eased and PJM prices normalised while data-centre power deals kept landing; the week's big move was oil."
+  },
+  {
+   "status": "Held",
+   "oneliner": "A memory rout reversed into SK Hynix's 7x-oversubscribed listing, but Amazon's $25B bond drew the weakest demand since October."
+  },
+  {
+   "status": "Escalating",
+   "oneliner": "The US-Iran ceasefire collapsed into the sharpest fighting of the war and oil ran to $78; Russia-Ukraine escalated in parallel."
+  },
+  {
+   "status": "Held",
+   "oneliner": "Canada's defence build-out expanded, its largest-ever submarine buy and a new defence bank, while pension-steering stayed quiet."
+  }
+ ],
+ "key_developments": [
+  {
+   "development": "The US-Iran June ceasefire collapsed: Iran struck three Hormuz tankers, US Central Command hit more than 80 Iranian targets over two nights, and Iran hit three Gulf states (CENTCOM; Al Jazeera). Brent ran from about $72 to $78 and Hormuz traffic fell to roughly 34 transits a day.",
+   "implication": "The war premium rebuilt in days, pushing Geopolitics to Escalating and putting the oil passthrough back into July CPI."
+  },
+  {
+   "development": "The first Warsh-era FOMC minutes landed hawkish: nine of eighteen saw a hike by year-end and the statement promised to 'deliver price stability,' flagging May PCE up to 4.1% (Federal Reserve). The 2-year rose to 4.21% and the 10-year to a seven-week high near 4.57%.",
+   "implication": "A Fed priced to hold is again seen likely to hike, firming the dollar and lifting real yields, the main reason gold fell into the war."
+  },
+  {
+   "development": "NATO's Ankara summit signed over $50B of procurement and a €70B Ukraine pledge, and Germany set a path above €200B of defence by 2030 (NATO; Reuters). Trump ordered a trade cut-off with Spain over its refusal to reach 5% of GDP.",
+   "implication": "The defence-fiscal buildout hardened from roadmap to signed spending; the Spain order is the first Trump trade threat the tape reacted to this cycle."
+  },
+  {
+   "development": "The AI trade split: Samsung's record profit sold off 13% before Apple's $30B Broadcom deal sparked a rebound and SK Hynix's listing ran 7x oversubscribed, while Amazon's $25B bond drew the weakest hyperscaler demand since October (Bloomberg; Reuters).",
+   "implication": "Equity appetite for the buildout is intact while debt appetite thins, the first crack in the financing story; AI stays Held."
+  },
+  {
+   "development": "Canada made its largest-ever defence procurement, choosing Germany's TKMS for up to twelve submarines, and launched a Canada-Germany partnership and a Canada-chaired defence bank (PM.gc.ca).",
+   "implication": "The state is steering capital and industry toward domestic and allied resilience at scale, the structural tailwind behind Domestic."
+  },
+  {
+   "development": "Gold fell to a one-week low near $4,069 despite the war as the hawkish minutes and firmer dollar overrode the haven bid, with the weakest H1 North American ETF demand since 2013 (Reuters; WGC); China kept buying, a 20th straight month.",
+   "implication": "The structural bid is intact but the week's tape went against it as the dollar's rate support returned, capping Currency Debasement at Held."
+  }
+ ],
+ "theme1": {
+  "status": "Escalating ▸ NATO's Ankara summit turned defence pledges into over $50B of signed procurement and a €70B Ukraine pledge, Germany set a path above €200B by 2030, and Canada bought German submarines; the fiscal impulse widened even as crowded defence equities sold the news.",
+  "developments": [
+   "NATO's 32 leaders adopted the Ankara Declaration on July 8, reaffirming Article 5 and announcing more than $50B in new procurement plus a €70B pledge in 2026 Ukraine aid, led by about $40B for counter-drone capability and $26B for air and missile defence.",
+   "Germany approved a 2027 budget lifting core defence spending to about €109B, a third higher than this year, on a path above €200B by 2030, with net borrowing rising to about €204B.",
+   "Trump ordered a trade cut-off with Spain over its refusal to hit the 5% target, and the tape reacted, with Spain's IBEX 35 down about 2% and Bono yields up 9 basis points. The bond market funded heavier supply, the thirty-year trading above 5%, while defence equities sold the news, Rheinmetall down about 4%."
+  ],
+  "material_note": "The Ankara summit is the week the 5% era stopped being roadmaps and became signed contracts, but the sharper signal is where the constraint has moved. The forum itself flagged multi-year production lead-times, and defence stocks fell on the day the orders were announced, which together say the market has shifted from asking whether governments will spend to whether industry can build fast enough and whether the trade is already priced. Money is no longer the binding constraint on this theme; industrial capacity is. Suggested chart: NATO Europe and Canada core defence spending as a share of GDP, 2014 to 2026. (Insert fiscal_keydev_chart.)",
+  "implication": "Defence-industrial demand now has signed, multi-year funding across NATO's larger spenders and Canada, supporting medium-term growth and the equipment exposures. The near-term caution is the crowded equities selling the news; the impulse is mildly inflationary through heavier issuance, with higher long-end yields the price.",
+  "watch": [
+   "US June CPI July 14 for the oil passthrough; the thirty-year auction result and the next Treasury refunding.",
+   "National 5% roadmaps and Germany's parliamentary budget debate from September; whether the Spain trade order is implemented."
+  ]
+ },
+ "monetary": {
+  "status": "Nobody moved, but the first Warsh-era minutes put the hike back on the table: a hawkish committee, a firmer dollar and a seven-week high in yields undid June's dovish repricing, with the oil shock reinforcing it.",
+  "developments": [
+   "The Fed held at 3.50 to 3.75% a fourth time, but its first Warsh-era minutes read hawkish: nine of eighteen saw a hike by year-end, the 132-word statement promised to deliver price stability, and it cited May PCE up to 4.1% with AI-datacentre electricity, tariffs and energy as pressures.",
+   "The two-year rose to 4.21% and the ten-year to a seven-week high near 4.57%, and the dollar firmed while gold fell. Japan's bank lending grew at its fastest since 2020 and New Zealand hiked, while the ECB leans to a July pause."
+  ],
+  "material_note": "The minutes' telling detail is what they named as an inflation source: electricity demand from the AI-datacentre buildout, alongside tariffs and oil. That ties Theme 4 to the rate path, a structural pressure policy cannot easily offset, and it is why June CPI on July 14 is the next test. Suggested chart: 2-year and 10-year UST yields, 2 to 9 July. (Insert monetary_keydev_chart.)",
+  "implication": "A Fed leaning back toward a hike against an oil shock and 4.1% PCE means a firmer dollar and higher real yields, capping risk assets and pressuring gold. For a Canadian plan it keeps the loonie soft into the July 15 Bank of Canada hold; the next move is data-dependent on June CPI.",
+  "watch": [
+   "US June CPI July 14; the thirty-year auction and TIC data July 14.",
+   "Bank of Canada decision July 15; ECB July 23; whether the oil spike lifts inflation expectations."
+  ]
+ },
+ "theme2": {
+  "status": "Held ▸ Gold fell to a one-week low and the dollar firmed to a two-week high even as the war escalated, the hawkish Fed minutes reasserting the rate prop, while China's 20th month of buying kept the structural bid intact; the debasement trade went quiet on higher real yields, not a structural break.",
+  "developments": [
+   "Gold did the opposite of what a war week implies, falling to a one-week low near $4,069 even as the US struck Iran a second night, before recovering to about $4,110; the driver was the Fed, not the Strait. Higher oil lifts inflation expectations and hike odds, which lift real yields, and a higher real yield is a direct headwind for gold.",
+   "The dollar firmed to about 101, its strongest since July 2, while the yen held near a 40-year low. The structural case did not reverse, China's central bank buying gold a 20th straight month, but the flows went the other way, the weakest first-half North American gold-ETF demand since 2013."
+  ],
+  "material_note": "Gold's break from the war is the tell, and the counterintuitive lesson is the point: in 2026's regime a Middle East escalation is bearish for gold, not bullish. The chain runs oil up, inflation expectations up, hike odds up, real yields up, and gold, which pays nothing, falls. The haven bid lost to the rate bid in a week with three Gulf states hit. The structural buyers, led by China's central bank, are still there underneath, which is why this is the bid going quiet, not breaking.",
+  "keydev_chart_png": "engine/charts/2026-07-09/currency_keydev.png",
+  "keydev_chart_note": "Chart: daily spot gold, 2 to 9 July 2026, from Reuters and Trading Economics. The shaded band marks the July 7-8 re-escalation of the US-Iran conflict, over which gold fell rather than rose.",
+  "implication": "Gold stays the cleanest expression, but it is a two-way trade tied to the dollar's rate support, which returned this week; the structural case is intact and slow, the near-term price a real-yield story. The read for a plan is a strategic allocation, not a tactical one at these real yields.",
+  "watch": [
+   "IMF COFER for Q2 against the 56.77% dollar share; TIC data July 14 for China and Japan holdings.",
+   "USD/JPY against the 40-year low and any confirmed Tokyo intervention; gold against the July CPI and the dollar."
+  ]
+ },
+ "theme3": {
+  "status": "Held ▸ Grid strain eased as the heat broke and PJM prices normalised while data-centre power deals kept landing; the transition's structural demand is intact but nothing in-window moved the grid thesis, and summer power costs are set to ease.",
+  "developments": [
+   "The grid stress that defined last week eased: PJM demand and prices fell back to normal after the heat broke, the wholesale price down to about $30 a megawatt-hour from peak spikes above $2,000, and the federal emergency order that had let it curtail data centres lapsed on July 7.",
+   "The structural demand kept building: TeraWulf's twenty-year, roughly $19B lease to power an Anthropic data centre was the week's largest, though its stock fell on an unfinalized-credit caveat, and SunZia, a 3,650-megawatt wind and transmission project, reached full operation.",
+   "The government's forecaster cut its summer power outlook to about $45 a megawatt-hour, some $4 below last summer, on cheaper gas and more renewables. Copper, the transition's metal proxy, held near $6.10 a pound and firmed on AI-demand optimism."
+  ],
+  "material_note": "The grid bottleneck is the running topic, and this week it eased on the demand side while the more telling move was on the supply of capital. The acute, weather-driven stress faded and the forecaster even cut summer power prices, but the structural data-centre demand kept landing, led by TeraWulf's $19B Anthropic lease, and the stock fell on an unfinalized-credit caveat. That caveat is the tell: the constraint on the transition is shifting from building wires to financing the buildout, the same circular question the AI theme is pricing from the other side. Suggested chart: PJM day-ahead peak load, late June to early July 2026, against the 2006 record. (Insert energy_keydev_chart.)",
+  "implication": "Grid-enabling assets stay the cleanest expression of the transition, and the data-centre demand behind them keeps compounding. The near-term read is neutral for growth and mildly disinflationary for power this summer; the risk to watch is financing, where the TeraWulf credit question echoes the AI buildout.",
+  "watch": [
+   "FERC action on large-load interconnection; any grid tender or power-purchase deal with dated capacity.",
+   "PJM's 60-day confirmation of the July 2 peak; the IEA mid-year electricity update."
+  ]
+ },
+ "theme4": {
+  "status": "Held ▸ A memory-led rout, Samsung down almost 13% despite a record quarter with Seoul circuit breakers, reversed into a Friday rebound and a 7x-oversubscribed SK Hynix listing, but Amazon's $25B bond drew the weakest hyperscaler demand since October; equity appetite for the buildout is intact while debt appetite is turning choosier.",
+  "developments": [
+   "The week opened with the memory trade breaking down: Samsung's record profit, up nineteen-fold, fell almost 13% over two sessions on peak-cycle fears with Seoul circuit breakers, before Apple's $30B Broadcom deal and SK Hynix's oversubscribed listing turned the tape by Friday.",
+   "The financing test split: SK Hynix's Nasdaq listing closed more than seven times oversubscribed, but Amazon's $25B AI bond drew orders only about 2.5 times the paper, the weakest hyperscaler reception since October, and added up to 21 basis points of yield to clear. The six largest tech firms have sold about $182B of IG bonds this year against under $13B a year ago."
+  ],
+  "material_note": "The buildout's running question is whether it stays funded, and this week it answered in two directions at once. Equity investors could not get enough, taking SK Hynix's listing more than seven times over, while bond investors made Amazon pay up and still gave it the thinnest coverage of any hyperscaler deal since October. That divergence is the insight: the market is beginning to price the buildout's debt and its equity differently, and debt is where an over-supplied buildout shows stress first. The flood of issuance, roughly fourteen times last year's pace, is finally large enough that lenders can be choosy.",
+  "keydev_chart_png": "engine/charts/2026-07-09/ai_keydev.png",
+  "keydev_chart_note": "Chart: US investment-grade bond issuance by the six largest technology companies, year-to-date 2026 versus the same period in 2025, from Bloomberg reporting. The 2026 pace is roughly fourteen times the prior year.",
+  "implication": "Infrastructure enablers, memory, power and chips, stay where the spend lands whichever platform wins, and equity is still funding them. The new caution is credit: softer bond demand and the widening weak-versus-strong high-yield gap argue for staying up the quality curve.",
+  "watch": [
+   "SK Hynix's July 10 Nasdaq debut, the cleanest financing-appetite read; hyperscaler Q2 capex guidance from late July.",
+   "AI-issuer credit spreads and new-issue reception; the CCC-versus-single-B high-yield gap."
+  ]
+ },
+ "theme5": {
+  "status": "Escalating ▸ The US-Iran June ceasefire collapsed into the sharpest fighting of the war, with tanker strikes, two nights of US strikes and Iran hitting three Gulf states, and oil ran back to $78; Russia-Ukraine escalated in parallel, and the rebuilt war premium reverses the disinflation impulse.",
+  "developments": [
+   "The US-Iran ceasefire that had taken oil back to pre-war levels collapsed in three days: Iran struck three Hormuz vessels on July 7, US Central Command answered with strikes on more than 80 targets over two nights, and Iran hit Bahrain, Kuwait and Qatar, with Jordan intercepting eight missiles. Brent ran from about $72 to settle near $78, Strait traffic down to about 34 vessels a day from a normal 88.",
+   "The Russia-Ukraine leg escalated in parallel, Russia hitting Kyiv on successive nights with zero of 29 ballistic missiles intercepted, and Ukraine pressing its deepest strikes of the war on Russian refineries. The trade leg stayed quiet, and the war's food channel did not re-light: urea sat flat near $377 a tonne, so the fertilizer-to-food transmission is dormant."
+  ],
+  "material_note": "The oil story ran a full round trip: two weeks ago Brent near $70 was the cleanest support for the moderating-inflation call, and this week the ceasefire broke and it ran back to $78. What advanced is the conflict itself, from a cooling truce to the sharpest fighting of the war in one week. The insight that keeps this from being a repeat of the spring is what did not move: fertilizer stayed flat, so the sulphur-to-food channel is dormant and the shock is oil-only, which caps the inflation and the humanitarian damage this time.",
+  "keydev_chart_png": "engine/charts/2026-07-09/geo_keydev.png",
+  "keydev_chart_note": "Chart: daily Brent crude, 2 to 9 July 2026, from CNBC and Trading Economics daily settles. The shaded band marks the July 7-8 collapse of the June US-Iran ceasefire.",
+  "implication": "Both legs are inflationary and anti-growth: the oil passthrough lifts near-term inflation just as the Fed leans hawkish, tightening conditions from both sides. For a Canadian plan the oil move is a partial offset through a firmer loonie. The offsets are that supply keeps flowing and fertilizer has not re-lit; the risk is a Hormuz closure.",
+  "watch": [
+   "US June CPI July 14 for the oil passthrough; any confirmed US-Iran talks venue and date, now uncertain.",
+   "Hormuz transit and insurance data; the urea benchmark for any sign the food channel re-lights; Section 122 tariff expiry July 24."
+  ]
+ },
+ "theme6": {
+  "status": "Held ▸ Canada's state-directed defence build-out expanded sharply, its largest-ever submarine buy plus a Canada-chaired defence bank and a Canada-Germany partnership, while the pension-steering machinery stayed quiet; the domestic-resilience opportunity set widened structurally, the capital-steering pressure unchanged this week.",
+  "developments": [
+   "Canada made the largest defence procurement in its history, choosing Germany's TKMS for up to twelve submarines (lifecycle estimates as high as roughly $100B in Canadian dollars), with industrial offsets, shipyard jobs, a Port of Churchill redevelopment and an Algoma Steel re-engagement, converting into a Canada-Germany strategic partnership and a Canada-chaired multilateral defence bank.",
+   "The pension-specific machinery stayed quiet, no Strong Fund deployment and no 30%-rule move, while the budget officer priced the 5% target at about $159B of core defence by the mid-2030s. The loonie firmed to about 1.417 per US dollar as oil rose, off its one-year low."
+  ],
+  "material_note": "The running topic is whether policy keeps steering capital and industry home, and this week the supply side of that trade moved while the demand side stood still. The submarine award, a Canada-chaired defence-finance bank and a strategic partnership with Germany are the state building the domestic and allied assets that pension capital will later be pushed to fund, even as the pension-steering rules, the Strong Fund and the 30% cap, did not budge. Hanwha's 22% drop on losing the bid and the scramble over Algoma Steel show the industrial stakes are real. The pressure is being built now; the capital follows later. Suggested chart: Canada core defence spending as a share of GDP, actual and the path to the 5% target. (Insert domestic_keydev_chart.)",
+  "implication": "The structural direction is reinforced: the state is building a domestic and allied industrial base that pension capital will be encouraged to fund, widening the home-bias set in defence and critical minerals. The test remains deployment quality over political direction; the near-term read is neutral for growth and mildly inflationary.",
+  "watch": [
+   "Bank of Canada decision July 15 and its read on trade versus energy risk; Canada June jobs July 10.",
+   "Canada Strong Fund board and first deployments; any 30%-rule guidance; the budget officer's submarine cost estimate."
+  ]
+ },
+ "light_scoring": [
+  {
+   "theme": "1 Fiscal & Deregulation",
+   "light": "Escalating",
+   "supports": ">$50B NATO procurement + €70B Ukraine, signed (high +3); Germany >€200B by 2030 (+2); Canada subs (+2).",
+   "against": "Defence equities soft: Rheinmetall -4%, KNDS IPO pulled (med -2).",
+   "net": "Above +3 with high-materiality support; yields and fiscal flow confirm, so equity softness is a divergence, not a veto."
+  },
+  {
+   "theme": "2 Currency Debasement",
+   "light": "Held",
+   "supports": "China's 20th month of gold buying (+2); OMFIF: more managers cut than raise USD (+1).",
+   "against": "Gold to a one-week low despite the war (high -3); dollar to a two-week high (-2); weakest H1 gold-ETF flows since 2013 (-2).",
+   "net": "Tape moved against the theme, so the tape veto caps it at Held (down from Escalating); both sides named."
+  },
+  {
+   "theme": "3 Energy & Transition",
+   "light": "Held",
+   "supports": "Data-centre power deals kept landing: TeraWulf $19B, SunZia online (+2).",
+   "against": "Grid strain eased on weather, not structure (0); EIA cut summer power prices (0).",
+   "net": "Oil is scored under Theme 5. No high-materiality transition mover; net mildly positive but quiet, so Held."
+  },
+  {
+   "theme": "4 Artificial Intelligence",
+   "light": "Held",
+   "supports": "SK Hynix listing 7x oversubscribed (high +3); Apple-Broadcom $30B, Friday rebound (+2).",
+   "against": "Samsung -13% on a record quarter, circuit breakers (-2); Amazon bond weakest since October (high -3); Allianz capex slowdown (-1).",
+   "net": "High-materiality on both sides (equity vs debt demand) triggers the contradiction rule; Held, ending on the rebound."
+  },
+  {
+   "theme": "5 Geopolitics & Trade",
+   "light": "Escalating",
+   "supports": "US-Iran ceasefire collapse, US strikes, three Gulf states hit (high +3); Russia-Ukraine escalation (high +3); oil premium rebuilt $72->$78 (high +3).",
+   "against": "None material; supply flows, fertilizer not re-lit (0).",
+   "net": "Far above threshold, tape (oil, gas) confirms; both war legs by name. Escalating, up from Held."
+  },
+  {
+   "theme": "6 Domestic Investing",
+   "light": "Held",
+   "supports": "Largest-ever submarine buy (+2); Canada-chaired DSRB bank and Canada-Germany partnership (+2).",
+   "against": "Pension-steering core quiet: no CSF deployment, no 30%-rule move (0).",
+   "net": "Industrial leg escalated but pension-capital-steering core did not; Eduardo-confirmed Held, not double-counting Theme 1."
+  }
+ ],
+ "light_history_png": "engine/charts/2026-07-09/light_history.png",
+ "light_history": {
+  "themes": [
+   "1 Fiscal & Deregulation",
+   "2 Currency Debasement",
+   "3 Energy & Transition",
+   "4 Artificial Intelligence",
+   "5 Geopolitics & Trade",
+   "6 Domestic Investing"
+  ],
+  "weeks": [
+   {
+    "date": "06-18",
+    "lights": [
+     "Escalating",
+     "Deescalating",
+     "Held",
+     "Escalating",
+     "Deescalating",
+     "Held"
+    ]
+   },
+   {
+    "date": "06-25",
+    "lights": [
+     "Escalating",
+     "Deescalating",
+     "Held",
+     "Held",
+     "Deescalating",
+     "Escalating"
+    ]
+   },
+   {
+    "date": "07-03",
+    "lights": [
+     "Escalating",
+     "Escalating",
+     "Held",
+     "Held",
+     "Held",
+     "Held"
+    ]
+   },
+   {
+    "date": "07-09",
+    "lights": [
+     "Escalating",
+     "Held",
+     "Held",
+     "Held",
+     "Escalating",
+     "Held"
+    ]
+   }
+  ]
+ },
+ "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved 9 July 2026.",
+ "references": [
+  {
+   "topic": "Executive Summary — Weekly Direction & Key Developments",
+   "items": [
+    "(Tier 1) US Central Command. US forces complete new round of retaliatory strikes against Iran (80+ targets, two nights). 8 July 2026. https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4535772/. Retrieved 9 July 2026.",
+    "(Tier 1) Federal Reserve. Minutes of the Federal Open Market Committee, June 16-17 2026 (9-8-1 projections; 'will deliver price stability'; May PCE 4.1%/3.4%). 8 July 2026. https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm. Retrieved 9 July 2026.",
+    "(Tier 1) NATO. The Ankara Summit Declaration (>$50B procurement; €70B Ukraine; Article 5; Russia named a long-term threat). 8 July 2026. https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration. Retrieved 9 July 2026.",
+    "(Tier 2) CNBC. Oil prices: Brent, WTI rise as US targets Iran (Brent to ~$78; WTI ~$73.5). 8 July 2026. https://www.cnbc.com/2026/07/08/oil-prices-brent-wti-iran-us-hormuz.html. Retrieved 9 July 2026.",
+    "(Tier 2) Fortune. Kevin Warsh buried an unhedged promise in his first Fed minutes. 8 July 2026. https://fortune.com/2026/07/08/laura-ullrich-fed-reserve-kevin-warsh-minutes-fomc/. Retrieved 9 July 2026.",
+    "(Tier 1) FRED. 10-year breakeven inflation rate 2.24% (6 July 2026); 2-year 4.21%, 10-year ~4.57% (8-9 July 2026). https://fred.stlouisfed.org/series/T10YIE. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+   "items": [
+    "(Tier 1) NATO. The Ankara Summit Declaration (>$50B procurement; €70B 2026 Ukraine aid; €27B fuel-storage). 8 July 2026. https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration. Retrieved 9 July 2026.",
+    "(Tier 1) NATO. Tens of billions in new procurements revealed at the Summit Defence Industry Forum ($40B counter-drone/5yr; >$26B air-missile defence; GlobalEye; Triton). 7 July 2026. https://nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara. Retrieved 9 July 2026.",
+    "(Tier 2) Reuters via Yahoo Finance. German cabinet approves 2027 budget (core defence ~€109B, +33%; path above €200B by 2030; borrowing ~€204B). 6 July 2026. https://finance.yahoo.com/economy/policy/articles/german-cabinet-approves-2027-draft-154406315.html. Retrieved 9 July 2026.",
+    "(Tier 2) CNBC. Trump orders Bessent to cut off all trade with Spain over the NATO 5% target. 8 July 2026. https://www.cnbc.com/2026/07/08/trump-spain-nato-trade-summit.html. Retrieved 9 July 2026.",
+    "(Tier 2) Investing.com / Euronext Live. Spain's IBEX 35 falls ~2% (worst since early May); ten-year Bono yields +9bp. 8 July 2026. https://www.investing.com/news/economy-news/spains-ibex-35-tumbles-after-trump-orders-halt-to-trade-with-spain-4780889. Retrieved 9 July 2026.",
+    "(Tier 2) RTTNews / Reuters. US Treasury 3-year and 10-year auctions stop through; 10-year high yield 4.580% (largest stop-through since September). 7-8 July 2026. https://www.rttnews.com/3665210/three-year-note-auction-attracts-modestly-below-average-demand.aspx. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Monetary Policy Tracker",
+   "items": [
+    "(Tier 1) Federal Reserve. Minutes of the FOMC, June 16-17 2026 (unanimous hold 3.50-3.75%; 9-8-1 projections; 132-word statement). 8 July 2026. https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm. Retrieved 9 July 2026.",
+    "(Tier 2) CNBC. Fed minutes June 2026: officials split on rates. 8 July 2026. https://www.cnbc.com/2026/07/08/fed-minutes-june-2026-.html. Retrieved 9 July 2026.",
+    "(Tier 1) US Department of Labor. Unemployment Insurance Weekly Claims, week ended July 4 (215,000, -2,000; continuing 1.814M). 9 July 2026. https://www.dol.gov/ui/data.pdf. Retrieved 9 July 2026.",
+    "(Tier 1) Institute for Supply Management. Services PMI, June 2026 (54.0; 24th month of expansion). https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/june/. Retrieved 9 July 2026.",
+    "(Tier 2) Japan Times / Bloomberg. Japan bank lending rises 6.3% in June, fastest since 2020. 8 July 2026. https://www.japantimes.co.jp/business/2026/07/08/economy/japan-bank-lending-rise/. Retrieved 9 July 2026.",
+    "(Tier 2) Reuters / RNZ. RBNZ raises the Official Cash Rate 25bp to 2.50%, first hike since 2023. 8 July 2026. Retrieved 9 July 2026.",
+    "(Tier 1) FRED. 2-year (4.21%) and 10-year (~4.57%) US Treasury yields; 30-year above 5%, 8-9 July 2026. https://fred.stlouisfed.org/. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 2 — Currency Debasement",
+   "items": [
+    "(Tier 2) Reuters via Yahoo Finance. Gold falls to a one-week low (~$4,069) on hawkish Fed minutes and a firmer dollar. 9 July 2026. https://finance.yahoo.com/markets/commodities/articles/gold-prices-weaken-investors-await-102323496.html. Retrieved 9 July 2026.",
+    "(Tier 1) World Gold Council. Gold ETF flows, H1 2026 (weakest H1 for North America since 2013; June -$5.5B North America; AUM $526B). 8 July 2026. https://www.gold.org/goldhub/gold-focus/2026/07/. Retrieved 9 July 2026.",
+    "(Tier 2) Reuters via BNN Bloomberg. Bank of America cuts its 2026 average gold forecast 14% to $4,360. 8 July 2026. Retrieved 9 July 2026.",
+    "(Tier 1/2) PBoC/SAFE via South China Morning Post. China adds ~14.93 tonnes of gold in June, a 20th straight month (2,346t). 7 July 2026. https://www.scmp.com/business/commodities/article/3359742/. Retrieved 9 July 2026.",
+    "(Tier 2) CNBC / Reuters. Dollar index near a two-week high (~101) after US resumes strikes; USD/JPY ~162.5, near a 40-year low. 8-9 July 2026. https://www.cnbc.com/2026/07/08/dollar-at-week-high-after-us-resumes-attacks-on-iran.html. Retrieved 9 July 2026.",
+    "(Tier 2) OMFIF. Global Public Investor 2026 (more reserve managers plan to cut than raise dollar allocations; 82% hold physical gold). ~30 June 2026. Retrieved 9 July 2026.",
+    "(Tier 1) FRED / US Treasury. 10-year breakeven ~2.24% and 10-year TIPS real yield restrictive; TIC April 2026 (China $651.1B). https://fred.stlouisfed.org/series/T10YIE. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 3 — Energy & the Clean Transition",
+   "items": [
+    "(Tier 1) US Department of Energy / CESER. Section 202(c) PJM emergency order (202-26-33A) lapsed 7 July 2026 without renewal. https://www.energy.gov/ceser/2026-doe-202c-orders. Retrieved 9 July 2026.",
+    "(Tier 1) GridStatus.io / PJM. PJM load ~108,058 MW and price ~$29.65/MWh on 8 July 2026 (from spikes above $2,000/MWh at the peak). Retrieved 9 July 2026.",
+    "(Tier 1) US Energy Information Administration. Short-Term Energy Outlook, July 2026 (summer wholesale power ~$45/MWh; Brent forecast cut on an assumed Hormuz reopening). 7 July 2026. https://www.eia.gov/outlooks/steo/. Retrieved 9 July 2026.",
+    "(Tier 2) CNBC / TeraWulf. Anthropic 20-year, ~401 MW, ~$19B data-centre lease; KBW flags unfinalized credit support. 6-7 July 2026. https://www.cnbc.com/2026/07/06/anthropic-terawulf-data-center-ai.html. Retrieved 9 July 2026.",
+    "(Tier 1) Pattern Energy. SunZia (~3,650 MW wind plus HVDC) reaches full commercial operation. July 2026. https://patternenergy.com/sunzia-comes-online/. Retrieved 9 July 2026.",
+    "(Tier 2) Trading Economics. Copper ~$6.10/lb (~$13,455/t), firmer 9 July 2026 on AI-demand optimism. https://tradingeconomics.com/commodity/copper. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 4 — Artificial Intelligence",
+   "items": [
+    "(Tier 2) CNBC / Korea Herald. Samsung preliminary Q2 operating profit ₩89.4T (+19x y/y); shares fall ~13% over two sessions; Kospi circuit breakers. 7-8 July 2026. https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html. Retrieved 9 July 2026.",
+    "(Tier 1/2) CNBC / company filing. Apple-Broadcom expanded custom-chip agreement worth $30B+ through 2031. 8 July 2026. Retrieved 9 July 2026.",
+    "(Tier 2) Reuters via Yahoo Finance. SK Hynix Nasdaq ADR bookbuild more than 7x oversubscribed (~$171B orders; ~$28B deal; debut July 10). 9 July 2026. https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaq-adr-offering-115717222.html. Retrieved 9 July 2026.",
+    "(Tier 2) Fortune / CNBC. Amazon's $25B eight-tranche AI bond: ~2.5x covered (from 3.2x in March), weakest hyperscaler demand since Meta's October 2025 sale; 18-21bp concession. 7-8 July 2026. https://fortune.com/2026/07/08/amazons-25-billion-surprise-bond-sale-dangled-extra-yield-to-lure-in-buyers/. Retrieved 9 July 2026.",
+    "(Tier 2) Bloomberg. Six largest tech firms ~$182B USD IG issuance YTD 2026 versus <$13B a year earlier; Morgan Stanley ~$570B AI-related 2026 forecast. 8 July 2026. https://www.bloomberg.com/news/articles/2026-07-07/traders-are-dumping-tech-bonds-to-make-room-for-amazon-debt-deal. Retrieved 9 July 2026.",
+    "(Tier 2) Allianz Research. Hyperscaler capex growth projected ~51% (2026) to ~13% (2027) to ~5% (2028). 8 July 2026. Retrieved 9 July 2026.",
+    "(Tier 2) Reuters via Bloomberg. DeepSeek developing its own in-house AI inference chip. 7 July 2026. https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 5 — Geopolitics & Trade",
+   "items": [
+    "(Tier 1) US Central Command. Retaliatory strikes on 80+ Iranian targets over two nights. 7-8 July 2026. https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4535772/. Retrieved 9 July 2026.",
+    "(Tier 1) US Treasury. Revocation of Iran's oil-sale waiver (General License X to X1; wind-down to 17 July). 7 July 2026. https://home.treasury.gov/. Retrieved 9 July 2026.",
+    "(Tier 2) Al Jazeera. Oil surges as US strikes Iran, reversing the slide to pre-war levels. 8 July 2026. https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels. Retrieved 9 July 2026.",
+    "(Tier 2) Bloomberg. Hormuz traffic grinds to a near-halt (~34 transits versus ~88 baseline; war-risk insurance ~8x). 9 July 2026. https://www.bloomberg.com/news/articles/2026-07-09/hormuz-traffic-grinds-to-a-near-halt-as-ceasefire-under-threat. Retrieved 9 July 2026.",
+    "(Tier 2) Ukrainska Pravda. Russia attacks Ukraine with two missiles and ~94 drones; Kyiv struck a second straight night. 9 July 2026. https://www.pravda.com.ua/eng/news/2026/07/09/8043173/. Retrieved 9 July 2026.",
+    "(Tier 2) Kyiv Independent / Moscow Times. Ukraine strikes the Omsk (~460 kb/d) and Yaroslavl refineries, among the deepest of the war. 6-9 July 2026. https://kyivindependent.com/ukraine-reportedly-strikes-russian-oil-refinery-in-yaroslavl/. Retrieved 9 July 2026.",
+    "(Tier 2) CBC / USTR. CUSMA annual-review status; Section 122 surcharge expiry 24 July; USITC forced-labour tariff hearing touching Canada. 7-9 July 2026. https://www.cbc.ca/news/politics/cusma-usmca-july-1-canada-us-mexico-trade-trump-tariffs-9.7253789. Retrieved 9 July 2026.",
+    "(Tier 2) Trading Economics / DTN. Urea benchmark flat ~$377/MT (predates the oil spike); China Jun-Aug export quotas open. 7 July 2026. https://tradingeconomics.com/commodity/urea. Retrieved 9 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 6 — Domestic Investing Pressures",
+   "items": [
+    "(Tier 1) Prime Minister of Canada. Carney announces TKMS as preferred supplier for the Canadian Patrol Submarine Project (up to 12 boats). 6 July 2026. https://www.pm.gc.ca/en/news/news-releases/2026/07/06/prime-minister-carney-announces-preferred-supplier-canadian-patrol. Retrieved 9 July 2026.",
+    "(Tier 1) Prime Minister of Canada. Canada-Germany Strategic Partnership; Defence, Security and Resilience Bank; Kongsberg and Telesat agreements; Canada-Türkiye FTA talks. 8 July 2026. https://www.pm.gc.ca/en/news. Retrieved 9 July 2026.",
+    "(Tier 2) CBC / The Globe and Mail. Canada picks Germany's TKMS, the largest defence procurement in its history; Hanwha retained as reserve. 6-8 July 2026. https://www.cbc.ca/news/politics/carney-subs-deal-germany-norway-tkms-hanwha-9.7260562. Retrieved 9 July 2026.",
+    "(Tier 1) Parliamentary Budget Officer. NATO 5% target requires ~$159B of core defence spending by FY2035-36; +$63B to the deficit (restated). July 2026. Retrieved 9 July 2026.",
+    "(Tier 1) Bank of Canada. Q2 Business Outlook Survey and Survey of Consumer Expectations (inflation expectations at a four-year high; fielded May, before oil normalization). 6 July 2026. https://www.bankofcanada.ca/2026/07/business-outlook-survey-second-quarter-of-2026/. Retrieved 9 July 2026.",
+    "(Tier 2) FXStreet / Trading Economics / Ivey. USD/CAD ~1.417 firming as oil rises; Ivey PMI 56.2 (from 58.2). 7-9 July 2026. https://tradingeconomics.com/canada/currency. Retrieved 9 July 2026."
+   ]
+  }
+ ]
+}

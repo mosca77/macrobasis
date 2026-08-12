@@ -1,0 +1,602 @@
+{
+  "asof": "2026_07_30",
+  "weekly_direction": "**Held inflation** expectations and **softening growth**.",
+  "influencing_factors": [
+    "Growth of 1.5% annualised in the second quarter, against 2.1% expected and 2.1% in the first quarter.",
+    "Core PCE held at 3.3% year on year with the monthly pace cooler than expected, and Brent fell about 6% to near $90.",
+    "Three Fed dissents for a rise, September odds at roughly 55%, and the 30 year yield at 5.20%, its highest since 2007."
+  ],
+  "quadrant_highlight": {
+    "quadrant": "Stagflation",
+    "colour": "C00000",
+    "alpha": 20,
+    "drop_aip_note": true
+  },
+  "quadrant_rationale_heading": "Why this quadrant",
+  "quadrant_rationale": [
+    "Growth decelerated, moving the read down: output grew 1.5% annualised against 2.1% in the first quarter, and the two year yield fell about 9 basis points.",
+    "Inflation is elevated but not accelerating, holding the read right of centre: core PCE at 3.3% is above target, but the monthly pace cooled and oil fell about 6%.",
+    "The policy path did the hawkish work, not the data: three Fed dissents for a rise, and September moved to a coin flip. That is tightening into weakness.",
+    "The tape agreed with the quadrant's asset call: short dated bonds rallied while the 30 year sold off to its highest yield since 2007."
+  ],
+  "quadrant_scale": 1.0,
+  "quadrant_shift_up_emu": 0,
+  "quadrant_behind": false,
+  "exec_r1_height_twips": 300,
+  "exec_r2_height_twips": 260,
+  "theme_row_min_twips": 300,
+  "central_bank": [
+    [
+      "US Federal Reserve",
+      "3.50%-3.75%",
+      "Held 29 July, 9 to 3; three dissents for a rise, September near a coin flip."
+    ],
+    [
+      "Bank of Canada",
+      "2.25%",
+      "Sixth straight hold; growth seen near 0.7%, next decision 2 September."
+    ],
+    [
+      "European Central Bank",
+      "Deposit 2.25%",
+      "Held 23 July on energy uncertainty; September live."
+    ],
+    [
+      "Bank of Japan",
+      "1.00%",
+      "Held 30 July at the highest since 1995; growth forecast raised to 0.8%."
+    ],
+    [
+      "People's Bank of China",
+      "1 year LPR 3.00%",
+      "Held again in July; easing option open."
+    ],
+    [
+      "Reserve Bank of India",
+      "5.25%",
+      "No meeting in the window; 5.25% carried forward."
+    ],
+    [
+      "Bank of Korea",
+      "2.75%",
+      "No meeting; the memory export cycle is the swing factor."
+    ]
+  ],
+  "status_dashboard": [
+    {
+      "status": "Escalating",
+      "oneliner": "Treasury guided to about $671B of new borrowing and a $2.1T deficit, and the 30 year yield hit 5.20%, its highest since 2007."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "Suspected Japanese intervention drove the dollar down as much as 3% against the yen, its biggest one day fall since 2022."
+    },
+    {
+      "status": "Held",
+      "oneliner": "PJM sought an emergency capacity auction and a curtailment register, yet Brent fell about 6% despite a US and Iran exchange of fire."
+    },
+    {
+      "status": "Held",
+      "oneliner": "Microsoft's cloud arm accelerated to 43% while Meta's profit fell 14%; chip stocks lost more than $1T of value the same week."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "Iran struck a US base in Jordan and rejected an Omani Hormuz plan; the Senate backed tariffs up to 200% on buyers of Russian oil."
+    },
+    {
+      "status": "Held",
+      "oneliner": "BlackRock, Blackstone, Saudi Arabia's fund and Temasek joined Ottawa's September summit, while Japan's GPIF refused the same pressure."
+    }
+  ],
+  "theme1": {
+    "status": "Escalating ▸ Treasury guided to about $671B of new borrowing this quarter against a $2.1T deficit estimate, and the 30 year yield reached 5.20%, its highest since 2007; the spending impulse is unchanged and its funding cost is now what moves markets.",
+    "developments": [
+      "Behind the borrowing guide sits a $950B cash balance assumption for end September and last quarter's issuance mix, which ran about 85% in short term bills. The refunding statement in early August decides how much of the new supply actually tests the long end rather than rolling through the bill market.",
+      "The curve did the talking on Fed day: the 30 year rose about 10 basis points while the two year fell about 4, steepening the 2s10s gap from roughly 36 to 44 basis points. The 10 year breakeven, the inflation compensation investors demand, held near 2.28%, so the long end is charging for duration and supply, not inflation.",
+      "The House passed a framework carrying $95B of reconciliation instructions, mostly defence, with a separate defence supplemental near $350B being pushed behind it. The Senate says the votes are not there and deferred both to September. Reconciliation lets a package pass on a simple majority rather than 60, so the vehicle matters more than the sum.",
+      "The Committee for a Responsible Federal Budget put tariff revenue about $825B, roughly 40%, below its original target once court ordered refunds and duty cuts are counted. On the other side of the ledger the 2026 regulatory agenda targets 702 rules for removal against 482 last year, with about $1.5T of claimed savings."
+    ],
+    "material_note": "The loop closed this week. Slower growth widens the deficit that the long end is already refusing to fund cheaply, and the Fed turned more hawkish into it rather than away from it. The 2s10s curve steepening from about 36 to 44 basis points is that trade being put on: investors sold the long end while buying the front. Note what did not move. The 10 year breakeven held near 2.28%, so this is a demand for duration and supply compensation, not an inflation scare, and it is not a problem the Fed can solve.",
+    "implication": "For a plan discounting liabilities off long rates, a 30 year at 5.20% and a curve steepening from about 36 to 44 basis points cuts the present value of liabilities even as it marks down infrastructure and unlisted real assets. Funded status improves before asset marks catch up. Growth negative, inflation neutral.",
+    "watch": [
+      "The Treasury's quarterly refunding statement in early August, for the split between bills and long dated issuance.",
+      "Senate action on the $95B reconciliation framework in September, and on the separate defence supplemental.",
+      "The 10 year breakeven: a move above 2.5% turns the long end selloff from a supply story into an inflation story."
+    ]
+  },
+  "monetary": {
+    "status": "The Fed held at 3.50% to 3.75% on 29 July with three dissents for an immediate rise, Hammack, Kashkari and Logan, the first aligned trio since 2016; September pricing moved from about a third to roughly 55%.",
+    "developments": [
+      "Chair Kevin Warsh called the stance watchful thinking rather than watchful waiting, language that drops any implication the next move is down, and the statement kept no forward guidance. The vote was the message: three regional presidents formally recorded that they wanted to tighten immediately.",
+      "June core PCE, the measure the Fed targets, rose 0.1% on the month against 0.2% expected and held at 3.3% year on year, with headline at 3.7%. Both have sat more than a full point above the 2% target since the spring, which is why the dissents landed even on a soft monthly print.",
+      "The whole rate strip repriced: September odds moved from about a third to between 55% and 60%, and futures now put better than even odds on a quarter point rise by year end, a full reversal of the easing path priced in the spring.",
+      "The Bank of England held at 3.75% for a fifth time while flagging upside inflation risk, and the Bank of Japan held at 1.00%, its highest since 1995, raising its 2026 growth forecast to about 0.8% on AI and semiconductor investment. The Bank of Canada's July deliberations showed comfort holding at 2.25% into a soft domestic economy.",
+      "The growth side weakened the same week: output grew 1.5% annualised against 2.1% expected and jobless claims rose to 197,000 from 187,000. Officials pressing to tighten into a slowing economy is a policy problem, not a policy path."
+    ],
+    "material_note": "",
+    "implication": "A committee split three ways toward tightening while growth decelerates raises the risk of a policy error in either direction and keeps short dated yields volatile around each inflation print. The counterargument to a recession read is breadth: the equal weight S&P 500 hit a record on 28 July even as the index fell. Keep duration modest until September resolves; Canadian rates remain the outlier.",
+    "watch": [
+      "July payrolls on 7 August, the first labour reading after the dissents.",
+      "July consumer price index on 12 August, the print that decides September.",
+      "The Bank of Canada decision on 2 September."
+    ]
+  },
+  "theme2": {
+    "status": "Escalating ▸ Tokyo is believed to have intervened on 30 July, sending the dollar down as much as 3% against the yen, its biggest one day fall since 2022; the official sector, not the market, is setting the yen's price.",
+    "developments": [
+      "Two waves during North American hours with no data on the tape took the dollar to about 158 yen from a 40 year low near 164 earlier in the week. Tokyo declined to confirm, its standard posture, but it had already confirmed spending about $21B in a single day on 11 July.",
+      "The dollar index, the currency against a basket of peers, fell to an intraday 99.9, its lowest since mid June. Gold rose through $4,100 but remains roughly 26% below January's record near $5,600, a recovery rather than a breakout.",
+      "Bitcoin near $64,000 is down about 46% on the year while gold gained; the pair no longer trade as one debasement hedge, because a non yielding asset weakens when policy tightens."
+    ],
+    "material_note": "Last week's test resolved in the theme's favour. The 24 July report said a hawkish hold that failed to push gold below $4,000 would prove the floor is official sector demand rather than rates; three dissents later, gold crested $4,100. Then Tokyo chose intervention over a rate rise, and intervention is funded by selling dollar assets, usually Treasuries. Two official actors, one direction of travel.",
+    "implication": "A weaker dollar raises the local currency value of unhedged foreign assets and lifts imported input costs in US holdings. The hedge working here is the metal, not the miners, which fell even as gold rose. Intervention funded by Treasury sales reinforces the long end pressure.",
+    "watch": [
+      "Japan's month end intervention data in early August, confirming or denying the 30 July action.",
+      "Treasury International Capital data for June, for whether Japan kept selling Treasuries.",
+      "Whether gold holds above $4,100 through the August inflation prints."
+    ]
+  },
+  "theme3": {
+    "status": "Held ▸ PJM converted scarcity into rules, an emergency auction plus a curtailment register for large power users; against that, Brent finished about 6% lower despite a direct US and Iran exchange of fire, so the tape declines to confirm.",
+    "developments": [
+      "The filing due at the Federal Energy Regulatory Commission by month end covers a 6.8 gigawatt shortfall, the third consecutive auction to miss the reliability target, after July's auction cleared at its $325 per megawatt day price cap. A capacity auction pays generators to stand ready, so a miss means less standby supply than the grid's own standard requires.",
+      "The register would list large power users, data centres included, whose supply can be cut as the system nears emergency conditions, with the cost of new capacity billed to them rather than households. Large load demand is forecast up about 70 gigawatts by 2038 against roughly 15 gigawatts retired since 2022.",
+      "Brent round tripped from above $100 early in the week to about $86 as a three day strike pause held, then rose about 8% on 29 July after Iran struck a US base, finishing near $90. US gas at Henry Hub fell to about $2.75 per million British thermal units, down roughly 14% on the month.",
+      "OPEC and its partners are expected to add a final increase of about 188,000 barrels a day in September then hold flat into year end, with Iraq reported to be weighing an exit after the United Arab Emirates left in May."
+    ],
+    "material_note": "The grid stopped asking politely. PJM is not proposing to build capacity and hope, it is proposing to write down which customers get switched off first and send them the bill, which is a regulator endorsed admission that data centre demand is outrunning supply. Microsoft's contracted backlog of $678B is the demand behind that forecast, so this is booked revenue meeting a physical limit. Note the tension in the fuel: gas fell about 14% on the month while standby capacity got scarcer, so the binding constraint is deliverable power, not molecules.",
+    "implication": "Cheap fuel alongside scarce firm capacity widens the margin between the two, which is the return on firm gas generation, grid equipment and transmission, and the cost now falls on data centre operators rather than the ratepayer. Cheap domestic gas is disinflationary and supports US industrial margins. If Hormuz supply is actually interrupted rather than threatened, that reverses quickly.",
+    "watch": [
+      "The comment and protest deadline on PJM's backstop filing at FERC, and whether data centre operators contest the cost allocation.",
+      "The OPEC+ meeting around 2 August, for whether the September increase is confirmed and output then held flat.",
+      "European TTF gas and EU storage against the 80% target, neither of which printed."
+    ]
+  },
+  "theme4": {
+    "status": "Held ▸ The hyperscaler prints split the trade, the market rewarding contracted revenue and punishing spend without it; chip stocks lost more than $1T, Korea's index halted twice, and credit protection on Nvidia gapped, so the tape veto holds for a second week.",
+    "developments": [
+      "Microsoft reported revenue of about $90B against $87.6B expected, up roughly 18%, with Azure growing 43%, its fastest since 2022, and crossing a $100B annualised run rate. Contracted revenue booked but not yet delivered rose about 84% to $678B, and the stock rose about 12%.",
+      "Meta grew revenue about 28% but net income fell 14% to $15.9B and earnings came in at $6.18 a share against roughly $7.18 expected, on legal and severance charges. It lifted the floor of its 2026 capital spending range to $130B, and the stock fell about 10%.",
+      "ChangXin Memory Technologies, China's largest maker of DRAM, the standard working memory in servers and phones, listed in Shanghai on 27 July and rose 466% to roughly $488B. SK Hynix then posted a record quarterly profit that still missed expectations, Korea's KOSPI halted trading on two consecutive days, and chip stocks globally lost more than $1T.",
+      "Nvidia's reported financing commitments to its own customers total roughly $750B, and credit default swaps on its bonds, the contracts investors buy to insure against default, posted their widest one day move since November."
+    ],
+    "material_note": "The market stopped paying for spending and started paying for conversion. Microsoft and Meta both raised capital expenditure, and one gained 12% while the other lost 10%, so the variable was never the budget, it was whether contracted revenue arrived with it. Underneath, two constraints moved at once: a Chinese memory maker became credible enough to reprice the supply chain, and the cost of insuring Nvidia's debt rose as the market noticed how much of its own demand it funds.",
+    "implication": "Meta's operating margin fell from 43% to 31% with capital spending consuming most of operating cash flow, so the charges are the excuse and the buildout is the cause. The dispersion is now between names that convert spending into contracted revenue and names that do not. Watch Nvidia's $750B of financed customers in both equity and credit.",
+    "watch": [
+      "Amazon's results and capital spending guide, expected near $200B, reported after the close on 30 July and so outside this report.",
+      "End July memory contract prices against the reported call for a 25% quarterly increase.",
+      "Whether a large AI or data centre bond issue prices in August, and its oversubscription."
+    ]
+  },
+  "theme5": {
+    "status": "Escalating ▸ On US-Iran, missiles at a US base in Jordan ended the strike pause and Tehran rejected the Omani reopening plan; on Russia-Ukraine, the Senate's 86 to 12 vote for secondary tariffs on Russian oil buyers ties sanctions to trade policy for the first time; the offsets are a drafted air ceasefire and oil closing lower.",
+    "developments": [
+      "US-Iran: Iran's Revolutionary Guard fired ballistic missiles at a US installation in Jordan on 28 July, all intercepted according to US Central Command, and US and Saudi forces struck Iran linked sites across seven Iraqi provinces, with at least 20 reported killed. That ended a three day pause in strikes.",
+      "US-Iran: Iran rejected the Omani brokered arrangement to reopen Hormuz, the same vehicle this report flagged a week ago as the first concrete test of an end to the conflict, and instead demanded partial control of the route. Houthi forces struck a Saudi flagged tanker near Bab al-Mandeb. Lloyd's List Intelligence assesses no Western allied vessel has transited since early May.",
+      "Russia-Ukraine: the Senate voted 86 to 12 on 28 July to advance the Lindsey O. Graham Sanctioning Russia and Iran Act, authorising tariffs of up to 200% on the largest buyers of Russian oil and gas. China and India account for an estimated 70% of Russia's energy export revenue. The House returns after the August recess.",
+      "Russia-Ukraine: the US and Ukraine drafted a narrower air only ceasefire, halting long range strikes while ground fighting continues, and President Zelenskyy met President Trump in Washington on 28 July. The battlefield is close to static."
+    ],
+    "material_note": "The Russia file just became a China file. For four years the sanctions track and the trade track ran separately, and an 86 to 12 vote authorising 200% tariffs on the largest buyers of Russian oil collapses them into one, because those buyers are China and India and the instrument is a tariff. Financial sanctions are run by the Treasury and unwind quietly; tariffs carry retaliation, and this one lands while Washington is separately trying to cap Chinese tariffs at 20% before a leaders' summit.",
+    "implication": "Only short dated corporate funding priced the war: AA commercial paper moved to about 6 basis points over the secured overnight rate against zero before it, lower grade paper to between 27 and 44. With volatility near 18 and Brent 6% lower, tail protection is cheap. Exposure: shipping, marine insurance, Hormuz supply chains.",
+    "watch": [
+      "Whether the House takes up the Graham sanctions bill after the August recess, and whether the 200% tariff authority survives.",
+      "The first Western allied transit of Hormuz since early May, per Lloyd's List, as the binary test that mediation is working.",
+      "Moscow's answer to the air only ceasefire proposal."
+    ]
+  },
+  "theme6": {
+    "status": "Held ▸ Ottawa's summit gained institutional weight in the same week Japan's GPIF showed the mandate route failing, and the Canadian push remains announcements rather than deployed capital, so the light eases from Escalating.",
+    "developments": [
+      "BlackRock chief executive Larry Fink and Blackstone president Jon Gray confirmed for Canada's first investment summit, in Toronto on 14 and 15 September, alongside Saudi Arabia's Public Investment Fund and Temasek's chief executive, co-hosted by the federal government with CPP Investments and PSP Investments against a $1T five year target.",
+      "Japan's Government Pension Investment Fund, the world's largest at about $1.8T, publicly refused pressure from the finance minister and prime minister to move more of its portfolio into domestic assets, saying it acts only in beneficiaries' interest. It resets its strategic allocation once every five years and last did so in March 2025.",
+      "A Marsh survey found 57% of insurers plan to raise private credit exposure over the next one to two years, and 81% among those above $25B, while two thirds said the extra return for accepting illiquidity is shrinking. Fitch's US private credit default rate reached a record near 6% through April.",
+      "The Canadian tape was mixed. The S&P/TSX Composite fell 0.8% to about 35,200 as an oil rally failed to offset technology and bank weakness, and Canadian gold producers fell even as the gold price rose."
+    ],
+    "material_note": "The summit has become the policy. Ottawa has quietly stopped trying to mandate where Canadian pension capital goes and started assembling a room in which global capital and the largest domestic managers commit alongside it, a more durable instrument than an allocation rule. Tokyo supplied the evidence the same week: Japan tried the direct route and the fund said no, because a five year allocation cycle and a fiduciary duty outlast a minister's speech.",
+    "implication": "A record 6% default rate with 57% of insurers still adding means a price insensitive buyer is competing the illiquidity premium away, a late cycle setup. Slow new commitments or demand wider spreads; the September summit tests whether attendance becomes capital.",
+    "watch": [
+      "Canada's May gross domestic product on 31 July, against the 0.7% full year projection.",
+      "The 50% tariffs on selected Canadian goods taking effect around 19 August, and whether Ottawa secures a carve out first.",
+      "Canada's May gross domestic product on 31 July, against the Bank of Canada's 0.7% projection."
+    ]
+  },
+  "light_scoring": [
+    {
+      "theme": "1 Fiscal",
+      "light": "Escalating",
+      "supports": [
+        "$671B quarterly borrowing guide and a $2.1T deficit estimate against $1.8T last year, high, +2.5.",
+        "30 year at 5.20%, highest since 2007, high, +2.0. Fiscal, not inflation: the breakeven held at 2.28%.",
+        "$95B reconciliation framework passed the House, medium, +1.0."
+      ],
+      "against": [
+        "Senate lacks the votes, deferred to September, medium, -1.0; tariff refunds offset spending, low, -0.5."
+      ],
+      "net": "+4.0 vs the +3 threshold: Escalating. No veto; the bond market confirmed."
+    },
+    {
+      "theme": "2 Currency",
+      "light": "Escalating",
+      "supports": [
+        "Suspected Japanese intervention, the dollar's biggest one day fall against the yen since 2022, high, +2.5. Funded by selling dollar assets, usually Treasuries.",
+        "Dollar index at a six week low of 99.9 and gold through $4,100 on the Fed hold, medium each, +2.5 combined."
+      ],
+      "against": [
+        "Gold still about 26% below January's record, medium, -1.0.",
+        "Bitcoin -46% on the year while gold gained, medium, -1.0."
+      ],
+      "net": "+3.0, at threshold: Escalating, narrowly, on official sector action."
+    },
+    {
+      "theme": "3 Energy",
+      "light": "Held",
+      "supports": [
+        "PJM's emergency auction filing plus a compulsory curtailment register, high, +2.5. An unpriced shortage becomes a regulated obligation billed to data centres.",
+        "Large load demand up about 70GW by 2038 against 15GW retired, medium, +1.0."
+      ],
+      "against": [
+        "Brent about 6% lower through a direct US and Iran exchange of fire, high, -2.5.",
+        "Henry Hub gas down about 14% on the month, medium, -1.0."
+      ],
+      "net": "+0.0 and the tape veto applies: Held."
+    },
+    {
+      "theme": "4 AI",
+      "light": "Held",
+      "supports": [
+        "Microsoft cloud at 43% growth, a $100B run rate, backlog up 84%, high, +2.5. First clean proof capex converts into contracted revenue.",
+        "Meta raising its 2026 spending floor to $130B, high, +2.0."
+      ],
+      "against": [
+        "Chip stocks lost more than $1T, Korea halted twice, and CXMT's $488B listing repriced memory, high, -4.5 combined.",
+        "Nvidia credit default swaps widest since November, medium, -1.5."
+      ],
+      "net": "-1.5 and the tape veto a second week: Held."
+    },
+    {
+      "theme": "5 Geopolitics",
+      "light": "Escalating",
+      "supports": [
+        "Iranian missiles at a US base in Jordan, US and Saudi strikes across seven provinces, and Iran rejecting the Omani Hormuz plan, high, +4.5 combined.",
+        "Senate advancing 200% secondary tariffs on Russian oil buyers, 86 to 12, high, +2.0: sanctions converted into a trade weapon aimed at China and India."
+      ],
+      "against": [
+        "Air only ceasefire drafted; Trump and Zelenskyy met, medium, -1.5.",
+        "Reported 20% cap pledge on Chinese tariffs, medium, -1.0."
+      ],
+      "net": "+4.0: Escalating. Oil is scored in Theme 3, not twice."
+    },
+    {
+      "theme": "6 Domestic",
+      "light": "Held",
+      "supports": [
+        "BlackRock, Blackstone, PIF and Temasek confirmed for Ottawa's summit, CPP and PSP co-hosting, medium, +1.5."
+      ],
+      "against": [
+        "Japan's GPIF publicly refusing to reallocate home, medium, -1.5: mandates fail against fiduciary duty; no new Canadian mandate action, medium, -1.0."
+      ],
+      "net": "-1.0: Held, down from Escalating; announcements, not capital."
+    }
+  ],
+  "regime_table": {
+    "rows": [
+      {
+        "factor": "Inflation",
+        "sign": "+",
+        "label": "elevated, not accelerating",
+        "why": [
+          "Core PCE, the price index the Federal Reserve targets, held at 3.3% year on year in June with the headline measure at 3.7%. Both have sat more than a full point above the 2% target since the spring, which is the definition of elevated.",
+          "The policy path repriced hawkish even as the data cooled: three Fed members dissented for an immediate rise and September odds roughly doubled to 55%. The committee is reading the level as the problem, not the monthly pace.",
+          "The cost channel is broadening: Qualcomm guided profit lower on memory chip prices, the first clean pass through from the AI buildout into goods prices."
+        ],
+        "against": [
+          "The monthly pace cooled: core rose 0.1% against 0.2% expected and headline prices fell 0.1% on the month.",
+          "Energy is disinflationary: Brent finished about 6% lower despite a direct US and Iran exchange of fire, and US gas is down roughly 14% on the month.",
+          "Market implied inflation compensation did not move: the 10 year breakeven held near 2.28%, so the bond selloff was supply, not prices."
+        ]
+      },
+      {
+        "factor": "Growth",
+        "sign": "-",
+        "label": "decelerating",
+        "why": [
+          "Second quarter output grew 1.5% annualised against 2.1% expected and 2.1% in the first quarter, with the slowdown concentrated in government spending, investment and exports.",
+          "The forward looking spend data softened: June durable goods orders rose 0.3% against 1.6% expected, and consumer confidence eased to about 91.",
+          "The labour market loosened at the margin, claims rising to 197,000 from 187,000, and the two year yield fell about 9 basis points as the front end priced a slower economy."
+        ],
+        "against": [
+          "The household is not the weak spot: consumer spending accelerated within the quarter, so the drag sat in government and trade.",
+          "Breadth argues against a broad slowdown: the equal weighted S&P 500 made an all time high on 28 July.",
+          "Claims below 200,000 remain historically tight, and Microsoft's $678B backlog says investment demand is still arriving."
+        ]
+      }
+    ],
+    "quadrant_read": "Elevated inflation with decelerating growth places the week in the Stagflation quadrant, right of the 30 June baseline on inflation and below it on growth. Two caveats keep the read honest: the inflation leg is held rather than rising, since the spot data cooled and only the policy path firmed, and the growth leg is a deceleration from trend, not a contraction. The quadrant's asset read, cash and short term bonds, matched the tape: the front end rallied while the 30 year sold off."
+  },
+  "light_history_png": "engine/charts/2026-07-30/light_history.png",
+  "light_history": {
+    "themes": [
+      "1 Fiscal & Deregulation",
+      "2 Currency Debasement",
+      "3 Energy & Transition",
+      "4 Artificial Intelligence",
+      "5 Geopolitics & Trade",
+      "6 Domestic Investing"
+    ],
+    "weeks": [
+      {
+        "date": "06-18",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Escalating",
+          "Deescalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "06-25",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Held",
+          "Deescalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-03",
+        "lights": [
+          "Escalating",
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-10",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-17",
+        "lights": [
+          "Held",
+          "Deescalating",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-24",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-30",
+        "lights": [
+          "Escalating",
+          "Escalating",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      }
+    ]
+  },
+  "references_intro": "Only sources cited this week, deduplicated and grouped by section. Each item states its tier. Retrieved 30 July 2026.",
+  "references": [
+    {
+      "topic": "Executive Summary — Weekly Direction & Key Developments",
+      "items": [
+        "(Tier 1) U.S. Bureau of Economic Analysis. Gross Domestic Product, 2nd Quarter 2026 (Advance Estimate). 30 July 2026. https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. US economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%. 30 July 2026. https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. 30-year Treasury yield hits highest level since 2007 after Fed keeps rates unchanged. 29 July 2026. https://www.cnbc.com/2026/07/29/treasury-yields-fed-interest-rates.html. Retrieved 30 July 2026.",
+        "(Tier 2) Yahoo Finance. Stock market today: Nasdaq soars, Dow and S&P 500 rebound as Microsoft leads tech gains. 30 July 2026. https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-30-dow-sp-500-nasdaq-082255995.html. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+      "items": [
+        "(Tier 1) U.S. Department of the Treasury. Treasury Announces Marketable Borrowing Estimates. July 2026. https://home.treasury.gov/news/press-releases/sb0485. Retrieved 30 July 2026.",
+        "(Tier 1) Committee for a Responsible Federal Budget. Treasury and Markets Anticipate At Least $2 Trillion FY 2026 Deficit. July 2026. https://www.crfb.org/press-releases/treasury-markets-anticipate-least-2-trillion-fy-2026-deficit. Retrieved 30 July 2026.",
+        "(Tier 1) Committee for a Responsible Federal Budget. CBO Estimates FY 2026 Deficit Overtakes 2025 Totals, $1.4 Trillion. July 2026. https://www.crfb.org/press-releases/cbo-estimates-fy-2026-deficit-overtakes-2025-totals-14-trillion. Retrieved 30 July 2026.",
+        "(Tier 2) Roll Call. GOP budget blueprint adopted in House as Senate resists. 22 July 2026. https://rollcall.com/2026/07/22/gop-budget-blueprint-adopted-in-house-as-senate-resists/. Retrieved 30 July 2026.",
+        "(Tier 2) The Hill. Thune: Senate lacks votes on budget resolution reconciliation. July 2026. https://thehill.com/homenews/senate/5985916-thune-senate-budget-resolution-reconciliation/. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Monetary Policy Tracker",
+      "items": [
+        "(Tier 1) Board of Governors of the Federal Reserve System. FOMC statement, 29 July 2026. https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm. Retrieved 30 July 2026.",
+        "(Tier 2) Bloomberg. Fed Holds Rates Steady as Three Officials Dissent in Favor of a Hike. 29 July 2026. https://www.bloomberg.com/news/articles/2026-07-29/fed-holds-rates-steady-three-officials-dissent-favoring-a-hike. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. Fed rate decision July 2026: Divided Fed holds interest rates steady. 29 July 2026. https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html. Retrieved 30 July 2026.",
+        "(Tier 2) Fox Business. June 2026 PCE inflation. 30 July 2026. https://www.foxbusiness.com/economy/june-2026-pce-inflation. Retrieved 30 July 2026.",
+        "(Tier 1) Bank of Canada. Summary of Governing Council Deliberations, July 2026. 29 July 2026. https://www.bankofcanada.ca/2026/07/release-the-bank-canadas-summary-deliberations-2026-07-29/. Retrieved 30 July 2026.",
+        "(Tier 1) European Central Bank. Monetary policy decisions, 23 July 2026. https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 2 — Currency Debasement",
+      "items": [
+        "(Tier 2) Reuters via Yahoo Finance. Yen surges, analysts suspect official Japanese intervention. 30 July 2026. https://finance.yahoo.com/markets/currencies/articles/yen-surges-against-dollar-analysts-142557924.html. Retrieved 30 July 2026.",
+        "(Tier 2) Bloomberg. Japan's Yen Posts Biggest Gain Since April as Market Eyes Possible Intervention. 30 July 2026. https://www.bloomberg.com/news/articles/2026-07-30/yen-surge-spurs-speculation-japan-intervened-in-market-again. Retrieved 30 July 2026.",
+        "(Tier 2) Investing.com. Japan spent $20.7 billion on currency intervention on July 11. July 2026. https://investing.com/news/forex-news/japan-spent-207-billion-on-currency-intervention-on-july-11-3710348. Retrieved 30 July 2026.",
+        "(Tier 2) FXStreet. US Dollar Index slumps as suspected Japanese intervention rattles markets. 30 July 2026. https://www.fxstreet.com/news/united-states-dollar-index-slumps-as-suspected-japanese-intervention-rattles-markets-202607301554. Retrieved 30 July 2026.",
+        "(Tier 2) Yahoo Finance. Gold prices crest $4,100 after Fed holds rates steady. 30 July 2026. https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-30-2026-gold-prices-crest-4100-after-fed-holds-rates-steady-123355668.html. Retrieved 30 July 2026.",
+        "(Tier 2) Forbes Advisor. Gold Price Today: July 30, 2026. Used to correct the record-high framing; the all-time high of $5,597.23 was set 29 January 2026. https://www.forbes.com/advisor/investing/gold-price/. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 3 — Energy & the Energy Transition",
+      "items": [
+        "(Tier 1) PJM Interconnection. Capacity auction procures 138,318 MW of generation resources. 14 July 2026. https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf. Retrieved 30 July 2026.",
+        "(Tier 2) Utility Dive. PJM board proposes backstop capacity auction, data center curtailment plans. 27 July 2026. https://www.utilitydive.com/news/pjm-board-backstop-capacity-auction-data-center-curtailment/826347/. Retrieved 30 July 2026.",
+        "(Tier 2) Utility Dive. Data centers drove $6.3B in PJM capacity auction costs: market monitor. July 2026. https://www.utilitydive.com/news/pjm-data-centers-capacity-auction-imm-bowring/825626/. Retrieved 30 July 2026.",
+        "(Tier 2) National Law Review. PJM's Proposal to FERC Targets Data Centers and Other Large Load Customers. July 2026. https://natlawreview.com/article/pjms-proposal-ferc-targets-data-centers-and-other-large-load-customers. Retrieved 30 July 2026.",
+        "(Tier 2) Bloomberg. Latest Oil Market News and Analysis for July 30. 30 July 2026. https://www.bloomberg.com/news/articles/2026-07-29/latest-oil-market-news-and-analysis-for-july-30. Retrieved 30 July 2026.",
+        "(Tier 2) Fortune. Current price of oil as of July 30, 2026. 30 July 2026. https://fortune.com/article/price-of-oil-07-30-2026/. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 4 — Artificial Intelligence",
+      "items": [
+        "(Tier 1) Microsoft. Microsoft Cloud and AI strength fuels fourth quarter results. 29 July 2026. https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4/. Retrieved 30 July 2026.",
+        "(Tier 2) Money Morning. Mag 7 Weekly: Microsoft's Azure Jump Buys Relief, Meta's Capex Floor Does Not. 30 July 2026. https://moneymorning.com/2026/07/30/magnificent-7-weekly-report-july-30-2026. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. Microsoft, Meta stock today: earnings. 30 July 2026. https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. CXMT surges 466% in Shanghai to become China's most valuable company. 27 July 2026. https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom. 29 July 2026. https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html. Retrieved 30 July 2026.",
+        "(Tier 2) Bloomberg. Nvidia's $750 Billion Deals Revive Fear of AI Circular Financing. 27 July 2026. https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing. Retrieved 30 July 2026.",
+        "(Tier 2) Benzinga. Rising memory costs are hurting smartphones, Qualcomm warns. July 2026. https://www.benzinga.com/trading-ideas/movers/26/07/60791225/rising-memory-costs-are-hurting-smartphones-qualcomm-warns. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 5 — Geopolitics & Trade",
+      "items": [
+        "(Tier 2) Washington Post. Iran launches renewed missile attacks as US and Saudis strike Tehran-backed militias in Iraq. 29 July 2026. https://www.washingtonpost.com/world/2026/07/29/iran-war-us-hormuz-strait-july-29-2026/2ae527d4-8b0c-11f1-8912-d71e69d679d7_story.html. Retrieved 30 July 2026.",
+        "(Tier 2) Al Jazeera. Iran war live: US accuses IRGC of surprise ballistic missile attacks. 29 July 2026. https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks. Retrieved 30 July 2026.",
+        "(Tier 2) CNBC. Oil prices, US-Iran war. 30 July 2026. https://www.cnbc.com/2026/07/30/oil-prices-us-iran-war.html. Retrieved 30 July 2026.",
+        "(Tier 1) United States Senate Committee on Foreign Relations. Bipartisan Group of Senators Announce Agreement to Move Forward on Major Sanctions Legislation. July 2026. https://www.foreign.senate.gov/press/dem/release/bipartisan-group-of-senators-announce-agreement-to-move-forward-on-major-sanctions-legislation. Retrieved 30 July 2026.",
+        "(Tier 2) Axios. 86 senators vote to move forward with Graham Russia sanctions bill. 29 July 2026. https://www.axios.com/2026/07/29/senate-russia-sanctions-lindsey-graham. Retrieved 30 July 2026.",
+        "(Tier 2) RFE/RL. US Senate Advances Landmark Russia Sanctions Bill After Zelenskyy's Capitol Appeal. July 2026. https://www.rferl.org/a/zelenskyy-united-states-senate-bill-sanctions-russia/33817262.html. Retrieved 30 July 2026.",
+        "(Tier 2) Reuters via Ukrainska Pravda. Ukraine and US are preparing new air ceasefire proposals for Russia. 26 July 2026. https://www.pravda.com.ua/eng/news/2026/07/26/8046002/. Retrieved 30 July 2026.",
+        "(Tier 2) SCMP. US slaps fresh tariffs on China, 50-plus countries in latest wave. July 2026. https://www.scmp.com/news/us/diplomacy/article/3361650/us-slaps-fresh-tariffs-china-50-plus-countries-latest-wave. Retrieved 30 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 6 — Domestic Investing Pressures",
+      "items": [
+        "(Tier 2) Bloomberg. Carney Draws Fink, Gray to Exclusive Investing Summit in Toronto. 29 July 2026. https://www.bloomberg.com/news/articles/2026-07-29/blackrock-s-larry-fink-blackstone-s-jon-gray-to-join-carney-s-investment-summit. Retrieved 30 July 2026.",
+        "(Tier 1) Prime Minister of Canada. Prime Minister Carney announces first-ever Canada Investment Summit. 17 April 2026. https://www.pm.gc.ca/en/news/news-releases/2026/04/17/prime-minister-carney-announces-first-ever-canada-investment-summit. Retrieved 30 July 2026.",
+        "(Tier 2) Wealth Professional. Canada confronts $1 trillion capital exodus with Toronto investment summit plan. 2026. https://www.wealthprofessional.ca/news/industry-news/canada-confronts-its-1-trillion-capital-exodus-in-bid-to-rebuild/392187. Retrieved 30 July 2026.",
+        "(Tier 2) BNN Bloomberg. S&P/TSX Composite down Wednesday. 29 July 2026. https://www.bnnbloomberg.ca/markets/2026/07/29/sptsx-composite-down-300-points-wednesday-morning/. Retrieved 30 July 2026."
+      ]
+    }
+  ],
+  "quadrant_rationale_sz": 14,
+  "chart_slot_default": {
+    "width_in": 3.7,
+    "height_in": 2.25
+  },
+  "chart_slots": {
+    "fiscal_chart_1": {
+      "width_in": 3.79,
+      "height_in": 2.51
+    },
+    "fiscal_chart_2": {
+      "width_in": 3.5,
+      "height_in": 1.93
+    },
+    "monetary_1": {
+      "width_in": 3.46,
+      "height_in": 1.92
+    },
+    "currency_1": {
+      "width_in": 3.75,
+      "height_in": 2.04
+    },
+    "currency_2": {
+      "width_in": 3.61,
+      "height_in": 2.45
+    },
+    "currency_3": {
+      "width_in": 3.25,
+      "height_in": 1.85
+    },
+    "energy_1": {
+      "width_in": 3.8,
+      "height_in": 2.15
+    },
+    "energy_2": {
+      "width_in": 3.84,
+      "height_in": 2.3
+    },
+    "AI_1": {
+      "width_in": 3.75,
+      "height_in": 2.25
+    },
+    "AI_2": {
+      "width_in": 3.68,
+      "height_in": 2.42
+    },
+    "geo_1": {
+      "width_in": 3.85,
+      "height_in": 2.41
+    },
+    "geo_2": {
+      "width_in": 3.78,
+      "height_in": 2.37
+    },
+    "domestic_1": {
+      "width_in": 3.7,
+      "height_in": 2.22
+    },
+    "domestic_2": {
+      "width_in": 3.6,
+      "height_in": 2.37
+    }
+  },
+  "quadrant_img_width_in": 3.3,
+  "exec_quadrant_col_twips": 5250,
+  "exec_quadrant_header": "Current Environment",
+  "direction_signs": [
+    {
+      "factor": "Inflation",
+      "sign": "+",
+      "label": "elevated, not accelerating"
+    },
+    {
+      "factor": "Growth",
+      "sign": "-",
+      "label": "decelerating"
+    }
+  ],
+  "regime_history": {
+    "_note": "Signs are binary and ARE the quadrant coordinates: (+,+) Inflation, (+,-) Stagflation, (-,+) Productivity Boost, (-,-) Deflation. Series starts 24 July 2026 per Eduardo, aligned with the quadrant residency count.",
+    "weeks": [
+      {
+        "date": "07-24",
+        "inflation": "+",
+        "growth": "-"
+      },
+      {
+        "date": "07-30",
+        "inflation": "+",
+        "growth": "-"
+      }
+    ]
+  },
+  "quadrant_history": {
+    "since": "24 July 2026",
+    "weeks": [
+      {
+        "date": "07-24",
+        "quadrant": "Stagflation"
+      },
+      {
+        "date": "07-30",
+        "quadrant": "Stagflation"
+      }
+    ]
+  },
+  "quadrant_history_png": "engine/charts/2026-07-30/quadrant_history.png"
+}

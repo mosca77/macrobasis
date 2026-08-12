@@ -1,0 +1,323 @@
+{
+ "asof": "2026_07_02",
+ "weekly_direction": "**Moderating inflation** expectations and **slower growth**. The June data confirmed both sides of the call.",
+ "influencing_factors": "Hiring is slowing: June payrolls rose 57,000 against a 115,000 consensus, the softest month this year, with April and May revised down a combined 74,000 and participation down 0.3 points to 61.5%. Price pressure is fading: ISM prices paid fell 9.1 points to 73.0, the largest monthly drop since 2022, euro flash inflation cooled to 2.8% from 3.2%, and WTI slid to $67.59, the lowest since February, with OPEC+ adding supply and urea down about 21% in a month. The market traded the same message: the 2-year fell, the dollar slipped off a 15-month high, gold reclaimed $4,000, and 10-year breakevens held near 2.2% against spot PCE at 4.1%, with the VIX near 16.6 reading it as repricing, not shock. The offset: PCE still runs at 4.1% and memory chip costs are surging.",
+ "quadrant_marker": {
+  "label": "07/02",
+  "x_emu": 5295798,
+  "y_emu": -2489050
+ },
+ "central_bank": [
+  [
+   "US (Fed)",
+   "3.50-3.75%",
+   "Hold; hike bias fading"
+  ],
+  [
+   "Canada (BoC)",
+   "2.25%",
+   "On hold, decides July 15"
+  ],
+  [
+   "ECB",
+   "2.25%",
+   "Hike path softening"
+  ],
+  [
+   "Japan (BoJ)",
+   "1.00%",
+   "Hiking; Tankan feeds next move"
+  ],
+  [
+   "China (PBoC)",
+   "3.00%",
+   "Easing"
+  ],
+  [
+   "Brazil",
+   "14.25%",
+   "Holding"
+  ],
+  [
+   "England (BoE)",
+   "3.75%",
+   "On hold"
+  ],
+  [
+   "Hungary (MNB)",
+   "6.00%",
+   "Cutting"
+  ]
+ ],
+ "status_dashboard": [
+  {
+   "status": "Escalating",
+   "oneliner": "More defence money: the UK wrote £298B over four years into its plan; NATO's 5% roadmaps land July 7-8. China austerity still offsets."
+  },
+  {
+   "status": "Escalating",
+   "oneliner": "Gold back above $4,000 as hike bets faded; the dollar slipped from a 15-month high; the yen held near 160 unaided."
+  },
+  {
+   "status": "Held",
+   "oneliner": "Grid capital keeps flowing, GRID ETF near doubled in a year to $11.2B; Spain's record curtailment shows the cost of lagging wires."
+  },
+  {
+   "status": "Escalating",
+   "oneliner": "South Korea put ~$880B behind AI hardware, SK Hynix priced $29.65B for July 10, and Q2 DRAM contracts rose up to 89%."
+  },
+  {
+   "status": "Held",
+   "oneliner": "The war leg keeps cooling, WTI at $67.59; the trade leg hardened, CUSMA not renewed. The two now pull in opposite directions."
+  },
+  {
+   "status": "Held",
+   "oneliner": "April GDP +0.5%, the best month since July 2025, softens the recession story; the Major Projects pipeline keeps building."
+  }
+ ],
+ "key_developments": [
+  {
+   "development": "The US labour market showed signs of weakness. June payrolls rose 57,000 against a 115,000 consensus, the weakest month this year, and April and May were revised down a combined 74,000 to 148,000 and 129,000. Unemployment slipped to 4.2% from 4.3%, but for the wrong reason: participation fell 0.3 points to 61.5%. Wages behaved, up 0.3% on the month and 3.5% on the year. The 2-year yield fell about 5bp to 4.11% as the summer hike is no longer priced.",
+   "implication": "This is the slower-growth half of the call landing. A Fed that was debating a hike is now debating how long to hold, which caps the dollar, helps duration and takes pressure off risk assets."
+  },
+  {
+   "development": "CUSMA was not renewed. At the first joint review on July 1 the US declined to extend, so the pact rolls into annual reviews until its 2036 sunset unless leaders later agree otherwise. USTR pointed at deficits and unresolved shortcomings, a third US-Mexico round comes the week of July 20, and Canada reaffirmed it wants renewal.",
+   "implication": "The AIP base case, serial annual reviews and no 2026 deal has materialized. The uncertainty taxes long-horizon Canadian capex, keeps autos, steel and aluminum exposed, and hands Ottawa another argument for building at home."
+  },
+  {
+   "development": "The war premium finished unwinding in the markets. WTI settled at $67.59 Thursday, down 1.4% on the day and the lowest since late February, with Brent at $70.60. Hormuz flows are back above 10 mb/d, indirect US-Iran talks in Qatar are advancing, and OPEC+ is expected to add about 188 kb/d for August at its July 5 meeting, a third straight monthly increase. Even urea has collapsed, down 21% in a month to $368/t.",
+   "implication": "Supply is being added into a soft tape while the last war channels let go, fertilizer included. That is a building disinflation impulse for the second half and the cleanest support for the moderating-inflation call."
+  },
+  {
+   "development": "The AI buildout went sovereign. South Korea lined up 1,350 trillion won, about $880B and roughly 5% of its GDP: 800T won of Samsung and SK fabs plus 550T won for 8.4 GW of AI data centres by 2029. SK Hynix priced its $29.65B Nasdaq raise for July 10, and Q2 DRAM contracts rose up to 51% on DDR4 and 89% on mobile memory after a record Q1.",
+   "implication": "Demand and financing keep developing the buildout thesis. The new information is cost: memory is now an inflation channel of its own, and Microsoft books $25B of its 2026 capex as pure component inflation."
+  },
+  {
+   "development": "The debasement trade stirred, and Japan moved under it. Gold reclaimed $4,000 Thursday, quoted as high as $4,135 intraday with futures near $4,079, as the dollar slipped off a 15-month high after the jobs miss. In Tokyo the Tankan (business survey) hit an eight-year high, +22 from +17, with record 2.6% corporate inflation expectations feeding the case for another BoJ hike after June's move to 1.00%.",
+   "implication": "A firmer BoJ chips at the strong-dollar story from the other side and eases the tail risk of disorderly Japanese Treasury sales. With gold trading Fed pricing again, COFER Q1 is the structural check due within weeks."
+  }
+ ],
+ "theme1": {
+  "status": "Escalating ▸ The defence-fiscal leg hardened: the UK wrote £298B over four years into its investment plan and every NATO member's 5% roadmap lands July 7-8.",
+  "developments": [
+   "The Defence Investment Plan commits £298B over four years, £15B of it new money for 2026-27 through 2029-30 and about £60B above the pre-2024 path, a 27% real increase from 2023/24 to 2029/30. Underneath sit named programmes: £26B of naval-base upgrades, over £8B for the GCAP stealth jet, £5B for drones. Core NATO spending reaches 2.7% of GDP from 2027-28, third in the alliance behind the US and Germany.",
+   "Ankara is the next test. The July 7-8 summit collects every member's national roadmap to 5% by 2035. The starting point is strong: all 32 allies cleared the old 2% floor in 2025, European allies and Canada lifted spending about 20% in real terms in a single year, and a few members reach 5% already this year.",
+   "Washington's security-tech spend widened the theme. CIA Director Ratcliffe promised faster deployment of AI and quantum computing, calling emerging tech a rewrite of geopolitics: about 400 tech contracts signed in six months, acquisition timelines cut from 24 months toward six, and a reorganized tech directorate. Defence-tech procurement is becoming a large source of fiscal spending.",
+   "China stayed the offset, but a floor may be forming. June's official manufacturing PMI rose to 50.3 from 50.0, above the 50.1 expected and a third month of expansion, carried by high-tech export demand at 53.5 while employment stayed weak at 48.4. May government spending was still falling, a third straight monthly decline.",
+   "The tape adds a caution the budgets do not. European defence stocks are consolidating, with the Stoxx Aerospace and Defence index down 1.2% this year against a 4.8% gain for the broader Stoxx 600, and Germany's late-June switch away from Rheinmetall's F126 frigates knocked the sector leaders again into this week. The spending is escalating; the trade has moved from beta to execution risk and stock selection."
+  ],
+  "material_note": "Key development: the defence-fiscal pipeline turned into budget lines. The UK's £298B plan is the first full national investment schedule of the 5% era, with named programmes rather than pledges, and Ankara now collects everyone else's. For the theme's core driver, state-directed capex, this is the week commitments stopped being conditional. The chart breaks out what is actually funded.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/fiscal_keydev.png",
+  "keydev_chart_note": "Chart: named allocations in the UK Defence Investment Plan (naval bases, GCAP, drones) plus the new 2026-30 money, taken from the GOV.UK funding explainer (2026); the full plan totals £298B over four years.",
+  "implication": "Defence-industrial demand now has legislated multi-year funding behind it in Europe's third-largest spender, which supports the medium-term growth leg of the thesis and the defence trade. China's austerity still caps the global fiscal impulse.",
+  "watch": [
+   "NATO Ankara summit July 7-8",
+   "China's stimulus posture after three months of falling spending; next CBO and Treasury refunding updates."
+  ]
+ },
+ "monetary": {
+  "status": "Held ▸ Nobody moved, but the jobs miss repriced the Fed: the summer hike came out of the market while PCE still runs at 4.1%. Macro take: slower growth, longer hold; duration bid, dollar prop softer.",
+  "developments": [
+   "The week began where last week ended, with markets priced for a hawkish Fed: nearly half the committee had a 2026 hike pencilled in against 4.1% PCE. The June jobs report took the other side. Payrolls rose 57,000 against a 115,000 consensus, the softest print this year, and revisions took another 74,000 out of April and May, now 148,000 and 129,000. Unemployment fell to 4.2% from 4.3%, but participation fell 0.3 points to 61.5%, so the improvement came from a shrinking labour force. Wages data was moderate, up 0.3% on the month and 3.5% on the year, and leisure and hospitality lost 61,000 jobs on weak seasonal hiring.",
+   "Markets repriced within hours and every asset told the same story: the 2-year fell about 5bp to 4.11% as the summer hike came out of the curve, the dollar slid off Wednesday's 15-month high toward 100.75, and gold jumped back through $4,000. Soft data did in one morning what three weeks of Fed commentary had not. Breakevens made the same point: the 10-year sat near 2.2%, so the market's long-run inflation view stays anchored while the argument is about the spot level.",
+   "The rest of the labour tape argues stall, not break, which is why the read is a longer hold rather than cuts. May openings held at 7.6 million, a two-year high against roughly 7.0 million expected, initial claims fell to 215,000 against 219,000 expected, and ADP counted 98,000 private jobs, just under forecast. Low layoffs, slow hiring.",
+   "Activity and prices moved the right way for the Fed. June ISM manufacturing printed 53.3, down from 54.0 and below the 54 expected, a sixth straight month of expansion consistent with about 2% GDP growth, and its prices-paid index fell 9.1 points to 73.0, the largest monthly drop since 2022, though 15 of 18 industries still report paying more.",
+   "Policy makers split around the data. Warsh would not validate the move, calling inflation too high while admitting easing expectations encourage him, and the Supreme Court kept Governor Cook at the Fed 5-4, so the independence tail risk faded.",
+   "Abroad, the Fed looks increasingly alone. Euro flash inflation cooled to 2.8% from 3.2% with energy down to 8.7% from 10.8%, euro unemployment held at 6.2% in May, and Japan's Tankan hit an eight-year high at +22 from +17 with record 2.6% corporate inflation expectations, feeding the BoJ hike case after June's move to 1.00%."
+  ],
+  "material_note": "Key development: the labour data flipped the Fed conversation. The summer hike disappeared from the curve. Inflation is still far too high for Warsh, but oil, ISM prices and euro CPI all point the same way, down. The debate is now how long the hold runs, not which way the next move goes.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/monetary_keydev.png",
+  "keydev_chart_note": "Chart: BLS Employment Situation monthly payroll changes; the June print with April and May as revised on 2 July. The dashed line is the Dow Jones consensus for June (115K) as reported by CNBC.",
+  "implication": "A Fed stuck between hot backward-looking inflation and cooling growth means a long hold: dollar capped, duration helped at the margin, no BoC-Fed divergence shock. The BoC holds 2.25% on July 15 with its own soft labour market and a better April GDP; watch whether the Fed minutes fight the market's dovish read.",
+  "watch": [
+   "Fed June minutes (early July): does the hike bias survive the payrolls miss?",
+   "US June CPI (mid-July) for the oil passthrough; BoC decision July 15."
+  ]
+ },
+ "theme2": {
+  "status": "Escalating ▸ Gold reclaimed $4,000 as hike bets faded and the dollar slipped from a 15-month high; the yen held 160 without help. Macro take: softer US data means a softer dollar prop; the debasement bid breathes again without a structural break.",
+  "developments": [
+   "Gold's week ended the way the Fed's did. It spent June falling with hawkish repricing, then reclaimed $4,000 within hours of the payrolls miss, quoted as high as $4,135 intraday Thursday with futures settling near $4,079. It is still down about 7% over a month and up about 24% over a year. The driver has flipped from war hedging back to rate pricing.",
+   "The dollar told the mirror image. The index tested a 15-month high near 101.6 on Wednesday on hawkish-Fed and weak-G10 flows, then gave ground and fell to 100.75 as the 2-year fell to 4.11% after the jobs print.",
+   "Real rates frame the rally. The 10-year TIPS yield near 2.2% is still restrictive and 10-year breakevens near 2.2% stay anchored, so the gold bid is a front-end and dollar story, not an inflation-expectations break. That keeps it rate-sensitive both ways.",
+   "The yen held near 160 unaided, and the ground may be shifting under it. There was no fresh intervention: Citi sees Tokyo waiting for 160-162 before acting, aiming at 155-157, with the Takaichi government tolerant of weakness. But the Tankan at an eight-year high with record 2.6% inflation expectations feeds another BoJ hike after June's move to 1.00%. These developments ease the need for intervention, as both the carry unwind and softer dollar help relieve the yen's crash.",
+   "Crypto stayed out of the trade. Bitcoin ended June near $58,500, down about 18% on the month and roughly half its all-time high, on ETF outflows and leverage flushes. The speculative wing of the debasement trade is not participating."
+  ],
+  "material_note": "Key development: gold reconnected with Fed pricing. One weak payroll print took it back above $4,000, its sharpest move since the war trade, exactly as hike odds faded. That confirms the near-term driver is real rates rather than geopolitics.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/currency_keydev.png",
+  "keydev_chart_note": "Chart: Trading Economics spot gold quotes for 30 June, 1 July and 2 July (intraday high); COMEX futures settled near $4,079 on 2 July per TheStreet. The dashed line marks the $4,000 level lost last week.",
+  "implication": "Last week's call that debasement was on pause is already softening: the bid returns whenever the dollar's rate support slips. Keep gold as the cleanest expression. The yen is turning two-sided: a BoJ on the move narrows the carry gap and eases the disorderly-selling tail risk on Treasuries.",
+  "watch": [
+   "IMF COFER Q1 (USD share versus 56.77%); May TIC data.",
+   "USD/JPY against 160-162 and BoJ signals after the Tankan; gold through the Fed minutes."
+  ]
+ },
+ "theme3": {
+  "status": "Held ▸ Capital keeps paying for wires, GRID near doubled in a year to $11.2B, while Spain shows what happens without them. Macro take: grid capex is a quiet growth tailwind; curtailment losses are a margin story, not yet a macro one.",
+  "developments": [
+   "The grid trade is getting crowded, in the good sense. GRID, the smart-grid infrastructure ETF, has taken in $3.1B this year and reached $11.2B of assets by June 28, roughly double a year ago, riding AI power demand into Eaton, Schneider, ABB and Quanta. Flows are the market voting for the bottleneck thesis.",
+   "Spain showed why the wires matter. Bloomberg's June 29 profile of the solar and wind boom turned investor bust counts nearly 9 TWh of renewables curtailed without compensation in the first eleven months of 2025, about 3% of national demand and more than double the prior year, topping 37% in Badajoz, with Aurora expecting elevated curtailment through 2027. Build generation faster than grid and returns evaporate; it is the same lesson the AI buildout is pricing from the demand side.",
+   "Copper, the transition's other proxy, eased to about $13,400 a tonne from May's record near $14,800, cooling with the softer growth data rather than with the theme.",
+   "India's $109B transmission plan, last week's anchor, stays the reference case; no tenders crossed in-window and the FERC and IEA checks came back null. The theme idles until the next dated grid commitment."
+  ],
+  "material_note": "Key development: the grid-bottleneck thesis got both of its proofs in one week. Money keeps flowing to the enablers, with GRID's assets near doubling over a year. This is putting more pressure into the circular valuation side of the trade. Mega-cap capex continues to rise and earnings are not keeping up. Microsoft is down nearly 24% and plans to increase spending.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/energy_keydev.png",
+  "keydev_chart_note": "Chart: GRID ETF assets under management. The start-2026 level is implied from Bloomberg's reported $3.1B of year-to-date inflows against the ~$9.8B late-April AUM; the 28 June figure is from fund data.",
+  "implication": "Grid-enabling assets, equipment, transmission and storage, as the cleanest expression of the transition. Market valuation for service providers is sliding as no signals from revenue and AI monetization.",
+  "watch": [
+   "India transmission tender flow; FERC action on large-load interconnection.",
+   "Spain's policy response to curtailment; IEA mid-year electricity update."
+  ]
+ },
+ "theme4": {
+  "status": "Escalating ▸ Korea put about $880B behind hardware, SK Hynix priced $29.65B and Q2 DRAM contracts rose up to 89%. Macro take: the buildout is now big enough to show up in inflation; memory and components are a rising cost channel.",
+  "developments": [
+   "The buildout found its biggest sponsor yet. South Korea lined up about 1,350 trillion won, near $880B and roughly 5% of GDP: Samsung and SK chip plants, two each plus a Gwangju memory hub and HBM packaging sites, and 550T won for 8.4 GW of AI data-centre capacity by 2029 with Naver and others.",
+   "Financing keeps clearing. SK Hynix, the high-bandwidth-memory leader with a 56.4% revenue share, priced its Nasdaq ADR at 255,500 won, about $166, raising roughly $29.65B for a July 10 debut under SKHY and trading up about 5.5% on pricing, a week after SpaceX's $25B bond drew 3.5 times coverage. The capital-call stack that spooked markets in June is being absorbed. Credit agrees: investment-grade spreads sit near multi-decade tights around 80bp and high yield near 285bp is only drifting off its lows, so the market is funding the buildout without stress. That drift is the early-warning line to watch.",
+   "Memory is where the demand shows up as price. Q2 DRAM contracts rose up to 51% on DDR4 and 89% on mobile LPDDR5X after a record Q1, suppliers are locking buyers into second-half contracts, and Micron's HBM remains sold out into 2028.",
+   "Equities exhaled after the late-June stress test, without erasing it. The Nasdaq-100 rose over 2% on Monday and the Dow closed above 52,000 for the first time as hyperscalers rebounded, with rotation toward memory and storage names. Microsoft still closed its worst June on record, down about 24% this year near $365 with a roughly 35% drawdown at the June 25 low, its $190B capex plan, $25B of it component inflation, squeezing Azure margins; the FTC escalated its probe of Azure AI bundling with demands to at least six rivals."
+  ],
+  "material_note": "Key development: the buildout went sovereign. Korea's 1,350 trillion won programme is the largest single national commitment to AI hardware yet, about 5% of GDP, and it landed in the same week the sector's financing (SK Hynix at $29.65B) and pricing power (DRAM up to +89% on the quarter) both confirmed. The running question, is the buildout funded and demanded, keeps answering yes. The new question is what it costs everyone else: memory inflation now feeds devices, servers and hyperscaler capex.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/ai_keydev.png",
+  "keydev_chart_note": "Chart: composition of the announced Korean programme, 800T won of chip plants and 550T won of AI data centres, as reported consistently across TechSpot, GuruFocus and TradingView from the underlying government and company plans; dollar figures scaled to the reported ~$880B total.",
+  "implication": "Infrastructure enablers, memory, power and grid, stay the sweet spot: they capture the spend whichever platform wins. The cost loop cuts both ways, fattening memory suppliers while squeezing hyperscaler margins. The theme also enters the status of inflationary, as chip components are ramping up prices for cyclical consumer technology.",
+  "watch": [
+   "SK Hynix Nasdaq debut around July 10: the cleanest financing-appetite test.",
+   "Hyperscaler Q2 capex guidance; the FTC probe's scope; OpenAI and Anthropic IPO timing."
+  ]
+ },
+ "theme5": {
+  "status": "Held ▸ The war leg kept cooling, WTI at $67.59 and even fertilizer let go, but the trade leg hardened with CUSMA unrenewed. Macro take: disinflation from energy against a new uncertainty tax on trade; roughly a wash.",
+  "developments": [
+   "CUSMA was not renewed. At the first trilateral joint review on July 1 the US declined to extend, so the pact rolls into annual reviews toward its 2036 sunset unless leaders later agree otherwise in writing. USTR Greer cited deficits and unresolved shortcomings, a third US-Mexico round is set for the week of July 20, and Minister LeBlanc reaffirmed Canada wants renewal. The July calendar stays loaded: USTR's Section 301 hearing on July 7 and the flat 10% tariff expiring July 24.",
+   "Oil finished the round trip and kept going. WTI settled at $67.59 on Thursday, down 1.4% on the day and the lowest since late February, with Brent at $70.60, as Hormuz flows held above 10 mb/d with US military support and indirect US-Iran talks in Qatar advanced. OPEC+ is expected to add about 188 kb/d for August at its July 5 meeting, a third straight monthly increase into a falling market.",
+   "The war's stickiest channel gave way. Urea traded flat at $368/t on June 30, down about 21% in a month and 10% below a year ago, a full retreat from March's four-year high near $726 when Hormuz disruption had the World Bank warning of a 60% annual surge. Sulphur is normalizing off its late-2025 peak. The fertilizer-to-food transmission risk is fading with it.",
+   "Europe opened a second trade front the same week. Commissioner Sefcovic met China's commerce minister Wang Wentao on June 29 about anti-dumping measures and safeguards, with the Commission calling the 360 billion euro deficit, growing at nearly a billion a day, unsustainable; Chinese imports into Europe are up 45% over five years and a diversification instrument is being drafted. Fragmentation is broadening, not fading."
+  ],
+  "material_note": "Key development: the CUSMA review landed exactly on the AIP base case, serial annual reviews and no extension. That is a regime, not an event: tariffs stay, the review calendar never closes, and every summer now carries renewal risk. With the war premium gone from oil and now from fertilizer, the theme's centre of gravity has moved from the Strait to the negotiating table. Suggested chart: Canadian exports to the US by sector, share tariff-protected under CUSMA. (Insert geo_keydev_chart.)",
+  "implication": "For a Canadian plan the trade leg now outweighs the war leg. Annual reviews tax long-horizon cross-border capex, keep autos, steel and aluminum the exposures to hedge, and add another push toward domestic deployment. Cheap oil and fertilizer are the offsets keeping the inflation channel friendly.",
+  "watch": [
+   "USTR Section 301 hearing July 7; Section 122 tariff expiry July 24; US-Mexico round week of July 20.",
+   "OPEC+ July 5 decision; Hormuz flow data; the oil passthrough in June CPI."
+  ]
+ },
+ "theme6": {
+  "status": "Held ▸ April GDP +0.5%, the best month since July 2025, blunts the recession story while the state pipeline keeps building. Macro take: growth less bad, policy unchanged; the domestic push is structural, not cyclical.",
+  "developments": [
+   "Last week's technical-recession framing met better data. Real GDP rose 0.5% in April, the strongest month since July 2025 after March's 0.1% dip, with 14 of 20 sectors up. The caveat matters: mining, quarrying and oil and gas led at +2.9%, the sector's best since February 2024 and mostly an oil-sands maintenance rebound (+6.6%), and the May advance reads just +0.1%. This is stabilization, not takeoff.",
+   "Underneath, the same release carries the theme's fingerprints. Construction rose 0.7% for its first gain in five months, non-residential building extended a ten-month run, and defence services grew a seventh straight month. Where policy pushes, the data is starting to follow.",
+   "The machinery rolled on regardless of the print. The Major Projects Office tally stands at 15 referred projects and six strategies across nuclear, LNG, critical minerals and transport corridors; the Canada Strong Fund is drawing governance scrutiny ahead of first deployments, with its retail product expected in the fall. And CUSMA's non-renewal (Theme 5) hands Ottawa a fresh argument for steering capital home.",
+   "The currency still tells the softer story. The loonie ended the week at 1.4216 per US dollar, its weakest in a year and down about 2.3% over a month as the greenback rode the hawkish-Fed run; a cheaper currency cushions exporters heading into the CUSMA uncertainty."
+  ],
+  "material_note": "Key development: the growth floor held without changing the story. April's +0.5% is the strongest month in nine and pushes against the technical-recession framing that anchored last week, but the gain leaned on a volatile oil-sands rebound and May's advance is only +0.1%. What matters for the theme is that the policy machinery, Major Projects, Darlington, the Strong Fund, moves on its own schedule regardless of the cycle. That is exactly what makes the pressure structural.",
+  "keydev_chart_png": "/sessions/confident-clever-planck/mnt/MacroAgent/engine/charts/2026-07-02/domestic_keydev.png",
+  "keydev_chart_note": "Chart: Statistics Canada monthly real GDP by industry; March and April prints with the May advance estimate, all from the 30 June release. May is preliminary and will be updated on July 31.",
+  "implication": "A firmer economy lowers the urgency but not the direction: with CUSMA unrenewed, the case for steering capital home strengthens either way. For pension capital the test remains deployment quality; Macklem's misallocation warning is still the benchmark.",
+  "watch": [
+   "Official May GDP on July 31; BoC decision July 15 after the growth surprise.",
+   "Canada Strong Fund board and first deployments; the next Champagne round-table; peer-plan disclosures."
+  ]
+ },
+ "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved 2 July 2026.",
+ "references": [
+  {
+   "topic": "Executive Summary — Weekly Direction & Key Developments",
+   "items": [
+    "(Tier 1) U.S. Bureau of Labor Statistics. The Employment Situation, June 2026 (payrolls +57,000; unemployment 4.2%; participation 61.5%). 2 July 2026. https://www.bls.gov/news.release/empsit.nr0.htm. Retrieved 2 July 2026.",
+    "(Tier 1) Institute for Supply Management. Manufacturing PMI, June 2026 (53.3; prices paid 73.0, -9.1pts). 1 July 2026. https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/. Retrieved 2 July 2026.",
+    "(Tier 1) Eurostat. Euro area flash HICP, June 2026 (2.8% from 3.2%). 1 July 2026. https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. 2-year Treasury yield eases as light jobs report reduces Fed hike expectations (2-year 4.108%). 2 July 2026. https://www.cnbc.com/2026/07/02/us-treasury-yields-rise-as-investors-await-june-jobs-report.html. Retrieved 2 July 2026.",
+    "(Tier 2) TheStreet. Stock market today, July 2 2026 (WTI $67.59; Brent $70.60; gold futures ~$4,079; claims 215,000; Dow Jones consensus 115,000). 2 July 2026. https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026. Retrieved 2 July 2026.",
+    "(Tier 2) Trading Economics. Gold spot ($4,135.60 intraday, 2 July) and urea ($368/t, -21% m/m) pages. https://tradingeconomics.com/commodity/gold. Retrieved 2 July 2026.",
+    "(Tier 1) Federal Reserve Bank of St. Louis (FRED). 10-Year Breakeven Inflation Rate, 2.21-2.22% at 29-30 June 2026; CBOE VIX 16.59 on 2 July 2026. https://fred.stlouisfed.org/series/T10YIE. Retrieved 2 July 2026.",
+    "(Tier 1) FRED / ICE BofA. US corporate OAS: investment grade ~80bp, high yield ~280-285bp (17th percentile of ten years), late June 2026. https://fred.stlouisfed.org/series/BAMLH0A0HYM2. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+   "items": [
+    "(Tier 1) GOV.UK. The Defence Investment Plan, funding explainer (£298B over four years; +£15B new money; 2.7% of GDP core NATO from 2027-28). 2026. https://www.gov.uk/government/publications/the-defence-investment-plan/the-defence-investment-plan-funding-explainer. Retrieved 2 July 2026.",
+    "(Tier 1) NATO. Overview, 2026 NATO Summit in Ankara (July 7-8; national 5% roadmaps; all 32 met 2% in 2025). 2026. https://www.nato.int/en/news-and-events/events/2026/07/overview---2026-nato-summit-in-ankara-. Retrieved 2 July 2026.",
+    "(Tier 2) Bloomberg. AI advances drive CIA to overhaul tech strategy and acquisition timelines (Ratcliffe; ~400 contracts; 24 months to 6). 30 June 2026. https://www.bloomberg.com/news/articles/2026-06-30/cia-aims-to-speed-tech-adoption-as-ai-is-rewriting-conflict. Retrieved 2 July 2026.",
+    "(Tier 2) The Washington Post. CIA to accelerate its use of AI and other advanced technologies. 30 June 2026. https://www.washingtonpost.com/national-security/2026/06/30/cia-accelerate-its-use-ai-other-advanced-technologies/. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. China factory activity grows faster than expected in June on tech export demand (NBS PMI 50.3 vs 50.1 expected; high-tech 53.5; employment 48.4). 30 June 2026. https://www.cnbc.com/2026/06/30/china-factory-activity-june-tech-export-demand-pmi-nbs.html. Retrieved 2 July 2026.",
+    "(Tier 2) Bloomberg. China pursues austerity with first fiscal gap cutback since 2023 (May spending -3.9% y/y, third monthly decline; carried anchor). 23 June 2026. https://www.bloomberg.com/news/articles/2026-06-23/china-pursues-austerity-with-first-fiscal-gap-cutback-since-2023. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. European defense stocks consolidation (Stoxx Aerospace & Defence -1.2% YTD vs Stoxx 600 +4.8%; 30 May) and Rheinmetall F126 fallout (25 June, sector-wide selling). https://www.cnbc.com/2026/06/25/rheinmetall-defense-stocks-germany-f126.html. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Monetary Policy Tracker",
+   "items": [
+    "(Tier 1) U.S. Bureau of Labor Statistics. The Employment Situation, June 2026 (all payroll, unemployment, participation and wage figures). 2 July 2026. https://www.bls.gov/news.release/empsit.nr0.htm. Retrieved 2 July 2026.",
+    "(Tier 1) U.S. Bureau of Labor Statistics. Job Openings and Labor Turnover Survey, May 2026 (openings 7.6 million, two-year high vs ~6.975 million expected). 30 June 2026. https://www.bls.gov/news.release/jolts.nr0.htm. Retrieved 2 July 2026.",
+    "(Tier 1) Institute for Supply Management. Manufacturing PMI, June 2026 (53.3 vs 54.0 prior and 54 expected; prices paid 73.0; ~2% GDP-consistent). 1 July 2026. https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/. Retrieved 2 July 2026.",
+    "(Tier 1) Eurostat. Flash HICP June 2026 (2.8%) and euro area unemployment May 2026 (6.2%, unchanged). 1-2 July 2026. https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap. Retrieved 2 July 2026.",
+    "(Tier 1) Bank of Japan. Tankan, June 2026 survey (large manufacturers +22 from +17, highest since March 2018; inflation expectations 2.6%; capex +11.5%). 1 July 2026. https://www.boj.or.jp/en/statistics/tk/yoshi/tk2606.htm. Retrieved 2 July 2026.",
+    "(Tier 1) Bank of Canada. Policy interest rate (2.25%, held since October 2025). https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. Fed Chief Kevin Warsh declines to hint at July decision, says inflation too high (ECB forum). 1 July 2026. https://www.cnbc.com/2026/07/01/kevin-warsh-ecb-forum-live-updates.html. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now (5-4, due process). 29 June 2026. https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html. Retrieved 2 July 2026.",
+    "(Tier 2) TheStreet. Initial jobless claims 215,000 vs 219,000 forecast; ADP +98,000. 1-2 July 2026. https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026. Retrieved 2 July 2026.",
+    "(Tier 2) Nikkei Asia / Reuters. BOJ Tankan signals firmer business mood, builds case for rate hikes. 1 July 2026. https://asia.nikkei.com/economy/bank-of-japan/boj-s-tankan-survey-signals-firmer-business-mood-in-japan. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 2 — Currency Debasement",
+   "items": [
+    "(Tier 2) Trading Economics. Gold spot quotes, 30 June to 2 July 2026 ($4,018 / $4,025 / $4,135 intraday) and US dollar index (15-month high near 101.6). https://tradingeconomics.com/commodity/gold. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. Gold rises on soft jobs data and weaker oil. 2 July 2026. https://www.cnbc.com/2026/07/02/gold-rises-on-soft-jobs-data-weaker-oil-as-focus-shifts-to-us-payrolls.html. Retrieved 2 July 2026.",
+    "(Tier 2) TheStreet. Gold futures near $4,079 on 2 July. https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026. Retrieved 2 July 2026.",
+    "(Tier 2) Yahoo Finance (Citigroup research). Japan likely to hold off on fresh yen intervention until USD/JPY nears 160-162, targeting 155-157. 25 June 2026. https://finance.yahoo.com/markets/currencies/articles/japan-likely-hold-off-fresh-132155677.html. Retrieved 2 July 2026.",
+    "(Tier 1) Bank of Japan. Tankan, June 2026 (see Monetary Policy Tracker; feeds the BoJ hike case and the yen read). 1 July 2026. Retrieved 2 July 2026.",
+    "(Tier 2) Fortune. Current price of Bitcoin, June 30 2026 ($58,504; -18% on the month; ~half the all-time high). 30 June 2026. https://fortune.com/article/price-of-bitcoin-06-30-2026/. Retrieved 2 July 2026.",
+    "(Tier 1) FRED / US Treasury. 10-year TIPS real yield ~2.15-2.2% and 10-year breakeven ~2.2%, 29-30 June 2026. https://fred.stlouisfed.org/series/T10YIE. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 3 — Energy & the Clean Transition",
+   "items": [
+    "(Tier 2) Bloomberg. Clean energy ETF GRID draws $3.1 billion in inflows on AI power demand (AUM ~$9.8B late April). 27 April 2026. https://www.bloomberg.com/news/articles/2026-04-27/clean-energy-etf-pulls-in-giant-inflows-this-year-esg-investing. Retrieved 2 July 2026.",
+    "(Tier 1) GRID fund data. Assets under management $11.20B as of 28 June 2026; top holdings Eaton, Schneider, ABB, Quanta. https://stockanalysis.com/etf/grid/holdings/. Retrieved 2 July 2026.",
+    "(Tier 2) Bloomberg. Spain's solar and wind power boom is an investor bust. 29 June 2026. https://www.bloomberg.com/news/articles/2026-06-29/spain-s-solar-and-wind-power-boom-is-an-investor-bust. Retrieved 2 July 2026.",
+    "(Tier 3, converted) pv magazine, citing Aurora Energy Research. PV curtailment above 3.8% average, >37% in Badajoz; ~9 TWh curtailed in 11 months of 2025; elevated through 2027. Corroborates the Bloomberg piece. https://www.pv-magazine.com/2026/04/22/pv-curtailment-exceeds-3-8-in-spain-over-past-nine-months/. Retrieved 2 July 2026.",
+    "(Tier 2) Trading Economics. Copper $6.10/lb (~$13,400/t) on 1 July 2026, off the May 2026 record near $14,800/t. https://tradingeconomics.com/commodity/copper. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 4 — Artificial Intelligence",
+   "items": [
+    "(Tier 3, converted) TechSpot / GuruFocus / TradingView, mutually corroborating reports of the government and company plans. South Korea's 1,350T won (~$880B) AI hardware push: 800T won fabs, 550T won for 8.4 GW of data centres by 2029. https://www.techspot.com/news/112926-south-korea-betting-880-billion-next-ai-race.html. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. SK Hynix plans to raise $29B via Nasdaq listing as soon as July 10. 24 June 2026. https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html. Retrieved 2 July 2026.",
+    "(Tier 3, converted) TradingKey, corroborated by CNBC filing coverage. SK Hynix ADR priced at 255,500 won (~$166), 17.79M new shares, ~$29.65B, +5.5% post-pricing. https://www.tradingkey.com/analysis/stocks/us-stocks/261987094-samsung-skhynix-adr-dram-sndk-tradingkey. Retrieved 2 July 2026.",
+    "(Tier 2) Digitimes. Memory suppliers lock down buyers as contract prices continue surging in 2H26. 30 June 2026. https://www.digitimes.com/news/a20260630PD218/dram-electronics-2026-price-flash.html. Retrieved 2 July 2026.",
+    "(Tier 3, converted) TrendForce data via TweakTown, cross-checked with Digitimes. Q2 2026 DRAM contract prices +51% (DDR4), +89% (LPDDR5X). https://www.trendforce.com/price/dram/dram_spot. Retrieved 2 July 2026.",
+    "(Tier 2) Yahoo Finance. Dow closes above 52,000 for the first time; Nasdaq-100 +2% Monday as tech rebounds. 29 June 2026. https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-29-224230573.html. Retrieved 2 July 2026.",
+    "(Tier 3, converted) CryptoBriefing, corroborated by Fortune, TIKR and Investing.com. Microsoft's worst June on record: ~-24% YTD near $365, ~35% max drawdown June 25; $190B 2026 capex incl. $25B component inflation. https://cryptobriefing.com/microsoft-stock-historic-june-rout-ai-spending/. Retrieved 2 July 2026.",
+    "(Tier 2) Computerworld. FTC opens antitrust investigation into Microsoft's cloud, AI and cybersecurity practices (CIDs to 6+ rivals). 2026. https://www.computerworld.com/article/3614495/ftc-opens-antitrust-investigation-into-microsofts-cloud-ai-and-cybersecurity-practices.html. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 5 — Geopolitics & Trade",
+   "items": [
+    "(Tier 1) Global Affairs Canada. Statement by Minister LeBlanc following the trilateral CUSMA joint review meeting. 1 July 2026. https://www.canada.ca/en/global-affairs/news/2026/07/statement-by-minister-leblanc-following-trilateral-cusma-joint-review-meeting.html. Retrieved 2 July 2026.",
+    "(Tier 2) CBC News. What July 1 means for CUSMA (US declines renewal; annual reviews; Greer statement; US-Mexico round week of July 20). 1 July 2026. https://www.cbc.ca/news/politics/cusma-usmca-july-1-canada-us-mexico-trade-trump-tariffs-9.7253789. Retrieved 2 July 2026.",
+    "(Tier 2) TheStreet. WTI $67.59 (-1.44%), Brent $70.60 (-1.36%), July 2. https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026. Retrieved 2 July 2026.",
+    "(Tier 2) CNBC. Hormuz crude flows above 10 mb/d; Kushner-Witkoff indirect talks in Qatar. https://www.cnbc.com/2026/06/19/oil-prices-wti-brent-crude-us-iran-deal-strait-hormuz-shipping-recovery.html. Retrieved 2 July 2026.",
+    "(Tier 3, converted) VT Markets, citing Reuters sourcing. OPEC+ expected to add ~188 kb/d for August at the July 5 meeting, matching June and July. https://www.vtmarkets.com/en-asia/live-updates/wti-slides-towards-pre-conflict-levels-as-hormuz-flows-recover-and-opec-hike-looms/. Retrieved 2 July 2026.",
+    "(Tier 2) Trading Economics. Urea flat at $368/t on 30 June, -20.7% m/m, -10.5% y/y. https://tradingeconomics.com/commodity/urea. Retrieved 2 July 2026.",
+    "(Tier 1) World Bank (Open Data blog). Fertilizer price surge and 2026 projections (urea +60% annual average; March peak $725.6/t), the anchor the June collapse is measured against. https://blogs.worldbank.org/en/opendata/fertilizer-prices-surge-as-strait-of-hormuz-disruptions-tighten-. Retrieved 2 July 2026.",
+    "(Tier 1) European Commission. Statement on the Sefcovic-Wang Wentao meeting (anti-dumping measures, safeguards). 29 June 2026. https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1480. Retrieved 2 July 2026.",
+    "(Tier 2) Euronews. EU Commission to develop diversification instrument, von der Leyen says (deficit ~€360B, imports +45% over five years). 19 June 2026, context. https://www.euronews.com/my-europe/2026/06/19/eu-commission-to-develop-diversification-instrument-von-der-leyen-says. Retrieved 2 July 2026."
+   ]
+  },
+  {
+   "topic": "Theme 6 — Domestic Investing Pressures",
+   "items": [
+    "(Tier 1) Statistics Canada. Gross domestic product by industry, April 2026 (+0.5%; March -0.1%; May advance +0.1%; sector detail). 30 June 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260630/dq260630a-eng.htm. Retrieved 2 July 2026.",
+    "(Tier 2) The Globe and Mail. Canada's GDP rebounds from first-quarter contraction to post 0.5% monthly gain in April. 30 June 2026. https://www.theglobeandmail.com/business/economy/article-canada-gdp-april-2026-statistics-canada/. Retrieved 2 July 2026.",
+    "(Tier 1) Privy Council Office, Major Projects Office. 15 projects referred and six strategies in development since September 2025. https://www.canada.ca/en/one-canadian-economy/. Retrieved 2 July 2026.",
+    "(Tier 3, converted) National Observer (opinion). Governance scrutiny of the Canada Strong Fund ahead of first deployments. 24 June 2026. https://www.nationalobserver.com/2026/06/24/opinion/canada-strong-fund-protection-framework. Retrieved 2 July 2026.",
+    "(Tier 2) Trading Economics / Bank of Canada. USD/CAD 1.4216 on 2 July 2026, the Canadian dollar's one-year low, down about 2.3% in a month. https://tradingeconomics.com/canada/currency. Retrieved 2 July 2026."
+   ]
+  }
+ ]
+}

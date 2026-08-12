@@ -1,0 +1,439 @@
+{
+  "asof": "2026_07_24",
+  "weekly_direction": "**Firming inflation** expectations and **held growth**.",
+  "influencing_factors": [
+    "Jobless claims fell to 187,000, the lowest since 1969, and Korea's Q2 GDP beat at 0.6%.",
+    "WTI rose about 11% toward $90, Brent neared $98 and European gas is up about 50% on the month.",
+    "July hike odds tripled to near 30% with September near 70%, and the 10-year hit 4.71%, its highest since January 2025."
+  ],
+  "quadrant_marker": {
+    "label": "07-24",
+    "dx_emu": 110000,
+    "dy_emu": -60000,
+    "_note": "Jun-30 reference format: one dated marker vs the AIP Jun 30 baseline. dx/dy shift the template's prior marker; right = firmer inflation expectations, up = firmer growth. This week: further right (oil re-shock firmed market-implied inflation), slightly up (moderating growth revised to held on claims and Korea GDP)."
+  },
+  "quadrant_scale": 1.0,
+  "quadrant_shift_up_emu": 0,
+  "quadrant_behind": false,
+  "theme_row_min_twips": 300,
+  "central_bank": [
+    [
+      "US Federal Reserve",
+      "3.50%-3.75%",
+      "Hold expected 28-29 July; dissent risk with September odds near 70%."
+    ],
+    [
+      "Bank of Canada",
+      "2.25%",
+      "On hold; core at 1.8%-1.9% defuses the hiking bias."
+    ],
+    [
+      "European Central Bank",
+      "Deposit 2.25%",
+      "Held 23 July; a September hike is live and oil-contingent."
+    ],
+    [
+      "Bank of Japan",
+      "1.00%",
+      "Hold expected 30-31 July; open to faster hikes."
+    ],
+    [
+      "People's Bank of China",
+      "1-year LPR 3.00%; 5-year LPR 3.50%",
+      "Held a 14th month; easing option open."
+    ],
+    [
+      "Reserve Bank of India",
+      "5.25%",
+      "Hold; next review early August."
+    ],
+    [
+      "Bank of Korea",
+      "2.75%",
+      "Q2 GDP beat backs another hike toward 3.00%."
+    ]
+  ],
+  "status_dashboard": [
+    {
+      "status": "Escalating",
+      "oneliner": "The House passed the $1.15T NDAA, the $95B framework and a funding extension in 48 hours; Lockheed and RTX printed record backlogs."
+    },
+    {
+      "status": "Held",
+      "oneliner": "Japan sold $66.8B of Treasuries and the yen broke 163, but China bought a second month and gold fell about 2% in a war week."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "PJM's monitor pinned $6.3B of the record capacity bill on data centres; ERCOT set an all-time demand record."
+    },
+    {
+      "status": "Held",
+      "oneliner": "Alphabet raised 2026 capex to $195B-$205B but printed negative free cash flow; platforms fell while chip names rebounded."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "US-Iran hit a twelfth straight strike night and the Houthi blockade closed Bab al-Mandeb; Brent neared $98."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "Washington imposed 50% tariffs on about $20B of Canadian goods; premiers united and GCAP observer status was confirmed."
+    }
+  ],
+  "key_developments": [
+    {
+      "development": "US-Iran fighting ran to a twelfth consecutive strike night and the Houthis declared and enforced a blockade of Saudi-linked shipping at Bab al-Mandeb, closing a second chokepoint while Hormuz transits fell 77% week over week. Brent rose toward $98 and WTI near $90, five straight up days; a mediated ten-day ceasefire proposal sits on the table, unaccepted.",
+      "implication": "The supply shock broadened from one strait to the routes around it. It escalates Geopolitics & Trade, hardens the Energy constraint and further narrows central-bank room against weaker growth."
+    },
+    {
+      "development": "Rates repriced globally during Fed blackout week: July hike odds roughly tripled to near 30% with September near 70%, the 10-year reached 4.71%, its highest since January 2025, jobless claims printed 187,000, the lowest since 1969, and the ECB held while calling September live and oil-contingent.",
+      "implication": "The policy problem inverted: improving backward inflation against a worsening forward energy impulse. Front-end duration is hostage to oil into the 28-29 July FOMC, where a hawkish hold with dissents is the setup."
+    },
+    {
+      "development": "Washington imposed 50% tariffs on about $20B of Canadian goods under Section 338, first used in about a century, effective around 19-20 August, while the Section 122 surcharge lapsed at its 150-day cap with the Section 301 replacement unsigned, briefly dropping the average US tariff toward 7%.",
+      "implication": "Trade fragmentation deepened on the Canadian track even as the aggregate tariff gapped lower. It hardens the CUSMA serial-review base case and accelerates Domestic Investing through closed ranks at home."
+    },
+    {
+      "development": "Alphabet beat on revenue with Cloud up 82% and raised 2026 capex to $195B-$205B, but printed its first-ever negative free-cash-flow quarter, paused buybacks and fell 6%; the same report was bought in Asia, where the KOSPI rose 4.4% and Korean semiconductor exports are running up 180% in July.",
+      "implication": "The AI trade split by layer: platforms repriced on who funds the buildout while infrastructure enablers rallied on the spending itself. Financing, now a $489B year-to-date debt tab, is the stress point to watch, not demand."
+    },
+    {
+      "development": "The House passed the fiscal stack in 48 hours, the $1.15T NDAA, the $95B reconciliation framework and a funding extension to 4 December, while Lockheed Martin and RTX reported record backlogs of $230.4B and $289B with raised guidance.",
+      "implication": "The fiscal impulse is delivering into orders, keeping Fiscal Escalating. The constraint moved to funding cost: the 20-year auction tailed with weak domestic bids ahead of the 29 July refunding."
+    },
+    {
+      "development": "PJM's market monitor attributed $6.3B, 38% of the record capacity auction, to data centres and proposed a separate hyperscaler-only auction, the same week ERCOT set an all-time demand record of 90,027 MW and GE Vernova's electrification orders surged.",
+      "implication": "Grid scarcity is now priced and litigated: cost allocation becomes the new brake on the buildout. It reinforces grid-enabler exposures across the Energy and AI themes."
+    }
+  ],
+  "theme1": {
+    "status": "Escalating ▸ The House passed the $1.15T NDAA, the $95B reconciliation framework and a funding extension in one 48-hour stretch, and Lockheed Martin and RTX printed record backlogs with raised guidance; the impulse is now delivering into orders, while the tailed 20-year auction keeps financing the live constraint.",
+    "developments": [
+      "The House passed the fiscal stack in 48 hours. The FY27 NDAA (the annual defence authorisation) cleared 216-212 at about $1.15T, up roughly 28% from FY26, the $95B defence and domestic reconciliation framework passed 216-214 with no offsets, and a funding extension to 4 December cleared 220-205. All three now queue behind a 60-vote Senate that blocked the NDAA two weeks ago.",
+      "Defence primes proved the budget-to-order transmission. Lockheed Martin's backlog reached $230.4B, up 38% from $166.5B a year earlier, RTX's reached $289B, up 22%, and both raised full-year guidance; Lockheed rose 10.6% and RTX 7.7% on the results.",
+      "The funding side got more expensive. The $13B 20-year reopening tailed 0.5bp at 5.163% on a 2.64x cover, with direct bidders taking 10.2% against a 23.9% average, a week after the 30-year cleared at 5.058%; the 30-year now trades near 5.15%.",
+      "Counter-currents stayed European and procedural. France's prime minister called the 5.2%-of-GDP deficit grave and floated 30B-50B euro of 2027 cuts, EU SAFE disbursements reached only about 8.1B euro of the 150B envelope, and the US deregulation tracker logged its first blank week since monitoring began."
+    ],
+    "material_note": "Passage arrived and the constraint moved again, from votes to funding cost. The same 48 hours that moved the NDAA, the reconciliation framework and the funding extension through the House also produced a tailed 20-year auction with direct bidders at 10.2% against a 23.9% average, and Treasury's refunding lands 29 July with about 85% of recent issuance already in bills. The defence backlogs say the spending is real; the auction tape says the price of carrying it is rising into the heaviest supply week of the quarter.",
+    "implication": "Defence procurement and deregulation still support medium-term activity and the defence-industrial exposures, and record prime backlogs convert announced money into revenue. The near-term sign is inflationary through heavier issuance, with long yields at cycle highs the offset; if the 29 July refunding meets the same soft domestic bid as the 20-year, duration stays the risk that taxes the whole impulse.",
+    "watch": [
+      "Treasury borrowing estimates 27 July and the quarterly refunding statement 29 July.",
+      "Senate action on the funding extension and any NDAA or $95B framework vote before the August recess.",
+      "General Dynamics results 29 July for the Canadian $2B armoured-vehicle order entering backlog."
+    ]
+  },
+  "monetary": {
+    "status": "Central banks held everywhere, but the week repriced the path: oil near $96 Brent pushed July FOMC hike odds from about 11% to near 30% with September near 70%, the ECB called September live, and the BoJ was reported open to faster hikes; only Ottawa and Beijing stayed comfortable.",
+    "developments": [
+      "Markets repriced the Fed during blackout week. July hike odds rose from about 11% to near 30% and September neared 70% as oil extended, the 2-year rose to 4.34% from 4.18% and the 10-year reached 4.71%, its highest since January 2025; claims of 187,000, the lowest since 1969, removed the labour case against a hike.",
+      "The ECB held its deposit rate at 2.25%, unanimously, and made September the live meeting: Lagarde said the energy shock's full inflation impact has yet to play out, and some Governing Council members argued for an immediate hike.",
+      "Canada's June CPI cooled to 2.8% from 3.2%, with trim at 1.8% and median at 1.9%, both down from 2.1%; the core collapse defuses the Bank of Canada's conditional hiking bias even as the oil re-shock argues the next prints reverse.",
+      "Asia tightened the tone. The Bank of Japan was reported open to faster hikes as the yen fell past 163 before recovering to about 161, and Korea's Q2 GDP beat backed another Bank of Korea hike."
+    ],
+    "material_note": "",
+    "implication": "The policy problem inverted in a week: backward inflation data keeps improving while the forward energy impulse worsens, so the burden of proof moved from hikers to holders. Higher oil is inflationary and anti-growth with soft core prints the offset; front-end duration stays hostage to each oil headline.",
+    "watch": [
+      "FOMC decision 28-29 July, with dissent votes and the statement's oil language the signals.",
+      "Bank of Japan decision 30-31 July and the MoF's month-end intervention data with the yen near 163.",
+      "US Q2 GDP advance 30 July and June PCE 31 July."
+    ]
+  },
+  "theme2": {
+    "status": "Held ▸ Japan sold $66.8B of Treasuries in May and Fed custody holdings kept falling while the yen broke 163; against that, China bought a second month, the 20-year auction's foreign bid held above average and gold lost about 2% in a peak war week. High-materiality evidence on both sides leaves the light Held.",
+    "developments": [
+      "The May TIC data (Treasury's foreign-holdings file) verified last week's estimate: China rose $8.2B to $659.3B, a second straight increase, while Japan fell $66.8B to $1,143.1B, consistent with intervention funding; private buying held the total near a record $9.37T.",
+      "Official demand kept eroding at the margin: official institutions posted a $39.9B net TIC outflow in May, and Fed custody holdings fell $28.8B in a week to $2,590.4B, down about $297B over a year.",
+      "The yen broke past 163 per dollar, its weakest in about four decades, and Finance Minister Katayama threatened bold steps without confirmed intervention; the pair recovered to about 161 only after reports that the BoJ is open to faster hikes.",
+      "Gold failed the war test a second week, falling from a $4,133 high to about $4,057, down about 2% despite twelve strike nights and a second chokepoint closing; hawkish repricing and higher real yields did the capping, while silver rose above $58, near its record."
+    ],
+    "material_note": "The yen-Treasury nexus moved from theory to data: the week the yen hit a four-decade low, the TIC file showed the largest foreign holder selling $66.8B of Treasuries in a month and Fed custody accelerating lower, the mechanics of intervention eating official dollar reserves. What keeps this gradual rather than disorderly is the other side of the same file: China adding a second month, private buyers absorbing the difference, and the 20-year's foreign bid printing above average.",
+    "implication": "The gradual-diversification thesis holds, with the erosion now visible in official channels rather than prices. Gold remains a real-yield trade first, so the near-term risk stays lower while hike odds climb; the structural bid, central-bank buying and a near-record silver tape, keeps the strategic case intact. Japan is the channel to watch, since forced Treasury sales to defend the yen are where currency stress becomes a US funding story.",
+    "watch": [
+      "MoF month-end intervention data and the 30-31 July BoJ meeting with the yen near 163.",
+      "The 29 July refunding statement and whether foreign bids hold at the next long-end auctions.",
+      "Gold against the FOMC: a hawkish hold that fails to push gold below $4,000 would argue the floor is official-sector demand, not rates."
+    ]
+  },
+  "theme3": {
+    "status": "Escalating ▸ PJM's market monitor pinned $6.3B of the record capacity bill on data centres and proposed a separate hyperscaler auction, ERCOT set an all-time demand record and GE Vernova's grid orders surged, while Hormuz risk kept European gas up about 50% on the month; scarcity is now priced, regulated and litigated at once.",
+    "developments": [
+      "The grid bill got an owner. PJM's independent market monitor attributed $6.3B, 38% of the record $16.4B capacity auction, to data centres, 46% of the last four auctions' $63.6B, and proposed a separate hyperscaler-only auction; five state consumer advocates attacked FERC for ignoring data-centre transmission cost shifts.",
+      "The demand was physically proven the same week. ERCOT set an all-time record of 90,027 MW on 22 July against a prior record of 85,508 MW from August 2023, holding without conservation appeals on a Texas solar record, and PJM's 164,078 MW mid-July peak was its third-highest ever.",
+      "GE Vernova printed the supply-side confirmation: orders up 88% organically, Power orders up 135%, Electrification revenue up 68% and more than $5B of data-centre orders year to date, though wind widened its loss to $275M and the shares fell 5.8% on a tariff hit.",
+      "Fuel stayed a two-track story. European TTF gas near 62 euro/MWh is up about 50% on the month with storage at 53% against 64% a year ago, and Asian LNG held near four-month highs on Hormuz risk, while US Henry Hub sat near $2.90 on strong storage builds; copper rose to a one-month high with LME stocks at their lowest since March."
+    ],
+    "material_note": "Who pays for the Age of Electricity broke into the open. The monitor's $6.3B data-centre attribution, the hyperscaler-only auction proposal and the state advocates' cost-shift challenge all landed the same week ERCOT proved the load is real, which converts the grid constraint from an engineering problem into a rate-politics problem. Affordability, not capacity, is becoming the binding argument over how fast the buildout can run.",
+    "implication": "Grid equipment, firm generation, gas infrastructure and large-load management stay the exposures most directly tied to the constraint, and this week added regulatory deadlines and record orders to the case. The near-term sign is inflationary through power and LNG prices, with the soft US gas price the offset; the new risk is political, since cost-allocation fights can slow interconnections even where capital is available.",
+    "watch": [
+      "PJM's backstop capacity-auction filing at FERC, due by end-July.",
+      "Microsoft results 29 July for the power-constrained Azure backlog and FY27 capex.",
+      "EU storage progression toward the 80% target and TTF if Hormuz disruption persists."
+    ]
+  },
+  "theme4": {
+    "status": "Held ▸ Alphabet raised 2026 capex to $195B-$205B and Korean semiconductor exports rose 180%, but Alphabet's first negative free-cash-flow quarter and paused buybacks sent platforms down while chip names rebounded; the buildout is accelerating and the market is repricing who funds it, so the light stays Held.",
+    "developments": [
+      "Alphabet beat on revenue with Cloud up 82%, raised 2026 capex guidance to $195B-$205B from $180B-$190B and called 2027 meaningfully higher, and still fell 6% the next day: free cash flow was negative $5.9B for the first time, buybacks went to zero, and $99B of unrealized private-stake gains flattered the headline earnings.",
+      "The infrastructure layer took the other side of the same report. Korea's 1-20 July exports rose 52.3% to a record with semiconductors up 180%, the KOSPI rebounded 8.9% from Monday's close, and Micron rose 12% on a Morgan Stanley call for memory prices up 25%.",
+      "The chip tape confirmed a bear market and then half-retraced it. The SOX closed 20.2% below its June record on 17 July, bounced 5.2% on Tuesday and ended the week about 15% below the peak; Nvidia gained about 3.5% to a $5.09T market value.",
+      "The financing stack kept growing without stress showing in spreads. AI-related debt issuance reached $489B year to date against $322B in all of 2025, S&P cut Oracle to BBB-, and AMD agreed to supply Anthropic up to 2 GW of accelerators; investment-grade and high-yield spreads tightened through the headlines."
+    ],
+    "material_note": "The bill arrived and the market split the trade in two. Alphabet's capex ceiling, negative free cash flow and paused buybacks were sold at the platform layer and bought at the infrastructure layer, because one company's spending strain is its suppliers' record revenue; Korea's 180% semiconductor export growth is the same story read from the other side. The debate has moved from whether the buildout continues to who funds it, and the funding is migrating from cash flow to debt while credit spreads, for now, stay tight.",
+    "implication": "The buildout still supports compute, memory, grid and data-centre infrastructure, with dispersion widening between scarce enablers and capital-intensive platforms. AI capex supports growth and selected inflation channels, while negative hyperscaler free cash flow and a $489B debt tab are the offsets that can pressure platform valuations; credit is the tell, and it has not cracked.",
+    "watch": [
+      "Microsoft and Meta results 29 July and Amazon 30 July, with capex guides against Alphabet's $205B ceiling.",
+      "SK Hynix results 29 July in Seoul, the first print since the Nasdaq listing.",
+      "End-July memory contract prints against the 25% call, and whether AI issuance reopens above 2x cover."
+    ]
+  },
+  "theme5": {
+    "status": "Escalating ▸ US-Iran ran to a twelfth consecutive strike night and the Houthis closed a second chokepoint at Bab al-Mandeb, sending Brent toward $98, while Russia-Ukraine reached into Black Sea oil and grain flows; a mediated ten-day ceasefire proposal is on the table, unaccepted, with both sides striking for leverage.",
+    "developments": [
+      "The war widened from one chokepoint to a pincer. US strikes ran to a twelfth consecutive night and reached bridges near Bandar Abbas, Iran struck Saudi soil for the first time since April near the Yanbu export terminus, and the Houthis declared and enforced a blockade of Saudi-linked shipping at Bab al-Mandeb, striking two tankers; Hormuz transits fell 77% week over week.",
+      "Oil rebuilt the premium in full. Brent rose toward $98 and WTI near $90, five straight up days and about 11% on the week, with Goldman flagging above $120 if Hormuz disruption persists; no OPEC+ emergency response came.",
+      "A structured off-ramp appeared for the first time. Qatar, Egypt, Pakistan and Oman tabled a ten-day ceasefire with Hormuz reopening and a transit-fee formula for Iran; Washington called it worth exploring while striking, Tehran confirmed receipt while retaliating, and neither side accepted.",
+      "Russia-Ukraine escalated into commodity flows and trade fragmented further. Ukraine's shipping campaign forced the CPC (Caspian Pipeline Consortium) to suspend Kazakh loadings of about 1.7 mb/d and Russia imposed night curbs at Novorossiysk, lifting European wheat 4.5%, while Russia hit Kyiv with a heavy missile barrage; Washington also put 50% tariffs on about $20B of Canadian goods as the Section 122 surcharge lapsed."
+    ],
+    "material_note": "The workaround became the target. Saudi Arabia had rerouted more than 70% of Gulf exports through Yanbu on the Red Sea to live with a closed Hormuz; this week Iran struck the Yanbu area and the Houthis began enforcing a blockade on exactly those barrels, which is why Brent ran ten dollars with no new Hormuz-specific event. The first structured ceasefire vehicle arrived the same week, so the house view that the conflict ends mid-2026 finally has a concrete test.",
+    "implication": "Both war legs are inflationary and anti-growth, and the second chokepoint plus the Black Sea disruption broaden the supply shock from oil into gas, freight and grain; cooling core prints are the main offset and they pre-date the re-shock. The branch risk runs both ways: a ceasefire acceptance takes roughly ten dollars off Brent, while a landed hit on Yanbu takes it well above $100.",
+    "watch": [
+      "The ten-day ceasefire proposal: accepted, rejected or superseded before the OPEC+ meeting around 2 August.",
+      "Section 301 publication in the Federal Register after the 24 July Section 122 lapse.",
+      "CPC and Novorossiysk loading data and Euronext wheat."
+    ]
+  },
+  "theme6": {
+    "status": "Escalating ▸ Washington's 50% tariff on about $20B of Canadian goods triggered the closing of ranks the thesis predicts: premiers united, nine provinces freed internal alcohol trade and GCAP observer status was confirmed; the pressure did the steering while the capital-deployment machinery stayed quiet.",
+    "developments": [
+      "The external shock arrived. The US imposed 50% tariffs on about $20B of Canadian goods, 5.2% of its Canadian imports, invoking Section 338 of the 1930 Tariff Act for the first time in about a century, effective around 19-20 August with energy and critical minerals exempt; Carney and Trump agreed to intensify talks immediately.",
+      "Canada consolidated in response: premiers in Charlottetown backed the federal team, nine provinces signed a barrier-free alcohol agreement and pressed for faster project approvals, and Ottawa replaced the joint Gordie Howe Bridge ceremony with a Canada-only event before the 27 July traffic opening.",
+      "The defence-industrial track extended. Canada became the first-ever observer to the UK-Japan-Italy GCAP fighter programme, following the $2B armoured-vehicle partnership and the C$24B submarine programme of recent weeks.",
+      "The macro backdrop gave room without strength. June CPI cooled to 2.8% with core at 1.8% and 1.9%, keeping the Bank of Canada on hold, and May retail sales rose 1.0%; Ontario's wildfire emergency continued with no new federal package yet."
+    ],
+    "material_note": "Protectionism abroad is doing the steering that policy at home has not. The tariff shock produced in one week what round-tables had not: interprovincial trade opened, premiers aligned on project acceleration, and the national-project symbolism hardened around the bridge opening. The Strong Fund, the 30% rule and the ministerial machinery stayed silent again, so the theme is escalating on pressure rather than deployed capital.",
+    "implication": "Defence, critical-minerals and infrastructure deployment support domestic activity and reduce external supply-chain exposure. Core inflation below 2% gives the fiscal push room, while the BoC's 0.7% growth forecast and the coming tariff drag are the offsets; the test stays execution quality, since pressure-driven allocation is where the inefficiency risk lives.",
+    "watch": [
+      "Gordie Howe Bridge traffic opening 27 July and the first published toll schedule.",
+      "Canada May GDP 31 July against the Bank of Canada's 0.7% growth forecast for 2026.",
+      "Intensified Canada-US talks before the 50% tariffs take effect around 19-20 August."
+    ]
+  },
+  "light_scoring": [
+    {
+      "theme": "Fiscal Expansion & Deregulation",
+      "light": "Escalating",
+      "supports": "House passed the NDAA, the $95B framework and the funding extension; record Lockheed and RTX backlogs with raised guides; GCAP and SAFE progress; +5.5",
+      "against": "20-year auction tail with weak direct bids, French consolidation talk, first blank deregulation week; -2.5",
+      "net": "+3.0. Delivery arrived and defence equities confirm; funding cost is the drag."
+    },
+    {
+      "theme": "Currency Debasement",
+      "light": "Held",
+      "supports": "Japan sold $66.8B of Treasuries, Fed custody decline accelerating, yen at a four-decade low, silver near a record; +4.0",
+      "against": "China bought a second month, private buyers lifted totals to a record area, gold fell about 2% in a war week, DXY firm; -4.0",
+      "net": "0.0. High-materiality evidence on both sides; the contradiction rule holds the light."
+    },
+    {
+      "theme": "Energy & the Energy Transition",
+      "light": "Escalating",
+      "supports": "PJM cost attribution and hyperscaler-auction proposal, ERCOT all-time record, FERC standards timeline, GE Vernova grid orders, TTF and LNG tightness, copper at a one-month high; +6.0",
+      "against": "Wind orders down 40%, soft Henry Hub, coal meeting part of demand growth; -1.5",
+      "net": "+4.5. Scarcity priced, regulated and litigated; the tape confirms through gas, grid equipment and copper."
+    },
+    {
+      "theme": "Artificial Intelligence",
+      "light": "Held",
+      "supports": "Alphabet capex raised to $195B-$205B, Korean semiconductor exports up 180%, memory repricing, AMD-Anthropic 2 GW, SOX rebound; +5.0",
+      "against": "First negative Alphabet free cash flow with buybacks paused, platform selloff, $489B debt tab with the Oracle downgrade, Tesla cash burn; -4.5",
+      "net": "+0.5. High materiality on both sides; the contradiction rule keeps Held with financing the stress point."
+    },
+    {
+      "theme": "Geopolitics & Trade",
+      "light": "Escalating",
+      "supports": "Twelve strike nights, a second chokepoint enforced, Hormuz transits down 77%, Black Sea disruption lifting wheat, 50% Canada tariffs, oil up 11%; +8.0",
+      "against": "Ten-day ceasefire proposal tabled; the Section 122 lapse briefly lowers the average tariff; -1.5",
+      "net": "+6.5. Far above threshold; oil, gas and wheat confirm on the tape."
+    },
+    {
+      "theme": "Domestic Investing Pressures",
+      "light": "Escalating",
+      "supports": "Section 338 tariff shock consolidating the premiers, nine-province internal-trade pact, GCAP observer confirmed, project-acceleration demands; +4.5",
+      "against": "Strong Fund, 30% rule and round-table machinery silent again; BoC growth forecast at 0.7%; -1.5",
+      "net": "+3.0. Pressure did the steering; capital deployment is still the missing confirmation."
+    }
+  ],
+  "light_history_png": "engine/charts/2026-07-24/light_history.png",
+  "light_history": {
+    "themes": [
+      "1 Fiscal & Deregulation",
+      "2 Currency Debasement",
+      "3 Energy & Transition",
+      "4 Artificial Intelligence",
+      "5 Geopolitics & Trade",
+      "6 Domestic Investing"
+    ],
+    "weeks": [
+      {
+        "date": "06-18",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Escalating",
+          "Deescalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "06-25",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Held",
+          "Deescalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-03",
+        "lights": [
+          "Escalating",
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-10",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-17",
+        "lights": [
+          "Held",
+          "Deescalating",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-24",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      }
+    ]
+  },
+  "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved 23 July 2026.",
+  "references": [
+    {
+      "topic": "Executive Summary — Weekly Direction & Key Developments",
+      "items": [
+        "(Tier 1) European Central Bank. Monetary Policy Decisions. 23 July 2026. https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html. Retrieved 23 July 2026.",
+        "(Tier 1) GovTrack / House Clerk. H.R. 8800 FY2027 NDAA, House Vote 278. 22 July 2026. https://www.govtrack.us/congress/votes/119-2026/h278. Retrieved 23 July 2026.",
+        "(Tier 1) Alphabet Inc. Second Quarter 2026 Results (Form 8-K, Exhibit 99.1). 22 July 2026. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm. Retrieved 23 July 2026.",
+        "(Tier 2) Bloomberg. US Initial Jobless Claims Fall to Lowest Level Since 1969. 23 July 2026. https://www.bloomberg.com/news/articles/2026-07-23/us-initial-jobless-claims-fall-to-lowest-level-since-1969. Retrieved 23 July 2026.",
+        "(Tier 2) Charles Schwab. Market Update, CME FedWatch July Hike Odds. 22 July 2026. https://www.schwab.com/learn/story/stock-market-update-open. Retrieved 23 July 2026.",
+        "(Tier 2) Al Jazeera. Trump's New 50 Percent Canada Tariffs: What Products Are Affected and Why. 21 July 2026. https://www.aljazeera.com/news/2026/7/21/trumps-new-50-percent-canada-tariffs-what-products-are-affected-and-why. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+      "items": [
+        "(Tier 1) Lockheed Martin. Second Quarter 2026 Financial Results. 23 July 2026. https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-second-quarter-2026-financial-results. Retrieved 23 July 2026.",
+        "(Tier 2) TIME. House Passes $1.15 Trillion Defense Spending Bill. 22 July 2026. https://time.com/article/2026/07/22/house-annual-defense-spending-bill-save-america-act-iran-war/. Retrieved 23 July 2026.",
+        "(Tier 2) NOTUS. House Republicans Pass Reconciliation 3.0 Despite Senate Hurdles. 22 July 2026. https://www.notus.org/us-news/house-republicans-reconciliation-passes-senate-hurdles-remain. Retrieved 23 July 2026.",
+        "(Tier 2) NPR. House Votes to Extend Government Funding to 4 December. 21 July 2026. https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters via TradingView. US 20-Year Bond Reopening High Yield 5.163%. 22 July 2026. https://www.tradingview.com/news/reuters.com,2026-07-22:newsml_AQN2MB7Y8:0-u-s-20-year-bond-high-yield-5-163/. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters via Yahoo Finance. Lockheed Martin, RTX Lift 2026 Forecasts as Pentagon Restocks. 23 July 2026. https://finance.yahoo.com/news/lockheed-martin-rtx-lift-2026-164435794.html. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Monetary Policy Tracker",
+      "items": [
+        "(Tier 1) European Central Bank. Monetary Policy Decisions and Press Conference. 23 July 2026. https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html. Retrieved 23 July 2026.",
+        "(Tier 1) Statistics Canada. The Daily: Consumer Price Index, June 2026. 20 July 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260720/dq260720a-eng.htm. Retrieved 23 July 2026.",
+        "(Tier 1) Federal Reserve. H.15 Selected Interest Rates. 22 July 2026. https://www.federalreserve.gov/releases/h15/. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters. BoJ On Alert to Price Risks That May Lead to Faster Rate Hikes. 22 July 2026. https://kfgo.com/2026/07/22/boj-on-alert-to-price-risks-that-may-lead-to-faster-rate-hikes-sources-say/. Retrieved 23 July 2026.",
+        "(Tier 2) Central Banking. China Leaves LPRs On Hold for 14th Consecutive Month. 20 July 2026. https://www.centralbanking.com/central-banks/monetary-policy/monetary-policy-decisions/7976410/china-leaves-lprs-on-hold-for-14th-consecutive-month. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters syndicate. South Korea Economy Expands 0.6% Q/Q in Q2, Better Than Expected. 23 July 2026. https://www.933thedrive.com/2026/07/22/south-korea-economy-expands-0-6-q-q-in-q2-better-than-expected/. Retrieved 23 July 2026.",
+        "(Tier 2) Bloomberg. Warsh Shows His Inner Hawk as Inflation Debate Heats Up. 18 July 2026. https://www.bloomberg.com/news/articles/2026-07-18/warsh-shows-his-inner-hawk-as-inflation-debate-heats-up. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 2 — Currency Debasement",
+      "items": [
+        "(Tier 1) U.S. Treasury. Major Foreign Holders of Treasury Securities, TIC Table 5, May 2026. 14 July 2026. https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html. Retrieved 23 July 2026.",
+        "(Tier 1) U.S. Treasury. Treasury International Capital Data for May 2026. 14 July 2026. https://home.treasury.gov/news/press-releases/sb0561. Retrieved 23 July 2026.",
+        "(Tier 1) Federal Reserve. H.4.1 Factors Affecting Reserve Balances, Week Ending 15 July 2026. 16 July 2026. https://www.federalreserve.gov/releases/h41/20260716/h41.htm. Retrieved 23 July 2026.",
+        "(Tier 2) Bloomberg. Katayama Warns of Bold Action as Yen Slides Past 163 Per Dollar. 22 July 2026. https://www.bloomberg.com/news/articles/2026-07-22/japan-s-katayama-says-ready-to-take-bold-steps-on-fx-as-needed. Retrieved 23 July 2026.",
+        "(Tier 2) Trading Economics. Gold, Silver and US Dollar Index Data Pages. 23 July 2026. https://tradingeconomics.com/commodity/gold. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 3 — Energy & the Energy Transition",
+      "items": [
+        "(Tier 1) GE Vernova. Second Quarter 2026 Results and Raised 2026 Guidance. 22 July 2026. https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial. Retrieved 23 July 2026.",
+        "(Tier 2) Utility Dive. Data Centers Drove $6.3B in PJM Capacity Auction Costs: Market Monitor. 20 July 2026. https://www.utilitydive.com/news/pjm-data-centers-capacity-auction-imm-bowring/825626/. Retrieved 23 July 2026.",
+        "(Tier 2) POWER Magazine. FERC Orders Mandatory NERC Reliability Standards for Computational Loads (Order RD26-7-000). 18 July 2026. https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/. Retrieved 23 July 2026.",
+        "(Tier 2) Community Impact / ERCOT. ERCOT Grid Hits 90,000 MW of Demand Amid Extreme Heat. 22 July 2026. https://communityimpact.com/central-austin/government/texas-on-track-to-see-record-breaking-power-demand-amid-triple-digit-heat/. Retrieved 23 July 2026.",
+        "(Tier 2) Global LNG Hub. Natural Gas Prices Weekly Update: JKM, TTF and Henry Hub. 21 July 2026. https://globallnghub.com/natural-gas-prices-weekly-update-jkm-ttf-and-henry-hub-21-july-2026.html. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters via Business Recorder. Copper Touches One-Month High on Chinese Shortages. 22 July 2026. https://www.brecorder.com/news/40431158/copper-touches-one-month-high-on-chinese-shortages. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 4 — Artificial Intelligence",
+      "items": [
+        "(Tier 1) Alphabet Inc. Second Quarter 2026 Results (Form 8-K, Exhibit 99.1). 22 July 2026. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm. Retrieved 23 July 2026.",
+        "(Tier 1) IBM. Second Quarter 2026 Results. 22 July 2026. https://www.stocktitan.net/news/IBM/ibm-releases-second-quarter-ak9qv75fd5eq.html. Retrieved 23 July 2026.",
+        "(Tier 1) AMD. Press Releases: Anthropic Partnership, up to 2 GW of Instinct MI450. 22 July 2026. https://ir.amd.com/news-events/press-releases. Retrieved 23 July 2026.",
+        "(Tier 2) The Korea Herald. Exports Up 52% in First 20 Days of July on Robust Chips. 21 July 2026. https://www.koreaherald.com/article/10814464. Retrieved 23 July 2026.",
+        "(Tier 2) Bloomberg. Chip Stocks Tumble Into Bear Market as 105% AI Rally Fizzles. 17 July 2026. https://www.bloomberg.com/news/articles/2026-07-17/chips-stocks-tumble-into-bear-market-as-105-ai-rally-fizzles. Retrieved 23 July 2026.",
+        "(Tier 2) Yahoo Finance. Tech's AI Debt Boom, In One Chart (Goldman: $489B Year to Date). 22 July 2026. https://finance.yahoo.com/technology/article/techs-ai-debt-boom-in-one-chart-143849995.html. Retrieved 23 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 5 — Geopolitics & Trade",
+      "items": [
+        "(Tier 1) Office of the U.S. Trade Representative. United States and Mexico Convene Third Bilateral Negotiating Round, Mexico City. 20 July 2026. https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/united-states-and-mexico-convene-mexico-city-third-bilateral-negotiating-round-related-joint-review. Retrieved 23 July 2026.",
+        "(Tier 2) U.S. News / AP. US Military Completes 12th Straight Night of Strikes on Iran. 22 July 2026. https://www.usnews.com/news/world/articles/2026-07-22/us-military-completes-12th-straight-night-of-strikes-on-iran. Retrieved 23 July 2026.",
+        "(Tier 2) Lloyd's List Intelligence. Strait of Hormuz Brief. 21 July 2026. https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-21-july-2026. Retrieved 23 July 2026.",
+        "(Tier 2) Reuters via Yahoo Finance. Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade. 22 July 2026. https://sg.finance.yahoo.com/news/oil-jumps-nearly-4-houthis-111000835.html. Retrieved 23 July 2026.",
+        "(Tier 2) Axios. Iran Mediators Push New Ceasefire as Trump Weighs Options. 21 July 2026. https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops. Retrieved 23 July 2026.",
+        "(Tier 2) Kyiv Post. Russia Curbs Novorossiysk Port Operations as Black Sea Attacks Push Wheat Prices Up 4.5%. 23 July 2026. https://www.kyivpost.com/post/80879. Retrieved 23 July 2026.",
+        "(Tier 2) CNBC. Greer: Section 301 Action Expected Soon as Section 122 Expires. 21 July 2026. https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html. Retrieved 23 July 2026.",
+        "(Tier 3) Trading Economics. Urea Benchmark, $424/T. 16 July 2026. https://tradingeconomics.com/commodity/urea. Retrieved 23 July 2026. Confirming source: DTN Progressive Farmer, Fertilizer Prices, 22 July 2026."
+      ]
+    },
+    {
+      "topic": "Theme 6 — Domestic Investing Pressures",
+      "items": [
+        "(Tier 1) Statistics Canada. The Daily: Consumer Price Index, June 2026. 20 July 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260720/dq260720a-eng.htm. Retrieved 23 July 2026.",
+        "(Tier 1) Department of National Defence. Quadrilateral Joint Statement on Canada Becoming an Observer to GCAP. 21 July 2026. https://www.canada.ca/en/department-national-defence/news/2026/07/quadrilateral-joint-statement-on-canada-becoming-an-observer-to-gcap.html. Retrieved 23 July 2026.",
+        "(Tier 1) Global Affairs Canada. Advisory Committee on Canada-U.S. Economic Relations Meets Following the U.S. Intention to Impose New 50% Tariffs. 22 July 2026. https://www.canada.ca/en/global-affairs/news/2026/07/advisory-committee-on-canada-us-economic-relations-meets-following-the-intention-of-the-us-to-impose-new-50-tariffs-on-a-number-of-canadian-goods.html. Retrieved 23 July 2026.",
+        "(Tier 2) AP via The Spokesman-Review. Carney Says He Will Intensify Trade Talks With Trump. 21 July 2026. https://www.spokesman.com/stories/2026/jul/21/carney-says-he-will-intensify-trade-talks-with-tru/. Retrieved 23 July 2026.",
+        "(Tier 2) The Canadian Press. Premiers Tout Unity Ahead of P.E.I. Talks With Carney. 22 July 2026. https://chatnewstoday.ca/2026/07/22/p-e-i-premiers-meeting-continues-as-u-s-tariff-threats-loom/. Retrieved 23 July 2026.",
+        "(Tier 2) BNN Bloomberg. Canadian Retail Sales Up 1.0 Per Cent at $73.7B in May. 23 July 2026. https://www.bnnbloomberg.ca/business/economics/2026/07/23/canadian-retail-sales-up-10-per-cent-at-737b-in-may-statcan/. Retrieved 23 July 2026.",
+        "(Tier 2) CBC News. Windsor Gordie Howe Bridge Ribbon-Cutting Cancelled Over Trade Action. 22 July 2026. https://www.cbc.ca/news/canada/windsor/windsor-gordie-howe-bridge-ribbon-cutting-9.7278519. Retrieved 23 July 2026."
+      ]
+    }
+  ],
+  "exec_r1_height_twips": 5400,
+  "exec_r2_height_twips": 300
+}

@@ -1,0 +1,174 @@
+{
+  "asof": "2026_06_25",
+  "weekly_direction": "The war premium came out of markets this week. Oil dropped below $70 WTI as the Strait of Hormuz reopened, which pulled yields and inflation expectations lower and let gold fall while the Fed stayed hawkish. US inflation still ran hot (PCE 4.1%) but Canada's core was soft (1.6%), and the dollar stayed strong with the yen near a four-decade low. Direction: energy and geopolitics easing, AI buildout and US deregulation intensifying, trade policy and Canadian growth the soft spots.",
+  "influencing_factors": "The biggest factors from here: the July trade calendar (CUSMA review July 1, an EU deadline July 4, the USTR Section 301 hearing July 7, and the 10% tariff expiry July 24); a wave of large AI capital raises (SpaceX $25B, SK Hynix ~$29B) pulling on market liquidity; a hawkish Fed against a softening Canada; and a stalling Canadian economy now in technical recession. Oil staying low is the swing factor for the inflation path.",
+  "central_bank": [
+    ["US (Fed)", "3.50-3.75%", "Hawkish hold"],
+    ["Canada (BoC)", "2.25%", "On hold"],
+    ["ECB", "2.25%", "Hiking"],
+    ["Japan (BoJ)", "1.00%", "Hiking"],
+    ["China (PBoC)", "3.00%", "Easing"],
+    ["Brazil", "14.25%", "Holding, cuts priced out"],
+    ["England (BoE)", "3.75%", "On hold"],
+    ["Hungary (MNB)", "6.00%", "Cutting"]
+  ],
+  "status_dashboard": [
+    {"status": "Escalating", "oneliner": "More deregulation (US drilling bonds, Canada bank capital) and defence; China the offset with austerity."},
+    {"status": "Deescalating", "oneliner": "Less debasement: dollar strong, gold below $4,000, yen weak as the Fed stays hawkish."},
+    {"status": "Held", "oneliner": "Mixed: India commits $109B to its grid; Colombia turns pro-oil; China leans on coal."},
+    {"status": "Escalating", "oneliner": "More buildout: Micron blew past Q3; SpaceX and SK Hynix raise ~$54B."},
+    {"status": "Deescalating", "oneliner": "Less conflict: WTI below $70 as Hormuz reopens; trade is the offset into July."},
+    {"status": "Escalating", "oneliner": "More domestic pressure: technical recession, Darlington nuclear and first Major Projects listings."}
+  ],
+  "cross_theme": [
+    "The war premium unwound. WTI fell below $70 and Brent below $74, down about 40% from the wartime peak, as the Strait of Hormuz reopened and the US-Iran framework held. That pulled yields and inflation expectations lower and fed straight into rate-cut pricing.",
+    "Inflation split by country. US May PCE rose to 4.1% headline and 3.4% core, both multi-year highs, while Canada's core sat at 1.6%. The Fed stayed hawkish, gold fell below $4,000, and the dollar held firm with the yen near its weakest since 1986.",
+    "AI demand confirmed but the funding bill is growing. Micron beat hard and guided Q4 revenue to $50B, while SpaceX ($25B) and SK Hynix (about $29B) lined up large raises and OpenAI and Anthropic IPOs loom. The open question is how much market liquidity these absorb.",
+    "Trade policy is the next catalyst. The flat 10% tariff expires July 24 and is being replaced by country-specific Section 301 rates, with the CUSMA review (July 1), an EU deadline (July 4), and a USTR hearing (July 7) all in the next two weeks.",
+    "Canada is the soft spot. Real GDP shrank for two straight quarters on an annualized basis (-1.0% then -0.1%), the BoC denied a recession while admitting slack, and Macklem warned that capital crowding into the US could be misallocated."
+  ],
+  "key_risks": [
+    "Geopolitical escalation. De-escalated: the Strait of Hormuz reopened, tanker traffic is normalizing, and WTI fell below $70, the lowest since the conflict began. A brief Iranian re-closure over Lebanon on June 22 was the main wobble.",
+    "Sustained energy prices. De-escalated: oil is down about 40% from its wartime peak and the IEA flagged inventories rebuilding toward surplus later in the year. Sulphur and fertilizer remain the lingering exception.",
+    "AI demand or monetization stall. Held: Micron beat and guided higher and bond demand was strong (SpaceX drew $89B of orders), so no stall, but the size of AI capital raises now hitting the market is a new financing watch.",
+    "Autarkic protectionism. Escalated: the 10% tariff expires July 24 and country-specific Section 301 rates are coming, with the CUSMA review, an EU deadline, and a USTR hearing all in early July.",
+    "US fiscal recklessness. Held: the Q1 current account widened to 2.9% of GDP, keeping the low-savings story in view, but there was no new deficit or refunding print this week.",
+    "Inefficient domestic investment. Escalated: Canada posted two negative GDP quarters, Ottawa moved on Darlington nuclear and Major Projects listings, and Macklem warned on capital misallocation, so the pressure to deploy domestically is rising."
+  ],
+  "theme1": {
+    "status": "Escalating ▸ More deregulation on both sides of the border and a firm defence agenda, with China's austerity the main offset.",
+    "developments": [
+      "Deregulation kept moving. The US is cutting the onshore drilling reclamation bond to $25,000 from $500,000, about 95%, to spur exploration (June 22). In Canada, OSFI lowered the Domestic Stability Buffer to 3.0% from 3.5% and the CET1 expectation to 11.0% from 11.5%, effective June 19, to free up bank lending. (Bloomberg; OSFI.)",
+      "China cut its budget deficit for the first time in over two years. The combined shortfall fell 4.1% year over year in January to May to 3.16 trillion yuan ($466B), with May spending down 3.9%. The austerity hit growth, pushing consumer spending and investment toward pandemic-era lows. A drafted 2 trillion yuan ($295B) domestic AI buildout is the partial offset. (Bloomberg, June 23.)",
+      "The US current account deficit widened in Q1 to $226.8B, or 2.9% of GDP from 2.8%, as primary income swung to a deficit. It reinforces the low US savings trend. (BEA, June 24.)",
+      "On defence, NATO ministers met June 18 ahead of the July 7-8 Ankara summit and reported good progress, with some allies expected to reach the 5% target this year. The national plans land at the summit. (NATO.)"
+    ],
+    "material_note": "Key development: China's pivot to austerity. The first deficit cut in over two years, with spending falling for a third straight month, signals Beijing is choosing balance-sheet repair over stimulus even as consumption and investment sink toward pandemic-era lows. That is a drag on global demand and commodity appetite, only partly offset by the planned 2 trillion yuan domestic AI buildout. Suggested chart: China general public budget expenditure, year over year. (Insert fiscal_keydev_chart.)",
+    "implication": "Deregulation supports the domestic-growth and lending case, but weak Chinese demand and a wider US external deficit cut the other way. The defence-capex leg still hinges on the NATO national plans due July 7-8. Positioning stays selective.",
+    "watch": [
+      "NATO Ankara summit July 7-8 (national 5% plans).",
+      "Next CBO and Treasury refunding updates; China June activity data."
+    ]
+  },
+  "monetary": {
+    "status": "Held ▸ No tracked central bank moved in-window; the inflation data split, US hot (PCE 4.1%) and Canada soft (core 1.6%).",
+    "developments": [
+      "US May PCE, released June 25, rose to 4.1% year over year headline and 3.4% core, the highest since 2023 and above April. Monthly gains were 0.4% headline and 0.3% core, both in line. It backs the Fed's hawkish hold. (BEA.)",
+      "Canada's May CPI told the opposite story. Headline rose to 3.2% on gasoline, but core was soft: trimmed-mean 2.0%, median 2.1%, and ex food and energy just 1.6%. The BoC can stay accommodative and look through the energy spike. (Statistics Canada, June 22.)",
+      "EM and Europe split. Brazil's market survey lifted the year-end Selic call to 14.0% from 13.75% on sticky inflation, China held the LPR at 3.0% (5-year 3.5%) for a 13th month, and Hungary cut to 6.0% from 6.25% on cooler inflation. (Focus survey; PBoC; MNB.)",
+      "At the Bank of England, Alan Taylor pushed a dovish case (weak economy, labour slack, an output gap), but sticky inflation keeps the BoE on hold at 3.75%. (BoE.)"
+    ],
+    "material_note": "Key development: inflation data. The headline split is the story. US core PCE at 3.4% is the hottest since 2023 and keeps the Fed leaning hawkish, while Canada's core at 1.6% sits below target and lets the BoC stay easy. Oil's drop below $70 has not yet hit these backward-looking prints, so the disinflation should show up over Q3. Suggested chart: US PCE headline versus core, year over year. (Insert monetary_keydev_chart.)",
+    "implication": "Higher-for-longer in the US stays a headwind for duration, while Canada has room to ease. The oil decline points to softer inflation prints ahead, so the hawkish read is more about timing than direction.",
+    "watch": [
+      "US PCE follow-through and June CPI for the oil passthrough; BoC decision July 15.",
+      "Whether the Fed minutes (early July) harden the new hike bias."
+    ]
+  },
+  "theme2": {
+    "status": "Deescalating ▸ Short-term relief on the debasement theme as the dollar stays strong and gold falls; the weak yen is the stress to watch.",
+    "developments": [
+      "Gold fell more than 3% to below $4,000, its lowest since November 2025, as the Fed repriced hawkish and real yields rose. The metal is reconnecting with rates after trading as a haven through the war. (CNBC, June 23.)",
+      "The yen sits near 161 per dollar, its weakest since 1986. Japan spent a record near $74B over the prior month to defend it and drew on its US Treasury holdings, but the currency faded back to pre-intervention levels. (Japan Times; Bloomberg.)",
+      "The carry trade is keeping the yen weak. The US 10-year near 4.45% against the JGB 10-year near 2.67% leaves a wide gap that rewards selling yen. Japan, which imports nearly all of its oil, also imports the price-level pressure. (Trading Economics.)",
+      "On reserves, April TIC, released this week, showed China's Treasury holdings at $651.1B, an 18-year low but down only $1.2B, while Japan added and total foreign holdings held near a record. The diversification stays gradual, not a liquidation. (US Treasury TIC.)"
+    ],
+    "material_note": "Key development: the yen near a four-decade low despite a record intervention. The math is simple. A US-Japan 10-year yield gap of roughly 180bp keeps the carry trade alive, so each round of intervention fades. The risk for the debasement theme is not a sudden dollar exit but a disorderly yen move that forces Japan, the largest foreign Treasury holder, to keep selling reserves. Suggested chart: USD/JPY against the US-Japan 10-year yield differential. (Insert currency_keydev_chart.)",
+    "implication": "Near term, a strong dollar and falling gold argue the debasement thesis is on pause, not broken. The yen is the channel that could turn it into forced Treasury selling, so watch the intervention and the yield gap together.",
+    "watch": [
+      "USD/JPY and any further Japanese intervention or Treasury sales.",
+      "IMF COFER Q1 (USD reserve share versus 56.77%); gold versus real yields."
+    ]
+  },
+  "theme3": {
+    "status": "Held ▸ Mixed: India's $109B grid commitment supports the buildout, but Colombia and China lean back toward fossil.",
+    "developments": [
+      "India committed to one of the largest grid buildouts anywhere, about $109B (roughly 9 trillion rupees) of transmission investment to 2032, to wire clean-energy projects into industrial and urban demand. It targets 500 GW of renewables by 2030. Grid, not generation, is the binding constraint. (Bloomberg, June 16.)",
+      "Colombia elected Abelardo de la Espriella, a Trump-ally businessman, in the June 21 runoff (49.7% to 48.7%). He plans to revive oil and gas, pursue fracking, and lift output from about 700k barrels a day toward 1.2 to 1.3 million, plus open 1.5 million hectares to agriculture. It reverses Petro's anti-oil stance. (NPR; Bloomberg.)",
+      "China leaned harder on coal, which it produces almost entirely at home, while building clean capacity domestically. May crude imports fell about 29% year over year to a decade low and gas imports fell about 11%, cutting exposure to higher oil and gas prices. (Inside Climate News.)"
+    ],
+    "material_note": "Key development: India's $109B grid commitment. It is a clean read on the theme's core idea, that the grid is the bottleneck and grid-enabling investment is the way to play the transition. India has hit only about 80% of its annual transmission targets, so the new plan sets deadlines to sync line construction with the renewables ramp. Suggested chart: India transmission investment plan to 2032 versus the prior build rate. (Insert energy_keydev_chart.)",
+    "implication": "Grid remains the cleanest expression of the energy theme, and India's commitment reinforces it. The Colombia and China moves are a reminder that legacy demand stays fossil-served and the politics can swing, but neither breaks the structural grid case.",
+    "watch": [
+      "India transmission tender flow; FERC RTO compliance on large-load interconnection.",
+      "Colombia policy steps after inauguration; China coal and import trends."
+    ]
+  },
+  "theme4": {
+    "status": "Escalating ▸ More AI buildout: Micron's blowout and heavily oversubscribed raises confirm both demand and financing.",
+    "developments": [
+      "Micron beat hard. Fiscal Q3 revenue was $41.5B, up 346% year over year and well above consensus, with EPS of $25.11. It guided Q4 revenue to about $50B and said high-bandwidth memory is sold out through 2027 into 2028. Shares rose about 15%. It is a clean confirmation of AI-memory demand. (Micron, June 24.)",
+      "SpaceX priced a $25B debut bond on June 23 and drew $89B of orders, about 3.5 times covered, at investment grade (S&P BBB). It paid a small premium within IG, not a high-yield premium. (Bloomberg; CNBC.)",
+      "SK Hynix, the top HBM supplier, is lining up a Nasdaq listing to raise about $29B, with trading expected around July 10. Proceeds fund capacity and EUV tools. (CNBC, June 24.)",
+      "The liquidity question is building. SpaceX, OpenAI, and Anthropic alone target roughly $3.6 trillion in value, and the IPO pipeline could absorb more than $240B by year-end, on top of Alphabet's $40B at-the-market program. Big banks counter that about $8 trillion sits in money funds, so the impact is manageable. (Invezz; bank commentary.)"
+    ],
+    "material_note": "Key development: the AI capital-call stack. Demand is not the question after Micron; funding is. SpaceX's $25B, SK Hynix's roughly $29B, Alphabet's $40B equity program, and pending OpenAI and Anthropic IPOs are all hitting the same market in one window. The debate is how much liquidity they pull from the rest of the market. Suggested chart: announced 2026 AI raises now in market, stacked. (Insert ai_keydev_chart.)",
+    "implication": "AI demand and financing both confirmed the infrastructure case, so the stall risk eased. The new risk is crowding, a heavy slate of mega-raises competing for the same capital, which is the financing-stress signal to watch rather than demand.",
+    "watch": [
+      "SK Hynix listing reception (about July 10); secondary tone on SpaceX and AI credit.",
+      "Hyperscaler capex guidance into Q2 earnings; OpenAI and Anthropic IPO timing."
+    ]
+  },
+  "theme5": {
+    "status": "Deescalating ▸ Less geopolitical conflict as oil round-trips the war premium and Hormuz reopens; the July trade calendar is the offset.",
+    "developments": [
+      "Oil erased its wartime gains. WTI fell below $70 and Brent below $74 by June 25, the lowest since the conflict began and down about 40% from the peak, as the Strait of Hormuz reopened and tanker traffic normalized after the US-Iran framework. (Trading Economics; CNBC.)",
+      "The IEA's June report said OECD government oil inventories fell to their lowest since December 1990 after three months of emergency releases, and that the US-Iran agreement came at a critical time as Hormuz flows recover toward 12 million barrels a day. It sees stocks rebuilding toward surplus later in the year. (IEA Oil Market Report, June.)",
+      "Trade is the new pressure point. The flat 10% Section 122 tariff expires July 24 and is being replaced by country-specific Section 301 rates tied to forced-labour and excess-capacity findings. The CUSMA joint review triggers July 1, the EU has until July 4 to ratify its deal, and a USTR Section 301 hearing is set for July 7. (USTR; White & Case.)"
+    ],
+    "material_note": "Key development: oil round-tripping the war premium. WTI below $70 is the single cleanest market signal of the week, and it feeds straight back into lower yields, softer inflation expectations, and rate-cut pricing. The IEA frames the supply picture as tight now but heading to surplus, so the disinflation impulse should build through Q3 as long as Hormuz stays open. Suggested chart: WTI front-month, last three months. (Insert geo_keydev_chart.)",
+    "implication": "Lower oil is the disinflation tailwind the house view needs, and it strengthens the case for rate cuts later in the year. The risk has shifted from the Strait to the July trade calendar, where country-specific tariffs and the CUSMA review could re-introduce fragmentation.",
+    "watch": [
+      "CUSMA review July 1; USTR Section 301 hearing July 7; Section 122 expiry July 24.",
+      "Whether Hormuz stays open; OPEC+ July 5 meeting; the oil passthrough in June CPI."
+    ]
+  },
+  "theme6": {
+    "status": "Escalating ▸ More domestic-investment pressure: a technical recession plus first state-backed deployments (Darlington, Major Projects).",
+    "developments": [
+      "Canada's economy contracted for two straight quarters on an annualized basis, -1.0% in Q4 2025 and -0.1% in Q1 2026, which meets the textbook technical-recession test. (Statistics Canada.)",
+      "The Bank of Canada denied a recession but acknowledged weak growth and labour-market slack. Carney tied the slowdown to lower immigration targets, while Poilievre called it a full-blown recession. (Bloomberg; Globe and Mail.)",
+      "Macklem, in a June 23 Paris speech, warned that large capital inflows into the US could again be misallocated, stretching valuations in equities and credit and setting the stage for a painful correction. (Bank of Canada.)",
+      "Ottawa kept building the domestic pipeline. It announced about $715M in federal and Ontario guarantees for a First Nations equity stake in the Darlington nuclear project (June 23) and started listing its first Major Projects under the Building Canada Act (June 24). (Finance Canada; PCO.)"
+    ],
+    "material_note": "Key development: Canada's technical recession. Two negative annualized GDP quarters frame the whole domestic story. A weak economy raises the political pressure to steer capital into domestic projects, which is exactly the misallocation risk Macklem flagged the same week. The Darlington guarantee and the first Building Canada Act listings show that capital is starting to move on policy direction. Suggested chart: Canada real GDP, annualized quarterly growth. (Insert domestic_keydev_chart.)",
+    "implication": "The weak growth backdrop strengthens the case for domestic-investment pressure on pension capital, and the first deployments are now visible. The risk the AIP flags, politically-driven allocation, is becoming testable, and Macklem himself named the valuation danger.",
+    "watch": [
+      "Canada Strong Fund governance and first deployments; the next Champagne round-table.",
+      "Q2 GDP trajectory; peer-plan US-exposure decisions."
+    ]
+  },
+  "references_intro": "Only sources cited this week, deduplicated. Retrieved 25 June 2026.",
+  "references": [
+    "U.S. Bureau of Economic Analysis. Personal Income and Outlays, May 2026 (PCE Price Index). 25 June 2026. https://www.bea.gov/data/personal-consumption-expenditures-price-index. Retrieved 25 June 2026.",
+    "Statistics Canada. Consumer Price Index, May 2026. 22 June 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260622/dq260622a-eng.htm. Retrieved 25 June 2026.",
+    "Banco Central do Brasil (Focus market survey, via Xinhua). Year-end Selic forecast raised to 14.0%. 23 June 2026. http://www.xinhuanet.com/english/20260623/2b687de3932c411eaeaf8f34ea750cf2/c.html. Retrieved 25 June 2026.",
+    "People's Bank of China (via Reuters). China keeps Loan Prime Rate unchanged for a 13th straight month. 20 June 2026. https://ca.investing.com/news/economic-indicators/china-keeps-loan-prime-rate-unchanged-for-13th-straight-month-in-june-4699879. Retrieved 25 June 2026.",
+    "Magyar Nemzeti Bank. Press release on the Monetary Council meeting of 23 June 2026 (base rate cut to 6.00%). 23 June 2026. https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-23-june-2026. Retrieved 25 June 2026.",
+    "Bank of England. Alan Taylor speech (Barclays / CEPR). June 2026. https://www.bankofengland.co.uk/speech/2026/june/alan-taylor-speech-at-the-barclays-and-centre-for-economic-policy-research. Retrieved 25 June 2026.",
+    "CNBC. Gold falls as hawkish Fed bets lift dollar to one-year peak. 23 June 2026. https://www.cnbc.com/2026/06/23/gold-falls-as-dollar-holds-firm-on-fed-rate-hike-expectations.html. Retrieved 25 June 2026.",
+    "The Japan Times. Japan spent a record sum to support the yen. 30 May 2026. https://www.japantimes.co.jp/business/2026/05/30/markets/yen-intervention-japan/. Retrieved 25 June 2026.",
+    "Bloomberg. Fed data suggest Japan sold US debt amid intervention. 8 May 2026. https://www.bloomberg.com/news/articles/2026-05-08/markets-debate-if-japan-sold-treasuries-when-intervening-in-yen. Retrieved 25 June 2026.",
+    "U.S. Department of the Treasury. Treasury International Capital (TIC), April 2026, Major Foreign Holders of Treasury Securities. Released 23 June 2026. https://ticdata.treasury.gov/Publish/slt_table5.html. Retrieved 25 June 2026.",
+    "Bloomberg. China pursues austerity with first fiscal gap cutback since 2023. 23 June 2026. https://www.bloomberg.com/news/articles/2026-06-23/china-pursues-austerity-with-first-fiscal-gap-cutback-since-2023. Retrieved 25 June 2026.",
+    "TechTimes (Bloomberg reporting). China plans a $295B state-directed AI data-center grid. 22 June 2026. https://www.techtimes.com/articles/318868/20260622/china-ai-data-center-grid-locks-out-nvidia-295-billion-domestic-chip-mandate.htm. Retrieved 25 June 2026.",
+    "U.S. Bureau of Economic Analysis. US International Transactions, 1st Quarter 2026 (current account). 24 June 2026. https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update. Retrieved 25 June 2026.",
+    "Bloomberg. Oil companies to see federal drilling bond drop to $25,000. 22 June 2026. https://www.bloomberg.com/news/articles/2026-06-22/trump-administration-to-slash-oil-drilling-bond-amount-by-95. Retrieved 25 June 2026.",
+    "Office of the Superintendent of Financial Institutions (Canada). OSFI lowers the Domestic Stability Buffer to 3.0%. 19 June 2026. https://www.newswire.ca/news-releases/osfi-lowers-domestic-stability-buffer-to-3-0-so-canada-s-largest-banks-can-deploy-more-capital-819467385.html. Retrieved 25 June 2026.",
+    "White & Case. Section 122 10% tariff and the planned shift to Section 301 measures. June 2026. https://www.whitecase.com/insight-alert/trump-administration-imposes-10-section-122-tariff-plan-replace-ieepa-tariffs. Retrieved 25 June 2026.",
+    "Office of the U.S. Trade Representative. USTR makes findings and proposes action in Section 301 forced-labour investigations (hearing July 7). 2 June 2026. https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-makes-findings-and-proposes-action-60-section-301-investigations-relating-failures-take-action. Retrieved 25 June 2026.",
+    "NPR. Abelardo de la Espriella wins Colombia's presidential runoff. 21 June 2026. https://www.npr.org/2026/06/21/nx-s1-5865676/delaespriella-colombia-election. Retrieved 25 June 2026.",
+    "Bloomberg. India issues deadlines to sync its grid with a clean-energy buildout (about $109B). 16 June 2026. https://www.bloomberg.com/news/articles/2026-06-16/india-issues-deadlines-to-sync-grid-with-clean-energy-buildout. Retrieved 25 June 2026.",
+    "Inside Climate News. China leans on domestic coal to cushion oil and gas import dependence. March 2026. https://insideclimatenews.org/news/13032026/china-clean-energy-coal-cushions-oil-dependence-iran-war/. Retrieved 25 June 2026.",
+    "Micron Technology. Fiscal Q3 2026 results (revenue $41.5B; Q4 guide about $50B). 24 June 2026. https://investors.micron.com/. Retrieved 25 June 2026.",
+    "Bloomberg. SpaceX draws $89B of demand for its $25B debut investment-grade bond. 23 June 2026. https://www.bloomberg.com/news/articles/2026-06-23/spacex-draws-89-billion-demand-for-debut-high-grade-bond-sale. Retrieved 25 June 2026.",
+    "CNBC. SK Hynix plans a Nasdaq listing to raise about $29B. 24 June 2026. https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html. Retrieved 25 June 2026.",
+    "International Energy Agency. Oil Market Report, June 2026 (OECD stocks lowest since 1990; Hormuz flows recovering). June 2026. https://www.iea.org/reports/oil-market-report-june-2026. Retrieved 25 June 2026.",
+    "Trading Economics. Crude oil (WTI) price, June 2026. https://tradingeconomics.com/commodity/crude-oil. Retrieved 25 June 2026.",
+    "Statistics Canada. Gross domestic product, income and expenditure, Q1 2026 (real GDP -0.1% annualized; Q4 2025 -1.0%). 29 May 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260529/dq260529a-eng.htm. Retrieved 25 June 2026.",
+    "Bloomberg / The Globe and Mail. Bank of Canada rejects the recession label for the economy's weakness. 24 June 2026. https://www.bloomberg.com/news/articles/2026-06-24/bank-of-canada-rejects-recession-label-for-economy-s-weakness. Retrieved 25 June 2026.",
+    "Bank of Canada. Global imbalances, growth and stability (Macklem, Paris). 23 June 2026. https://www.bankofcanada.ca/2026/06/global-imbalances-growth-and-stability/. Retrieved 25 June 2026.",
+    "Department of Finance Canada. Largest Indigenous loan guarantee in Canadian history for the Darlington New Nuclear project. 23 June 2026. https://www.canada.ca/en/department-finance/news/2026/06/government-announces-largest-indigenous-loan-guarantee-in-canadian-history-to-support-darlington-new-nuclear-project.html. Retrieved 25 June 2026.",
+    "Privy Council Office (One Canadian Economy). Canada initiates the process to list major projects under the Building Canada Act. 24 June 2026. https://www.canada.ca/en/one-canadian-economy/news/2026/06/canada-initiates-process-to-list-major-projects-under-the-building-canada-act0.html. Retrieved 25 June 2026."
+  ]
+}

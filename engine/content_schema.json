@@ -1,0 +1,476 @@
+{
+  "_voice_note": "Match Eduardo's news file: plain, human, market-development framing; data first; short sentences; NO em-dashes or double dashes; minimal AI-voice. Direct each theme toward an investment implication. **bold** is supported inside any filled text and should be used for the direction words in weekly_direction.",
+  "_canonical": {
+    "_note": "SINGLE SOURCE OF TRUTH for enums + display labels (declared 6 Jul 2026). Prose docs defer to this block. Display labels must match the template's block headers; Eduardo's approved dashboards are the ground truth.",
+    "status_words": [
+      "Escalating",
+      "Held",
+      "Deescalating"
+    ],
+    "status_colours": {
+      "Escalating": "92D050",
+      "Held": "FFC000",
+      "Deescalating": "EE0000"
+    },
+    "block_order": [
+      "Executive Summary",
+      "Theme 1",
+      "Theme 1 Appendix — Monetary Policy Tracker",
+      "Theme 2",
+      "Theme 3",
+      "Theme 4",
+      "Theme 5",
+      "Theme 6",
+      "Illiquid Assets — Private Markets Read",
+      "Light Scoring and Developments",
+      "Inflation and Growth Read",
+      "Theme Light History",
+      "Lights Guide Appendix",
+      "References"
+    ],
+    "reference_topics": [
+      "Executive Summary — Weekly Direction & Key Developments",
+      "Theme 1 — Fiscal Expansion & Deregulation",
+      "Monetary Policy Tracker",
+      "Theme 2 — Currency Debasement",
+      "Theme 3 — Energy & the Energy Transition",
+      "Theme 4 — Artificial Intelligence",
+      "Theme 5 — Geopolitics & Trade",
+      "Theme 6 — Domestic Investing Pressures",
+      "Illiquid Assets — Private Markets"
+    ],
+    "illiquid_categories": [
+      "Performance",
+      "Valuations",
+      "Leverage",
+      "Dry powder"
+    ],
+    "illiquid_tones": {
+      "warm": "F4B183",
+      "cool": "9DC3E6",
+      "neutral": "D9D9D9"
+    },
+    "_illiquid_note": "6 Aug 2026 (Eduardo, v4 settled): the four framework categories are the canonical assessment grid for the Illiquids page — Performance = returns against public alternatives; Valuations = richer or cheaper, and the tells; Leverage = how much is being taken, what moves it, how it is measured; Dry powder = capital demand and deal appetite. They render as a 2x2 grid of self-contained cells (label + bold read + bullets). Buy/Hold/Sell calls and the one-word tone strip are retired. The tones palette below is kept only for legacy renders.",
+    "war_legs": [
+      "US-Iran",
+      "Russia-Ukraine"
+    ],
+    "_naming_flags": "RESOLVED 23 Jul 2026: all labels normalised to Eduardo's approved 17 Jul dashboard — ampersand forms ('Fiscal Expansion & Deregulation', 'Energy & the Energy Transition', 'Geopolitics & Trade'), em-dash block headers, 'Theme 1 Appendix — Monetary Policy Tracker'. Template v5 and these labels move together.",
+    "theme_headers": [
+      "Theme 1 — Fiscal Expansion & Deregulation",
+      "Theme 1 Appendix — Monetary Policy Tracker",
+      "Theme 2 — Currency Debasement",
+      "Theme 3 — Energy & the Energy Transition",
+      "Theme 4 — Artificial Intelligence",
+      "Theme 5 — Geopolitics & Trade",
+      "Theme 6 — Domestic Investing Pressures"
+    ],
+    "regime_signs": {
+      "+": "elevated or rising",
+      "-": "subdued or falling",
+      "=": "two-sided or unchanged"
+    }
+  },
+  "asof": "YYYY_MM_DD",
+  "weekly_direction": "<ONE sentence, nothing else: the inflation call + growth call with the direction words bolded, e.g. '**Moderating inflation** expectations and **held growth**.' Claim faster/slower only on unambiguous cross-asset evidence; stall or mixed = 'held growth'. No follow-up sentence (3 Jul standard).>",
+  "influencing_factors": [
+    "<factor line 1: growth evidence, one short sentence, only the decisive numbers>",
+    "<factor line 2: inflation/prices evidence>",
+    "<factor line 3: the market confirmation (what the tape did)>"
+  ],
+  "_influencing_factors_note": "6 Aug 2026 standard (Eduardo), replaces the exactly-3 rule: a LIST of 4 to 6 short lines (~14-18 words each, one bullet per item) that FILL the cell with the week's most relevant developments for an investment professional. SUPPORTING and market-defining content only: offsets and divergences do NOT appear here. BINDING dedupe rule: no number or phrasing may repeat between this cell, quadrant_rationale and the status_dashboard one-liners — the rationale owns the axis evidence, the factors own the week's other defining developments, the one-liners own each theme's headline. Scan all three before filing.",
+  "quadrant_marker": {
+    "label": "MM-DD",
+    "dx_emu": 0,
+    "dy_emu": 0,
+    "_note": "Jun-30 reference format (17 Jul 2026 standard). The template carries the AIP Jun 30th environment: map, black Jun 30 reference point, standing note box, and the PRIOR week's single dated marker. The engine renames that marker to `label` and shifts it by (dx_emu, dy_emu) = this week's displacement vs the prior marker, both positions read against the fixed Jun 30 baseline. Right (+x) = firmer inflation expectations (lower bond-risk-factor side); up (-y) = firmer growth. NO trail: exactly one dated marker exists after every run. Legacy 3-marker transplant available via quadrant_transplant: true.",
+    "_axes": "Quadrants: top-left Productivity Boost, top-right Inflation, bottom-left Deflation, bottom-right Stagflation."
+  },
+  "quadrant_scale": 0.5,
+  "quadrant_shift_up_emu": 0,
+  "quadrant_behind": false,
+  "exec_r1_height_twips": 900,
+  "exec_r2_height_twips": 900,
+  "theme_row_min_twips": 700,
+  "_layout_note": "9 Jul 2026 — the page schema (exec + all 6 status rows on p1, Key Developments on p2, ONE theme per page) is now enforced deterministically by the engine, not by hand-tuning: (a) `quadrant_scale` shrinks the floating quadrant toward its top-left so it is no taller than the factors (0.5 keeps it readable and small); (b) `exec_r1_height_twips`/`exec_r2_height_twips` reset the template's FIXED reserved exec-row heights (4881/7095) to 'at least N' so the rows size to content — this is what lets all 6 status rows fit p1; (c) `theme_row_min_twips` does the same for theme blocks so empty side-chart slots stop reserving space; (d) the engine inserts page breaks before each theme (pageBreakBefore) and a hard page break before Light Scoring / Light History, dropping the redundant spacer. Chart-heavy themes (Monetary's central-bank table, Currency/AI/Geo keydev charts) need 'What changed' at ~2 tight paragraphs. ALWAYS run `python3 engine/check_layout.py <out.docx>` after building; it must exit 0 before filing.",
+  "central_bank": [
+    [
+      "US Federal Reserve",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "Bank of Canada",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "European Central Bank",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "Bank of Japan",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "People's Bank of China",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "Reserve Bank of India",
+      "<rate>",
+      "<cycle / note>"
+    ],
+    [
+      "Bank of Korea",
+      "<rate>",
+      "<cycle / note>"
+    ]
+  ],
+  "status_dashboard": [
+    {
+      "status": "Held",
+      "oneliner": "<Theme 1 development, 1-2 compact sentences: the news + optionally a short interpretive kicker on what it says about the theme's direction. Name specific legs (e.g. 'US-Iran' and 'Russia-Ukraine', never just 'the war').>"
+    },
+    {
+      "status": "Held",
+      "oneliner": "<Theme 2>"
+    },
+    {
+      "status": "Held",
+      "oneliner": "<Theme 3>"
+    },
+    {
+      "status": "Held",
+      "oneliner": "<Theme 4>"
+    },
+    {
+      "status": "Held",
+      "oneliner": "<Theme 5>"
+    },
+    {
+      "status": "Held",
+      "oneliner": "<Theme 6>"
+    }
+  ],
+  "_status_values": "status is ONE word = MORE/LESS of the theme: Escalating (more, green) | Held (mixed, amber) | Deescalating (less, red). Engine auto-colours the oval.",
+  "key_developments": [
+    {
+      "development": "<the news: what happened, with the data and inline source. 2-4 sentences.>",
+      "implication": "<what it means for the theme(s) it touches. 1-3 sentences.>"
+    }
+  ],
+  "_key_developments_note": "RETIRED 30 Jul 2026 (Eduardo): the exec 'Key Developments | Implication for Themes' page restated the theme blocks, so the engine now DROPS those rows and the Executive Summary ends at the Status Dashboard, with themes starting on page 2. Set keep_exec_key_developments true to restore. The key_developments key below is kept only for backward compatibility with older runs.",
+  "theme1": {
+    "status": "Held ▸ <what decided it, with the data>; <the read woven in: a few CONCRETE words tying the week to growth / inflation / policy pricing, as a clause, NOT a labelled 'Macro take:'>.",
+    "_status_note": "The engine prepends a 'Status Ball' oval (same shape as the exec dashboard lights) from the first word — do NOT type a ● yourself. The engine renders the whole line as plain 10pt BLACK body text (only the ball carries colour) and STRIPS any literal 'Macro take:' label (9 Jul 2026 standard: weave the read into the sentence as a clause instead). Score the light with MacroBasis_Evaluator.md, including the tape veto: if the week's tradeable tape materially contradicts the news flow, cap at Held and name both sides. The woven read is a concrete driver ('growth picked up mostly from commodities, policy unchanged'), never an aphorism; droppable when the deciding-signal sentence already carries it.",
+    "developments": [
+      "<the week's story with supporting data; EVERY number carries prior/expectation/trend context; (Source.)>"
+    ],
+    "material_note": "<an advancement on the theme's most important running topic: what advanced this week, the data point that matters (with context), why. NEVER start with 'Key development:' — the row label already says it (3 Jul standard). If no generated chart: end with 'Suggested chart: <series>. (Insert theme1_keydev_chart.)'>",
+    "keydev_chart_png": "<retired 23 Jul 2026: keydev rows are text-only; charts are Eduardo's own inserts in the chart column. Field still honoured if ever set.>",
+    "keydev_chart_note": "<footnote under the chart explaining how it was built: what was plotted, from which sources; rendered small italic grey>",
+    "implication": "<2-3 sentences, ending on the investment read>",
+    "watch": [
+      "<falsifiable, dated item 1>",
+      "<item 2>",
+      "<item 3 — exactly three items (17 Jul standard)>"
+    ]
+  },
+  "monetary": {
+    "status": "<NO status word, NO light (3 Jul standard): start straight at the deciding sentence. The Monetary appendix has NO Key Development block (17 Jul standard): leave material_note empty.>",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "theme2": {
+    "status": "",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "theme3": {
+    "status": "",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "theme4": {
+    "status": "",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "theme5": {
+    "status": "",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "theme6": {
+    "status": "",
+    "developments": [],
+    "material_note": "",
+    "implication": "",
+    "watch": []
+  },
+  "illiquids": {
+    "title": "Illiquid Assets",
+    "chart_slots": ["illiquid_1", "illiquid_2"],
+    "developments": [
+      "<the window's most important PRIVATE EQUITY news, ~4 bullets ranked by materiality for a pension allocator, from the beat's dedicated Sonnet 5 PE sweep; every number carries prior/expectation/trend>"
+    ],
+    "framework": [
+      {
+        "category": "Performance",
+        "read": "<one BOLD line: the directional read for the category>",
+        "points": [
+          "<2-3 bullets: the evidence, the implication and what to watch for this category, self-contained>"
+        ]
+      },
+      {"category": "Valuations", "read": "", "points": []},
+      {"category": "Leverage", "read": "", "points": []},
+      {"category": "Dry powder", "read": "", "points": []}
+    ]
+  },
+  "_illiquids_note": "6 Aug 2026 NEW (Eduardo); v4 the same day is the SETTLED format. The 'Illiquid Assets' block is engine-rendered AFTER Theme 6 and BEFORE Light Scoring, on its own page: header → chart column ('Insert illiquid_1/2') beside bulleted 'What changed this week' → a 2x2 FRAMEWORK GRID (Performance | Valuations over Leverage | Dry powder) that replaces the keydev / implication / watch rows. 'What changed this week' = the window's most important PRIVATE EQUITY news from a dedicated Sonnet 5 sweep (Beat 10, Run Prompt). Each grid cell is self-contained: category label, a one-line bold `read`, then `points` bullets carrying evidence + implication + watch for that category. Categories in the fixed order of `_canonical.illiquid_categories`: Performance (returns against public alternatives), Valuations (richer or cheaper, transaction-versus-mark evidence), Leverage (how much, what moves it, how measured), Dry powder (capital demand and deal appetite). RETIRED and not to return: the Buy/Hold/Sell sleeve calls (v1-v2) and the one-word Signals strip with tones (v3) — one-word weekly reads proved impossible to keep consistent; prose cells are stable. DELIBERATELY OUTSIDE THE LIGHTS SYSTEM: no traffic light, NO exec status row (still six), no entry in `light_scoring` or `light_history`. `check_illiquids` warns on any leak, on category drift, on a Buy/Hold/Sell or light-word read, and on a leftover `signals` key. Budget: ~180 words of PE news + ~75 words per cell, with the two chart slots at their schema sizes, to clear the 89.5% fill ceiling.",
+  "light_scoring": [
+    {
+      "theme": "1 Fiscal & Deregulation",
+      "light": "Escalating",
+      "supports": "<findings pushing MORE of the theme, each with materiality and +N>",
+      "against": "<findings pushing LESS, each with materiality and -N>",
+      "net": "<the net vs the +/-3 threshold and any tape-veto / contradiction-rule note>"
+    }
+  ],
+  "_light_scoring_note": "9 Jul 2026 NEW section, engine-rendered as a bordered block AFTER Theme 6, SPLIT INTO COLUMNS (Theme | Light | Supports | Against | Net) so it reads cleanly rather than one bundled paragraph. One entry per theme in AIP order (6 total; Monetary has no light). `light` is one status word (engine colours the cell); supports/against/net mirror the Evaluator's direction x materiality math so the grading is explicit and checkable. Each field a string or a short list; keep tight.",
+  "light_history": {
+    "themes": [
+      "1 Fiscal & Deregulation",
+      "2 Currency Debasement",
+      "3 Energy & Transition",
+      "4 Artificial Intelligence",
+      "5 Geopolitics & Trade",
+      "6 Domestic Investing"
+    ],
+    "weeks": [
+      {
+        "date": "MM-DD",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      }
+    ]
+  },
+  "light_history_png": "engine/charts/YYYY-MM-DD/light_history.png",
+  "_light_history_note": "9 Jul 2026 NEW section AFTER Light Scoring. PREFERRED render is a matplotlib HEATMAP image (`light_history_png`, themes as rows x ALL weeks as columns, cells filled green/amber/red) that stays compact as weeks accumulate — regenerate it each run from `light_history` (add the current week's column). Without a png the engine falls back to a coloured word-matrix (grows wide, capped by page width). AGENT-MAINTAINED: carry prior weeks forward and append the current week. Seeded from the approved dashboards' Status Dashboards (3-light system since 2 Jul 2026; 06-18 on).",
+  "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved <DD Month YYYY>.",
+  "references": [
+    {
+      "topic": "Executive Summary — Weekly Direction & Key Developments",
+      "items": [
+        "(Tier 1) <Source. Title. Date. URL. Retrieved DD Month YYYY.>"
+      ]
+    },
+    {
+      "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+      "items": []
+    },
+    {
+      "topic": "Monetary Policy Tracker",
+      "items": []
+    },
+    {
+      "topic": "Theme 2 — Currency Debasement",
+      "items": []
+    },
+    {
+      "topic": "Theme 3 — Energy & the Clean Transition",
+      "items": []
+    },
+    {
+      "topic": "Theme 4 — Artificial Intelligence",
+      "items": []
+    },
+    {
+      "topic": "Theme 5 — Geopolitics & Trade",
+      "items": []
+    },
+    {
+      "topic": "Theme 6 — Domestic Investing Pressures",
+      "items": []
+    },
+    {
+      "topic": "Illiquid Assets — Private Markets",
+      "items": []
+    }
+  ],
+  "_references_note": "Grouped BY TOPIC mirroring the document's sections; every item carries its tier in parentheses and sources the data actually used in that section. A Tier 3 item appears only after conversion and names its confirming source. Omit empty groups. (Engine also accepts the legacy 'tier' key as the group label.)",
+  "_central_bank_note": "SEVEN rows with full bank names (17 Jul 2026 standard); header row reads 'Expected Cycle / Note'. Keep notes to one short clause; the table sits under the monetary chart slot in the left column.",
+  "quadrant_highlight": {
+    "quadrant": "Stagflation",
+    "colour": "C00000",
+    "alpha": 20,
+    "drop_aip_note": true,
+    "_note": "30 Jul 2026 standard (Eduardo), REPLACES quadrant_marker. Shades the WHOLE quadrant the week sits in instead of plotting a dated dot, and removes the standing AIP note box. quadrant is one of Productivity Boost / Inflation / Deflation / Stagflation (top-left / top-right / bottom-left / bottom-right). alpha is a percent, 18-25 keeps the quadrant's own labels readable. The engine composites the wash INTO the map image rather than floating a shape over it, because the exec cell's deep negative anchor offsets are clamped by LibreOffice; baking it in is renderer-proof and scales with the map. The legacy dot is still available via quadrant_marker when quadrant_highlight is absent."
+  },
+  "quadrant_rationale": [
+    "<bullet 1: which axis moved and the evidence that moved it>",
+    "<bullet 2>",
+    "<bullet 3>",
+    "<bullet 4 — 3 or 4 bullets, ~25 words each>"
+  ],
+  "_quadrant_rationale_note": "30 Jul 2026 v2: the rationale renders INSIDE the exec direction table's third column, styled under the inline quadrant image (plum rule, square bullets, sz 14). The map is INLINE, not floating: floats with deep negative offsets render differently across Word and LibreOffice, an inline image in a cell is deterministic and the bullets can never drift from the map. Knobs: quadrant_img_width_in (3.30), exec_quadrant_col_twips (5250), exec_quadrant_header, quadrant_rationale_sz (14). Bullets say WHY the week sits in the highlighted quadrant, distinct from influencing_factors, and must agree with regime_table. 3-4 bullets, ~25 words each.",
+  "keep_exec_key_developments": false,
+  "regime_table": {
+    "rows": [
+      {
+        "factor": "Inflation",
+        "sign": "+",
+        "label": "<two words, e.g. 'elevated, flat'>",
+        "why": [
+          "<bullet: the evidence for this sign>"
+        ],
+        "against": [
+          "<bullet: what argues the other way>"
+        ]
+      },
+      {
+        "factor": "Growth",
+        "sign": "-",
+        "label": "<two words, e.g. 'decelerating'>",
+        "why": [
+          "<bullet>"
+        ],
+        "against": [
+          "<bullet>"
+        ]
+      }
+    ],
+    "quadrant_read": "<one bold spanning line tying the two signs to the quadrant highlighted on page 1>"
+  },
+  "_regime_table_note": "30 Jul 2026 NEW (Eduardo): the 'Inflation and Growth Read' block, rendered AFTER Light Scoring and BEFORE Theme Light History. Same visual grammar as Light Scoring: a colour-filled sign cell (the analogue of the Light cell) plus bulleted reasoning. sign is '+' or '-' (also accepts '=' and '+/-'); the engine colours warm for +, cool for -, grey for neutral. Use economic reasoning as well as the week's headlines, but report in bullets. This block FEEDS the page-1 quadrant: build it first, then write quadrant_rationale as its summary, and make sure quadrant_read names the same quadrant that quadrant_highlight shades. EXPANDED 30 Jul 2026 (Eduardo): the read is thorough, not a summary. Three to four evidence bullets per side per factor, each a full sentence with its numbers; the quadrant_read names the quadrant, its caveats and the quadrant's AIP asset read against the week's tape. The block page also carries the sign history strip and the quadrant residency chart; budget roughly 460 words for the table so the strip and residency fit the same page.",
+  "_status_dashboard_length_note": "30 Jul 2026, lengths recalibrated 6 Aug 2026: page 1 must hold direction + factors + quadrant + rationale + ALL SIX status rows. Layout-critical: oneliner ~20-24 words (genuinely one line), influencing_factors 4-6 lines of ~14-18 words each (SIX lines at 20+ words overflowed page 1 on the 6 Aug run; five at ~16 fit with the cell full), quadrant_rationale ~25 words per bullet. Overrun pushes row six to page 2 and fails check_layout.py.",
+  "chart_slot_default": {
+    "width_in": 3.7,
+    "height_in": 2.25
+  },
+  "chart_slots": {
+    "fiscal_chart_1": {
+      "width_in": 3.58,
+      "height_in": 2.47
+    },
+    "fiscal_chart_2": {
+      "width_in": 3.92,
+      "height_in": 2.24
+    },
+    "monetary_1": {
+      "width_in": 3.75,
+      "height_in": 2.08
+    },
+    "currency_1": {
+      "width_in": 3.65,
+      "height_in": 2.06
+    },
+    "currency_2": {
+      "width_in": 3.78,
+      "height_in": 2.57
+    },
+    "currency_3": {
+      "width_in": 3.62,
+      "height_in": 2.14
+    },
+    "energy_1": {
+      "width_in": 3.86,
+      "height_in": 2.19
+    },
+    "energy_2": {
+      "width_in": 3.8,
+      "height_in": 2.28
+    },
+    "AI_1": {
+      "width_in": 3.68,
+      "height_in": 2.21
+    },
+    "AI_2": {
+      "width_in": 3.69,
+      "height_in": 2.43
+    },
+    "geo_1": {
+      "width_in": 3.86,
+      "height_in": 2.42
+    },
+    "geo_2": {
+      "width_in": 3.81,
+      "height_in": 2.39
+    },
+    "domestic_1": {
+      "width_in": 3.79,
+      "height_in": 2.28
+    },
+    "domestic_2": {
+      "width_in": 3.66,
+      "height_in": 2.41
+    },
+    "illiquid_1": {
+      "width_in": 3.6,
+      "height_in": 1.72
+    },
+    "illiquid_2": {
+      "width_in": 3.6,
+      "height_in": 1.72
+    }
+  },
+  "_illiquid_slots_note": "6 Aug 2026: the Illiquids block is new, so no approved dashboard exists to measure. These two sizes were SET rather than measured, chosen so the block fits one page with a full theme-length text column. Re-measure them from Eduardo's first approved Illiquids page and they become measured like every other slot.",
+  "_chart_slots_note": "30 Jul 2026 v3: sizes MEASURED from the charts Eduardo pasted into the APPROVED 30 Jul dashboard (wp:extent per drawing, in document order per block). Re-measure whenever a new approved dashboard lands. Exec quadrant at 3.14in wide (his resize). His Word edits also taught two hard lessons now handled by the engine and checker: (1) resizing an image inside the direction table makes Word RE-FIT the nested columns and squeeze Influencing Factors into a sliver that balloons row 1 — the direction table is now tblLayout=fixed with widths 2350/3500/5050 so Word cannot re-fit it; (2) Word drops hRule='atLeast' from row heights on save, which LibreOffice then reads as exact — restore atLeast when ingesting a hand-edited dashboard.",
+  "quadrant_img_width_in": 3.14,
+  "exec_quadrant_col_twips": 5250,
+  "exec_quadrant_header": "Current Environment",
+  "direction_signs": [
+    {
+      "factor": "Inflation",
+      "sign": "+",
+      "label": "<two words>"
+    },
+    {
+      "factor": "Growth",
+      "sign": "-",
+      "label": "<two words>"
+    }
+  ],
+  "_direction_signs_note": "30 Jul 2026 (Eduardo): compact sign chips under the Weekly Direction sentence on page 1, mirroring the regime read at the back. Signs are binary + or - and must MATCH regime_table.rows; the engine warns on mismatch.",
+  "regime_history": {
+    "weeks": [
+      {
+        "date": "MM-DD",
+        "inflation": "+",
+        "growth": "-"
+      }
+    ]
+  },
+  "_regime_history_note": "30 Jul 2026 v2 (Eduardo): signs are BINARY, + or - only, because the pair IS the quadrant coordinate: (+,+) Inflation, (+,-) Stagflation, (-,+) Productivity Boost, (-,-) Deflation. There is no third state; nuance like 'held rather than rising' lives in the sign label and the prose. AGENT-MAINTAINED: carry prior weeks forward, append the current week. Series starts 24 July 2026 (07-24 = +,-), aligned with the quadrant residency count. The engine warns at build if the signs, the page-1 chips and the highlighted quadrant disagree (check_signs_vs_quadrant).",
+  "quadrant_history": {
+    "since": "24 July 2026",
+    "weeks": [
+      {
+        "date": "MM-DD",
+        "quadrant": "Stagflation"
+      }
+    ]
+  },
+  "quadrant_history_png": "engine/charts/YYYY-MM-DD/quadrant_history.png",
+  "_quadrant_history_note": "30 Jul 2026 (Eduardo): weekly reads per AIP quadrant (Productivity Boost / Inflation / Deflation / Stagflation), AGENT-MAINTAINED from 24 July 2026 onward (the first week under the quadrant highlight standard; Eduardo's baseline: 07-24 Stagflation, 07-30 Stagflation). engine/make_light_history.py renders the bar chart to quadrant_history_png in the same pre-build step as the light heatmap; the engine embeds it beside the counts line in the regime history strip."
+}
