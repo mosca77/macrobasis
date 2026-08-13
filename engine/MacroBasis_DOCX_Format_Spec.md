@@ -1,4 +1,11 @@
-# MacroBasis DOCX Format Spec — exact-match contract (v4.0, 23 Jul 2026)
+# MacroBasis DOCX Format Spec — exact-match contract (v4.2, 13 Aug 2026)
+
+> **How versions work here:** the number in this title = the newest "Engine vX.Y"
+> changelog section below (the engine and this contract move together; the same
+> number is stamped in `macrobasis_fill.py`'s docstring). It is NOT the template's
+> version — the template is the newest `MacroBasis_Report_Template_v*.docx` at the
+> repo root (currently **v6**) — and NOT the Run Prompt's (v5.x) or the Illiquids
+> page format's ("v4 settled", 6 Aug 2026) numbering, which are independent tracks.
 
 **Goal:** every weekly dashboard must be a byte-faithful match of the **current
 report template — the newest `MacroBasis_Report_Template*.docx` in the folder root**
@@ -8,10 +15,12 @@ folder's `macrobasis_fill.py` does exactly that.
 
 Template lineage: the plain `MacroBasis_Report_Template.docx` filename is retired
 (6 Jul 2026) — use the newest `MacroBasis_Report_Template*` file. **Current:
-`MacroBasis_Report_Template_v5.docx`, built 23 Jul 2026 from Eduardo's approved
-17 Jul dashboard** (his full restructure: Jun-30 reference quadrant, two-page exec,
-charts beside bulleted 'What changed', full-width text keydev, Implication | Watch
-side by side, 7-row central-bank table, no Monetary keydev) with
+`MacroBasis_Report_Template_v6.docx`, built 30 Jul 2026 from Eduardo's approved
+30 Jul dashboard** (inline three-column exec, one page per section, 14 chart
+slots; supersedes v5, which was built 23 Jul from the approved 17 Jul dashboard:
+Jun-30 reference quadrant, two-page exec, charts beside bulleted 'What changed',
+full-width text keydev, Implication | Watch side by side, 7-row central-bank
+table, no Monetary keydev) with
 `engine/build_template_from_dashboard.py` (v2) — run that script
 against the newest approved dashboard whenever his structural hand edits should
 become the template (it re-inserts every placeholder token, restores Insert
