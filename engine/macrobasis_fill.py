@@ -1108,11 +1108,121 @@ def _placeholder_png(label, w_in, h_in, dpi=96):
     return path
 
 
-def fill_chart_placeholders(doc, blk, slots, default):
-    """Put a correctly sized placeholder in every 'Insert <slot>' cell of a block.
+# ---------- Real chart insertion from ChartsThemes/ (13 Aug 2026, Eduardo) ----------
+# Eduardo now uploads his weekly theme charts to ChartsThemes/ at the repo root, and the
+# engine places them INTO the report at build time instead of leaving a dashed
+# placeholder for a hand paste. Three rules keep the calibrated layout intact:
+# (a) the chart is letterboxed onto a white canvas of EXACTLY the slot's measured
+#     geometry (aspect kept, centred), so the inserted picture has the same wp:extent
+#     as the placeholder it replaces and nothing on the page can reflow;
+# (b) when a real chart lands, the "Insert <slot>" marker line is dropped — the chart
+#     replaces the paste step, and a marker over a filled slot would read as an error;
+# (c) a slot with no matching file falls back to the sized placeholder + marker exactly
+#     as before, and the gap is printed for the manifest — never a silent null.
+# File names are matched tolerantly (case, separators, doubled ".png.png", the
+# currency_debasement_N / artficial_intelligence-N / Geopolitics_N / Illiquids_N
+# spellings all resolve); names starting with "retired" and zero-byte files are skipped.
 
-    `slots` maps slot name -> {"width_in", "height_in"}; `default` supplies either.
-    Returns the list of (slot, w_in, h_in) filled, for the manifest."""
+_CHART_ALIASES = {
+    "fiscalchart": ("fiscalchart", "fiscal"),
+    "monetary":    ("monetary",),
+    "currency":    ("currencydebasement", "currency"),
+    "energy":      ("energy",),
+    "ai":          ("artificialintelligence", "artficialintelligence", "intelligence", "ai"),
+    "geo":         ("geopolitics", "geo"),
+    "domestic":    ("domestic",),
+    "illiquid":    ("illiquids", "illiquid"),
+}
+
+
+def _norm_stem(name):
+    s = name.lower()
+    while s.endswith((".png", ".jpg", ".jpeg")):
+        s = s.rsplit(".", 1)[0]
+    return re.sub(r"[^a-z0-9]", "", s)
+
+
+def _split_idx(s):
+    m = re.match(r"^(.*?)(\d+)$", s)
+    return (m.group(1), m.group(2).lstrip("0") or "0") if m else (s, None)
+
+
+def index_chart_dir(source_dir):
+    """(normalised base, index) -> path for every usable image in ChartsThemes/."""
+    idx = {}
+    if not source_dir:
+        return idx
+    if not os.path.isdir(source_dir):
+        # engine may be invoked from anywhere; fall back to repo root = script's parent
+        alt = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", source_dir)
+        if os.path.isdir(alt):
+            source_dir = alt
+        else:
+            return idx
+    for f in sorted(os.listdir(source_dir)):
+        p = os.path.join(source_dir, f)
+        if not os.path.isfile(p) or os.path.getsize(p) == 0:
+            continue
+        if not f.lower().endswith((".png", ".jpg", ".jpeg")):
+            continue
+        stem = _norm_stem(f)
+        if stem.startswith("retired"):
+            continue
+        base, num = _split_idx(stem)
+        if num is None:
+            continue
+        idx.setdefault((base, num), p)
+    return idx
+
+
+def resolve_chart_image(slot, dir_index, overrides=None):
+    """Source image for a slot: explicit `chart_images` override first, then the
+    ChartsThemes index via the alias table, then a substring last resort. None = gap."""
+    if overrides and overrides.get(slot):
+        return overrides[slot]
+    sbase, snum = _split_idx(_norm_stem(slot))
+    snum = snum or "1"
+    aliases = _CHART_ALIASES.get(sbase, (sbase,))
+    for a in aliases:
+        hit = dir_index.get((a, snum))
+        if hit:
+            return hit
+    for (b, n), p in sorted(dir_index.items()):
+        if n == snum and any(a in b for a in aliases):
+            return p
+    return None
+
+
+_CHART_IMG_CACHE = {}
+
+
+def _chart_png(src, w_in, h_in, dpi=150):
+    """The source chart letterboxed onto white at EXACTLY the slot geometry."""
+    key = (os.path.abspath(src), round(w_in, 3), round(h_in, 3))
+    if key in _CHART_IMG_CACHE:
+        return _CHART_IMG_CACHE[key]
+    from PIL import Image
+    W, H = max(8, int(round(w_in * dpi))), max(8, int(round(h_in * dpi)))
+    im = Image.open(src).convert("RGBA")
+    scale = min(W / im.width, H / im.height)
+    nw, nh = max(1, int(im.width * scale)), max(1, int(im.height * scale))
+    im = im.resize((nw, nh), Image.LANCZOS)
+    canvas = Image.new("RGB", (W, H), "#FFFFFF")
+    canvas.paste(im, ((W - nw) // 2, (H - nh) // 2), im)
+    path = os.path.join(tempfile.gettempdir(), f"mb_chart_{abs(hash(key))}.png")
+    canvas.save(path)
+    _CHART_IMG_CACHE[key] = path
+    return path
+
+
+def fill_chart_placeholders(doc, blk, slots, default, images=None):
+    """Fill every 'Insert <slot>' cell of a block: the real chart from ChartsThemes/
+    at the slot's exact measured geometry when one resolves, else the sized dashed
+    placeholder (30 Jul 2026 behaviour, unchanged).
+
+    `slots` maps slot name -> {"width_in", "height_in"}; `default` supplies either;
+    `images` maps slot name -> source image path (resolved once in main()).
+    Returns the list of (slot, w_in, h_in, source) filled, for the manifest."""
     if not default and not slots:
         return []
     filled = []
@@ -1131,8 +1241,13 @@ def fill_chart_placeholders(doc, blk, slots, default):
         cfg.update((slots or {}).get(slot, {}))
         w_in = float(cfg.get("width_in", 3.5))
         h_in = float(cfg.get("height_in", 2.2))
-        png = _placeholder_png(slot, w_in, h_in)
-        # keep the marker line (Eduardo navigates by it), frame goes directly under it
+        src = (images or {}).get(slot)
+        if src and os.path.isfile(src):
+            png = _chart_png(src, w_in, h_in)
+            source = os.path.basename(src)
+        else:
+            png = _placeholder_png(slot, w_in, h_in)
+            source = "placeholder"
         ip = _inline_image_para(doc, png, width_emu=int(w_in * 914400), center=True)
         p.addnext(ip)
         # 6 Aug 2026 white-space discipline: the marker line and the frame each carried
@@ -1141,7 +1256,8 @@ def fill_chart_placeholders(doc, blk, slots, default):
         # only way to buy height in a chart-bound block without touching a MEASURED slot
         # size, which must stay exactly what Eduardo pastes in. This is what lets the
         # AI block, whose two slots reserve 4.64in, clear the 89.5% fill ceiling.
-        for _p in (p, ip):
+        _paras = (ip,) if source != "placeholder" else (p, ip)
+        for _p in _paras:
             pPr = _p.find(qn('w:pPr'))
             if pPr is None:
                 pPr = OxmlElement('w:pPr'); _p.insert(0, pPr)
@@ -1150,7 +1266,10 @@ def fill_chart_placeholders(doc, blk, slots, default):
                 spc = add_spacing_ordered(pPr)
             spc.set(qn('w:before'), '0'); spc.set(qn('w:after'), '0')
             spc.set(qn('w:line'), '240'); spc.set(qn('w:lineRule'), 'auto')
-        filled.append((slot, w_in, h_in))
+        if source != "placeholder":
+            # the chart replaces the paste step: drop the "Insert <slot>" marker line
+            p.getparent().remove(p)
+        filled.append((slot, w_in, h_in, source))
     return filled
 
 
@@ -1969,6 +2088,25 @@ def main():
 
     tbls = top_tables(doc)
 
+    # 1b) resolve Eduardo's uploaded charts (13 Aug 2026): one pass over ChartsThemes/
+    # (or `chart_source_dir`), explicit `chart_images` overrides win per slot. Every
+    # resolved slot gets the REAL chart at the slot's measured geometry; unresolved
+    # slots keep the dashed placeholder and are named here — never a silent gap.
+    chart_dir = C.get("chart_source_dir", "ChartsThemes")
+    _dir_index = index_chart_dir(chart_dir)
+    chart_images = {}
+    for _slot in (C.get("chart_slots") or {}):
+        _src = resolve_chart_image(_slot, _dir_index, C.get("chart_images"))
+        if _src:
+            chart_images[_slot] = _src
+    if _dir_index or C.get("chart_images"):
+        _missing = [s for s in (C.get("chart_slots") or {}) if s not in chart_images]
+        print("charts resolved from %s: %d/%d slots%s" % (
+            chart_dir, len(chart_images), len(C.get("chart_slots") or {}),
+            ("; placeholder fallback: " + ", ".join(_missing)) if _missing else ""))
+    else:
+        print("no chart source dir (%s) and no chart_images — all slots get placeholders" % chart_dir)
+
     # 2) Executive Summary
     exec_t = next(t for t in tbls if block_title(t).startswith("Executive Summary"))
     # 2a) quadrant — Jun-30 reference format (default since 23 Jul 2026): the template
@@ -2126,9 +2264,10 @@ def main():
         else:
             print("WARN: no 'Watch next week' cell in '%s'" % title_startswith)
         drop_empty_fullwidth_rows(blk)
-        # 30 Jul 2026: reserve the real chart geometry so Eduardo's inserts do not reflow
+        # 30 Jul 2026: reserve the real chart geometry so Eduardo's inserts do not
+        # reflow; 13 Aug 2026: slots with a ChartsThemes upload get the REAL chart.
         got = fill_chart_placeholders(doc, blk, C.get("chart_slots"),
-                                      C.get("chart_slot_default"))
+                                      C.get("chart_slot_default"), chart_images)
         if got:
             _CHART_SLOTS_FILLED.extend(got)
 
@@ -2182,7 +2321,7 @@ def main():
             # same sized chart placeholders as a theme block, so Eduardo's own charts
             # paste in without reflowing the page
             _got = fill_chart_placeholders(doc, _ib, C.get("chart_slots"),
-                                           C.get("chart_slot_default"))
+                                           C.get("chart_slot_default"), chart_images)
             if _got:
                 _CHART_SLOTS_FILLED.extend(_got)
         if C.get("light_scoring"):
@@ -2207,8 +2346,10 @@ def main():
     _tbls = top_tables(doc)
     _theme_prefixes = ("Theme 1 —", "Theme 1 -", "Theme 1 Appendix", "Theme 1 (Appendix)",
                        "Theme 2", "Theme 3", "Theme 4", "Theme 5", "Theme 6")
-    _gen_prefixes = ("Illiquid Assets", "Light Scoring", "Inflation and Growth Read",
-                     "Theme Light History")
+    # 13 Aug 2026: Eduardo's approved 07 Aug dashboard renamed the Illiquids header to
+    # "Allocation Insights - Illiquid Assets"; match both so the block keeps its own page.
+    _gen_prefixes = ("Illiquid Assets", "Allocation Insights", "Light Scoring",
+                     "Inflation and Growth Read", "Theme Light History")
     _tmin = int(C.get("theme_row_min_twips", 1250))
     def _drop_spacer_before(tbl):
         prev = tbl.getprevious()
@@ -2280,8 +2421,8 @@ def main():
         print("normalised %d table property blocks into schema order" % _nfix)
     doc.save(out)
     if _CHART_SLOTS_FILLED:
-        print("chart slots reserved: " + ", ".join(
-            f"{n} {w:.2f}x{h:.2f}in" for n, w, h in _CHART_SLOTS_FILLED))
+        print("chart slots: " + ", ".join(
+            f"{n} {w:.2f}x{h:.2f}in <- {s}" for n, w, h, s in _CHART_SLOTS_FILLED))
     print("saved", out)
 
 if __name__ == "__main__":

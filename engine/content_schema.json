@@ -370,72 +370,75 @@
   },
   "chart_slots": {
     "fiscal_chart_1": {
-      "width_in": 3.58,
-      "height_in": 2.47
+      "width_in": 3.72,
+      "height_in": 2.82
     },
     "fiscal_chart_2": {
-      "width_in": 3.92,
-      "height_in": 2.24
+      "width_in": 3.9,
+      "height_in": 2.22
     },
     "monetary_1": {
-      "width_in": 3.75,
-      "height_in": 2.08
+      "width_in": 3.86,
+      "height_in": 2.05
     },
     "currency_1": {
-      "width_in": 3.65,
-      "height_in": 2.06
+      "width_in": 3.77,
+      "height_in": 2.13
     },
     "currency_2": {
-      "width_in": 3.78,
-      "height_in": 2.57
+      "width_in": 3.7,
+      "height_in": 2.51
     },
     "currency_3": {
-      "width_in": 3.62,
-      "height_in": 2.14
+      "width_in": 3.88,
+      "height_in": 2.29
     },
     "energy_1": {
-      "width_in": 3.86,
-      "height_in": 2.19
+      "width_in": 3.78,
+      "height_in": 2.14
     },
     "energy_2": {
-      "width_in": 3.8,
-      "height_in": 2.28
+      "width_in": 3.78,
+      "height_in": 2.27
     },
     "AI_1": {
-      "width_in": 3.68,
+      "width_in": 3.69,
       "height_in": 2.21
     },
     "AI_2": {
-      "width_in": 3.69,
-      "height_in": 2.43
+      "width_in": 3.76,
+      "height_in": 2.48
     },
     "geo_1": {
-      "width_in": 3.86,
-      "height_in": 2.42
+      "width_in": 3.74,
+      "height_in": 2.34
     },
     "geo_2": {
-      "width_in": 3.81,
-      "height_in": 2.39
-    },
-    "domestic_1": {
-      "width_in": 3.79,
-      "height_in": 2.28
-    },
-    "domestic_2": {
-      "width_in": 3.66,
+      "width_in": 3.86,
       "height_in": 2.41
     },
+    "domestic_1": {
+      "width_in": 3.61,
+      "height_in": 2.38
+    },
+    "domestic_2": {
+      "width_in": 3.72,
+      "height_in": 2.23
+    },
     "illiquid_1": {
-      "width_in": 3.6,
-      "height_in": 1.72
+      "width_in": 3.08,
+      "height_in": 2.31
     },
     "illiquid_2": {
-      "width_in": 3.6,
-      "height_in": 1.72
+      "width_in": 2.99,
+      "height_in": 1.99
     }
   },
-  "_illiquid_slots_note": "6 Aug 2026: the Illiquids block is new, so no approved dashboard exists to measure. These two sizes were SET rather than measured, chosen so the block fits one page with a full theme-length text column. Re-measure them from Eduardo's first approved Illiquids page and they become measured like every other slot.",
-  "_chart_slots_note": "30 Jul 2026 v3: sizes MEASURED from the charts Eduardo pasted into the APPROVED 30 Jul dashboard (wp:extent per drawing, in document order per block). Re-measure whenever a new approved dashboard lands. Exec quadrant at 3.14in wide (his resize). His Word edits also taught two hard lessons now handled by the engine and checker: (1) resizing an image inside the direction table makes Word RE-FIT the nested columns and squeeze Influencing Factors into a sliver that balloons row 1 — the direction table is now tblLayout=fixed with widths 2350/3500/5050 so Word cannot re-fit it; (2) Word drops hRule='atLeast' from row heights on save, which LibreOffice then reads as exact — restore atLeast when ingesting a hand-edited dashboard.",
+  "_illiquid_slots_note": "13 Aug 2026: illiquid slot sizes are now MEASURED from Eduardo's first approved Illiquids page (07 Aug dashboard, wp:extent per drawing), replacing the 6 Aug set-not-measured pair. They are taller than the set sizes (4.30in stacked vs 3.44in), so the Illiquids text budget shrinks accordingly — roughly 160 words of PE news and ~65 words per grid cell.",
+  "chart_source_dir": "ChartsThemes",
+  "chart_images": {},
+  "_chart_source_note": "13 Aug 2026 (Eduardo): the engine INSERTS Eduardo's uploaded charts from `chart_source_dir` (repo-root `ChartsThemes/`, the default) into the matching `Insert <slot>` cells at build time, letterboxed to the slot's exact measured geometry so nothing reflows. Filename matching is tolerant (case, separators, doubled .png.png; currency_debasement_N -> currency_N, artficial_intelligence-N -> AI_N, geopolitics_N -> geo_N, illiquids_N -> illiquid_N); files named retired* and zero-byte files are skipped. `chart_images` maps slot -> explicit path and overrides the directory lookup per slot. A slot with no resolved image falls back to the 30 Jul dashed placeholder + marker and is named in the build output — record the resolution line in self_audit.md.",
+  "_chart_slots_note": "13 Aug 2026 v4: sizes re-MEASURED from the charts Eduardo pasted into the APPROVED 07 Aug dashboard (wp:extent per drawing, in document order per block; fiscal_chart_1 grew to 2.82in tall, so Theme 1's text budget shrinks). Prior 30 Jul 2026 v3 note kept for history: sizes MEASURED from the charts Eduardo pasted into the APPROVED 30 Jul dashboard (wp:extent per drawing, in document order per block). Re-measure whenever a new approved dashboard lands. Exec quadrant at 3.14in wide (his resize). His Word edits also taught two hard lessons now handled by the engine and checker: (1) resizing an image inside the direction table makes Word RE-FIT the nested columns and squeeze Influencing Factors into a sliver that balloons row 1 — the direction table is now tblLayout=fixed with widths 2350/3500/5050 so Word cannot re-fit it; (2) Word drops hRule='atLeast' from row heights on save, which LibreOffice then reads as exact — restore atLeast when ingesting a hand-edited dashboard.",
   "quadrant_img_width_in": 3.14,
   "exec_quadrant_col_twips": 5250,
   "exec_quadrant_header": "Current Environment",

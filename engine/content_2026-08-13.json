@@ -1,0 +1,708 @@
+{
+  "asof": "2026_08_13",
+  "weekly_direction": "**Moderating inflation** expectations and **held growth**.",
+  "direction_signs": [
+    {
+      "factor": "Inflation",
+      "sign": "+",
+      "label": "elevated, easing"
+    },
+    {
+      "factor": "Growth",
+      "sign": "+",
+      "label": "held, labour cracking"
+    }
+  ],
+  "influencing_factors": [
+    "September pricing round-tripped: hike odds fell from 55% to near 30%, then back to a coin flip.",
+    "The S&P 500 set a record above 7,800 while the VIX closed at a seven month low of 14.45.",
+    "Berkshire turned net buyer after 14 quarters, deploying $23.5B including a $10B Alphabet stake.",
+    "Japan's government now backs a faster Bank of Japan hiking pace, with September or October live.",
+    "Electronic Arts' buyout debt drew about $45B of demand, roughly 2.5 times the deal, priced tight."
+  ],
+  "quadrant_highlight": {
+    "quadrant": "Inflation",
+    "colour": "ED7D31",
+    "alpha": 22,
+    "drop_aip_note": true
+  },
+  "quadrant_rationale": [
+    "Inflation stays right of centre but is easing: consumer prices held at 3.4% against 3.5% prior, and producer prices were flat against a 0.2% rise expected.",
+    "Market compensation agrees the pressure is contained: the ten year breakeven held near 2.2%, roughly flat, even with oil up about 7% on the week.",
+    "Growth held: payrolls fell 23,000 with claims at 209,000, but record equity indices, tight credit spreads and an 11 month high in small business optimism argue stall, not break.",
+    "The pair keeps the week in the Inflation quadrant a second week; the labour crack is the branch that would tip it toward Stagflation."
+  ],
+  "quadrant_scale": 0.5,
+  "quadrant_shift_up_emu": 0,
+  "exec_r1_height_twips": 900,
+  "exec_r2_height_twips": 900,
+  "theme_row_min_twips": 700,
+  "quadrant_img_width_in": 3.14,
+  "exec_quadrant_col_twips": 5250,
+  "exec_quadrant_header": "Current Environment",
+  "quadrant_rationale_sz": 15,
+  "keep_exec_key_developments": false,
+  "status_dashboard": [
+    {
+      "status": "Escalating",
+      "oneliner": "July's deficit hit a record $432B and the thirty year auction stopped at 5.216%, the highest borrowing cost since 2001."
+    },
+    {
+      "status": "Held",
+      "oneliner": "Gold held above $4,400 through the inflation prints, but the dollar index was flat and bitcoin fell, splitting the debasement trade."
+    },
+    {
+      "status": "Held",
+      "oneliner": "PJM filed curtailment terms for new loads above 50 megawatts, while data centre demand pushed coal generation up 13% last year."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "Nvidia's $500B financing consortium and record CoreWeave and Super Micro results carried semiconductors to the edge of a new bull market."
+    },
+    {
+      "status": "Escalating",
+      "oneliner": "US-Iran's 17 August ceasefire deadline is openly contested and Houthis killed six sailors; Russia-Ukraine strikes damaged four warships at Novorossiysk."
+    },
+    {
+      "status": "Held",
+      "oneliner": "Ottawa rejected a revised American tariff offer with the 50% duties six days out; Canada warned the tariffs could halt trade talks."
+    }
+  ],
+  "theme1": {
+    "status": "Escalating ▸ July's shortfall was a record $432.3B, taking the ten month deficit past all of last fiscal year, and the thirty year bond sold at 5.216%, the highest auction stop since 2001; the expansion continues and the bill for it is arriving at the long end.",
+    "developments": [
+      "The Treasury's July statement showed a $432.3B deficit, up 48% on a year earlier and the largest monthly gap since March 2021. About $99B of August benefits were paid early because the month started on a weekend; adjusted for that, the shortfall was $333B, still up 18%.",
+      "The Congressional Budget Office lifted its full year deficit estimate by about $200B to roughly $2.1T. Customs receipts have now run negative for three months as roughly $100B of tariffs struck down in February are refunded, and net interest has reached $963B for the fiscal year to date.",
+      "The market's reception was the week's test, and it softened toward the long end. The three year stopped through, the ten year tailed at 4.683% with dealers taking 8.6%, and the thirty year stopped at 5.216% on cover of 2.39 against 2.44 in July (both charts follow the long end's climb).",
+      "Bills now fund 21.81% of marketable debt, through the 21% threshold flagged last week. On deregulation, FinCEN permanently ended ownership reporting for US companies, and the Senate's stopgap funds the government to 11 December, deferring the fight to a lame duck session."
+    ],
+    "material_note": "The week separated the Fed from the deficit. Hike odds fell on two cool inflation prints, yet the thirty year still sold at its highest yield in a quarter century with breakevens flat near 2.2%. That combination is the signature of term premium: buyers want paying for the volume of paper, not for the price level. A financing debate that survives a dovish repricing is about supply, and supply is set by the deficit path alone, which the July statement just re-marked higher.",
+    "keydev_chart_note": "",
+    "implication": "The growth and inflation mix was neutral for the theme this week, but its financing was not: every long duration asset, from real estate to private equity carrying values, discounts off a long end that just set a 25 year borrowing record. If cover keeps slipping as supply grows, the steepening does the tightening the Federal Reserve is debating.",
+    "watch": [
+      "The House's return on 31 August, and whether the Senate's continuing resolution is taken up before the 30 September deadline.",
+      "The next Monthly Statement of the Public Debt in early September, for whether the bill share extends past 22%.",
+      "Reconciliation 3.0 in September, sized near $95B, and whether the Pentagon's far larger defence ask reshapes it."
+    ]
+  },
+  "monetary": {
+    "status": "Two cool prints and a public split left September a coin flip: consumer prices rose 0.1% in July, holding the year at 3.4% from 3.5%, producer prices were flat, and hike odds fell from 55% to near 30% before Hammack's call for several rises pulled them back to even.",
+    "developments": [
+      "Core consumer prices rose 2.5% on the year, the coolest since March 2021, with shelter driving two thirds of the monthly gain and energy still the outlier at 14.7% higher on the year. The print matched expectations exactly, which is what moved pricing toward a hold.",
+      "Producer prices were flat in July against the 0.2% rise expected, easing to 4.7% on the year from 5.5%. The caveat: the core measure that feeds the Fed's preferred index rose 0.4% on portfolio management fees, a reminder the 26 August inflation print may read warmer.",
+      "The labour side kept softening. July payrolls fell 23,000, the first decline since February, with 103,000 of downward revisions and participation at a five year low of 61.4%; weekly claims rose to 209,000. The two year barely moved near 4.18%, so the repricing lived in meeting odds, not levels.",
+      "Abroad, Tokyo's government is now said to back a faster Bank of Japan pace, with September or October live, a shift aimed at underpinning the yen after the intervention. The Bank of Canada decides 2 September, the European Central Bank on the 10th."
+    ],
+    "material_note": "",
+    "implication": "",
+    "watch": [
+      "The July meeting minutes on 19 August, for how the committee weighed the three hawkish dissents against the labour data.",
+      "Jackson Hole on 27 to 29 August, Warsh's first as Chair, and whether the meeting cadence proposal is aired.",
+      "Core PCE, the price index the Federal Reserve targets, on 26 August, given the warmer core producer detail."
+    ]
+  },
+  "central_bank": [
+    [
+      "US Federal Reserve",
+      "3.50%-3.75%",
+      "Held 29 July, three dissents for a rise; Sept a coin flip"
+    ],
+    [
+      "Bank of Canada",
+      "2.25%",
+      "Sixth straight hold; next decision 2 Sept"
+    ],
+    [
+      "European Central Bank",
+      "2.25%",
+      "On hold; next decision 10 Sept"
+    ],
+    [
+      "Bank of Japan",
+      "1.00%",
+      "Held 31 July; government now backs a faster pace"
+    ],
+    [
+      "People's Bank of China",
+      "3.00%",
+      "Held; Q2 report keeps the moderately loose stance"
+    ],
+    [
+      "Reserve Bank of India",
+      "5.25%",
+      "Unanimous hold 5 August; neutral stance"
+    ],
+    [
+      "Bank of Korea",
+      "2.75%",
+      "Raised 16 July; next meeting 27 August"
+    ]
+  ],
+  "theme2": {
+    "status": "Held ▸ Beijing bought gold a 21st straight month and silver closed above $65 for the first time since June, but breakevens held near 2.2% and Tokyo moved to back faster rate rises; the official bid persists without the market's inflation pricing confirming it.",
+    "developments": [
+      "Gold ended the week near $4,401, up about 2% and roughly 31% on the year, holding its range through both inflation prints. Beijing's July addition of about 20 tonnes was its largest since 2023; gold funds took in $3B in July, reversing two months of outflows.",
+      "The yen kept leaking: near 159.4 per dollar, half the intervention's gains are gone, and Bessent confirmed a $5B to $10B US share. The counter-current is Tokyo now said to back a faster Bank of Japan pace, the episode's first structural support.",
+      "The tape split the trade: bitcoin, near $63,500, turned negative on every timeframe while silver ran 70% higher on the year (the charts track both legs). The speculative leg and the metals leg no longer tell one story, and the Cook removal fight sits unresolved until 26 August."
+    ],
+    "material_note": "Flat breakevens under record-priced gold say who the buyer is. If investors expected the inflation debasement implies, market compensation would rise with the metal; it is not, so the bid is reserve diversification and hedging, not an inflation bet. That buyer is price insensitive, which makes the floor sturdy but caps the trade: without the speculative leg, gone the other way in bitcoin, the metal grinds rather than breaks out.",
+    "keydev_chart_note": "",
+    "implication": "A flat dollar and anchored breakevens argue debasement risk is being warehoused by central banks rather than priced by markets. Gold remains the working hedge for unhedged foreign exposure; the new risk sits in the yen, where a faster Bank of Japan would start unwinding the carry positioning that funds dollar assets.",
+    "watch": [
+      "Treasury International Capital data for June on 17 August, for whether Japan sold Treasuries around the intervention.",
+      "Governor Cook's 26 August deadline to answer the removal letter, the next date in the Fed independence fight.",
+      "Japan's September intervention disclosures, for the official size of the two August operations."
+    ]
+  },
+  "theme3": {
+    "status": "Held ▸ PJM filed curtailment terms for new loads above 50 megawatts and the IEA doubled its third quarter oil deficit call to 1.8 million barrels a day, but coal generation rose 13% and Texas froze its data centre queue; scarcity is tightening on the grid and the barrel while the transition itself runs both ways.",
+    "developments": [
+      "PJM's 7 August filing defines any new load above 50 megawatts as curtailable: bring your own generation by June 2027 or accept being cut ahead of emergency measures, compensated at half the standard non-performance rate. Scarcity is becoming a written obligation rather than a price signal.",
+      "Texas froze its interconnection queue, 474 gigawatts of requests and about 90% of them data centres, more than five times the state's record peak demand, pending an audit. BloombergNEF puts about 20% of the national data centre pipeline, 49.8 gigawatts, at risk of delay.",
+      "Oil rose about 7% on the week before the six session rally broke on the 13th, Brent settling near $87.9. The IEA doubled its third quarter deficit estimate to 1.8 million barrels a day with 8.3 million still shut in around the Gulf, and the market absorbed a 17.4 million barrel US crude build without repricing, a sign the deficit call is doing the work.",
+      "The transition's own tape ran the other way: coal generation rose 13% last year and power emissions rose 4%, the first increase in years, as utilities met data centre demand with whatever dispatches. European gas storage, at 58.8% against an 82% seasonal norm, is injecting just fast enough for the relaxed 80% November target."
+    ],
+    "material_note": "The buildout's constraint has moved from price to permission. In one week PJM defined which loads can be cut, Texas stopped its queue to count what is real, and six grid operators face a Sunday deadline to justify who pays for upgrades. Firm power is turning into a rationed, regulated product, and the right to draw it is becoming the asset; generation attached to the load, not the load itself, is what gets approved.",
+    "keydev_chart_note": "",
+    "implication": "Grid scarcity is inflationary for power and constructive for regulated utility and generation capex, while the oil deficit keeps a supply premium under crude that has nothing to do with demand strength. The offset is coal's return, which cheapens power at the cost of the transition itself. Exposure to firm capacity and grid equipment remains the cleanest expression.",
+    "watch": [
+      "The six grid operators' cost allocation answers to FERC due 17 August, for who pays for data centre upgrades.",
+      "The FERC comment deadline on PJM's backstop auction, 21 August, and whether states or data centre operators contest it.",
+      "PUCT's 20 August meeting on ERCOT's delayed large load study, the first read on how long the Texas pause lasts."
+    ]
+  },
+  "theme4": {
+    "status": "Escalating ▸ Nvidia signed a $500B compute financing consortium with six alternative asset managers, CoreWeave's backlog reached $104B and Super Micro guided next year to $65-72B against a $54B consensus, and semiconductors closed near a new bull market; the buildout is laying its own financing rails, though the first credit flags appeared.",
+    "developments": [
+      "Nvidia's consortium with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR aims to mobilize over $500B of third party capital for compute, off Nvidia's balance sheet. The stock fell 2.4%, about $130B, on circular financing concerns before recovering the next day.",
+      "The earnings tape split cleanly in two. CoreWeave grew revenue 112% with a backlog up 246% to $104.2B plus $25B of new commitments, and Nebius grew 454%; but Cisco, Coherent and Cerebras all beat and sold off, Cisco on a gross margin guide cut to 65-66% from a heavier hardware mix; the rating agencies stayed quiet on Oracle.",
+      "The market funded everything on offer: Intel's $20B raise, upsized from $15B, drew over $100B of orders. Semiconductors rose to about 20% above their recent low (both charts track the group), and the S&P set its record above 7,800 with the AI names leading.",
+      "Memory tightened another notch: the three DRAM makers have reportedly sold out their entire 2027 output, though contract prices are now seen rising 13-18% next quarter, short of the 25% pace flagged earlier. Scarcity persists; the rate of price acceleration does not."
+    ],
+    "material_note": "The real event was who bears the risk. Routing the buildout through private credit platforms moves funding off corporate balance sheets and into pension fed vehicles, and Wolfe Research's counterparty flag on Nvidia and Broadcom, the first from the sell side, marks the moment credit analysts started underwriting the arrangement rather than cheering it. The buildout no longer depends on hyperscaler cash flow alone; it now depends on private credit's appetite staying price insensitive, which is a different and less observable constraint.",
+    "keydev_chart_note": "",
+    "implication": "The bifurcation matters more than the level: capacity owners with contracted backlogs got rewarded while margin takers got sold, so AI exposure is no longer one trade. The financing shift ties the theme to private markets, where the same platforms now warehouse compute risk; that channel's read sits on the private markets page.",
+    "watch": [
+      "Nvidia's results on 26 August, the quarter's main test of the buildout's demand side.",
+      "Whether the reported $36B Blackstone led Anthropic financing package prices, the first large private credit print of its kind.",
+      "End of August DRAM contract prices against the 13-18% quarterly forecast."
+    ]
+  },
+  "theme5": {
+    "status": "Escalating ▸ The 17 August US-Iran ceasefire deadline is openly contested, the US disabled a third tanker and Houthis killed six sailors in the first fatal Red Sea attack in over a year, while Russia-Ukraine's war reached Novorossiysk with four warships damaged; Brent rose about 7% on the week, so the tape confirmed the escalation.",
+    "developments": [
+      "US-Iran: Pakistani mediators claim both sides agreed in principle to extend Sunday's ceasefire deadline, but a senior Iranian official told Reuters on the record there are no talks underway, and that denial is the harder sourced account. A US helicopter disabled the tanker Vela Nova on the 11th, the third since the blockade resumed; Hormuz transits run near 13 a day against 130 before the war.",
+      "The Houthi track turned lethal: three ballistic missiles hit the cargo ship Tihamah near Bab el-Mandeb, killing six including rescuers struck in a second wave, the first fatal attack on commercial shipping in over a year, days after a second strike in a month on Aramco's Jazan refinery.",
+      "Russia-Ukraine: Ukraine's largest combined strike damaged four Black Sea Fleet warships at Novorossiysk and halted two grain terminals. Russia fired a record 376 missiles at Ukraine in July, and ballistic interceptions collapsed after Patriot PAC-3 stocks ran out on 1 July.",
+      "The pressure tracks both ran through Washington: the Senate passed the Graham sanctions act 86 to 11, with an identical House bill filed during recess, up to 100% tariffs on buyers of Russian energy. Moscow's answer on talks was procedural, demanding the US clarify the Anchorage track before anything new; Kyiv submitted fresh proposals."
+    ],
+    "material_note": "The two wars are now competing for the same interceptors, and that scarcity is steering both. Patriot supply to Ukraine has thinned as the Iran theatre consumed US stocks, which is why a record missile month produced collapsed interception rates, and why escalation in either theatre now propagates into the other through the munitions budget rather than through diplomacy. Defence industrial capacity, not intent, has become the constraint that decides how much war is possible at once.",
+    "keydev_chart_note": "",
+    "implication": "Both legs escalating with a confirmed oil bid keeps the risk premium in energy and defence demand structurally underpinned, and escalation that drives rearmament budgets is fiscal content as well. The Sunday deadline is a binary: an extension fades the premium, a lapse with transits at 13 a day repricing the barrel first and everything else after.",
+    "watch": [
+      "The 17 August ceasefire deadline itself, the week's binary event.",
+      "Scheduling of the House vote on the Graham act after 31 August, the China and India secondary tariff mechanism.",
+      "Hormuz transit counts against the 13 a day baseline, still the live test of whether mediation is working."
+    ]
+  },
+  "theme6": {
+    "status": "Held ▸ Washington tabled a revised, lower tariff offer and Ottawa rejected it as insufficient with the 50% duties due 19 August, yet Canadian capital kept looking abroad, CPP Investments committing C$200M to Brazilian hotels; protectionist pressure is rising faster than domestic investment is responding to it.",
+    "developments": [
+      "The tariff endgame sharpened: the US offer of 11 August lowered some sectoral rates but not enough for Ottawa, LeBlanc met Greer a third time in three weeks, and Canada's chief negotiator warned the duties taking effect could halt the broader trade talks. The 50% tariffs cover about US$20B of goods and apply regardless of continental trade agreement eligibility.",
+      "July jobs surprised at +75,000 against about +20,000 expected, unemployment falling to 6.4%, a two year low and a third straight decline. A labour market this firm gives the Bank of Canada no reason to move on 2 September even as the tariff shock approaches.",
+      "The revealed preference of Canadian capital stayed foreign: balanced pension plans returned a median 6.6% in the second quarter driven almost entirely by foreign holdings, US equities up 17.1% in Canadian dollar terms, and CPP Investments committed about C$200M to a 49.5% stake in two Brazilian Hilton hotels mid crisis.",
+      "The currency barely moved: at about 1.394 per US dollar all week, the market is waiting on the 19th rather than pricing it, which leaves the adjustment to come as a step, not a drift, whichever way the deadline resolves."
+    ],
+    "material_note": "The week measured the gap between policy pressure and portfolio behaviour. Ottawa hardened its public line while its largest investor committed fresh capital offshore and the quarter's returns came from foreign equities, so the case for investing at home is being made by politicians at the same time the return evidence argues the other way. Tariffs raise the political demand for domestic capital while lowering the expected return on it; the September summit inherits that widening wedge.",
+    "keydev_chart_note": "",
+    "implication": "Into the 19th the exposure is binary for trade sensitive sectors and the currency, with an unpriced step in either direction. Structurally, tariffs are inflationary and anti growth for Canada while the strong labour print argues resilience; the offset is that pension capital keeps earning its return abroad, which limits how hard a domestic mandate can be pushed without cost.",
+    "watch": [
+      "The 50% tariffs on 19 August: in force, delayed, or superseded by a deal.",
+      "Canada's July consumer prices on 17 August, the last major print before the Bank of Canada's 2 September decision.",
+      "The official second quarter national accounts on 28 August, against the 3.4% annualized advance estimate."
+    ]
+  },
+  "illiquids": {
+    "title": "Allocation Insights - Illiquid Assets",
+    "chart_slots": [
+      "illiquid_1",
+      "illiquid_2"
+    ],
+    "developments": [
+      "Brookfield's second quarter, the week's one in window sponsor print, set records both ways: $98B raised and $100B deployed in a single quarter, distributable earnings up 14% to about $1.4B.",
+      "Electronic Arts' buyout debt, $18B to $20B led by JPMorgan, drew about $45B of demand, roughly 2.5 times the deal, priced tight of talk at 7.1 to 7.8 times leverage, single B.",
+      "Nvidia's $500B compute financing consortium routes largely private capital, Apollo, Blackstone, KKR and Brookfield among the platforms, into AI infrastructure; Wolfe Research posted the first sell side credit flag."
+    ],
+    "framework": [
+      {
+        "category": "Performance",
+        "read": "Manager profits and investor returns keep diverging.",
+        "points": [
+          "Apollo missed on earnings despite record assets and KKR carried weaker real estate returns: managers compound while older vintages lag.",
+          "Canadian balanced plans earned their 6.6% quarter almost entirely from foreign public equities.",
+          "No fresh distribution data in window; the drought read carries."
+        ]
+      },
+      {
+        "category": "Valuations",
+        "read": "Richer; the tell is credit appetite, not marks.",
+        "points": [
+          "EA's debt cleared 2.5 times oversubscribed at nearly 8 times leverage: buyers are not charging for risk at the top.",
+          "GIC selling into a booming secondaries market fits discounts tightening toward net asset value.",
+          "The counter: strength concentrates in large buyout; venture clears below marks, and continuation vehicles sidestep market prices."
+        ]
+      },
+      {
+        "category": "Leverage",
+        "read": "Building, and now flagged by the sell side.",
+        "points": [
+          "Single deal leverage near 8 times was absorbed without a premium; private credit became a load bearing channel into AI compute.",
+          "Wolfe's counterparty note on Nvidia and Broadcom is the first analyst underwriting of who holds the buildout's credit risk.",
+          "No fresh non accrual or payment in kind data; the prior read carries."
+        ]
+      },
+      {
+        "category": "Dry powder",
+        "read": "Record totals, concentrated at the top.",
+        "points": [
+          "Brookfield raised $98B and deployed $100B in one quarter; Carlyle calls a fundraising supercycle.",
+          "Against that, first quarter fundraising was the slowest in a decade with roughly 33,000 unsold companies queued; flows are concentrating, not broadening.",
+          "The retirement channel, the next price insensitive buyer, is still in rulemaking."
+        ]
+      }
+    ]
+  },
+  "light_scoring": [
+    {
+      "theme": "1 Fiscal & Deregulation",
+      "light": "Escalating",
+      "supports": [
+        "Record July deficit, $432.3B nominal and $333B calendar adjusted, ten month total past all of last year (high, +3).",
+        "Thirty year stop of 5.216%, highest since 2001, on softer cover; scored to Fiscal, not inflation, because breakevens held near 2.2%: buyers want paying for supply, not prices (high, +3).",
+        "CBO's $2.1T revision, a 21.81% bill share and FinCEN's permanent reporting rollback (medium, +2)."
+      ],
+      "against": [
+        "The front end rallied on cool prints, easing financing conditions at the margin (low, -1)."
+      ],
+      "net": "+7 with the auctions themselves as tape confirmation. Escalating."
+    },
+    {
+      "theme": "2 Currency Debasement",
+      "light": "Held",
+      "supports": [
+        "Beijing's 21st straight month of gold buying, its largest add since 2023 (high, +2).",
+        "Gold held above $4,400 through both prints; silver closed above $65, 70% higher on the year (medium, +2)."
+      ],
+      "against": [
+        "Dollar index flat and breakevens anchored near 2.2%: markets are not pricing the inflation debasement implies (high, -2).",
+        "Bitcoin negative on every timeframe; Tokyo backing faster BOJ hikes counters the weak yen leg (medium, -2)."
+      ],
+      "net": "0 with high materiality both sides; the contradiction rule holds it. Held."
+    },
+    {
+      "theme": "3 Energy & Transition",
+      "light": "Held",
+      "supports": [
+        "PJM's curtailment filing converts grid scarcity into a written obligation on loads above 50 megawatts, which makes firm capacity investable rather than merely scarce (high, +3).",
+        "The IEA's doubled deficit call and a 7% oil week kept the scarcity bid under traded energy (medium, +2)."
+      ],
+      "against": [
+        "Coal generation up 13% and power emissions up 4%: more electricity, less transition (medium, -2).",
+        "Texas freezing its 474 gigawatt queue puts a fifth of the national data centre pipeline at delay risk (medium, -2)."
+      ],
+      "net": "+1, material findings both ways; the contradiction rule applies. Held."
+    },
+    {
+      "theme": "4 Artificial Intelligence",
+      "light": "Escalating",
+      "supports": [
+        "The $500B Nvidia consortium opens a private credit channel purpose built to fund more compute (high, +3).",
+        "CoreWeave's $104B backlog, Super Micro's $65-72B guide and Nebius's 454% growth are contracted demand (high, +3).",
+        "Intel's raise five times oversubscribed; 2027 memory reportedly sold out (medium, +2)."
+      ],
+      "against": [
+        "Cisco, Coherent and Cerebras beat and sold off on margins; Wolfe flagged the consortium's counterparty risk (medium, -2)."
+      ],
+      "net": "+6 and the tape confirmed: semiconductors near a new bull market, so last week's veto reversed. Escalating."
+    },
+    {
+      "theme": "5 Geopolitics & Trade",
+      "light": "Escalating",
+      "supports": [
+        "US-Iran: the 17 August deadline openly contested, a third tanker disabled, transits near 13 a day (high, +3).",
+        "First fatal Red Sea attack in over a year, six killed, plus a second Jazan refinery strike in a month (high, +2).",
+        "Russia-Ukraine: four warships damaged at Novorossiysk, a record 376 missile July, the Graham act through the Senate 86 to 11 (high, +3)."
+      ],
+      "against": [
+        "Kyiv's new proposals and Moscow's procedural opening keep a talks channel technically alive (low, -1)."
+      ],
+      "net": "+7 with Brent up about 7% on the week: last week's oil veto reversed. Escalating."
+    },
+    {
+      "theme": "6 Domestic Investing",
+      "light": "Held",
+      "supports": [
+        "The 50% tariffs six days out with a revised US offer rejected and talks-halt warnings (high, +3)."
+      ],
+      "against": [
+        "CPP Investments committed C$200M offshore mid crisis; scored here because a named domestic plan deploying abroad is the direct behavioural counter to investing at home (medium, -2).",
+        "The quarter's pension returns came almost entirely from foreign holdings (medium, -2)."
+      ],
+      "net": "-1 with high materiality both sides; the contradiction rule holds it. Held."
+    }
+  ],
+  "regime_table": {
+    "rows": [
+      {
+        "factor": "Inflation",
+        "sign": "+",
+        "label": "elevated, easing",
+        "why": [
+          "Consumer prices held at 3.4% against 3.5% prior and core eased to 2.5%, the coolest since March 2021, both matching expectations.",
+          "Producer prices were flat against a 0.2% rise expected, easing to 4.7% on the year from 5.5%.",
+          "The ten year breakeven held near 2.2%, roughly flat on the week: market compensation is not pricing a breakout even with the long end selling off.",
+          "The level is still the story: energy runs 14.7% higher on the year and core sits half a point above target, so the sign stays plus."
+        ],
+        "against": [
+          "Oil rose about 7% on the week with the IEA doubling its deficit call, a cost impulse that reaches consumer prices with a lag.",
+          "The core producer measure feeding the Fed's index rose 0.4% on the month, warmer than the headline.",
+          "Hammack's several hikes call and a September coin flip say the committee itself is not convinced the easing holds."
+        ]
+      },
+      {
+        "factor": "Growth",
+        "sign": "+",
+        "label": "held, labour cracking",
+        "why": [
+          "The equity tape does not price a downturn: a record S&P 500 above 7,800, semiconductors near a bull market, and volatility at a seven month low of 14.45.",
+          "High yield spreads stayed historically tight near 271 basis points, and small business optimism hit an 11 month high of 99.8.",
+          "Canada added 75,000 jobs against 20,000 expected and its second quarter advance estimate runs at 3.4% annualized, growth holding across the border too."
+        ],
+        "against": [
+          "July payrolls fell 23,000 with 103,000 of downward revisions, participation at a five year low and claims at 209,000.",
+          "Housing is rolling: mortgage rates near a one year high of 6.8% and pending sales at a five month low.",
+          "Record money market assets of $7.91T say cash keeps getting parked rather than deployed."
+        ]
+      }
+    ],
+    "quadrant_read": "Plus and plus keeps the week in the Inflation quadrant a second week: prices elevated but easing, growth held by the tape and surveys against a cracking labour market. The honest caveat is that one more negative payroll print flips growth's sign and the read to Stagflation. The quadrant's AIP tilt, real assets and inflation sensitives over long duration, matched the week's tape: gold held, energy led, and the thirty year sold at a 25 year high yield."
+  },
+  "regime_history": {
+    "weeks": [
+      {
+        "date": "07-24",
+        "inflation": "+",
+        "growth": "-"
+      },
+      {
+        "date": "07-30",
+        "inflation": "+",
+        "growth": "-"
+      },
+      {
+        "date": "08-06",
+        "inflation": "+",
+        "growth": "+"
+      },
+      {
+        "date": "08-13",
+        "inflation": "+",
+        "growth": "+"
+      }
+    ]
+  },
+  "quadrant_history": {
+    "since": "24 July 2026",
+    "weeks": [
+      {
+        "date": "07-24",
+        "quadrant": "Stagflation"
+      },
+      {
+        "date": "07-30",
+        "quadrant": "Stagflation"
+      },
+      {
+        "date": "08-06",
+        "quadrant": "Inflation"
+      },
+      {
+        "date": "08-13",
+        "quadrant": "Inflation"
+      }
+    ]
+  },
+  "quadrant_history_png": "engine/charts/2026-08-13/quadrant_history.png",
+  "light_history": {
+    "themes": [
+      "1 Fiscal & Deregulation",
+      "2 Currency Debasement",
+      "3 Energy & Transition",
+      "4 Artificial Intelligence",
+      "5 Geopolitics & Trade",
+      "6 Domestic Investing"
+    ],
+    "weeks": [
+      {
+        "date": "06-18",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Escalating",
+          "Deescalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "06-25",
+        "lights": [
+          "Escalating",
+          "Deescalating",
+          "Held",
+          "Held",
+          "Deescalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-03",
+        "lights": [
+          "Escalating",
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-10",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "07-17",
+        "lights": [
+          "Held",
+          "Deescalating",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-24",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Held",
+          "Escalating",
+          "Escalating"
+        ]
+      },
+      {
+        "date": "07-30",
+        "lights": [
+          "Escalating",
+          "Escalating",
+          "Held",
+          "Held",
+          "Escalating",
+          "Held"
+        ]
+      },
+      {
+        "date": "08-06",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Held",
+          "Held",
+          "Held"
+        ]
+      },
+      {
+        "date": "08-13",
+        "lights": [
+          "Escalating",
+          "Held",
+          "Held",
+          "Escalating",
+          "Escalating",
+          "Held"
+        ]
+      }
+    ]
+  },
+  "light_history_png": "engine/charts/2026-08-13/light_history.png",
+  "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved 13 August 2026.",
+  "references": [
+    {
+      "topic": "Executive Summary — Weekly Direction & Key Developments",
+      "items": [
+        "(Tier 1) U.S. Bureau of Labor Statistics. Consumer Price Index, July 2026. 12 August 2026. https://www.bls.gov/news.release/cpi.nr0.htm. Retrieved 13 August 2026.",
+        "(Tier 2) CNBC. Odds the Fed hikes in September tumble following big July jobs miss. 7 August 2026. https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html. Retrieved 13 August 2026.",
+        "(Tier 2) Forbes / CNBC. Berkshire Hathaway Q2: Abel deploys $23.5B, first net buying in 14 quarters. 8-9 August 2026. https://www.cnbc.com/2026/08/09/abel-puts-a-big-chunk-of-berkshires-cash-to-work.html. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 1 — Fiscal Expansion & Deregulation",
+      "items": [
+        "(Tier 1) U.S. Department of the Treasury. Monthly Treasury Statement, July 2026. 12 August 2026. https://fiscal.treasury.gov/reports-statements/mts/. Retrieved 13 August 2026.",
+        "(Tier 1) Congressional Budget Office. Monthly Budget Review and FY2026 deficit revision. 10 August 2026. https://www.cbo.gov/publication/61882. Retrieved 13 August 2026.",
+        "(Tier 1) U.S. Treasury / Bureau of the Fiscal Service (via JEC). Monthly Debt Update, August 2026 (bill share 21.81%). 7 August 2026. https://www.jec.senate.gov/public/vendor/_accounts/JEC-R/debt/Monthly%20Debt%20Update%20(PDF).pdf. Retrieved 13 August 2026.",
+        "(Tier 2) Bloomberg. US Set to Pay Most for 30-Year Debt in Quarter of a Century. 13 August 2026. https://www.bloomberg.com/news/articles/2026-08-13/us-braces-for-30-year-bond-auction-at-highest-yield-since-2001. Retrieved 13 August 2026.",
+        "(Tier 1) FinCEN / U.S. Treasury. FinCEN Permanently Ends Beneficial Ownership Reporting Requirements. 11 August 2026. https://www.fincen.gov/news/news-releases/fincen-permanently-ends-beneficial-ownership-reporting-requirements-millions. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Monetary Policy Tracker",
+      "items": [
+        "(Tier 1) U.S. Bureau of Labor Statistics. Producer Price Index, July 2026; Employment Situation, July 2026. 13 and 7 August 2026. https://www.bls.gov/news.release/archives/ppi_08132026.htm. Retrieved 13 August 2026.",
+        "(Tier 1) Bloomberg. Japan's Government Is Said to Support Faster BOJ Rate Hike. 13 August 2026. https://www.bloomberg.com/news/articles/2026-08-13/japan-s-government-is-said-to-support-faster-boj-rate-hike. Retrieved 13 August 2026.",
+        "(Tier 2) Yahoo Finance / CNBC. Fed's Hammack says several rate hikes may be needed; Barkin calls a further rise an open question. 13 August 2026. https://finance.yahoo.com/news/feds-hammack-says-interest-rates-170142455.html. Retrieved 13 August 2026.",
+        "(Tier 1) Bank of Canada. Upcoming events (rate announcement schedule). https://www.bankofcanada.ca/press/upcoming-events/. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 2 — Currency Debasement",
+      "items": [
+        "(Tier 1) Bloomberg. China's Central Bank Adds 20 Tons to Gold Reserves in July. 7 August 2026. https://www.bloomberg.com/news/articles/2026-08-07/china-s-central-bank-adds-20-tons-to-gold-reserves-in-july. Retrieved 13 August 2026.",
+        "(Tier 1) World Gold Council. Gold ETF flows, July 2026. https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07. Retrieved 13 August 2026.",
+        "(Tier 1) Fortune. Japan and the U.S. just spent billions to try to save the yen. Why is it already losing ground? 12 August 2026. https://fortune.com/2026/08/12/us-japan-yen-intervention-unraveling-weak-yen-causes/. Retrieved 13 August 2026.",
+        "(Tier 1) The Washington Post. White House revives bid to remove Fed's Lisa Cook. 7 August 2026. https://www.washingtonpost.com/business/2026/08/07/white-house-revives-bid-remove-fed-lisa-cook-over-mortgage-claims/. Retrieved 13 August 2026.",
+        "(Tier 3, direction corroborated Tier 1) Cresset Capital. Market Update: An Analytical Framework for TIPS Investing (ten year breakeven near 2.3%). 5 August 2026. https://cressetcapital.com/articles/market-update/market-update-8-5-26-an-analytical-framework-for-tips-investing/. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 3 — Energy & the Energy Transition",
+      "items": [
+        "(Tier 1) PJM Interconnection. Interim Resource Adequacy Service filing and Reliability Backstop Procurement, Docket ER26-3380. 31 July and 7 August 2026. https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9806/20260731-er26-3380-000.pdf. Retrieved 13 August 2026.",
+        "(Tier 1) International Energy Agency. Oil Market Report, August 2026. 12 August 2026. https://www.iea.org/reports/oil-market-report-august-2026. Retrieved 13 August 2026.",
+        "(Tier 1) U.S. Energy Information Administration. Weekly Petroleum Status Report; Weekly Natural Gas Storage Report. 12-13 August 2026. https://www.eia.gov/petroleum/supply/weekly/. Retrieved 13 August 2026.",
+        "(Tier 1) Gas Infrastructure Europe. AGSI+ storage transparency data, as of 9 August 2026. https://agsi.gie.eu/. Retrieved 13 August 2026.",
+        "(Tier 2) Utility Dive / Akin Gump. Texas hits pause on data center interconnections pending statewide audit; BloombergNEF delay-risk estimate. 10-12 August 2026. https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 4 — Artificial Intelligence",
+      "items": [
+        "(Tier 1) NVIDIA / Blackstone. NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Mobilize Over $500 Billion. 10 August 2026. https://www.blackstone.com/news/press/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital/. Retrieved 13 August 2026.",
+        "(Tier 1) Intel. Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering. 10 August 2026. https://newsroom.intel.com/corporate/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering. Retrieved 13 August 2026.",
+        "(Tier 2) CNBC. CoreWeave Q2 2026 earnings; Cerebras Q2 2026 earnings. 11-12 August 2026. https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html. Retrieved 13 August 2026.",
+        "(Tier 2) Investing.com. Nvidia and Broadcom AI financing deals raise long-term concerns, Wolfe Research. 13 August 2026. https://www.investing.com/news/stock-market-news/nvidia-and-broadcom-ai-financing-deals-raise-longterm-concerns-wolfe-research-comments-93CH-4857094. Retrieved 13 August 2026.",
+        "(Tier 2, converted from Tier 3) Slashdot / TweakTown citing DigiTimes. Memory capacity for all of 2027 reportedly booked and sold. 9 August 2026. https://hardware.slashdot.org/story/26/08/09/0547220/ramageddon-2027-memory-capacity-reportedly-sold-out. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 5 — Geopolitics & Trade",
+      "items": [
+        "(Tier 2) Reuters via The Times of Israel. Iran, US did not discuss ceasefire extension, senior Iranian official. 12 August 2026. https://www.timesofisrael.com/liveblog_entry/iran-us-did-not-discuss-ceasefire-extension-senior-iranian-official-tells-reuters/. Retrieved 13 August 2026.",
+        "(Tier 1) Al Jazeera. Six killed in Houthi attack on Bab al-Mandeb ship; US military fires on cargo vessel breaking Iran blockade. 11-12 August 2026. https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says. Retrieved 13 August 2026.",
+        "(Tier 2, citing Kpler) CNBC. Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt. 12 August 2026. https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html. Retrieved 13 August 2026.",
+        "(Tier 2) Kyiv Independent. Four Russian warships damaged in strike on Black Sea Fleet port in Novorossiysk. 12 August 2026. https://kyivindependent.com/ukraine-war-latest-4-russian-warships-damaged-in-strike-on-black-sea-fleet-port-in-novorossiysk/. Retrieved 13 August 2026.",
+        "(Tier 2) PBS NewsHour / The Hill. Senate passes sweeping Russia sanctions bill 86-11; House companion introduced. 7-10 August 2026. https://www.pbs.org/newshour/politics/senate-passes-sweeping-russia-sanctions-bill-negotiated-by-the-late-sen-lindsey-graham. Retrieved 13 August 2026.",
+        "(Tier 2) AFP via New Voice of Ukraine. Russia launched record 376 missiles at Ukraine in July. 1 August 2026 (for context of in-window interception data). https://english.nv.ua/russian-war/russia-launched-record-376-missiles-at-ukraine-in-july-afp-50629160.html. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Theme 6 — Domestic Investing Pressures",
+      "items": [
+        "(Tier 1) Statistics Canada. Labour Force Survey, July 2026. 7 August 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260807/dq260807a-eng.htm. Retrieved 13 August 2026.",
+        "(Tier 2) The Globe and Mail / CBC. Canada's top negotiator told U.S. counterparts Aug. 19 tariffs could halt trade talks; Canada unsatisfied with latest U.S. offer. 13 August 2026. https://www.theglobeandmail.com/politics/article-ottawa-mounts-full-court-press-for-us-trade-deal-ahead-of-tariff/. Retrieved 13 August 2026.",
+        "(Tier 1) CPP Investments. CPP Investments and HSI Form Joint Venture to Acquire Landmark Hilton Hotels in Brazil. 10 August 2026. https://www.cppinvestments.com/newsroom/cpp-investments-and-hsi-form-joint-venture-to-acquire-landmark-hilton-hotels-in-brazil/. Retrieved 13 August 2026.",
+        "(Tier 1) Northern Trust Canada. Canadian pension plans post 6.6% Q2 gain, lifted by global equities. 6 August 2026. https://www.wealthprofessional.ca/news/industry-news/canadian-pension-plans-post-66-gain-in-q2-2026-lifted-by-global-equities/393219. Retrieved 13 August 2026."
+      ]
+    },
+    {
+      "topic": "Illiquid Assets — Private Markets",
+      "items": [
+        "(Tier 1) Brookfield Corporation. Q2 2026 earnings release. 13 August 2026. https://www.globenewswire.com/news-release/2026/08/13/3344325/0/en/brookfield-corporation-reports-15-increase-in-earnings.html. Retrieved 13 August 2026.",
+        "(Tier 2) Octus / TheStreet. Electronic Arts bonds land tight of price talk; LBO debt financing gathers $45B in demand. ~11-12 August 2026. https://octus.com/resources/articles/electronic-arts-bonds-land-tight-of-price-talk-in-highly-anticipated-jpmorgan-led-syndication-lbo-debt-financing-gathers-45b-in-demand-from-investors/. Retrieved 13 August 2026.",
+        "(Tier 2) Bloomberg. GIC Seeks to Sell Private Equity Fund Stakes Worth $1 Billion. 5 August 2026. https://www.bloomberg.com/news/articles/2026-08-05/gic-seeks-to-sell-private-equity-fund-stakes-worth-1-billion. Retrieved 13 August 2026.",
+        "(Tier 1) Apollo Global Management. Apollo Reports Second Quarter 2026 Results. 4 August 2026. https://ir.apollo.com/news-events/press-releases/detail/640/apollo-reports-second-quarter-2026-results. Retrieved 13 August 2026."
+      ]
+    }
+  ],
+  "chart_source_dir": "ChartsThemes",
+  "chart_slot_default": {
+    "width_in": 3.7,
+    "height_in": 2.25
+  },
+  "chart_slots": {
+    "fiscal_chart_1": {
+      "width_in": 3.72,
+      "height_in": 2.82
+    },
+    "fiscal_chart_2": {
+      "width_in": 3.9,
+      "height_in": 2.22
+    },
+    "monetary_1": {
+      "width_in": 3.86,
+      "height_in": 2.05
+    },
+    "currency_1": {
+      "width_in": 3.77,
+      "height_in": 2.13
+    },
+    "currency_2": {
+      "width_in": 3.7,
+      "height_in": 2.51
+    },
+    "currency_3": {
+      "width_in": 3.88,
+      "height_in": 2.29
+    },
+    "energy_1": {
+      "width_in": 3.78,
+      "height_in": 2.14
+    },
+    "energy_2": {
+      "width_in": 3.78,
+      "height_in": 2.27
+    },
+    "AI_1": {
+      "width_in": 3.69,
+      "height_in": 2.21
+    },
+    "AI_2": {
+      "width_in": 3.76,
+      "height_in": 2.48
+    },
+    "geo_1": {
+      "width_in": 3.74,
+      "height_in": 2.34
+    },
+    "geo_2": {
+      "width_in": 3.86,
+      "height_in": 2.41
+    },
+    "domestic_1": {
+      "width_in": 3.61,
+      "height_in": 2.38
+    },
+    "domestic_2": {
+      "width_in": 3.72,
+      "height_in": 2.23
+    },
+    "illiquid_1": {
+      "width_in": 3.08,
+      "height_in": 2.31
+    },
+    "illiquid_2": {
+      "width_in": 2.99,
+      "height_in": 1.99
+    }
+  }
+}

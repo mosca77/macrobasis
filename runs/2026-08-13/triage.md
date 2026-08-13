@@ -1,0 +1,87 @@
+# Triage — run 2026-08-13 (window 07 → 13 Aug 2026)
+
+Gate note: Eduardo's instruction for this run was to execute the full cycle straight through to the finalized report, so the triage pause is waived; this file is the confirmed record Phase 7 reconciles against.
+
+| # | Finding (one line) | Date | Source (tier) | Theme | Driver / "narrative" | Provenance | Direction | Materiality |
+|---|---|---|---|---|---|---|---|---|
+| 1 | July payrolls -23K vs +80K exp., revisions -103K, U3 4.1% on participation 61.4% (5-yr low), wages +3.2% | 7 Aug | BLS (T1, corroborated) | Mon/exec | labour | Daily 7-12 + sweep | challenges growth | High |
+| 2 | July CPI +0.1% m/m, 3.4% y/y (from 3.5%), core +0.2%/2.5% (coolest since Mar 2021), shelter 2/3 of gain, energy +14.7% y/y | 12 Aug | BLS (T1) | Mon/exec | inflation prints | Daily 12 + sweep | supports moderation | High |
+| 3 | July PPI flat m/m vs +0.2% exp., 4.7% y/y from 5.5%; core ex-trade +0.4% m/m (hotter, portfolio fees) | 13 Aug | BLS (T1) | Mon | inflation prints | Daily 13 + sweep | supports moderation, caveat | High |
+| 4 | Sept FOMC pricing swung ~55% hike → ~32-35% post-PPI → ~52% after Hammack's "several hikes" remarks; Barkin "open question" | 13 Aug | CME/CNBC/Yahoo (T1/2) | Mon | policy pricing | Daily 13 + sweep | two-sided | High |
+| 5 | Jobless claims 209K vs ~205K exp., prior 200K | 13 Aug | DOL (T1 corr.) | Mon | labour | Daily 13 + sweep | challenges growth | Med |
+| 6 | Japan's government said to back faster BOJ hikes (Sept/Oct next move); BOJ opinions flag faster pace | 10+13 Aug | Bloomberg (T1) | Mon/T2 | BOJ | Daily 13 + sweep | against debasement (yen leg) | High |
+| 7 | BoC next decision confirmed 2 Sept (dailies' "17 Sept" wrong); no BoK meeting in window (next 27 Aug); RBI held 5 Aug (pre-window anchor) | conf. 13 Aug | BoC/BoK (T1) | Mon | CB calendar | sweep | neutral | Med |
+| 8 | Record July deficit $432.3B (+48% y/y; calendar-adj $333B +18%); FY26 10-mo $1.799T > all FY25 | 12 Aug | Treasury MTS (T1) | T1 | deficit | Daily 13 + sweep | supports | High |
+| 9 | CBO raises FY26 deficit estimate ~$200B to ~$2.1T on tariff-refund collapse + interest +14% | 10-12 Aug | CBO (T1) | T1 | deficit | Daily 11-12 + sweep | supports | High |
+| 10 | 30y auction stops 5.216%, highest since 2001; cover 2.392x vs 2.444x Jul; dealers 11.7%; 10y tailed 4.683%, dealers 8.6%; 3y stopped through 4.291%, cover 2.71x | 11-13 Aug | Treasury results (T2 corr., Bloomberg) | T1 | funding cost | Daily 13 + sweep | supports (stress) | High |
+| 11 | MSPD: bill share 21.81% of marketable debt, up from 21.17% Apr — through the 21% test | rel. 7 Aug | Treasury/JEC (T1) | T1 | issuance mix | sweep (watch test) | supports | Med |
+| 12 | FinCEN permanently ends CTA beneficial-ownership reporting for US companies; prior filings to be deleted; ~$9B/yr compliance saving | 11 Aug | FinCEN (T1) | T1 | deregulation | Daily 13 + sweep | supports | Med |
+| 13 | Senate CR 90-6 funds govt to Dec 11; House returns 31 Aug; Reconciliation 3.0 ($95B) slips to Sept | 8 Aug | Senate/multi (T2 multi-day) | T1 | fiscal calendar | Daily 8-10 | supports (continued spend) | Med |
+| 14 | Gold held >$4,400 much of week (~$4,401 on 13th, ~+2% w/w); watch test "holds $4,200 through CPI" RESOLVED YES | 7-13 Aug | CNBC/TE (T1/2) | T2 | gold | Daily all + sweep | supports | High |
+| 15 | Silver first close >$65 since June, +70% y/y; backwardation "widest since 1980s" stays Tier 3 (single analysis source) | 11-13 Aug | TE (T1); backwardation T3 | T2 | silver | Daily 11-13 + sweep | supports (level), T3 flag | Med |
+| 16 | PBOC gold buying 21st straight month, +20t July, largest add since 2023 | 7 Aug | Bloomberg (T1) | T2 | official-sector gold | Daily 7-12 + sweep | supports | High |
+| 17 | DXY ~99.87, roughly FLAT on the week — stabilising after last week's slide, not extending it | 13 Aug | TE (T1) | T2 | dollar | sweep | neutral/against | High |
+| 18 | 10y breakeven anchored ~2.2-2.24, roughly flat (Aug-dated primary print unavailable, tier caveat) | wk | FRED-adjacent (T3 + T1 directional) | T2/regime | inflation expectations | sweep (gap resolved) | against (no breakout) | High |
+| 19 | Bitcoin ~$63.5K, daily/weekly/monthly/yearly all negative — split from metals | 13 Aug | Yahoo/Fortune (T1/2) | T2 | crypto leg | Daily 13 + sweep | against | Med |
+| 20 | Cook removal: letter gives her to 26 Aug; no new development 13 Aug (checked-null that day) | 7 Aug | WaPo/Axios (T1) | T2 | Fed independence | Daily 8-12 + sweep | supports | Med |
+| 21 | USD/JPY ~159.4, intervention gains half-erased; Bessent confirms US share $5-10B | 11-13 Aug | Fortune/CNBC (T1) | T2 | yen | Daily all + sweep | supports (fiat strain) | Med |
+| 22 | Hormuz: Aug 17 extension contested — Pakistani mediators "agreed in principle" (anon, Anadolu) vs on-record Iranian denial to Reuters; extension unconfirmed | 12-13 Aug | Reuters via ToI (T2 conv.) | T5 | US-Iran leg | Daily 13 + sweep | supports | High |
+| 23 | Third tanker (Vela Nova) disabled by US Hellfire 11 Aug; 12th vessel since April; transits ~11-13/day vs ~130 (Lloyd's List + Kpler); zero VLCC Iranian loadings, ~40M bbl floating | 11-12 Aug | AJ/Kpler/LLI (T1/2) | T5/T3 | US-Iran leg | Daily 12-13 + sweep | supports | High |
+| 24 | First fatal Red Sea attack in over a year: Tihamah (Tanzanian-flagged) hit by 3 ballistic missiles, 6 killed incl. rescuers in second strike; Houthi Jazan refinery strike 9 Aug (2nd in a month) | 9-12 Aug | Al Jazeera/CBC (T1) | T5 | Houthi escalation | Daily 12 + follow-up beat | supports | High |
+| 25 | Novorossiysk: Ukraine's largest combined strike; 4 Black Sea Fleet warships damaged, 2 grain terminals halted | 11-12 Aug | Kyiv Independent (T2 multi) | T5 | Russia-Ukraine leg | Daily 13 + sweep | supports | High |
+| 26 | Record July barrage: 376 missiles (126 ballistic), ballistic intercepts collapsed (~15-29%) after PAC-3 stocks ran out 1 Jul; "threefold" Patriot-supply and US-stockpile splits carried from dailies, not independently re-verified | rep. 1-12 Aug | AFP/Kyiv Post (T2, approx figures) | T5 | Russia-Ukraine leg | Daily 12 + sweep | supports | High |
+| 27 | Graham Act passed Senate 86-11 (7 Aug, ahead of the pre-registered "after 31 Aug" test); identical House companion filed 10 Aug (McCaul/Fitzpatrick/Hoyer); floor vote ≥Sept | 7-10 Aug | PBS/The Hill (T2 multi) | T5 | sanctions | Daily 8-13 + sweep | supports | High |
+| 28 | Russia: Galuzin rules out "freezing" (10 Aug); Zakharova sets procedural condition — US must clarify Anchorage-track outcomes first (13 Aug); Zelenskyy submitted new proposals (11 Aug) | 10-13 Aug | RBC-Ukraine/US News (T2) | T5 | peace track | sweep + follow-up | mixed | Med |
+| 29 | NK missile brigade (~90 personnel, up to 120 KN-23/24) embedded in Voronezh; config talks Sept | disc. 5-7 Aug | Defense Post/ISW (T2) | T5 | proliferation | Daily 8 + sweep | supports | Med |
+| 30 | Canada 50% tariffs (19 Aug, ~US$20B, Section 338, no CUSMA carve-out): US tabled revised lower sectoral offer 11 Aug, Canada unsatisfied; third LeBlanc-Greer meeting 13 Aug; negotiator warned tariffs "could halt trade talks"; Carney "will not accept a bad deal" | 11-13 Aug | CBC/Globe/Bloomberg (T1/2) | T6/T5 | tariff deadline | Daily all + sweeps | supports | High |
+| 31 | Canada July LFS +75K vs ~+15-20K exp., U 6.4% 2-yr low (composition + wage detail carried from dailies, unconfirmed vs StatCan directly) | 7 Aug | StatCan (T1 headline) | T6 | labour | Daily 7-8 + sweep | neutral (growth) | High |
+| 32 | CPP Investments C$200M JV, 49.5% of two Brazil Hilton hotels — named peer deploying offshore mid-tariff-crisis | 10 Aug | CPP newsroom (T1) | T6 | pension behaviour | Daily 13 (marginal) + sweep | challenges | Med-High |
+| 33 | Canadian DB plans Q2 median +6.6%, driven by foreign assets (S&P 500 +17.1% in CAD); Canada lagged | rel. 6 Aug | Northern Trust (T1) | T6/Illiq | domestic-mandate tension | Daily 11 + sweep | challenges | High |
+| 34 | "Technical recession" claim resolved: refers to Q1 (-0.1%); Q2 advance estimate +3.4% rebound; official accounts 28 Aug | conf. 13 Aug | BNN/StatCan (T2) | T6 | growth read | sweep (conflict resolved) | neutral | Med |
+| 35 | Nvidia $500B AI-compute financing consortium (Apollo/BlackRock/Blackstone/Brookfield/GS/KKR, MOUs); NVDA -2.4% (~$130B) then +3.0% next day; Wolfe first sell-side credit-risk flag 13 Aug; wider NVDA CDS noted | 10-13 Aug | Nvidia/Blackstone PR (T1), Wolfe via Investing (T2) | T4/Illiq | AI financing | Daily 11-13 + sweeps | supports buildout, flags credit | High |
+| 36 | AI earnings split: CoreWeave rev $2.6B +112%, backlog $104.2B +246%, +$25B new commitments; SMCI FY27 guide $65-72B vs ~$54B cons.; Nebius +454% rev, EBITDA swing +$236M; vs Cisco margin-guide cut (65-66%) -4.6%, Coherent sell-the-news, Cerebras GAAP-optics selloff; SOX 12,399 +2.3-2.5%, near bull market | 11-13 Aug | IR/CNBC/SEC (T1/2) | T4 | earnings | Daily 12-13 + sweep | supports (with bifurcation) | High |
+| 37 | Intel $20B offering upsized from $15B at $95/sh, >$100B orders (>5x oversubscribed), closed 12 Aug | 10-12 Aug | Intel (T1) | T4 | capex funding | Daily 11 + sweep | supports | High |
+| 38 | Memory: Samsung/SK Hynix/Micron reportedly sold out entire 2027 DRAM+HBM capacity (DigiTimes, converted 9 Aug); TrendForce Q3 contract forecast +13-18% q/q, below the +25% pre-registered call (date provisional) | 9 Aug | DigiTimes conv. (T3→T2) | T4 | memory | sweep (watch test) | supports (scarcity), rate decelerating | Med-High |
+| 39 | Oracle: no rating action in window (S&P BBB- was 9 Jul, context); fresh August layoff round (~30K cumulative) alongside $55.7B capex funded by $43B debt | ~12 Aug | Yahoo/TechCrunch (T2) | T4 | credit/cost | sweep (watch test) | mixed | Med |
+| 40 | No large AI/DC bond priced in window (Meta deals pre-window; Anthropic $36B Blackstone-led package still "early stage" as of 4 Aug) — watch test resolved negative | wk | sweep (T2) | T4 | financing prints | sweep (watch test) | checked-null result | Med |
+| 41 | Anthropic-Decart talks (~$6B, ~50% premium to May round) CONVERTED via Bloomberg/Haaretz 13 Aug; status = talks | 13 Aug | Bloomberg (T2) | T4 | M&A | Daily 13 (T3) + conversion | supports | Low-Med |
+| 42 | Brent +~7% w/w to $87.92 after 6-session ~12% rally broke 13 Aug; IEA: Q3 deficit 1.8mb/d (doubled), widest FY deficit in 5 yrs, 8.3mb/d Gulf shut-in, stocks below 7.9bn bbl first since Apr 2025 | 12-13 Aug | IEA (T1 corr.) | T3/T5 | oil | Daily 12-13 + sweep | supports (T5-primary) | High |
+| 43 | PJM Interim Resource Adequacy filing (7 Aug): 50MW+ "Large Load" defined; no own generation by 1 Jun 2027 → curtailment ahead of Pre-Emergency Load Management at 50% of the PAI rate; Large Load Registry — watch test RESOLVED | 7 Aug | PJM (T1) | T3 | grid scarcity | sweep (watch test) | supports | High |
+| 44 | ER26-3380 comments NOT yet due (deadline 21 Aug); PJM itself flags unresolved DC cost allocation — watch item carries forward | wk | PJM/FERC (T1) | T3 | grid cost allocation | sweep (watch test) | pending | Med |
+| 45 | EU gas storage 58.84% (9 Aug) vs 82.0% 5-yr norm — record-low early-Aug fill; injections marginally ahead of pace needed for the relaxed 80%/1 Nov target; NOTE: gap to target ~21pp, wider than the "~12-point gap" carried last week — prior figure not reproducible, flag in continuity | 9 Aug | AGSI+ (T1) | T3 | storage | sweep (watch test) | cautionary | Med |
+| 46 | Texas/ERCOT DC-interconnection pause: 474GW queue ~90% DC; BNEF: ~20% of US DC pipeline (49.8GW) at delay risk, up to $15B cost; PUCT meetings 14 + 20 Aug; FERC 6-RTO cost-shift deadline 17 Aug, no filings yet | 3 Aug act., in-window process | Akin Gump/BNEF (T2/3 conv.) | T3/T4 | grid brake | Daily 10-13 + sweep | mixed (constraint on buildout) | High |
+| 47 | Coal generation +13% last yr, power emissions +4% (first rise in years) on DC demand | rep. 6-12 Aug | EIA-based (T2) | T3 | counter-transition | Daily 12 | challenges | Med |
+| 48 | Natgas: storage +36 Bcf to 3,153 (6.7% above 5-yr avg), record production 111.2 Bcf/d, HH ~$2.78 — crude-specific shock, not broad energy | 13 Aug | EIA (T1) | T3 | gas cushion | Daily all + sweep | context | Low-Med |
+| 49 | EIA crude build +17.4M bbl (biggest since early 2023) absorbed without denting prices | 12 Aug | EIA (T1) | T3 | inventories | Daily 12 + sweep | divergence noted | Med |
+| 50 | Brookfield Q2 (13 Aug, in-window): record $98B raised, $100B deployed in the quarter; DE +14% to ~$1.4B; EPS miss $0.66 vs $0.67 | 13 Aug | Brookfield (T1) | Illiq | dry powder | sweep | supports "price-insensitive buyer" | High |
+| 51 | EA buyout debt: $18-20B JPMorgan-led package drew ~$45B demand (~2.5x), priced tight of talk at 7.1-7.8x leverage, single-B (syndication date not independently pinned) | ~11-12 Aug | Octus/TheStreet (T2x2) | Illiq | leverage/valuations | sweep | supports (no premium demanded) | High |
+| 52 | Sponsor prints: Apollo EPS miss ended 4-quarter beat streak (4 Aug, context); Carlyle "$17B, fundraising supercycle" (5 Aug, context); KKR RE returns weaker inside record AUM (30 Jul, context); GIC selling ~$1B stakes into "booming" secondaries (5 Aug, context) | pre-window | IR/Bloomberg (T1/2) | Illiq | performance/valuations | sweep | context, labelled | Med |
+| 53 | Illiquids counter-current (carried context): Q1 fundraising slowest in a decade, ~33,000 unsold portfolio cos, NJ/Alaska retreat, CalPERS equity-heavy 14.8%, MMF record $7.91T, DOL safe-harbor 37K comments, WTW/SEI DC CIT (4 Aug) | context | multi (T1/2) | Illiq | all four cells | Daily 9-12 | counter-case | Med |
+| 54 | US-China: pecan anti-dumping 54.3% eff. 11 Aug; entity-list pauses alongside; truce to Nov 10 unchanged; Xi DC visit 24 Sept confirmed; "Aug 12 deadline" debunked (2025 carryover) | 10-12 Aug | Bloomberg (T2) | T5 | managed friction | Daily 11-13 + sweep | mixed | Med |
+| 55 | Berkshire ends 14-quarter net-selling: Abel deployed $23.5B incl. $10B Alphabet placement; cash $397→$365B; 13F due 14 Aug | 8-9 Aug | CNBC/Forbes (T2 multi) | narrative/exec | capital allocation | Daily 12-13 | supports risk appetite | Med |
+| 56 | NFIB 99.8, 11-month high (11 Aug); MMF record; retail bullishness 47% vs 28% — growth/sentiment mosaics | 11 Aug | NFIB/ICI (T1/2) | regime | growth mosaic | Daily 11-13 | supports held growth | Med |
+
+## Discards and failed conversions (explicit)
+- "Anthropic first profit on $10.9B revenue" — aggregator-only, failed conversion. DISCARDED.
+- "Imminent OpenAI S-1" — confidential filing was 8 Jun (pre-window); no in-window event. DISCARDED as a development.
+- NVDA "-2.86% second-day slide" (Daily 12) — contradicted by sweep (11 Aug close +3.03%); conflicting, dropped; report uses the verified -2.4%/~$130B announcement-day move and "choppy recovery".
+- Bloomberg "only ~28% of 1,066GW national queue on track" (Daily 13) — unverifiable; replaced by BNEF's confirmed ~20%/49.8GW at-risk figure.
+- "SOX +2.3-2.5% weekly / near bull market" — the daily's day-move; sweep confirmed level 12,399-12,589 and the +20%-off-low framing; carried with that framing.
+- USD/CAD "most-shorted G10" — no positioning data source found; dropped from body.
+- Silver backwardation "$2.88, widest since 1980s" — single Tier 3 analysis source; used only as a flagged claim, no number in body.
+- Gold 08-07 print conflict ($4,411 vs $4,244) — resolved by the week's verified range; the $4,244 read discarded.
+- Schwab retail-bullishness survey, Wendy's/TTD/Tapestry earnings, Doximity/Airbnb moves, Trump Nevada tax-cut tour, RBA hold, UK/Germany colour — fail the relevance test for theme bodies; not carried (tape items live in panel context only).
+- Gaza disarmament unravelling — analytically distinct from the two tracked legs; one context line only in triage, not in the report body.
+- Offshore-wind RWE buyback ($1.22B, 6 Aug), OPEC+ Sept +188K (2 Aug), NCUA 11 rules (5 Aug), Carney Toronto housing $2.7B (5 Aug), Musalem/Kashkari speeches (5-6 Aug), Meta/El Paso bonds (May/Jul) — OUT OF WINDOW; context only where needed.
+
+## Checked-nulls (drivers searched, nothing in window)
+Bank-capital "four pillars" finalisation; NATO/EU/Germany/France/Italy fiscal; LNG FIDs (Cheniere call: 38Mt YTD, no new); nuclear/SMR; Turkish lira; Argentine peso (no in-window catalyst); BRICS settlement; COFER (Q2 not yet out); Cook case on 13 Aug; IAEA/Iran nuclear track; Taiwan escalation; North Korea (beyond Voronezh); Venezuela; India secondary-tariff change; BoC speakers; Canada Strong Fund CEO/board; OPTrust-specific news; new CV/GP-led deals in window; SC 13E3 filings; fresh DPI datasets; QT/balance-sheet news.
+
+## Named search-budget gaps (manifest items, not nulls)
+- T1 beat: debt-ceiling timing, IEEPA refund mechanics follow-through, Reconciliation 3.0 detail, House CR scheduling (ledger multi-day corroboration used instead).
+- T3 beat: narrative-expansion sweep (renewables cancellations, PPAs, coal retirements, ICLN/IXC) not run.
+- T4 beat: NVDA full daily sequence, Coherent specifics, Applied Materials results (after close), TrendForce dating.
+- T5 beat: Patriot/THAAD stockpile percentages not independently re-verified.
+- T6 beat: LFS composition/wage detail, Major Projects Office, 30% cap rule guidance.
+- Illiquids beat: private-credit sleeve detail (non-accruals, PIK), real estate + infrastructure sleeves, challenge queries.
+- Panel: TSX, ITA, XLU, IG OAS, fresh HY OAS, fertilizer, some 13 Aug closes.
