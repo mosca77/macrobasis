@@ -21,7 +21,7 @@ This repo IS the agent's working directory; it runs in Claude Code's cloud sandb
 - The OneDrive folder and `archive/` live outside this repo; never reference them as available paths.
 
 ## How to run
-- **Weekly report:** say **"Run the weekly cycle for [date]"** (alias "Execute"). Prior dashboard is read from `Dashboards_Eduardo_Updated/` per the Environment section (nothing attached). Pipeline = `MacroBasis_Weekly_Run_Prompt.md` (v5.1+, Phases 0–8, gates checkpointed to `runs/YYYY-MM-DD/`). No prior dashboard in the folder = baseline mode, confirm first.
+- **Weekly report:** say **"Run the weekly cycle for [date]"** (alias "Execute"). Prior dashboard is read from `Dashboards_Eduardo_Updated/` per the Environment section (nothing attached). Pipeline = `MacroBasis_Weekly_Run_Prompt.md` (v5.1+, Phases 0–8, gates checkpointed to `runs/YYYY-MM-DD/`). No prior dashboard in the folder = baseline mode, confirm first. **Unattended (Routine) runs finish themselves: push → PR → auto-merge, gated on check_layout — contract = "Automated (Routine) finish" in the Run Prompt (v5.6).**
 - **Daily monitor:** scheduled 9:00 AM task (claude.ai scheduled task + GitHub connector, since 12 Aug 2026: reads the protocol from this repo, commits `Monitoring News/YYYY-MM-DD_News.md`); protocol = `Monitoring News/README.md` (v2). Never overwrite a day's file.
 
 ## Hard invariants (full detail in the owning spec)
