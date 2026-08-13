@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """
-MacroBasis dashboard generator — TEMPLATE-FILL engine (v4.0, 23 Jul 2026).
+MacroBasis dashboard generator — TEMPLATE-FILL engine (v4.2, 13 Aug 2026).
+
+VERSIONING: this docstring states the CURRENT engine version; the full version
+history lives as the "Engine vX.Y" changelog sections in
+engine/MacroBasis_DOCX_Format_Spec.md — bump BOTH when the engine changes.
+v4.2 (13 Aug 2026): real chart insertion — Eduardo's uploads in ChartsThemes/
+are placed into their Insert <slot> cells at the slot's measured geometry;
+unresolved slots keep the dashed placeholder.
+v4.1 (6 Aug 2026): the Illiquid Assets block (build_illiquids_block, 2x2
+framework grid, no light), centred block tables.
 
 v4.0 (23 Jul 2026, Eduardo's 17 Jul restructure folded in):
 - **Jun-30 quadrant format.** The quadrant is the AIP's Jun 30th macroeconomic
