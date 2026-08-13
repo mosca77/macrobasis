@@ -98,6 +98,9 @@ Engine v4.0 (23 Jul 2026 — Eduardo's 17 Jul restructure folded in):
   Key Developments, one theme per page, Light Scoring then Light History, no spills.
 - **Charts.** The only engine-generated image is the light-history heatmap
   (`engine/charts/YYYY-MM-DD/light_history.png`). Keydev chart generation is retired.
+  Since 13 Aug 2026 the side-chart slots are filled with Eduardo's UPLOADED charts
+  from `ChartsThemes/` at build time (see Engine v4.2 below); the agent still never
+  generates or fabricates a side chart.
 
 Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
 - **`build_illiquids_block` (from `illiquids`)** — a new engine-generated bordered block
@@ -129,6 +132,29 @@ Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
   break like the other generated blocks, and `check_layout.py` (v4) asserts the block
   exists, occupies exactly one page, carries a call and a portfolio read, sits directly
   after the last theme page, and is directly followed by Light Scoring.
+
+Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
+- **Eduardo's charts are now placed INTO the report at build time.** He uploads the
+  week's theme charts to `ChartsThemes/` at the repo root; `fill_chart_placeholders`
+  fills every `Insert <slot>` cell with the REAL chart when one resolves, and only
+  falls back to the 30 Jul dashed placeholder (marker line kept) when none does.
+- **Resolution.** `index_chart_dir` scans the source dir once (`chart_source_dir`
+  key, default `ChartsThemes`); `resolve_chart_image` maps slot → file tolerantly:
+  case, separators and doubled `.png.png` are ignored, and the alias table accepts
+  the upload spellings (`Currency_debasement_2` → `currency_2`,
+  `artficial_intelligence1` → `AI_1`, `Geopolitics_2` → `geo_2`, `Illiquids_1` →
+  `illiquid_1`, `energy1` → `energy_1`). Files named `retired*` and zero-byte files
+  are skipped. Per-slot explicit overrides via the `chart_images` content key win.
+- **Formatting is preserved by construction.** The source image is letterboxed onto
+  a white canvas of EXACTLY the slot's measured geometry (`chart_slots`, aspect
+  kept, centred, 150 dpi), so the inserted picture carries the same `wp:extent` as
+  the placeholder it replaces and the calibrated page layout cannot reflow. When a
+  real chart lands the `Insert <slot>` marker line is dropped (the chart replaces
+  the paste step); a placeholder slot keeps its marker for hand navigation.
+- **Manifest.** The build prints `charts resolved from <dir>: N/M slots` plus a
+  named `placeholder fallback:` list, and the final `chart slots:` line shows each
+  slot's source file — an unresolved slot is a visible gap, never a silent null.
+  Record the resolution line in `self_audit.md`.
 
 ## Fitting a hand-charted dashboard to one page per theme (`engine/fit_pages.py`)
 

@@ -26,7 +26,7 @@ This repo IS the agent's working directory; it runs in Claude Code's cloud sandb
 
 ## Hard invariants (full detail in the owning spec)
 0. **Layout since 30 Jul 2026:** page 1 = exec (direction, factors, **highlighted quadrant**, "Why this quadrant" bullets, all six status rows); **no exec Key Developments page**; themes from page 2; back matter = Light Scoring → **Inflation and Growth Read** → Light History. Voice is pitched at generalist investment professionals: acronyms expanded on first use, mechanisms glossed, numbers rounded.
-1. NEVER hand-build a dashboard docx — always `engine/macrobasis_fill.py` + the newest `MacroBasis_Report_Template*.docx` at root (plain unversioned filename retired 6 Jul 2026).
+1. NEVER hand-build a dashboard docx — always `engine/macrobasis_fill.py` + the newest `MacroBasis_Report_Template*.docx` at root (plain unversioned filename retired 6 Jul 2026). **Since 13 Aug 2026 the engine also inserts Eduardo's uploaded charts from `ChartsThemes/` into the theme chart slots at build** (unresolved slots fall back to sized placeholders; rules in the Run Prompt v5.5 + Format Spec v4.2).
 2. Prior anchors and statuses come from last week's approved report, never from memory.
 3. Recency gate: only in-window developments are developments; figures prefer Tier 1, lower tiers converted or dropped.
 4. Statuses are exactly **Escalating / Held / Deescalating** = MORE/LESS of the theme (not good-vs-bad); the tape veto caps at Held.
@@ -50,4 +50,4 @@ This repo IS the agent's working directory; it runs in Claude Code's cloud sandb
 | Acronyms & terms | `memory/glossary.md` |
 
 ## File map
-Specs at root · `engine/` (fill script, schema, format spec, charts) · `Monitoring News/` (daily files) · `runs/` (per-run checkpoints) · `Dashboards_Claude_Generated/` (raw outputs) · `Dashboards_Eduardo_Updated/` (**approved copies = next week's prior state + formatting ground truth; Eduardo-upload only**) · `memory/` (glossary, project background) · `HANDOFF.md` (co-op orientation — read first on takeover). `archive/` retired to OneDrive at migration (12 Aug 2026).
+Specs at root · `engine/` (fill script, schema, format spec, charts) · `ChartsThemes/` (**Eduardo's weekly chart uploads — engine inserts them into the report at build; Eduardo-upload only**) · `Monitoring News/` (daily files) · `runs/` (per-run checkpoints) · `Dashboards_Claude_Generated/` (raw outputs) · `Dashboards_Eduardo_Updated/` (**approved copies = next week's prior state + formatting ground truth; Eduardo-upload only**) · `memory/` (glossary, project background) · `HANDOFF.md` (co-op orientation — read first on takeover). `archive/` retired to OneDrive at migration (12 Aug 2026).
