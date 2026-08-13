@@ -1,0 +1,42 @@
+# Self-audit — run 2026-08-13
+
+- [x] Week Ledger built BEFORE searching; all 25 threads dispositioned (verified via beats / discarded with reason / checked-null) — `ledger.md`, `triage.md`
+- [x] Every daily-file candidate reconciled in triage (56 rows + explicit discard list); provenance column filled
+- [x] Every "What changed" item dated inside 07-13 Aug; late-breaking gap swept (geo beat + follow-up beat covered post-9:30 filing-day hours; Canada talks checked to midday)
+- [x] Every number traces to Tier 1, corroborated Tier 2, or carried prior anchor; egress-blocked primary pages corroborated via independent secondaries and flagged in triage
+- [x] No standalone numbers: priors/expectations/trend carried throughout
+- [x] Lights scored with the Evaluator framework incl. tape veto: T1 Escalating, T2 Held, T3 Held, T4 Escalating, T5 Escalating, T6 Held. Two changes vs prior week, both justified as veto reversals with tape confirmation (T4: SOX near bull market, buildout winners led; T5: Brent +7% w/w). Monetary Tracker: no light, no status word
+- [x] Weekly Direction ONE sentence, bolded, conservative ("held growth" on stall-not-break); Influencing Factors 5 lines, no offsets
+- [x] Exec dedupe scan run: factors / rationale / one-liners carry disjoint facts (rationale owns axis evidence; factors own odds round-trip, record+VIX, Berkshire, BOJ, EA; one-liners own theme headlines)
+- [x] Keydevs add a layer (T1 term-premium signature; T2 who-is-the-buyer; T3 price→permission; T4 who-bears-the-risk; T5 shared-interceptor constraint; T6 policy-vs-behaviour wedge); no vague references
+- [x] No scene-setting openers, no kickers, no "Key development:" starts
+- [x] No market move narrated in two themes (oil owned by T3 with T5 status carrying the weekly % once as confirmation; gold owned by T2; dedupe clauses elsewhere); both war legs named separately every layer
+- [x] Quadrant HIGHLIGHT format: Inflation shaded (ED7D31/22), no dot, no AIP note, Jun-30 point intact; rationale present and agrees with the Inflation and Growth Read
+- [x] Exec ends at the Status Dashboard; themes begin page 2
+- [x] Inflation and Growth Read present after Light Scoring; signs (+,+) match page-1 chips and the highlighted quadrant; quadrant_read names Inflation; histories appended (regime 08-13 +/+, quadrant 08-13 Inflation)
+- [x] Acronyms expanded, mechanisms glossed, numbers rounded sensibly; spelling folded to Eduardo's 07 Aug calibration (-ize family, -our/-ce kept)
+- [x] Light Scoring states mechanisms where non-obvious (30y-to-Fiscal via flat breakevens; CPP-offshore-to-Domestic as behavioural counter; PJM-to-Energy via regulated obligation)
+- [x] Illiquids block after Theme 6, one page, header renamed per Eduardo's approved copy ("Allocation Insights - Illiquid Assets"): charts beside PE news (own Sonnet 5 sweep), 2x2 grid in canonical order, self-contained cells, no Buy/Hold/Sell, no signals strip
+- [x] Illiquids carries NO light: six exec rows, no light_scoring/light_history entry, no status word on the page (check_layout PASS)
+- [x] All beats dispatched on Sonnet 5 explicitly (model: "sonnet"); budget-ceiling gaps NAMED below, none silently nulled
+- [x] Keydevs full-width text; Monetary has no keydev
+- [x] Evaluator pass ran (all seven families; fixes: -ize spellings, Oracle checked-null clause, T4 cross-reference rewording, T2/Illiquids compression, Light Scoring one-page compression)
+- [x] No em-dashes in prose (verified against document.xml; only fixed template headers carry them)
+- [x] Chart slots: REAL charts inserted from ChartsThemes/ at the slot's measured geometry (16/16 resolved; engine v4.2, first run); slot sizes re-measured from the approved 07 Aug dashboard incl. first measured Illiquids sizes
+- [x] Light-history heatmap + quadrant-history chart regenerated to engine/charts/2026-08-13/
+- [x] References grouped by canonical topics, every item tier-labelled; converted items name their path
+- [x] Narrative expansion swept where budget allowed; unswept lists named as gaps below
+- [x] check_layout.py exit 0 (16 pages, fills 72-89%, no spills); validate: zero `[[`, zero `YYYY_MM_DD`
+- [x] Checkpoints written: ledger.md, panel.md, triage.md, self_audit.md
+
+## Run manifest
+- **Window:** 2026-08-07 → 2026-08-13 (weekly mode; prior = approved MacroBasis_Dashboard_2026-08-07.docx)
+- **Daily files read:** 7 (08-07 … 08-13), all carrying bridge-offline caveats; treated as leads
+- **Ledger threads:** 25 — verified 21, discarded/failed-conversion 7 items (NVDA second-day figure, Anthropic profit, OpenAI S-1, 28%/1,066GW grid figure, most-shorted-CAD, silver-backwardation number, gold $4,244 print), checked-null 20+ drivers (list in triage)
+- **Beats:** 10 (6 themes + Monetary + Illiquids + panel + geo follow-up), ALL on Sonnet 5, dispatched explicitly with model set; orchestrator adjudicated and wrote
+- **Search-budget gaps (named, not nulls):** T1: debt-ceiling timing, IEEPA mechanics, Reconciliation 3.0 detail, House CR scheduling · T3: narrative-expansion sweep (renewables/PPAs/coal retirements/fund flows) · T4: NVDA daily sequence, Coherent detail, Applied Materials (reported after close), TrendForce dating · T5: Patriot/THAAD stockpile percentages (carried, not re-verified) · T6: LFS composition detail, Major Projects Office, 30% cap guidance · Illiquids: private-credit non-accrual/PIK, real-estate + infrastructure sleeves · Panel: TSX, ITA, XLU, IG OAS, fresh HY OAS, fertilizer, some 13 Aug closes. Egress proxy blocked most finance-domain direct fetches; figures corroborated via independent secondaries.
+- **Six lights:** Escalating · Held · Held · Escalating · Escalating · Held
+- **Divergences carried:** 6 (bear-steepener; record tape vs labour; metals vs bitcoin; oil vs cool prints; AI internal bifurcation; stale-tight HY vs weak auctions)
+- **Chart insertion (engine v4.2, first production run):** `charts resolved from ChartsThemes: 16/16 slots`, no placeholder fallbacks
+- **Continuity notes:** EU-storage gap restated from current AGSI data (prior "~12-point gap" not reproducible — flagged); Eduardo's 07 Aug hand edits folded in (Illiquids header rename, -ize spelling, dropped scene-setting opener pattern, "(joint) 1998" precision noted for future intervention references)
+- `edits_after_review:` (left blank for Eduardo)

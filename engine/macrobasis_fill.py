@@ -2346,8 +2346,10 @@ def main():
     _tbls = top_tables(doc)
     _theme_prefixes = ("Theme 1 —", "Theme 1 -", "Theme 1 Appendix", "Theme 1 (Appendix)",
                        "Theme 2", "Theme 3", "Theme 4", "Theme 5", "Theme 6")
-    _gen_prefixes = ("Illiquid Assets", "Light Scoring", "Inflation and Growth Read",
-                     "Theme Light History")
+    # 13 Aug 2026: Eduardo's approved 07 Aug dashboard renamed the Illiquids header to
+    # "Allocation Insights - Illiquid Assets"; match both so the block keeps its own page.
+    _gen_prefixes = ("Illiquid Assets", "Allocation Insights", "Light Scoring",
+                     "Inflation and Growth Read", "Theme Light History")
     _tmin = int(C.get("theme_row_min_twips", 1250))
     def _drop_spacer_before(tbl):
         prev = tbl.getprevious()
