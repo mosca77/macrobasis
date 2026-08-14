@@ -40,12 +40,12 @@ formatting detail is inherited from the template byte-for-byte.
 Never rebuilds layout from scratch.
 
 Usage:
-    python3 macrobasis_fill.py <template.docx> <out.docx> <content.json> [prev.docx]
+    python3 macrobasis_fill.py <template.docx> <out.docx> <content.json>
 
-If prev.docx (last week's approved dashboard) is given, the risk-quadrant
-graphic + outlook markers are transplanted from it before the new week's
-marker is added, so the marker trail stays current. The trail is capped at
-THREE dated markers (this week + the two prior weeks); older ones are pruned.
+LEGACY (retired with v4.0, 23 Jul 2026): a fourth [prev.docx] argument feeds the
+old marker-trail transplant (three dated markers pruned oldest-first). That path
+only runs when the content JSON sets `quadrant_transplant: true`; the default
+flow uses the template's Jun-30 reference and the `quadrant_highlight` wash.
 
 The content JSON schema is documented in MacroBasis_DOCX_Format_Spec.md.
 """

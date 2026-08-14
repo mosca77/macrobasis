@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Layout checker (v3, 30 Jul 2026) — run after EVERY build; exits non-zero on any failure.
+"""Layout checker (v4, 6 Aug 2026) — run after EVERY build; exits non-zero on any failure.
 
-Required page schema (v4, 30 Jul 2026 per Eduardo):
+Required page schema (v4, per Eduardo):
   page 1  Executive Summary: Weekly Direction + Influencing Factors + the HIGHLIGHTED
           quadrant + the 'Why this quadrant' bullets + the FULL Status Dashboard
           (all 6 rows). The standing AIP note box is gone and so is the dot marker.
@@ -9,8 +9,10 @@ Required page schema (v4, 30 Jul 2026 per Eduardo):
           it restated the theme blocks. Themes now start on page 2.
   themes  each block (Theme 1, Monetary appendix, Themes 2-6) occupies exactly ONE
           page, on consecutive pages (via the block-internal 'Watch next week' marker)
-  then    Illiquid Assets (NEW 6 Aug 2026, per Eduardo — one page, Buy/Hold/Sell per
-          sleeve, carries NO traffic light and no exec status row), then Light Scoring,
+  then    Illiquid Assets (6 Aug 2026, per Eduardo — one page: charts beside the
+          private-equity 'What changed this week', then the 2x2 framework grid
+          Performance | Valuations / Leverage | Dry powder; NO traffic light, no
+          exec status row, no Buy/Hold/Sell), then Light Scoring,
           then the Inflation and Growth Read, then Light History, each on its own page
   no interior blank / near-blank spill pages (a single trailing blank is allowed)
 

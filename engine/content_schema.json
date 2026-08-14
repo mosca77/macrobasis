@@ -241,7 +241,7 @@
       {"category": "Dry powder", "read": "", "points": []}
     ]
   },
-  "_illiquids_note": "6 Aug 2026 NEW (Eduardo); v4 the same day is the SETTLED format. The 'Illiquid Assets' block is engine-rendered AFTER Theme 6 and BEFORE Light Scoring, on its own page: header → chart column ('Insert illiquid_1/2') beside bulleted 'What changed this week' → a 2x2 FRAMEWORK GRID (Performance | Valuations over Leverage | Dry powder) that replaces the keydev / implication / watch rows. 'What changed this week' = the window's most important PRIVATE EQUITY news from a dedicated Sonnet 5 sweep (Beat 10, Run Prompt). Each grid cell is self-contained: category label, a one-line bold `read`, then `points` bullets carrying evidence + implication + watch for that category. Categories in the fixed order of `_canonical.illiquid_categories`: Performance (returns against public alternatives), Valuations (richer or cheaper, transaction-versus-mark evidence), Leverage (how much, what moves it, how measured), Dry powder (capital demand and deal appetite). RETIRED and not to return: the Buy/Hold/Sell sleeve calls (v1-v2) and the one-word Signals strip with tones (v3) — one-word weekly reads proved impossible to keep consistent; prose cells are stable. DELIBERATELY OUTSIDE THE LIGHTS SYSTEM: no traffic light, NO exec status row (still six), no entry in `light_scoring` or `light_history`. `check_illiquids` warns on any leak, on category drift, on a Buy/Hold/Sell or light-word read, and on a leftover `signals` key. Budget: ~180 words of PE news + ~75 words per cell, with the two chart slots at their schema sizes, to clear the 89.5% fill ceiling.",
+  "_illiquids_note": "6 Aug 2026 NEW (Eduardo); v4 the same day is the SETTLED format. The 'Illiquid Assets' block is engine-rendered AFTER Theme 6 and BEFORE Light Scoring, on its own page: header → chart column ('Insert illiquid_1/2') beside bulleted 'What changed this week' → a 2x2 FRAMEWORK GRID (Performance | Valuations over Leverage | Dry powder) that replaces the keydev / implication / watch rows. 'What changed this week' = the window's most important PRIVATE EQUITY news from a dedicated Sonnet 5 sweep (Beat 10, Run Prompt). Each grid cell is self-contained: category label, a one-line bold `read`, then `points` bullets carrying evidence + implication + watch for that category. Categories in the fixed order of `_canonical.illiquid_categories`: Performance (returns against public alternatives), Valuations (richer or cheaper, transaction-versus-mark evidence), Leverage (how much, what moves it, how measured), Dry powder (capital demand and deal appetite). RETIRED and not to return: the Buy/Hold/Sell sleeve calls (v1-v2) and the one-word Signals strip with tones (v3) — one-word weekly reads proved impossible to keep consistent; prose cells are stable. DELIBERATELY OUTSIDE THE LIGHTS SYSTEM: no traffic light, NO exec status row (still six), no entry in `light_scoring` or `light_history`. `check_illiquids` warns on any leak, on category drift, on a Buy/Hold/Sell or light-word read, and on a leftover `signals` key. Budget: ~160 words of PE news + ~65 words per grid cell (re-calibrated 13 Aug 2026 against the taller MEASURED slots — see _illiquid_slots_note, which owns the current figure), to clear the 89.5% fill ceiling.",
   "light_scoring": [
     {
       "theme": "1 Fiscal & Deregulation",
@@ -298,7 +298,7 @@
       "items": []
     },
     {
-      "topic": "Theme 3 — Energy & the Clean Transition",
+      "topic": "Theme 3 — Energy & the Energy Transition",
       "items": []
     },
     {
@@ -319,6 +319,7 @@
     }
   ],
   "_references_note": "Grouped BY TOPIC mirroring the document's sections; every item carries its tier in parentheses and sources the data actually used in that section. A Tier 3 item appears only after conversion and names its confirming source. Omit empty groups. (Engine also accepts the legacy 'tier' key as the group label.)",
+  "_legacy_keys_note": "13 Aug 2026 inventory of backward-compatibility surface. Documented above: quadrant_marker (legacy dot, superseded by quadrant_highlight), keydev_chart_png (retired 23 Jul, still honoured), key_developments (retired 30 Jul, gated by keep_exec_key_developments), _canonical.illiquid_tones (legacy renders only). Additionally honoured by the engine but ABSENT from this template: cross_theme and key_risks (pre-2 Jul exec cells, present in content_2026-06-18/25.json; engine fills them only if an old template carries the cells). None of these may appear in new content files.",
   "_central_bank_note": "SEVEN rows with full bank names (17 Jul 2026 standard); header row reads 'Expected Cycle / Note'. Keep notes to one short clause; the table sits under the monetary chart slot in the left column.",
   "quadrant_highlight": {
     "quadrant": "Stagflation",
