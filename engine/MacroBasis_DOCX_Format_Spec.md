@@ -32,7 +32,7 @@ Engine v3.3 (6 Jul 2026): missing cells warn-and-skip instead of crashing; drawi
 ids are seeded past existing ids (duplicate ids made renderers drop the whole
 quadrant layer); marker labels handle split runs. **Layout caveat:** the quadrant
 cluster is anchored below the Influencing Factors cell — if the factors run long,
-the cluster slides off page 1. The "exactly 3 short lines" rule is what keeps the
+the cluster slides off page 1. The factor-count budget (4-6 lines since 6 Aug 2026; was exactly 3) is what keeps the
 exec block on one page; treat it as layout-critical, not just voice.
 
 Engine v3.4 (9 Jul 2026, Eduardo's hand-edit feedback folded in):
@@ -322,7 +322,7 @@ documents defer to it. Since v3:
 - `references` is a list of topic groups `{topic, items[]}` mirroring the document's sections, every item tier-labelled in its text (legacy `tier` group key still accepted).
 - `weekly_direction` = ONE sentence: the inflation call + growth call (bold the
   direction words), no follow-up sentence.
-- `influencing_factors` (v3.2) = a LIST of exactly 3 short factor lines
+- `influencing_factors` = a LIST of 4-6 short factor lines (6 Aug 2026 standard; was exactly 3 at v3.2)
   (growth evidence / inflation evidence / market confirmation), supporting
   evidence only — offsets live elsewhere. One paragraph rendered per item.
 - `monetary.status` (v3.2) = no status word, no light; starts at the sentence.
