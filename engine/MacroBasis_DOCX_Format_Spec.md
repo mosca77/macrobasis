@@ -21,12 +21,21 @@ slots; supersedes v5, which was built 23 Jul from the approved 17 Jul dashboard:
 Jun-30 reference quadrant, two-page exec, charts beside bulleted 'What changed',
 full-width text keydev, Implication | Watch side by side, 7-row central-bank
 table, no Monetary keydev) with
-`engine/build_template_from_dashboard.py` (v2) — run that script
+`engine/build_template_from_dashboard.py` (v3, 13 Aug 2026) — run that script
 against the newest approved dashboard whenever his structural hand edits should
 become the template (it re-inserts every placeholder token, restores Insert
 markers and any keydev/implication/watch rows a hand edit removed, resets the
-status ovals to the engine's base colour, and re-stamps YYYY_MM_DD). His newest
-approved dashboard (`Dashboards_Eduardo_Updated/`) stays the formatting ground truth.
+status ovals to the engine's base colour, restores hRule=atLeast on every row
+height Word dropped on save, DROPS the engine-generated back-matter blocks
+including Illiquid Assets under either header spelling, and re-stamps
+YYYY_MM_DD). **Rebuild acceptance test (MANDATORY before adopting a rebuilt
+template):** fill it with the newest content JSON and run `check_layout.py` —
+exit 0 or the rebuilt template is NOT adopted. Known limitation (13 Aug 2026):
+a rebuild from a v6-era approved dashboard currently produces a taller exec
+that can push the status rows to page 2 — the acceptance test catches it;
+hand-tune the exec row/geometry (as was done for v6 itself) before adoption.
+His newest approved dashboard (`Dashboards_Eduardo_Updated/`) stays the
+formatting ground truth.
 
 ## Engine changelog (dated history)
 

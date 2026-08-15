@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Build a fill-template from an APPROVED dashboard (v2, 23 Jul 2026).
+Build a fill-template from an APPROVED dashboard (v3, 13 Aug 2026).
+
+v3 (13 Aug 2026): the Illiquid Assets block (either header spelling) is now DROPPED
+like the other engine-generated back-matter blocks — it is rebuilt from content every
+run, so it must never ride into a template as fixed text (spec_audit item 26).
 
 Turns Eduardo's newest approved dashboard (formatting ground truth) into the
 next MacroBasis_Report_Template_vN.docx by stripping the week's content and
@@ -185,11 +189,31 @@ def main():
     doc = Document(src)
     body = doc.element.body
 
+    # v3 (13 Aug 2026): restore hRule="atLeast" on EVERY row height when ingesting a
+    # hand-edited dashboard. Word drops the attribute on save; renderers then treat the
+    # saved height as fixed, the exec block balloons and the six status rows fall off
+    # page 1 (the lesson recorded in content_schema.json's _chart_slots_note, never
+    # implemented here). atLeast lets rows shrink back to content in the fill.
+    _fixed = 0
+    for trh in body.iter(qn('w:trHeight')):
+        if trh.get(qn('w:hRule')) != 'atLeast':
+            trh.set(qn('w:hRule'), 'atLeast')
+            _fixed += 1
+    if _fixed:
+        print(f"restored hRule=atLeast on {_fixed} row heights (Word drops it on save)")
+
     # ---------- drop the engine-generated blocks (regenerated every run) ----------
+    # v3 (13 Aug 2026): the Illiquid Assets block joined the drop-list. It is engine-
+    # generated from `illiquids` content every run (build_illiquids_block), exactly like
+    # Light Scoring; before this fix the script carried the approved week's literal
+    # Illiquids text and charts into the new template as fixed content (audit item 26).
+    # Both header spellings are matched: the original "Illiquid Assets" and Eduardo's
+    # approved rename "Allocation Insights - Illiquid Assets" (canonical display title).
     for t in list(body.findall(qn('w:tbl'))):
         ttl = block_title(t)
         if ttl.startswith(("Light Scoring and Developments", "Theme Light History",
-                           "Inflation and Growth Read", "Sign history")):
+                           "Inflation and Growth Read", "Sign history",
+                           "Illiquid Assets", "Allocation Insights")):
             body.remove(t)
     # stray empty / hard-page-break paragraphs left behind between blocks
     tbls = body.findall(qn('w:tbl'))
