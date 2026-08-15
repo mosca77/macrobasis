@@ -1,5 +1,5 @@
 # MacroBasis Theme Charter
-**Version: June 2026 (rev. 2) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt.**
+**Version: August 2026 (rev. 3; Illiquids beat added 6 Aug, risk-routing synced 13 Aug) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt. Last synced against Run Prompt v5.6 (13 Aug 2026).**
 
 This is the agent's knowledge base. Theses, drivers, baseline metrics, watchpoints, named-entity sweeps, and queries below define what the agent tracks. Baseline values are the AIP's as-written anchors; they are the **"Prior anchor"** values for the inaugural (baseline) run **only**. From the first weekly run onward, the "Prior anchor" comes from last week's report, never from this file and never from memory. The team edits this file — never the run prompt — when views change.
 
@@ -9,7 +9,7 @@ This is the agent's knowledge base. Theses, drivers, baseline metrics, watchpoin
 
 ## How this Charter is used (read before every run)
 - **Division of labour:** the Charter says *what* to track; the Weekly Run Prompt says *how* to render it. The report format is fixed by the Run Prompt (the dashboard layout). Do not re-derive the format here.
-- **Theme status uses the three lights (🟢 Escalating / 🟡 Held / 🔴 Deescalating) = MORE/LESS of the theme, not good-vs-bad.** Definitions, per-theme more/less meanings, and scoring are owned by the Run Prompt (Phase 5) and the Evaluator — the Charter never restates them. Baseline mode = Held. The six named Key Risks are tracked in triage (the exec register is retired); risk movement surfaces through Key Developments and the theme narratives.
+- **Theme status uses the three lights (🟢 Escalating / 🟡 Held / 🔴 Deescalating) = MORE/LESS of the theme, not good-vs-bad.** Definitions, per-theme more/less meanings, and scoring are owned by the Run Prompt (Phase 5) and the Evaluator — the Charter never restates them. Baseline mode = Held. The six named Key Risks are tracked in triage (the exec register is retired); risk movement surfaces through the theme narratives, the per-theme Key Development rows and Light Scoring.
 - **Voice:** owned by the Run Prompt (Phase 6, "Voice & selection rules") — the Charter never restates it. Format is likewise fixed by the Run Prompt.
 - **Charts are inserted manually.** Wherever a theme lists **"Associated charts (manual insert)"**, the generated report places a chart caption followed by the literal line **"(leave chart area empty for manual input later on)"**. The agent never fabricates or describes chart contents.
 - **Research is exhaustive by design.** For every theme, the agent runs *all* standard queries, *all* challenge queries, checks *every* watchpoint and scheduled release, and runs the named-entity / instrument sweep. A driver or watchpoint that returns no in-window development is recorded as *checked-null*, not silently omitted (see Run Prompt, Phase 2).
@@ -230,7 +230,7 @@ Report this as the **Monetary Policy Tracker** appendix immediately after Theme 
 5. **US fiscal recklessness** — larger deficits, higher yields, eroding dollar confidence.
 6. **Inefficient domestic investment** — non-optimal allocation of resources.
 
-These six risks are tracked in triage every week. Since 2 Jul 2026 they no longer render as a separate exec register: risk movement surfaces through the Executive Summary's **Key Developments | Implication for Themes** rows and the theme narratives. A risk delta is **never** rendered as a theme-status change.
+These six risks are tracked in triage every week. They no longer render as a separate exec register (retired 2 Jul 2026), and the exec Key Developments page is also retired (30 Jul 2026): risk movement surfaces through the **theme narratives, each theme's Key Development row, and Light Scoring's Supports/Against columns**. A risk delta is **never** rendered as a theme-status change.
 
 ## Source tiers (citation policy — revised 2 Jul 2026)
 Research sweeps across **all tiers**; the tier controls how a finding is cited, not whether it may be looked at. References render **grouped by topic mirroring the document's sections, every item tier-labelled in parentheses** (Run Prompt, Phase 6, Block F).

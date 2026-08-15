@@ -21,18 +21,35 @@ slots; supersedes v5, which was built 23 Jul from the approved 17 Jul dashboard:
 Jun-30 reference quadrant, two-page exec, charts beside bulleted 'What changed',
 full-width text keydev, Implication | Watch side by side, 7-row central-bank
 table, no Monetary keydev) with
-`engine/build_template_from_dashboard.py` (v2) — run that script
+`engine/build_template_from_dashboard.py` (v3, 13 Aug 2026) — run that script
 against the newest approved dashboard whenever his structural hand edits should
 become the template (it re-inserts every placeholder token, restores Insert
 markers and any keydev/implication/watch rows a hand edit removed, resets the
-status ovals to the engine's base colour, and re-stamps YYYY_MM_DD). His newest
-approved dashboard (`Dashboards_Eduardo_Updated/`) stays the formatting ground truth.
+status ovals to the engine's base colour, restores hRule=atLeast on every row
+height Word dropped on save, DROPS the engine-generated back-matter blocks
+including Illiquid Assets under either header spelling, and re-stamps
+YYYY_MM_DD). **Rebuild acceptance test (MANDATORY before adopting a rebuilt
+template):** fill it with the newest content JSON and run `check_layout.py` —
+exit 0 or the rebuilt template is NOT adopted. Known limitation (13 Aug 2026):
+a rebuild from a v6-era approved dashboard currently produces a taller exec
+that can push the status rows to page 2 — the acceptance test catches it;
+hand-tune the exec row/geometry (as was done for v6 itself) before adoption.
+His newest approved dashboard (`Dashboards_Eduardo_Updated/`) stays the
+formatting ground truth.
+
+## Engine changelog (dated history)
+
+The sections below record WHEN each behaviour arrived. They are cumulative: a newer
+entry supersedes an older one wherever they touch the same behaviour, and the newest
+entry plus the contract sections after the changelog are the current state. Amendment
+rule: when behaviour changes, add the new dated entry AND update any older passage it
+invalidates (never leave a superseded description reading as current).
 
 Engine v3.3 (6 Jul 2026): missing cells warn-and-skip instead of crashing; drawing
 ids are seeded past existing ids (duplicate ids made renderers drop the whole
 quadrant layer); marker labels handle split runs. **Layout caveat:** the quadrant
 cluster is anchored below the Influencing Factors cell — if the factors run long,
-the cluster slides off page 1. The "exactly 3 short lines" rule is what keeps the
+the cluster slides off page 1. The factor-count budget (4-6 lines since 6 Aug 2026; was exactly 3) is what keeps the
 exec block on one page; treat it as layout-critical, not just voice.
 
 Engine v3.4 (9 Jul 2026, Eduardo's hand-edit feedback folded in):
@@ -136,10 +153,13 @@ Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
   without touching the section setup. 6 Aug 2026, per Eduardo.
 - **The block carries no light by design.** `check_illiquids` warns at build if an
   Illiquids row leaks into `light_scoring` or `light_history`, if the exec
-  `status_dashboard` is not still six rows, or if a call is not one of Buy / Hold / Sell.
+  `status_dashboard` is not still six rows, if the grid categories drift from
+  canonical order, or **if a cell's read IS one of the retired Buy / Hold / Sell
+  words** (it prompts for a descriptive direction instead).
 - `_gen_prefixes` now includes `"Illiquid Assets"` so the block gets its own hard page
   break like the other generated blocks, and `check_layout.py` (v4) asserts the block
-  exists, occupies exactly one page, carries a call and a portfolio read, sits directly
+  exists, occupies exactly one page, carries "What changed this week" plus all four
+  grid category labels and no status word, sits directly
   after the last theme page, and is directly followed by Light Scoring.
 
 Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
@@ -167,8 +187,15 @@ Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
 
 ## Fitting a hand-charted dashboard to one page per theme (`engine/fit_pages.py`)
 
-After Eduardo pastes his own charts into the `Insert <theme>_chart_N` cells and
-re-saves (often via Word), a block can grow past one page — Currency especially,
+**Status since 13 Aug 2026 (Engine v4.2): FALLBACK ONLY.** The engine now inserts
+charts at the slot's exact measured geometry, so a normal build cannot reflow and
+never needs fitting. fit_pages remains for one case: a HAND-EDITED dashboard where
+someone pasted an image at arbitrary size outside the engine's insertion path.
+Note it deliberately trims the top/bottom margins to 468 twips — an intentional
+exception to the "do not change" margins row in the Fixed formatting facts below.
+
+After a hand paste into the `Insert <theme>_chart_N` cells and a
+re-save (often via Word), a block can grow past one page — Currency especially,
 which carries three charts. `python3 engine/fit_pages.py <dashboard.docx>` fixes
 pagination WITHOUT touching text: it trims top/bottom margins to 468 twips, zeroes
 paragraph before/after spacing and reserved row-height minimums in the bordered
@@ -215,15 +242,17 @@ Then validate + visually check (see "Verification").
 4. Fills the nested **Weekly Direction | Influencing Factors** 2-col table
    (`weekly_direction`, `influencing_factors`). `**bold**` inside any filled text
    becomes real bold (use it on the direction words). Since v3.2
-   `influencing_factors` is a LIST (normally exactly 3 short factor lines); the
-   engine renders one paragraph per item, matching Eduardo's 3 Jul exec layout.
+   `influencing_factors` is a LIST (4 to 6 short lines since the 6 Aug 2026
+   standard); the engine renders one paragraph per item.
 5. Fills the Status-Dashboard grid (6 rows: status word + one-line development) and
    **auto-colours each oval** from the status word: **Escalating→green `#92D050`,
    Held→amber `#FFC000`, Deescalating→red `#EE0000`**. The Lights Guide Appendix is
    static in the template.
-6. Fills the **Key Developments | Implication for Themes** rows (`key_developments`,
-   4–6 rows; the engine clones the template row per item). This replaced the old
-   Cross-theme takeaways / Key Risks register cells on 2 Jul 2026.
+6. **RETIRED BY DEFAULT (30 Jul 2026):** the exec Key Developments | Implication
+   rows are DROPPED at build (`drop_exec_key_developments`) and the Executive
+   Summary ends at the Status Dashboard. Only `keep_exec_key_developments: true`
+   restores the old fill path (`key_developments`, row cloned per item; that
+   layout had replaced the Cross-theme takeaways / Key Risks cells on 2 Jul).
 7. Per theme block: Status line **with the coloured traffic light** — since v3.2
    the engine prepends an inline **'Status Ball' oval shape** (the SAME wps
    ellipse as the exec dashboard lights, 0.16×0.17in / 146649×154880 EMU), NOT a
@@ -232,12 +261,11 @@ Then validate + visually check (see "Verification").
    Monetary Tracker appendix status line carries NO light and NO status word** —
    the engine strips any leading "Held ▸" so the line starts at the deciding
    sentence. Then "What changed this week" bullets, and the
-   **Key Development of the Week**: when `keydev_chart_png` is provided the engine
-   builds a borderless nested 1×2 table inside the cell with the note text LEFT and
-   the chart RIGHT (~2.95M EMU ≈ 3.2" wide) plus a small italic grey footnote under
-   the chart (`keydev_chart_note`, 7pt) explaining how the chart was built. Without
-   a PNG the note keeps its `(Insert <theme>_keydev_chart.)` marker. Then
-   Implication and Watch next week.
+   **Key Development of the Week** as full-width TEXT (generation of keydev charts
+   is RETIRED, 17 Jul 2026). Legacy embed path, honoured only if a content file
+   ever sets it again: with `keydev_chart_png` the engine builds a borderless
+   nested 1×2 table (note LEFT, chart RIGHT ~3.2" wide, italic grey
+   `keydev_chart_note` footnote). Then Implication and Watch next week.
 8. Leaves every side chart slot exactly as the template defines it (see Chart Map).
 9. Replaces the References list, **grouped by TOPIC mirroring the document's
    sections** (bold un-bulleted headers; every item tier-labelled in parentheses).
@@ -259,10 +287,10 @@ preserves the run properties of the template, so font/size/italic/colour always 
 | Block header | full-width, fill `#7B2952`, white text 16pt bold, centred; right-tab "(As of YYYY_MM_DD)" |
 | Section labels | bold `#7B2952` ("Status:", "What changed this week", "Key Development of the Week:", "Implication for the theme", "Watch next week") |
 | Block table width | 11038 twips, 2 columns 5519/5519, all borders single sz 4 `#7B2952` |
-| **Exec block (since 2 Jul)** | R0 header → R1 [nested Weekly Direction \| Influencing Factors 2×2 table + risk-quadrant drawing cluster] → R2 [nested Status Dashboard] → R3 "Key Developments \| Implication for Themes" header cells → R4+ development/implication row pairs |
-| Risk quadrant cluster | 2 pictures (quadrant map, "Our 1-3 year Outlook" legend) + dated marker ovals (`Flowchart: Connector`, orange) + date textboxes + arrow, all floating-anchored to the R1 paragraph. Max **3 dated markers** at any time. Reference offsets in `content_schema.json`. |
+| **Exec block** | R0 header → R1 [nested Weekly Direction \| Influencing Factors \| Current Environment table, quadrant INLINE with rationale beneath] → R2 [nested Status Dashboard, all six rows]. The template may still carry R3+ "Key Developments \| Implication" rows; the engine DROPS them by default (30 Jul 2026; `keep_exec_key_developments: true` restores) |
+| Risk quadrant | map with the fixed Jun-30 reference point; the week's quadrant SHADED via `quadrant_highlight` baked into the image (30 Jul 2026 standard — no dot, no date label, no trail). Legacy dated-marker cluster (max 3 markers) reachable only via `quadrant_marker`/`quadrant_transplant` |
 | Status-Dashboard grid | 3 cols; header fill `#7B2952`; Status cell = one word + a vector oval the engine recolours from that word (MORE/LESS of the theme, not good-vs-bad) |
-| Theme Status line | engine-inserted **Status Ball oval** (same wps ellipse as the dashboard lights, 0.16×0.17in) + status word + deciding signal + "Macro take: <growth/inflation/policy read>" (concrete; droppable when the signal line carries it). Monetary Tracker: no ball, no status word — straight to the sentence |
+| Theme Status line | engine-inserted **Status Ball oval** (same wps ellipse as the dashboard lights, 0.16×0.17in) + status word + deciding signal + the macro read WOVEN IN as a clause (9 Jul 2026: never a literal "Macro take:" label — the engine strips one if present; droppable when the signal line carries it). Monetary Tracker: no ball, no status word — straight to the sentence |
 | Cell margins | every table carries a **0.15" (216 twips) right cell margin** (tblCellMar) so text never touches the border; template-wide since 2 Jul pm, incl. the engine's nested keydev table |
 | Key Developments rows | dev cell = bulleted 10pt justified; implication cell = plain 10pt; engine clones the single template row per item |
 | Keydev layout | borderless nested 1×2 table in the keydev cell: note text left (5950 dxa), generated chart right (4850 dxa) + 7pt italic grey how-built footnote |
@@ -280,22 +308,24 @@ Inflation and Growth Read → Theme Light History → Lights Guide Appendix → 
 
 Side chart slots, by theme (manual insert, unchanged):
 
-| Block | Chart slots (cells, as labelled in the template) | Text column |
-|-------|--------------------------------------------------|-------------|
+| Block | Chart slots (canonical marker text in the template) | Text column |
+|-------|-----------------------------------------------------|-------------|
 | Theme 1 Fiscal | `Insert fiscal_chart_1`, `Insert fiscal_chart_2` (left col) | right |
 | Monetary appendix | `Insert monetary_1` (left col; 2nd slot = central-bank table) | right |
-| Theme 2 Currency | `Insert currency_1.png` (R2 right), `currency_2.png`, `currency_3.png` (R3) | "What changed" top-left |
-| Theme 3 Energy | `Insert energy1.png`, `Insert energy2.png` (left col) | right |
-| Theme 4 AI | `Insert AI_vs_snp500`, `AI_forward_pe` (left col) | right |
-| Theme 5 Geopolitics | `Insert geo1.png`, `Insert geo2.png` (left col) | right |
-| Theme 6 Domestic | empty chart cells (R2-right, R3) | "What changed" top-left |
+| Theme 2 Currency | `Insert currency_1` (R2 right), `Insert currency_2`, `Insert currency_3` (R3) | "What changed" top-left |
+| Theme 3 Energy | `Insert energy_1`, `Insert energy_2` (left col) | right |
+| Theme 4 AI | `Insert AI_1`, `Insert AI_2` (left col) | right |
+| Theme 5 Geopolitics | `Insert geo_1`, `Insert geo_2` (left col) | right |
+| Theme 6 Domestic | `Insert domestic_1` (R2 right), `Insert domestic_2` (R3) | "What changed" top-left |
+| Illiquid Assets (generated block) | `Insert illiquid_1`, `Insert illiquid_2` | "What changed" right |
 
-**Side chart slots are left as these text placeholders** — the team inserts those
-images manually. **Keydev charts are the exception since 2 Jul 2026:** the agent
-generates them from verified Tier-1 data series where the data is solid (house
-accent `#7B2952`, small clean axes, title + source note, ~3.6×2.1in @160dpi,
-saved under `engine/charts/YYYY-MM-DD/`) and the engine embeds them. Where the
-data cannot be verified, keep the Insert marker instead. Never fabricate a series.
+**Since 13 Aug 2026 (Engine v4.2) the engine fills these slots from Eduardo's
+`ChartsThemes/` uploads at build**; a slot with no upload keeps the sized dashed
+placeholder + marker for a hand paste. Slot names above are the canonical
+`<base>_<n>` forms the alias resolver and `build_template_from_dashboard.py`
+both use. **Keydev chart generation is RETIRED (17 Jul 2026):** the keydev row
+is text only; the `keydev_chart_png` embed path remains in the engine for legacy
+renders but no run should produce one. Never fabricate a series.
 
 ## content JSON schema
 
@@ -309,7 +339,7 @@ documents defer to it. Since v3:
 - `references` is a list of topic groups `{topic, items[]}` mirroring the document's sections, every item tier-labelled in its text (legacy `tier` group key still accepted).
 - `weekly_direction` = ONE sentence: the inflation call + growth call (bold the
   direction words), no follow-up sentence.
-- `influencing_factors` (v3.2) = a LIST of exactly 3 short factor lines
+- `influencing_factors` = a LIST of 4-6 short factor lines (6 Aug 2026 standard; was exactly 3 at v3.2)
   (growth evidence / inflation evidence / market confirmation), supporting
   evidence only — offsets live elsewhere. One paragraph rendered per item.
 - `monetary.status` (v3.2) = no status word, no light; starts at the sentence.

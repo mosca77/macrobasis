@@ -45,7 +45,7 @@ no "Key development:" prefix), Implication (growth/inflation sign + offsets), Wa
 
 ## Non-negotiable mechanics
 - **Never hand-build the docx.** Fill engine only: `engine/macrobasis_fill.py` + content JSON.
-- Weekly mode needs last week's dashboard attached (state carry + quadrant trail); baseline mode = confirm first.
+- Weekly mode reads last week's approved dashboard from `Dashboards_Eduardo_Updated/` in the repo (state carry; the quadrant trail was retired 30 Jul for the highlight standard); baseline mode = confirm first.
 - Recency gate; no standalone numbers; prior anchors from last week's report, never memory.
 - Sources: all tiers searchable, figures prefer Tier 1, lower-tier findings converted or dropped.
 - Research order (v5): Phase 1 Week Ledger from the daily files FIRST (story threads + candidates +

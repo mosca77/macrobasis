@@ -59,3 +59,11 @@ Standing input for the cleanup Eduardo will commission ("extensively fix these i
 - **Phase D — the landmine:** item 26 — teach build_template_from_dashboard.py the Illiquids block (chart cells → Insert illiquid_1/2 tokens; grid cells → placeholder tokens), test by rebuilding a template from the approved 08-07 dashboard and diffing against v6.
 
 **Regression guard (applies to every phase):** after fixing, re-run the Evaluator's regression rule in spirit — no calibration-log entry, voice rule, gate, or canonical enum may change meaning; check_layout.py must still pass on a rebuild of the 2026-08-13 dashboard from its unchanged content JSON.
+
+---
+
+## Execution log (13-14 Aug 2026)
+
+All four phases executed and committed: Phase A (mechanical, incl. under-assigned items 27/29/31 folded in), Phase B (companion docs + attach purge + sync stamps; the Evaluator's one-liner "kicker" allowance was DISAMBIGUATED rather than deleted because the schema sanctions it — prime-directive call), Phase C (contract/changelog split, _canonical display title + budgets, engine/check_specs.py wired into Phase 8 and both Routines, aborted-run rule, beats named, runs/2026-08-12 removed), Phase D (Illiquids drop-list fix PROVEN — no Brookfield/KKR text leaks into a rebuilt template — plus hRule=atLeast restore on ingest).
+
+**Residual item (pre-existing, out of register scope):** a template rebuilt from a v6-era approved dashboard still produces a taller exec (status rows can fall to page 2). Documented in the Format Spec with a MANDATORY rebuild acceptance test (fill + check_layout exit 0 before adoption); hand-tune the exec geometry on the next real rebuild, as was done for v6 itself. Every gate protecting production passes: check_specs 0 failures, and the 2026-08-13 dashboard rebuilt from its unchanged content JSON against the CURRENT v6 template passes check_layout with 0 failures.

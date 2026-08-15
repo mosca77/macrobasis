@@ -21,13 +21,27 @@
       "Theme 4",
       "Theme 5",
       "Theme 6",
-      "Illiquid Assets — Private Markets Read",
+      "Allocation Insights - Illiquid Assets",
       "Light Scoring and Developments",
       "Inflation and Growth Read",
       "Theme Light History",
       "Lights Guide Appendix",
       "References"
     ],
+    "illiquids_display_title": "Allocation Insights - Illiquid Assets",
+    "_illiquids_display_title_note": "Eduardo's approved 07 Aug 2026 rename of the Illiquids page header (was 'Illiquid Assets'). SINGLE SOURCE for the title: the engine's build_illiquids_block default, the content JSON's illiquids.title, and the Run Prompt's Block D-pre header row all take this string. check_layout matches the 'Illiquid Assets' substring, so the rename stays compatible.",
+    "budgets": {
+      "oneliner_words": "20-24",
+      "influencing_factor_lines": "4-6",
+      "influencing_factor_words": "14-18",
+      "quadrant_rationale_bullets": "3-4",
+      "quadrant_rationale_words": "~25",
+      "regime_table_words": "~460",
+      "theme_body_words": "~400-470 (07 Aug-measured slots; re-estimate on re-measure)",
+      "illiquids_news_words": "~160",
+      "illiquids_cell_words": "~65"
+    },
+    "_budgets_note": "13 Aug 2026: SINGLE SOURCE for every layout-critical word/line budget. The Run Prompt and Evaluator cite these; they never restate a different number. Calibrated against the 89.5% fill ceiling (check_layout.py) and the 07 Aug-measured chart slots; recalibrate here (only here) when slots are re-measured.",
     "reference_topics": [
       "Executive Summary — Weekly Direction & Key Developments",
       "Theme 1 — Fiscal Expansion & Deregulation",
@@ -50,7 +64,7 @@
       "cool": "9DC3E6",
       "neutral": "D9D9D9"
     },
-    "_illiquid_note": "6 Aug 2026 (Eduardo, v4 settled): the four framework categories are the canonical assessment grid for the Illiquids page — Performance = returns against public alternatives; Valuations = richer or cheaper, and the tells; Leverage = how much is being taken, what moves it, how it is measured; Dry powder = capital demand and deal appetite. They render as a 2x2 grid of self-contained cells (label + bold read + bullets). Buy/Hold/Sell calls and the one-word tone strip are retired. The tones palette below is kept only for legacy renders.",
+    "_illiquid_note": "6 Aug 2026 (Eduardo, settled same-day format): the four framework categories are the canonical assessment grid for the Illiquids page — Performance = returns against public alternatives; Valuations = richer or cheaper, and the tells; Leverage = how much is being taken, what moves it, how it is measured; Dry powder = capital demand and deal appetite. They render as a 2x2 grid of self-contained cells (label + bold read + bullets). Buy/Hold/Sell calls and the one-word tone strip are retired. The tones palette below is kept only for legacy renders.",
     "war_legs": [
       "US-Iran",
       "Russia-Ukraine"
@@ -223,7 +237,7 @@
     "watch": []
   },
   "illiquids": {
-    "title": "Illiquid Assets",
+    "title": "Allocation Insights - Illiquid Assets",
     "chart_slots": ["illiquid_1", "illiquid_2"],
     "developments": [
       "<the window's most important PRIVATE EQUITY news, ~4 bullets ranked by materiality for a pension allocator, from the beat's dedicated Sonnet 5 PE sweep; every number carries prior/expectation/trend>"
@@ -241,7 +255,7 @@
       {"category": "Dry powder", "read": "", "points": []}
     ]
   },
-  "_illiquids_note": "6 Aug 2026 NEW (Eduardo); v4 the same day is the SETTLED format. The 'Illiquid Assets' block is engine-rendered AFTER Theme 6 and BEFORE Light Scoring, on its own page: header → chart column ('Insert illiquid_1/2') beside bulleted 'What changed this week' → a 2x2 FRAMEWORK GRID (Performance | Valuations over Leverage | Dry powder) that replaces the keydev / implication / watch rows. 'What changed this week' = the window's most important PRIVATE EQUITY news from a dedicated Sonnet 5 sweep (Beat 10, Run Prompt). Each grid cell is self-contained: category label, a one-line bold `read`, then `points` bullets carrying evidence + implication + watch for that category. Categories in the fixed order of `_canonical.illiquid_categories`: Performance (returns against public alternatives), Valuations (richer or cheaper, transaction-versus-mark evidence), Leverage (how much, what moves it, how measured), Dry powder (capital demand and deal appetite). RETIRED and not to return: the Buy/Hold/Sell sleeve calls (v1-v2) and the one-word Signals strip with tones (v3) — one-word weekly reads proved impossible to keep consistent; prose cells are stable. DELIBERATELY OUTSIDE THE LIGHTS SYSTEM: no traffic light, NO exec status row (still six), no entry in `light_scoring` or `light_history`. `check_illiquids` warns on any leak, on category drift, on a Buy/Hold/Sell or light-word read, and on a leftover `signals` key. Budget: ~180 words of PE news + ~75 words per cell, with the two chart slots at their schema sizes, to clear the 89.5% fill ceiling.",
+  "_illiquids_note": "6 Aug 2026 NEW (Eduardo); the settled same-day format. The 'Illiquid Assets' block is engine-rendered AFTER Theme 6 and BEFORE Light Scoring, on its own page: header → chart column ('Insert illiquid_1/2') beside bulleted 'What changed this week' → a 2x2 FRAMEWORK GRID (Performance | Valuations over Leverage | Dry powder) that replaces the keydev / implication / watch rows. 'What changed this week' = the window's most important PRIVATE EQUITY news from a dedicated Sonnet 5 sweep (the Illiquids beat, Run Prompt). Each grid cell is self-contained: category label, a one-line bold `read`, then `points` bullets carrying evidence + implication + watch for that category. Categories in the fixed order of `_canonical.illiquid_categories`: Performance (returns against public alternatives), Valuations (richer or cheaper, transaction-versus-mark evidence), Leverage (how much, what moves it, how measured), Dry powder (capital demand and deal appetite). RETIRED and not to return: the Buy/Hold/Sell sleeve calls (v1-v2) and the one-word Signals strip with tones (v3) — one-word weekly reads proved impossible to keep consistent; prose cells are stable. DELIBERATELY OUTSIDE THE LIGHTS SYSTEM: no traffic light, NO exec status row (still six), no entry in `light_scoring` or `light_history`. `check_illiquids` warns on any leak, on category drift, on a Buy/Hold/Sell or light-word read, and on a leftover `signals` key. Budget: ~160 words of PE news + ~65 words per grid cell (re-calibrated 13 Aug 2026 against the taller MEASURED slots — see _illiquid_slots_note, which owns the current figure), to clear the 89.5% fill ceiling.",
   "light_scoring": [
     {
       "theme": "1 Fiscal & Deregulation",
@@ -298,7 +312,7 @@
       "items": []
     },
     {
-      "topic": "Theme 3 — Energy & the Clean Transition",
+      "topic": "Theme 3 — Energy & the Energy Transition",
       "items": []
     },
     {
@@ -319,6 +333,7 @@
     }
   ],
   "_references_note": "Grouped BY TOPIC mirroring the document's sections; every item carries its tier in parentheses and sources the data actually used in that section. A Tier 3 item appears only after conversion and names its confirming source. Omit empty groups. (Engine also accepts the legacy 'tier' key as the group label.)",
+  "_legacy_keys_note": "13 Aug 2026 inventory of backward-compatibility surface. Documented above: quadrant_marker (legacy dot, superseded by quadrant_highlight), keydev_chart_png (retired 23 Jul, still honoured), key_developments (retired 30 Jul, gated by keep_exec_key_developments), _canonical.illiquid_tones (legacy renders only). Additionally honoured by the engine but ABSENT from this template: cross_theme and key_risks (pre-2 Jul exec cells, present in content_2026-06-18/25.json; engine fills them only if an old template carries the cells). None of these may appear in new content files.",
   "_central_bank_note": "SEVEN rows with full bank names (17 Jul 2026 standard); header row reads 'Expected Cycle / Note'. Keep notes to one short clause; the table sits under the monetary chart slot in the left column.",
   "quadrant_highlight": {
     "quadrant": "Stagflation",

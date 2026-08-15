@@ -15,29 +15,32 @@ MacroBasis is the OCIO team's weekly macro-theme tracker: six themes (Fiscal & D
 5. Last approved dashboard in `Dashboards_Eduardo_Updated/` — the format ground truth.
 6. `memory/glossary.md` — acronyms and terms.
 
-## How to run
+## How to run (since the 12-13 Aug 2026 GitHub migration)
 
-- **Weekly:** say "Run the weekly cycle for [date]" and attach last week's approved dashboard from `Dashboards_Eduardo_Updated/`. Details in `MacroBasis_Weekly_Run_Prompt.md`.
-- **Daily:** a scheduled 9:00 AM task writes one file per day to `Monitoring News/`. Protocol in `Monitoring News/README.md`. **The schedule does NOT travel with this folder** — it lives in the Claude app on the owner's account, so you must create it once on yours: open this folder in Claude (Cowork), then ask Claude to "create a scheduled task, daily at 9:00 AM: follow `Monitoring News/README.md` (v2) exactly and write today's news file; never overwrite an existing day's file." Everything else (beats, subagents on Sonnet, file format) is in the README — the schedule prompt stays minimal on purpose.
-- After you hand-edit and approve a weekly dashboard, save the approved copy to `Dashboards_Eduardo_Updated/` — it becomes next week's prior state. This step is load-bearing.
+- **Weekly:** say "Run the weekly cycle for [date]" in a Claude Code session on this repo — the prior dashboard is READ from `Dashboards_Eduardo_Updated/` in the repo, nothing is attached. A scheduled weekly Routine (Thursdays 10am ET) also runs the full cycle unattended and auto-merges its pull request, gated on the layout check. Details in `MacroBasis_Weekly_Run_Prompt.md` (incl. the "Automated (Routine) finish" contract).
+- **Daily:** a scheduled 9:00 AM Routine reads `Monitoring News/README.md` (v2) from this repo and commits one file per day to `Monitoring News/`. **Routines do NOT travel with the repo** — they live on the owner's claude.ai account (Routines UI). On takeover, recreate both there; the daily prompt stays minimal ("follow the README exactly; never overwrite a day's file") and the weekly Routine's full prompt is reconstructable from the Run Prompt's Automated finish section.
+- After you hand-edit and approve a weekly dashboard, upload the approved copy to `Dashboards_Eduardo_Updated/` — it becomes next week's prior state (its filename may carry your approval date rather than the build date; the newest file rules). This step is load-bearing.
 
 ## Folder map
 
 | Path | What lives there |
 |---|---|
-| root | The four specs, `CLAUDE.md`, current template (`MacroBasis_Report_Template_v6.docx`), current explainer deck (`_v3.pptx`), current deliverables |
+| root | The four specs, `CLAUDE.md`, current template (newest `MacroBasis_Report_Template_v*.docx`) |
 | `engine/` | `macrobasis_fill.py` (the only way a dashboard docx gets built), `content_schema.json` (canonical enums), format spec, per-week content JSONs, charts |
+| `ChartsThemes/` | Eduardo's weekly chart uploads — the engine inserts them into the report at build (upload-only folder) |
 | `Monitoring News/` | Daily news files, one per day, never overwritten |
 | `runs/YYYY-MM-DD/` | Per-run checkpoints (contract in `runs/README.md`): ledger, panel, triage, self-audit |
 | `Dashboards_Claude_Generated/` | Raw pipeline outputs |
-| `Dashboards_Eduardo_Updated/` | **Approved copies = next week's prior state + formatting ground truth** |
+| `Dashboards_Eduardo_Updated/` | **Approved copies = next week's prior state + formatting ground truth** (upload-only) |
 | `memory/` | Glossary, project background, company context |
-| `archive/` | Retired versions with dated manifests — check here before assuming something is lost |
 
-## State as of 11 Aug 2026
+(`archive/` and the OneDrive folder live OUTSIDE this repo since the 12 Aug 2026 migration — never treat them as available paths.)
 
-- Last approved dashboard: **2026-07-30** (`Dashboards_Eduardo_Updated/`).
-- Latest generated: **2026-08-06** (`Dashboards_Claude_Generated/`) — approved copy **not yet** saved to `Dashboards_Eduardo_Updated/`; do that (or re-review) before the next weekly run uses it as prior.
-- Daily monitor last wrote **2026-08-06** and the scheduled task no longer exists (verified 11 Aug) — you must create it on your account (recipe above). 07–10 Aug files are missing; the next weekly sweep still covers its full window, so no backfill is required unless you want the daily record complete.
-- `MacroBasis_Interim_Thematic_Review_2026-08-11.docx` at root is current one-off work.
-- Illiquids page and Sonnet-5-for-all-research are recent changes (6 Aug 2026) — decision history in `memory/projects/macroagent.md`.
+## Current state — read it, don't trust a snapshot
+
+This file deliberately carries **no dated state section** (the 11 Aug snapshot it once held went stale within two days). To orient:
+- Last approved dashboard = newest file in `Dashboards_Eduardo_Updated/`; latest generated = newest in `Dashboards_Claude_Generated/`.
+- Last runs and their gates: newest `runs/YYYY-MM-DD/` folder (read `self_audit.md` first).
+- Recent decisions: `git log --oneline -20` and `memory/projects/macroagent.md`.
+
+> Last synced against Run Prompt v5.6 (13 Aug 2026).

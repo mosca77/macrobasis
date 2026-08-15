@@ -1,11 +1,13 @@
 # MacroBasis Evaluator (Phase 7 — run every week, after drafting, before the file; v2, 6 Jul 2026)
 
+> Last synced against Run Prompt v5.6 (13 Aug 2026). When a Run Prompt rule changes, this file gets a sync pass the same day — format rules here are POINTERS to the Run Prompt's current standard, never an independent copy.
+
 The evaluator is a second, adversarial pass over the drafted content. Its job, in order: (1) the north-star read, (2) score each theme's light with an explicit framework, (3) check the sweep actually caught the week's market developments, (4) reconcile the report against what the daily monitor flagged, (5) check the data, (6) check the writing reads like a human macro/outlook report, (7) check the references. Fix what fails, then produce the file.
 
 ## 1. North star — the minimal-edits read
 
 The report succeeds when Eduardo files it with minimal hand edits. Read the full draft once as he would, asking:
-- **Is it the week's story, well rounded?** Beginning (where last week left off), middle (what happened and how the market read it), end (where the themes stand, what to watch). Exec and theme blocks tell ONE coherent week — Weekly Direction, status macro takes, and Key Developments must not disagree with each other.
+- **Is it the week's story, well rounded?** Beginning (where last week left off), middle (what happened and how the market read it), end (where the themes stand, what to watch). Exec and theme blocks tell ONE coherent week — the Weekly Direction, the woven status reads, and each theme's Key Development row must not disagree with each other (the exec Key Developments page is retired; this check applies to the per-theme rows).
 - **Is anything missing** that the week's daily files or the tape said mattered? (Section 4 makes this mechanical.)
 - **Is anything included** that fails the relevance test — an item that says nothing about regime direction, theme outlook, the market's story, or an actionable implication?
 - **Would his hand pass change the words?** Check against the voice rules (Run Prompt, Phase 6) — his past edits are the calibration set: facts-first openers, no kickers, one layer of data, measured verbs, glossed jargon, exposures not advice.
@@ -36,9 +38,9 @@ Score each theme from its triaged in-window findings:
   - 17 Jul — Process: the sweep-skipped straight render forced heavy hand additions (Treasury MTS, auction internals, COFER detail, PJM, TKMS, Gordie Howe). The full sweep is the default; dailies alone are not a report.
 - **Regression rule (v2):** when any scoring or voice rule changes, re-score every calibration-log entry under the proposed rule BEFORE adopting it. If a logged human override flips, the change is miscalibrated — fix the change, not the log.
 
-**Status line format (theme blocks):** engine-inserted Status Ball oval (same shape as the dashboard lights — never a typed ●) + word + reason + macro take:
-`Escalating ▸ <what decided it, with the data>. Macro take: <a few words connecting the week to growth / inflation / policy pricing>.`
-The macro take names the **concrete driver** ("Growth picked up mostly from commodities, policy unchanged"), not an aphorism ("growth less bad"), and may be dropped when the reason sentence already carries the read. When the tape veto fired, the reason names both sides ("…, but markets see concern of oversupply and liquidated positions").
+**Status line format (theme blocks, 9 Jul 2026 standard):** engine-inserted Status Ball oval (same shape as the dashboard lights — never a typed ●) + word + reason, with the macro read WOVEN IN as a clause — **never a literal "Macro take:" label** (the engine strips one if present):
+`Escalating ▸ <what decided it, with the data>; <the read as a clause tying the week to growth / inflation / policy pricing>.`
+The woven read names the **concrete driver** ("growth picked up mostly from commodities, policy unchanged"), not an aphorism ("growth less bad"), and may be dropped when the reason sentence already carries the read. When the tape veto fired, the reason names both sides ("…, but markets see concern of oversupply and liquidated positions").
 **Monetary Tracker exception (3 Jul):** its status line has NO light and NO status word — it starts at the deciding sentence.
 
 ## 3. Sweep-completeness checks (did we catch everything?)
@@ -82,9 +84,9 @@ Each section must read like a human macro strategist telling the week's story:
 - **No inline source citations in body text**: no "(Bloomberg.)" parentheticals anywhere; the by-topic References carry all sourcing. Measured verbs over drama; **jargon glossed at first use in EVERY block, not only the first theme**; keydev notes short (headline call + read).
 - No em-dashes or double dashes in prose. No AI-voice filler (crucially, notably, moreover, "Net:"). Fiscal-year ranges hyphenated ("2023-24", never "2023/24"); levels quote their prior ("4.11% from 4.18%").
 - Every theme lands on an investment read that spells the growth/inflation sign and the offsets; exposures named, no trade construction ("moved from beta to execution risk" was cut). The exec lands on the growth/inflation call.
-- **Exec cell check (3 Jul):** Weekly Direction is one sentence, bold direction words; Influencing Factors are exactly 3 short supporting lines with no offset line; dashboard one-liners may carry a short interpretive kicker and name specific conflict legs.
+- **Exec cell check (6 Aug 2026 standard):** Weekly Direction is one sentence, bold direction words; Influencing Factors are 4 to 6 lines that fill the cell (~14-18 words each) with no offset line; dashboard one-liners may close on a short interpretive read of the theme's direction (the schema sanctions this — it is distinct from the BANNED aphoristic kickers in body prose) and name specific conflict legs.
 - Read the Weekly Direction and each Status macro take together: they must tell one coherent week.
 
 ## 7. References check (by topic)
 
-References mirror the document: one group per section (Executive Summary, Theme 1, Monetary Policy Tracker, Themes 2-6), each item carrying its tier in parentheses, covering where each section's data actually came from. A section whose numbers cannot be matched to its reference group fails.
+References mirror the document: one group per section, with the exact topic labels owned by `_canonical.reference_topics` in `engine/content_schema.json` (Executive Summary, Theme 1, Monetary Policy Tracker, Themes 2-6, and Illiquid Assets — Private Markets), each item carrying its tier in parentheses, covering where each section's data actually came from. A section whose numbers cannot be matched to its reference group fails.
