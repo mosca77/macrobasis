@@ -28,6 +28,14 @@ markers and any keydev/implication/watch rows a hand edit removed, resets the
 status ovals to the engine's base colour, and re-stamps YYYY_MM_DD). His newest
 approved dashboard (`Dashboards_Eduardo_Updated/`) stays the formatting ground truth.
 
+## Engine changelog (dated history)
+
+The sections below record WHEN each behaviour arrived. They are cumulative: a newer
+entry supersedes an older one wherever they touch the same behaviour, and the newest
+entry plus the contract sections after the changelog are the current state. Amendment
+rule: when behaviour changes, add the new dated entry AND update any older passage it
+invalidates (never leave a superseded description reading as current).
+
 Engine v3.3 (6 Jul 2026): missing cells warn-and-skip instead of crashing; drawing
 ids are seeded past existing ids (duplicate ids made renderers drop the whole
 quadrant layer); marker labels handle split runs. **Layout caveat:** the quadrant

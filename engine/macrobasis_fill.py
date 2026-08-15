@@ -1771,7 +1771,7 @@ def build_illiquids_block(doc, asof, illiquids, slots=None, default=None):
     """
     widths = [5519, 5519]                                # sum 11038 (block width)
     total = sum(widths)
-    title = illiquids.get("title", "Illiquid Assets")
+    title = illiquids.get("title", "Allocation Insights - Illiquid Assets")
     rows = _header_row_xml(title, asof, total, len(widths))
 
     # R1 — chart column left, 'What changed this week' (the PE news sweep) right
