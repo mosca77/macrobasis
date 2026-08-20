@@ -1,6 +1,6 @@
 # MacroBasis Evaluator (Phase 7 — run every week, after drafting, before the file; v2, 6 Jul 2026)
 
-> Last synced against Run Prompt v5.6 (13 Aug 2026). When a Run Prompt rule changes, this file gets a sync pass the same day — format rules here are POINTERS to the Run Prompt's current standard, never an independent copy.
+> Last synced against Run Prompt v5.7 (19 Aug 2026). When a Run Prompt rule changes, this file gets a sync pass the same day — format rules here are POINTERS to the Run Prompt's current standard, never an independent copy.
 
 The evaluator is a second, adversarial pass over the drafted content. Its job, in order: (1) the north-star read, (2) score each theme's light with an explicit framework, (3) check the sweep actually caught the week's market developments, (4) reconcile the report against what the daily monitor flagged, (5) check the data, (6) check the writing reads like a human macro/outlook report, (7) check the references. Fix what fails, then produce the file.
 
@@ -42,6 +42,8 @@ Score each theme from its triaged in-window findings:
 `Escalating ▸ <what decided it, with the data>; <the read as a clause tying the week to growth / inflation / policy pricing>.`
 The woven read names the **concrete driver** ("growth picked up mostly from commodities, policy unchanged"), not an aphorism ("growth less bad"), and may be dropped when the reason sentence already carries the read. When the tape veto fired, the reason names both sides ("…, but markets see concern of oversupply and liquidated positions").
 **Monetary Tracker exception (3 Jul):** its status line has NO light and NO status word — it starts at the deciding sentence.
+
+**Since-AIP evolution check (19 Aug 2026):** the Week by Week Development page is graded with the lights (format contract: Run Prompt Block D-ter). Each theme's verdict must be consistent with its dot series and this week's Light Scoring net read (a mostly-green history cannot read Deescalated), and the six verdicts + "How it developed" notes must show evidence of REASSESSMENT this run: a week that materially advances or reverses the arc rewrites them; a quiet week carries them forward and that is fine. Eduardo's hand edits to a verdict or description are calibration points exactly like a light override — log them here.
 
 ## 3. Sweep-completeness checks (did we catch everything?)
 

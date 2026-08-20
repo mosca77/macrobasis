@@ -1,4 +1,4 @@
-# MacroBasis DOCX Format Spec — exact-match contract (v4.2, 13 Aug 2026)
+# MacroBasis DOCX Format Spec — exact-match contract (v4.3, 19 Aug 2026)
 
 > **How versions work here:** the number in this title = the newest "Engine vX.Y"
 > changelog section below (the engine and this contract move together; the same
@@ -185,6 +185,34 @@ Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
   slot's source file — an unresolved slot is a visible gap, never a silent null.
   Record the resolution line in `self_audit.md`.
 
+Engine v4.3 (19 Aug 2026 — Eduardo's Week by Week Development page):
+- **`build_week_by_week_block` replaces the heatmap render of Theme Light History.**
+  The history page's header is now **"Week by Week Development"**: per theme, one row
+  of [name | dot strip | since-AIP verdict chip | "How it developed"], preceded by an
+  italic explainer + dot legend and a column-header row carrying the shared date
+  strip. Filled from `light_history` — `themes`/`weeks` as before plus the new
+  `evolution` entries (`verdict`, optional `tone`, `description`); contract in the
+  schema's `_light_history_note` and `_canonical._evolution_note`, page rules in the
+  Run Prompt's Block D-ter.
+- **Dot strips are pre-rendered images.** `engine/make_light_history.py` writes
+  `history_dates.png` + `history_dots_N.png` beside `light_history_png` with
+  IDENTICAL x-geometry (same width, same margins, no tight crop, transparent
+  background) so the date header and every theme row stay column-aligned; the dots
+  compress as weeks accumulate, so the block holds any number of tracked weeks on
+  one page. The engine embeds each strip at a fixed width in the dots column.
+- **Verdict chips carry their own palette** (`EVOLUTION_TONES`: intensified `538135`,
+  held `BF9000`, mixed `7F7F7F`, deescalated `C00000`; white bold text) —
+  deliberately NOT the weekly light palette, because the verdict is a cumulative
+  since-AIP call, not a weekly light. Tone = the entry's `tone` key, else inferred
+  from the verdict's first word.
+- **Fallbacks preserved:** a content file with no `light_history.evolution` renders
+  the legacy heatmap (or word matrix) under the old "Theme Light History" header;
+  `evolution` without the strip pngs WARNs and falls back (check_layout then fails
+  on the header — regenerate the strips first). `build_template_from_dashboard.py`
+  drops the generated block under either header. `check_layout.py` (v5) asserts the
+  new header, the "Since the AIP" and "How it developed" columns, and the block's
+  position directly after the Inflation and Growth Read.
+
 ## Fitting a hand-charted dashboard to one page per theme (`engine/fit_pages.py`)
 
 **Status since 13 Aug 2026 (Engine v4.2): FALLBACK ONLY.** The engine now inserts
@@ -304,7 +332,7 @@ preserves the run properties of the template, so font/size/italic/colour always 
 
 Order: Executive Summary → Theme 1 → Theme 1 (Appendix) Monetary → Theme 2 →
 Theme 3 → Theme 4 → Theme 5 → Theme 6 → **Illiquid Assets** → Light Scoring →
-Inflation and Growth Read → Theme Light History → Lights Guide Appendix → References.
+Inflation and Growth Read → Week by Week Development → Lights Guide Appendix → References.
 
 Side chart slots, by theme (manual insert, unchanged):
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Layout checker (v4, 6 Aug 2026) — run after EVERY build; exits non-zero on any failure.
+"""Layout checker (v5, 19 Aug 2026) — run after EVERY build; exits non-zero on any failure.
 
 Required page schema (v4, per Eduardo):
   page 1  Executive Summary: Weekly Direction + Influencing Factors + the HIGHLIGHTED
@@ -13,7 +13,8 @@ Required page schema (v4, per Eduardo):
           private-equity 'What changed this week', then the 2x2 framework grid
           Performance | Valuations / Leverage | Dry powder; NO traffic light, no
           exec status row, no Buy/Hold/Sell), then Light Scoring,
-          then the Inflation and Growth Read, then Light History, each on its own page
+          then the Inflation and Growth Read, then Week by Week Development (the
+          light-history page, renamed 19 Aug 2026), each on its own page
   no interior blank / near-blank spill pages (a single trailing blank is allowed)
 
 Usage: python3 engine/check_layout.py <dashboard.docx>
@@ -105,12 +106,14 @@ def main():
             check(il[0] == watch[-1] + 1,
                   f"Illiquid Assets (p{il[0]}) directly follows the themes (last theme p{watch[-1]})")
 
-    print("== Back sections: Light Scoring -> Inflation and Growth Read -> Light History ==")
+    print("== Back sections: Light Scoring -> Inflation and Growth Read -> Week by Week Development ==")
     ls = [i + 1 for i, p in enumerate(P) if "Light Scoring and Developments" in p and "(As of" in p]
     rg = [i + 1 for i, p in enumerate(P) if "Inflation and Growth Read" in p and "(As of" in p]
-    lh = [i + 1 for i, p in enumerate(P) if "Theme Light History" in p and "(As of" in p]
+    # 19 Aug 2026: the history page's header is "Week by Week Development"
+    # (was "Theme Light History"; the old header is a fail, not an alias)
+    lh = [i + 1 for i, p in enumerate(P) if "Week by Week Development" in p and "(As of" in p]
     check(bool(ls) and bool(rg) and bool(lh),
-          f"Light Scoring (p{ls}), Inflation and Growth Read (p{rg}), Light History (p{lh}) all present")
+          f"Light Scoring (p{ls}), Inflation and Growth Read (p{rg}), Week by Week Development (p{lh}) all present")
     if ls and rg and lh and watch:
         # Light Scoring may run to 2 pages: since 30 Jul 2026 it must spell out HOW each
         # finding feeds its theme, which is deliberately longer than a one-page table.
@@ -124,7 +127,10 @@ def main():
         check(rg[0] > ls[0],
               f"Inflation and Growth Read (p{rg[0]}) follows Light Scoring (p{ls[0]})")
         check(lh[0] == rg[0] + 1,
-              f"Light History (p{lh[0]}) directly follows the regime table (p{rg[0]})")
+              f"Week by Week Development (p{lh[0]}) directly follows the regime table (p{rg[0]})")
+        page = P[lh[0] - 1]
+        check("Since the AIP" in page and "How it developed" in page,
+              "Week by Week Development carries the since-AIP verdict and 'How it developed' columns")
 
     print("== Fill gauge: headroom on every block page (Word calibration) ==")
     fills = page_fills(_PDF)

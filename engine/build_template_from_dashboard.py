@@ -21,7 +21,9 @@ v2 (23 Jul 2026) — rebuilt for Eduardo's 17 Jul restructure:
   * chart cells -> "Insert <theme>_chart_N" markers (one per image removed);
   * Monetary appendix carries NO keydev row (17 Jul standard) and a 7-row
     central-bank table (tokenized to one clone-row);
-  * the engine-generated Light Scoring / Light History tables are REMOVED
+  * the engine-generated back-matter tables (Light Scoring, the history page under
+    either header — Theme Light History or Week by Week Development — the Inflation
+    and Growth Read and the sign-history strip) are REMOVED
     (the fill engine regenerates them every run);
   * a keydev row is restored to any THEME block whose hand edit deleted it
     (Monetary appendix excluded by design).
@@ -212,6 +214,7 @@ def main():
     for t in list(body.findall(qn('w:tbl'))):
         ttl = block_title(t)
         if ttl.startswith(("Light Scoring and Developments", "Theme Light History",
+                           "Week by Week Development",
                            "Inflation and Growth Read", "Sign history",
                            "Illiquid Assets", "Allocation Insights")):
             body.remove(t)

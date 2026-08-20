@@ -542,6 +542,44 @@
           "Held"
         ]
       }
+    ],
+    "evolution": [
+      {
+        "theme": "1 Fiscal & Deregulation",
+        "verdict": "Intensified",
+        "tone": "intensified",
+        "description": "Pledges became contracts: the July NATO summit, Germany, the UK and the US announced major defence spending, with record Lockheed and RTX order books. The constraint moved to funding cost as government borrowing grew; the 30-year Treasury yield reached 5.2% in July, the highest since 2007."
+      },
+      {
+        "theme": "2 Currency Debasement",
+        "verdict": "Two-sided",
+        "tone": "mixed",
+        "description": "The dollar's reserve share rose to 57% and gold sits roughly 20% off its January peak as real yields rose. The confidence erosion stays intact, but governments, not markets, are increasingly setting currency prices, with the first joint US-Japan yen intervention since 1998."
+      },
+      {
+        "theme": "3 Energy & Transition",
+        "verdict": "Intensified (grid)",
+        "tone": "intensified",
+        "description": "Scarcity is now priced and regulated: a record capacity auction still missed the reliability standard by 6.8GW, Texas set an all-time demand record, and the price cap for standby power was raised 71%, largely billed to data centres."
+      },
+      {
+        "theme": "4 Artificial Intelligence",
+        "verdict": "Intact, risk now financing",
+        "tone": "mixed",
+        "description": "Capital spending guidance rose about 90% year over year to roughly $887B and memory chips are sold out. The challenges are about $489B of AI debt this year, negative cash flow at the platforms and a chip-stock bear market: the market now pays for contracted revenue, not spend."
+      },
+      {
+        "theme": "5 Geopolitics & Trade",
+        "verdict": "Volatility validated",
+        "tone": "intensified",
+        "description": "Disruption is a regime, not an event: a ceasefire collapsed, a second chokepoint closed and oil prices stayed volatile. Trade fragmentation broadened, CUSMA moved to annual reviews, and 50% US tariffs hit roughly $20B of Canadian goods."
+      },
+      {
+        "theme": "6 Domestic Investing",
+        "verdict": "Pressure up, capital pending",
+        "tone": "mixed",
+        "description": "The largest defence purchase in Canadian history promised jobs at home, and a tariff shock united the premiers behind free internal trade; but the Canada Strong Fund is still undeployed. The September investment summit is the test of whether pressure converts to capital."
+      }
     ]
   },
   "light_history_png": "engine/charts/2026-08-13/light_history.png",

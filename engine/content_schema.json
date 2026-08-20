@@ -24,7 +24,7 @@
       "Allocation Insights - Illiquid Assets",
       "Light Scoring and Developments",
       "Inflation and Growth Read",
-      "Theme Light History",
+      "Week by Week Development",
       "Lights Guide Appendix",
       "References"
     ],
@@ -39,7 +39,9 @@
       "regime_table_words": "~460",
       "theme_body_words": "~400-470 (07 Aug-measured slots; re-estimate on re-measure)",
       "illiquids_news_words": "~160",
-      "illiquids_cell_words": "~65"
+      "illiquids_cell_words": "~65",
+      "evolution_verdict_words": "1-4",
+      "evolution_description_words": "~40-60"
     },
     "_budgets_note": "13 Aug 2026: SINGLE SOURCE for every layout-critical word/line budget. The Run Prompt and Evaluator cite these; they never restate a different number. Calibrated against the 89.5% fill ceiling (check_layout.py) and the 07 Aug-measured chart slots; recalibrate here (only here) when slots are re-measured.",
     "reference_topics": [
@@ -65,6 +67,19 @@
       "neutral": "D9D9D9"
     },
     "_illiquid_note": "6 Aug 2026 (Eduardo, settled same-day format): the four framework categories are the canonical assessment grid for the Illiquids page — Performance = returns against public alternatives; Valuations = richer or cheaper, and the tells; Leverage = how much is being taken, what moves it, how it is measured; Dry powder = capital demand and deal appetite. They render as a 2x2 grid of self-contained cells (label + bold read + bullets). Buy/Hold/Sell calls and the one-word tone strip are retired. The tones palette below is kept only for legacy renders.",
+    "evolution_verdicts": [
+      "Intensified",
+      "Held",
+      "Volatility driven",
+      "Deescalated"
+    ],
+    "evolution_tones": {
+      "intensified": "538135",
+      "held": "BF9000",
+      "mixed": "7F7F7F",
+      "deescalated": "C00000"
+    },
+    "_evolution_note": "19 Aug 2026 (Eduardo): the Week by Week Development page's since-AIP verdict chips. evolution_verdicts is a SUGGESTED vocabulary, not a closed enum — a free-form verdict that describes the evolution better is allowed (his examples: 'Two-sided', 'Intact, risk now financing', 'Volatility validated', 'Pressure up, capital pending'); keep it chip-sized (1-4 words, commas not em-dashes). The chip colour comes from the entry's `tone` key (an evolution_tones key), or is inferred from the verdict's first word (intensif*, deescalat*, held*, anything else = mixed). These are DELIBERATELY not the weekly light colours: the verdict is a cumulative since-AIP call, not a weekly light.",
     "war_legs": [
       "US-Iran",
       "Russia-Ukraine"
@@ -287,10 +302,23 @@
           "Held"
         ]
       }
+    ],
+    "evolution": [
+      {
+        "theme": "1 Fiscal & Deregulation",
+        "verdict": "<the since-AIP call, 1-4 words: _canonical.evolution_verdicts or a better free-form description>",
+        "tone": "<intensified | held | mixed | deescalated — optional, inferred from the verdict when absent>",
+        "description": "<how the development took place since the AIP: the arc with its 2-3 load-bearing facts, ~40-60 words, every figure with context, no em-dashes>"
+      },
+      {"theme": "2 Currency Debasement", "verdict": "", "tone": "", "description": ""},
+      {"theme": "3 Energy & Transition", "verdict": "", "tone": "", "description": ""},
+      {"theme": "4 Artificial Intelligence", "verdict": "", "tone": "", "description": ""},
+      {"theme": "5 Geopolitics & Trade", "verdict": "", "tone": "", "description": ""},
+      {"theme": "6 Domestic Investing", "verdict": "", "tone": "", "description": ""}
     ]
   },
   "light_history_png": "engine/charts/YYYY-MM-DD/light_history.png",
-  "_light_history_note": "9 Jul 2026 NEW section AFTER Light Scoring. PREFERRED render is a matplotlib HEATMAP image (`light_history_png`, themes as rows x ALL weeks as columns, cells filled green/amber/red) that stays compact as weeks accumulate — regenerate it each run from `light_history` (add the current week's column). Without a png the engine falls back to a coloured word-matrix (grows wide, capped by page width). AGENT-MAINTAINED: carry prior weeks forward and append the current week. Seeded from the approved dashboards' Status Dashboards (3-light system since 2 Jul 2026; 06-18 on).",
+  "_light_history_note": "9 Jul 2026 section, REWORKED 19 Aug 2026 (Eduardo) into the WEEK BY WEEK DEVELOPMENT page after the Inflation and Growth Read: per theme, a DOT STRIP of every weekly light since June, a SINCE-AIP verdict chip and a 'How it developed' note. AGENT-MAINTAINED in two layers, both refreshed every run: (a) `weeks` — carry prior weeks forward, append the current week's six lights (3-light system since 2 Jul 2026; series from 06-18, seeded from the approved dashboards); (b) `evolution` — six entries in AIP theme order, REASSESSED each run: `verdict` states how the theme has evolved since the Annual Investment Plan (suggested vocabulary `_canonical.evolution_verdicts`, free-form allowed, see `_evolution_note`) and `description` says how the development took place (~40-60 words); rewrite them when the week materially advances or reverses the arc, carry them forward otherwise, and keep the verdict consistent with the dot series and the Light Scoring net reads. RENDER PIPELINE: engine/make_light_history.py writes the dot strips (history_dates.png + history_dots_N.png) NEXT TO `light_history_png` each run; the engine builds the page from `evolution` + those strips. The heatmap (`light_history_png`) is retired from the render but still regenerated: it anchors the strips' folder and remains the engine's fallback for legacy content files without `evolution`.",
   "references_intro": "Only sources cited this week, deduplicated, grouped by section. Each item states its tier. Retrieved <DD Month YYYY>.",
   "references": [
     {
