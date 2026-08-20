@@ -1,16 +1,16 @@
 # MacroBasis Evaluator (Phase 7 — run every week, after drafting, before the file; v2, 6 Jul 2026)
 
-> Last synced against Run Prompt v5.7 (19 Aug 2026). When a Run Prompt rule changes, this file gets a sync pass the same day — format rules here are POINTERS to the Run Prompt's current standard, never an independent copy.
+> Last synced against Run Prompt v5.8 (20 Aug 2026). When a Run Prompt rule changes, this file gets a sync pass the same day — format rules here are POINTERS to the Run Prompt's current standard, never an independent copy.
 
 The evaluator is a second, adversarial pass over the drafted content. Its job, in order: (1) the north-star read, (2) score each theme's light with an explicit framework, (3) check the sweep actually caught the week's market developments, (4) reconcile the report against what the daily monitor flagged, (5) check the data, (6) check the writing reads like a human macro/outlook report, (7) check the references. Fix what fails, then produce the file.
 
 ## 1. North star — the minimal-edits read
 
-The report succeeds when Eduardo files it with minimal hand edits. Read the full draft once as he would, asking:
+The report succeeds when the Co-Op files it with minimal hand edits. Read the full draft once as they would, asking:
 - **Is it the week's story, well rounded?** Beginning (where last week left off), middle (what happened and how the market read it), end (where the themes stand, what to watch). Exec and theme blocks tell ONE coherent week — the Weekly Direction, the woven status reads, and each theme's Key Development row must not disagree with each other (the exec Key Developments page is retired; this check applies to the per-theme rows).
 - **Is anything missing** that the week's daily files or the tape said mattered? (Section 4 makes this mechanical.)
 - **Is anything included** that fails the relevance test — an item that says nothing about regime direction, theme outlook, the market's story, or an actionable implication?
-- **Would his hand pass change the words?** Check against the voice rules (Run Prompt, Phase 6) — his past edits are the calibration set: facts-first openers, no kickers, one layer of data, measured verbs, glossed jargon, exposures not advice.
+- **Would their hand pass change the words?** Check against the voice rules (Run Prompt, Phase 6) — their past edits are the calibration set: facts-first openers, no kickers, one layer of data, measured verbs, glossed jargon, exposures not advice.
 Anything that fails becomes a fix, not a footnote.
 
 ## 2. Status framework (Escalating / Held / Deescalating)
@@ -25,7 +25,7 @@ Score each theme from its triaged in-window findings:
 - **Market confirmation:** where a theme has tradeable gauges (Indicator Panel, section C), a 🟢 or 🔴 needs at least one market-price confirmation alongside the news (e.g., more debasement = gold up AND the dollar's prop weakening, not a headline alone). News without tape = Held unless the market simply has no instrument for it.
 - **Tape veto (since 3 Jul 2026, the stronger form):** confirmation is necessary but not sufficient — if the tradeable tape moved materially AGAINST the theme in-window, the light caps at 🟡 Held **no matter how big the supporting news**, and the Status line carries both sides. The score sheet must show the contradicting tape finding at high materiality, not bury it at low weight.
 - **Weekly Direction conservatism (since 3 Jul 2026):** the same logic governs the growth/inflation words. Claim "slower"/"faster" only on unambiguous cross-asset evidence; a stall-not-break labour read plus a positive GDP surprise = "**held** growth", not "slower".
-- **Human override:** Eduardo's read wins. When he re-scores a light, adopt it, keep the exec dashboard consistent with it, and record the override here as a calibration point for future scoring. Calibration log:
+- **Human override:** the Co-Op's read wins. When they re-score a light, adopt it, keep the exec dashboard consistent with it, and record the override here as a calibration point for future scoring. Calibration log:
   - 2 Jul — Currency Debasement Held→**Escalating**: gold reclaiming $4,000 plus the dollar slipping read as more debasement, not mixed.
   - 3 Jul — AI **Escalating→Held** (tape veto): Korea ~$880B + DRAM +89% vs the SOX sliding on oversupply concerns and half-year liquidations; the market's reception of the news decides.
   - 3 Jul — Weekly Direction growth call **slower→held**: jobs argued stall-not-break, April GDP surprised up.
@@ -33,7 +33,7 @@ Score each theme from its triaged in-window findings:
   - 17 Jul — Currency **Held→Deescalating**: the reserve share RISING (57.13%), strong indirect Treasury demand and gold falling through a war week outweighed the official-sector gold bid; a week that argues against the theme can go red even with the structural bid intact.
   - 17 Jul — Energy **Held→Escalating**: the PJM record-price-but-short auction + FERC computational-load order + Hormuz lifting oil/LNG read as scarcity visible in BOTH the physical grid and traded energy; policy/physical proof can carry the light when the clean-energy tape is quiet.
   - 17 Jul — Domestic **Held→Escalating**: named contracts (GDLS, TKMS) = "programme design toward deployment"; concrete deployment outweighs silent steering machinery.
-  - 17 Jul — Weekly Direction **cooling→firming inflation, held→moderating growth**: Eduardo weighted the FORWARD oil re-shock over the backward CPI print, and the BoC growth cut + China miss over US labour. Market-implied direction outranks the spot prints when they disagree.
+  - 17 Jul — Weekly Direction **cooling→firming inflation, held→moderating growth**: the Co-Op weighted the FORWARD oil re-shock over the backward CPI print, and the BoC growth cut + China miss over US labour. Market-implied direction outranks the spot prints when they disagree.
   - 17 Jul — Exec Key Developments: inline source parentheticals REMOVED (the citation ban now covers the exec rows; References carry all sourcing).
   - 17 Jul — Process: the sweep-skipped straight render forced heavy hand additions (Treasury MTS, auction internals, COFER detail, PJM, TKMS, Gordie Howe). The full sweep is the default; dailies alone are not a report.
 - **Regression rule (v2):** when any scoring or voice rule changes, re-score every calibration-log entry under the proposed rule BEFORE adopting it. If a logged human override flips, the change is miscalibrated — fix the change, not the log.
@@ -43,7 +43,7 @@ Score each theme from its triaged in-window findings:
 The woven read names the **concrete driver** ("growth picked up mostly from commodities, policy unchanged"), not an aphorism ("growth less bad"), and may be dropped when the reason sentence already carries the read. When the tape veto fired, the reason names both sides ("…, but markets see concern of oversupply and liquidated positions").
 **Monetary Tracker exception (3 Jul):** its status line has NO light and NO status word — it starts at the deciding sentence.
 
-**Since-AIP evolution check (19 Aug 2026):** the Week by Week Development page is graded with the lights (format contract: Run Prompt Block D-ter). Each theme's verdict must be consistent with its dot series and this week's Light Scoring net read (a mostly-green history cannot read Deescalated), and the six verdicts + "How it developed" notes must show evidence of REASSESSMENT this run: a week that materially advances or reverses the arc rewrites them; a quiet week carries them forward and that is fine. Eduardo's hand edits to a verdict or description are calibration points exactly like a light override — log them here.
+**Since-AIP evolution check (19 Aug 2026):** the Week by Week Development page is graded with the lights (format contract: Run Prompt Block D-ter). Each theme's verdict must be consistent with its dot series and this week's Light Scoring net read (a mostly-green history cannot read Deescalated), and the six verdicts + "How it developed" notes must show evidence of REASSESSMENT this run: a week that materially advances or reverses the arc rewrites them; a quiet week carries them forward and that is fine. The Co-Op's hand edits to a verdict or description are calibration points exactly like a light override — log them here.
 
 ## 3. Sweep-completeness checks (did we catch everything?)
 

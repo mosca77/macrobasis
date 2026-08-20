@@ -1,5 +1,5 @@
 # MacroBasis Theme Charter
-**Version: August 2026 (rev. 3; Illiquids beat added 6 Aug, risk-routing synced 13 Aug) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt. Last synced against Run Prompt v5.7 (19 Aug 2026).**
+**Version: August 2026 (rev. 3; Illiquids beat added 6 Aug, risk-routing synced 13 Aug) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt. Last synced against Run Prompt v5.8 (20 Aug 2026).**
 
 This is the agent's knowledge base. Theses, drivers, baseline metrics, watchpoints, named-entity sweeps, and queries below define what the agent tracks. Baseline values are the AIP's as-written anchors; they are the **"Prior anchor"** values for the inaugural (baseline) run **only**. From the first weekly run onward, the "Prior anchor" comes from last week's report, never from this file and never from memory. The team edits this file — never the run prompt — when views change.
 
@@ -192,7 +192,7 @@ Report this as the **Monetary Policy Tracker** appendix immediately after Theme 
 
 ---
 
-## Illiquids — Private and Unlisted Markets (NEW, 6 Aug 2026, per Eduardo)
+## Illiquids — Private and Unlisted Markets (NEW, 6 Aug 2026, per the Co-Op)
 
 **What this is.** Not a theme and not part of the lights. This is a standing sweep beat (Sonnet 5) feeding the report's own Illiquid Assets page, which has two layers: a news layer and an assessment layer. The news layer, **"What changed this week", carries the window's most important PRIVATE EQUITY news** — deals, take-privates, exits, fundraising closes, secondaries and continuation vehicles, sponsor earnings, distribution news — from a dedicated PE news sweep. The assessment layer is a **2x2 framework grid**: **Performance** (how illiquids are doing against public alternatives, literally returns), **Valuations** (whether they are getting more expensive or cheaper, and the tells for each), **Leverage** (how much is being taken on, what moves the needle, how it is measured), and **Dry powder** (capital demand: abundant money chasing deals, or no one willing to transact). Every sweep finding is triaged into the category it moves, and each cell carries its own directional read, evidence, implication and watch. Buy / Hold / Sell calls and one-word signal strips were tried on 6 Aug 2026 and retired the same day. It exists because OPTrust's book is substantially unlisted, and the six macro themes were describing a world that reaches the plan mostly through assets that do not reprice daily.
 

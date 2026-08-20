@@ -14,7 +14,7 @@ Signal block),
 `MacroBasis_Indicator_Panel.md` (market confirmation sweep), `engine/` (fill engine v3.2 + format
 spec + content schema — the schema is the canonical source of enums/labels), the current template =
 newest `MacroBasis_Report_Template*.docx` at root (plain unversioned filename retired 6 Jul 2026),
-`Dashboards_Eduardo_Updated/` (formatting ground truth), `runs/` (per-run checkpoints: ledger, panel,
+the newest file in `Weekly Reports/` (formatting ground truth), `runs/` (per-run checkpoints: ledger, panel,
 triage, self_audit + manifest w/ edits-count KPI). **CLAUDE.md is a thin router (since 6 Jul 2026):**
 invariants + routing table only; the specs own all detail. This file is a summary only — where it
 conflicts with those files, they win.
@@ -39,7 +39,7 @@ the six Charter risks are tracked in triage.
 Title → Exec Summary (quadrant + marker trail of 3 · Weekly Direction ONE sentence +
 3 Influencing-Factor lines · Status Dashboard · Key Developments | Implications) →
 Theme 1 → Monetary appendix (no light/status word) → Themes 2–6 → Lights Guide → References
-(by topic, tier-labelled). Back matter since 19 Aug 2026 (decision, per Eduardo's mock):
+(by topic, tier-labelled). Back matter since 19 Aug 2026 (decision, per the Co-Op's mock):
 Illiquid Assets → Light Scoring → Inflation and Growth Read → **Week by Week Development**
 (per theme: weekly light dots since June + a since-AIP verdict chip, e.g. Intensified /
 Two-sided / Volatility validated, + a "How it developed" note; replaced the Theme Light
@@ -49,7 +49,7 @@ no "Key development:" prefix), Implication (growth/inflation sign + offsets), Wa
 
 ## Non-negotiable mechanics
 - **Never hand-build the docx.** Fill engine only: `engine/macrobasis_fill.py` + content JSON.
-- Weekly mode reads last week's approved dashboard from `Dashboards_Eduardo_Updated/` in the repo (state carry; the quadrant trail was retired 30 Jul for the highlight standard); baseline mode = confirm first.
+- Weekly mode reads last week's dashboard from `Weekly Reports/` in the repo (state carry; the quadrant trail was retired 30 Jul for the highlight standard); baseline mode = confirm first.
 - Recency gate; no standalone numbers; prior anchors from last week's report, never memory.
 - Sources: all tiers searchable, figures prefer Tier 1, lower-tier findings converted or dropped.
 - Research order (v5): Phase 1 Week Ledger from the daily files FIRST (story threads + candidates +
@@ -63,13 +63,24 @@ no "Key development:" prefix), Implication (growth/inflation sign + offsets), Wa
   Weekly Signal block on top (persistent stories, NEW/CARRIED candidates, theme temperature).
 
 ## Settled facts
-- Audience: OCIO pension investment team; human (Eduardo) reviews before it circulates.
+- Audience: OCIO pension investment team; human (the Co-Op) reviews before it circulates.
 - Cadence: weekly. Spelling: British/Canadian. Accent `#7B2952`, body Myriad Pro 11pt.
-- Voice: Eduardo's macro/outlook style — facts first, no scene-setting or kickers, measured verbs,
+- Voice: the Co-Op's macro/outlook style — facts first, no scene-setting or kickers, measured verbs,
   glossed jargon, hyphenated year ranges, exposures not trade advice. See CLAUDE.md 2 Jul + 3 Jul
   voice bullets for the full list.
-- Latest state: `Dashboards_Eduardo_Updated/` holds his approved versions; his 3 Jul tweaked
-  2026-07-02 dashboard (THISWEEK) is the current formatting + voice ground truth.
+- Latest state: `Weekly Reports/` holds the current dashboard at top level (ground truth) plus
+  history in `archive/`; the Co-Op's 3 Jul tweak of the 2026-07-02 dashboard set the original
+  formatting + voice standard.
+- **20 Aug 2026 — dashboards consolidated:** `Dashboards_Claude_Generated/` and
+  `Dashboards_Eduardo_Updated/` retired, merged into one `Weekly Reports/` folder — top level holds
+  exactly the current week's finished dashboard (prior state + formatting ground truth for the next
+  run); `Weekly Reports/archive/` holds every older report (`archive/approved/` = hand-edited copies
+  formerly in `Dashboards_Eduardo_Updated/`, through 07 Aug 2026; `archive/generated/` = raw outputs
+  formerly in `Dashboards_Claude_Generated/`, through 06 Aug 2026). The upload-equals-approval loop
+  is retired: the run's own output is final on merge, with no separate approval copy; a hand-edited
+  replacement the Co-Op commits afterwards is calibration data instead (the role the Co-Op's
+  approved-copy uploads played before). Eduardo renamed to the Co-Op throughout the specs, for
+  handover.
 
 ## Open questions
 - The AIP "Back Pocket Document" is referenced as knowledge but not in this folder — get it if charts/figs needed.

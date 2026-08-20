@@ -1,6 +1,6 @@
 # Monitoring News — daily market monitor (protocol v2.1, 18 Aug 2026)
 
-**What this folder is.** One file per day, named `YYYY-MM-DD_News.md`, written every morning at 9:00 AM by a scheduled task. Each file is an exhaustive raw log of ALL market-relevant developments of the last 24 hours — **market-first, not theme-first**: anything with material market implications belongs, whether or not a theme query would have surfaced it. Theme mapping happens after capture. The files do two jobs: (1) they break the weekly research problem into daily slices — the weekly run consolidates them into its Week Ledger (Run Prompt, Phase 1) before sweeping; (2) they accumulate the week's signal — each file opens with a **Weekly Signal block** tracking persistent stories and likely report candidates, so Eduardo can watch the report build during the week and see whether each theme is developing.
+**What this folder is.** One file per day, named `YYYY-MM-DD_News.md`, written every morning at 9:00 AM by a scheduled task. Each file is an exhaustive raw log of ALL market-relevant developments of the last 24 hours — **market-first, not theme-first**: anything with material market implications belongs, whether or not a theme query would have surfaced it. Theme mapping happens after capture. The files do two jobs: (1) they break the weekly research problem into daily slices — the weekly run consolidates them into its Week Ledger (Run Prompt, Phase 1) before sweeping; (2) they accumulate the week's signal — each file opens with a **Weekly Signal block** tracking persistent stories and likely report candidates, so the Co-Op can watch the report build during the week and see whether each theme is developing.
 
 **What these files are NOT.** Not a report, not verified-for-publication data. Raw-log entries are leads; verification (recency gate, tier conversion, no-standalone-numbers context) happens at weekly run time. The Weekly Signal block is the ONE interpretive section; the raw log below it stays analysis-free (no adjectives, no implications).
 
@@ -40,7 +40,7 @@ Gaps → dispatch targeted Sonnet sweepers for just those gaps → merge → re-
 **4. Weekly Signal block (orchestrator writes it LAST, after the raw log is complete).** Using this week's earlier files plus today's log:
 - **Persistent stories:** every story seen on 2+ days since the last dashboard — story, day count, direction of travel, theme(s). Persistence is the strongest weekly-inclusion signal.
 - **Likely report candidates:** the 5–8 items most likely to make the weekly report, each with theme + one line why (persistence, materiality, tape confirmation). Mark each NEW (first flag today) or CARRIED (flagged on a prior day — keep carrying until the dashboard runs or the story dies). Be willing to drop a dead candidate; say so ("dropped: no follow-through").
-- **Theme temperature:** one row per theme + Monetary: **Developing / Quiet** plus a one-line direction note. This is a leading read for Eduardo, not a status call — no lights, no Escalating/Held/Deescalating words.
+- **Theme temperature:** one row per theme + Monetary: **Developing / Quiet** plus a one-line direction note. This is a leading read for the Co-Op, not a status call — no lights, no Escalating/Held/Deescalating words.
 
 **5. File format (keep exactly this structure):**
 
@@ -97,11 +97,11 @@ Generated automatically at 9:00 AM. Raw leads, verified at weekly run time.
 
 **6. Save as** `Monitoring News/YYYY-MM-DD_News.md`. Never overwrite a previous day's file.
 
-**7. Automated finish (v2.1, 18 Aug 2026) — the run lands the file on `main` itself; Eduardo clicks nothing.**
+**7. Automated finish (v2.1, 18 Aug 2026) — the run lands the file on `main` itself; the Co-Op clicks nothing.**
 - **Gate first:** run `python3 engine/check_specs.py --daily "Monitoring News/YYYY-MM-DD_News.md"` (stdlib-only, no pip installs needed) and fix any missing headers it names before committing. Do not commit a file that fails the skeleton check.
 - **Then:** commit the new file to the session's working branch (commit message `Daily news YYYY-MM-DD`), push with `git push -u origin <branch>`, open a PR to `main` titled `Add daily news monitor for YYYY-MM-DD`, and **merge it immediately** (merge commit, matching the repo's history). The daily monitor has no layout gate — the skeleton check above is its only gate — so the merge is unconditional once that passes.
 - **Scope:** the automatic merge covers ONLY the new `Monitoring News/YYYY-MM-DD_News.md` file (plus, when a run was explicitly asked to change this protocol, that spec change). A daily run must never fold unrelated file changes into the auto-merged PR.
-- **If any step fails** (push rejected, PR blocked, merge refused): stop, leave the PR open if one was created, and notify Eduardo with the finished file delivered in-chat — never retry by force-push and never leave the file only on an unmerged branch silently. A file that exists only on a side branch does not exist for the weekly run, which reads dailies from `main`.
+- **If any step fails** (push rejected, PR blocked, merge refused): stop, leave the PR open if one was created, and notify the Co-Op with the finished file delivered in-chat — never retry by force-push and never leave the file only on an unmerged branch silently. A file that exists only on a side branch does not exist for the weekly run, which reads dailies from `main`.
 
 ## How the weekly run uses these files
 
