@@ -1,4 +1,4 @@
-# Monitoring News — daily market monitor (protocol v2, 6 Jul 2026)
+# Monitoring News — daily market monitor (protocol v2.1, 18 Aug 2026)
 
 **What this folder is.** One file per day, named `YYYY-MM-DD_News.md`, written every morning at 9:00 AM by a scheduled task. Each file is an exhaustive raw log of ALL market-relevant developments of the last 24 hours — **market-first, not theme-first**: anything with material market implications belongs, whether or not a theme query would have surfaced it. Theme mapping happens after capture. The files do two jobs: (1) they break the weekly research problem into daily slices — the weekly run consolidates them into its Week Ledger (Run Prompt, Phase 1) before sweeping; (2) they accumulate the week's signal — each file opens with a **Weekly Signal block** tracking persistent stories and likely report candidates, so Eduardo can watch the report build during the week and see whether each theme is developing.
 
@@ -96,6 +96,12 @@ Generated automatically at 9:00 AM. Raw leads, verified at weekly run time.
 ```
 
 **6. Save as** `Monitoring News/YYYY-MM-DD_News.md`. Never overwrite a previous day's file.
+
+**7. Automated finish (v2.1, 18 Aug 2026) — the run lands the file on `main` itself; Eduardo clicks nothing.**
+- **Gate first:** run `python3 engine/check_specs.py --daily "Monitoring News/YYYY-MM-DD_News.md"` (stdlib-only, no pip installs needed) and fix any missing headers it names before committing. Do not commit a file that fails the skeleton check.
+- **Then:** commit the new file to the session's working branch (commit message `Daily news YYYY-MM-DD`), push with `git push -u origin <branch>`, open a PR to `main` titled `Add daily news monitor for YYYY-MM-DD`, and **merge it immediately** (merge commit, matching the repo's history). The daily monitor has no layout gate — the skeleton check above is its only gate — so the merge is unconditional once that passes.
+- **Scope:** the automatic merge covers ONLY the new `Monitoring News/YYYY-MM-DD_News.md` file (plus, when a run was explicitly asked to change this protocol, that spec change). A daily run must never fold unrelated file changes into the auto-merged PR.
+- **If any step fails** (push rejected, PR blocked, merge refused): stop, leave the PR open if one was created, and notify Eduardo with the finished file delivered in-chat — never retry by force-push and never leave the file only on an unmerged branch silently. A file that exists only on a side branch does not exist for the weekly run, which reads dailies from `main`.
 
 ## How the weekly run uses these files
 
