@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """
-MacroBasis dashboard generator — TEMPLATE-FILL engine (v4.2, 13 Aug 2026).
+MacroBasis dashboard generator — TEMPLATE-FILL engine (v4.3, 19 Aug 2026).
 
 VERSIONING: this docstring states the CURRENT engine version; the full version
 history lives as the "Engine vX.Y" changelog sections in
 engine/MacroBasis_DOCX_Format_Spec.md — bump BOTH when the engine changes.
+v4.3 (19 Aug 2026): the Week by Week Development page (build_week_by_week_block)
+replaces the heatmap render of Theme Light History — per theme, a dot strip of
+every weekly light since June, a since-AIP verdict chip and a 'how it developed'
+note, filled from light_history.evolution + the dot-strip pngs written by
+engine/make_light_history.py; the heatmap render survives only as the fallback
+for legacy content files.
 v4.2 (13 Aug 2026): real chart insertion — Eduardo's uploads in ChartsThemes/
 are placed into their Insert <slot> cells at the slot's measured geometry;
 unresolved slots keep the dashed placeholder.
@@ -2041,11 +2047,185 @@ def build_regime_block(asof, regime):
     _t = etree.fromstring(_block_tbl_xml(widths, rows)); _no_split_rows(_t); return _t
 
 
+# ---------- Week by Week Development (19 Aug 2026, per Eduardo) ----------
+# The since-June history page: per theme, a dot strip of every weekly light, a
+# SINCE-THE-AIP verdict chip, and a short account of how the development took place.
+# Replaces the heatmap render of Theme Light History; the heatmap remains only as
+# the fallback for legacy content files that carry no `light_history.evolution`.
+# Verdict chips carry their own palette (NOT the weekly light palette — the verdict
+# is a cumulative since-AIP call, not a weekly light): suggested vocabulary
+# Intensified / Held / Volatility driven / Deescalated, free-form verdicts allowed;
+# the `tone` key (or the verdict's first word) picks the colour.
+EVOLUTION_TONES = {"intensified": ("538135", "FFFFFF"),   # more of the theme since the AIP
+                   "held": ("BF9000", "FFFFFF"),          # at baseline
+                   "mixed": ("7F7F7F", "FFFFFF"),         # two-sided / qualified
+                   "deescalated": ("C00000", "FFFFFF")}   # less of the theme since the AIP
+
+
+def _evolution_tone(entry):
+    tone = (entry.get("tone") or "").strip().lower()
+    if tone in EVOLUTION_TONES:
+        return EVOLUTION_TONES[tone]
+    w = (entry.get("verdict") or "").strip().lower()
+    if w.startswith("intensif"):
+        return EVOLUTION_TONES["intensified"]
+    if w.startswith(("deescalat", "de-escalat")):
+        return EVOLUTION_TONES["deescalated"]
+    if w.startswith("held"):
+        return EVOLUTION_TONES["held"]
+    return EVOLUTION_TONES["mixed"]
+
+
+def _legend_p_xml(items, size="16"):
+    """One centred paragraph of coloured-dot legend entries (text ● runs are fine
+    here — only status lines demand the vector oval)."""
+    runs = ""
+    for i, (col, label) in enumerate(items):
+        sep = "      " if i < len(items) - 1 else ""
+        runs += (f'<w:r><w:rPr><w:color w:val="{col}"/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr>'
+                 f'<w:t xml:space="preserve">● </w:t></w:r>'
+                 f'<w:r><w:rPr><w:color w:val="404040"/><w:sz w:val="{size}"/><w:szCs w:val="{size}"/></w:rPr>'
+                 f'<w:t xml:space="preserve">{_su.escape(label)}{sep}</w:t></w:r>')
+    return (f'<w:p><w:pPr><w:spacing w:before="20" w:after="10"/>'
+            f'<w:jc w:val="center"/></w:pPr>{runs}</w:p>')
+
+
+def _italic_p_xml(text, size="15", align="center", color="595959"):
+    return (f'<w:p><w:pPr><w:spacing w:before="10" w:after="0" w:line="216" w:lineRule="auto"/>'
+            f'<w:jc w:val="{align}"/></w:pPr>'
+            f'<w:r><w:rPr><w:i/><w:color w:val="{color}"/>'
+            f'<w:sz w:val="{size}"/><w:szCs w:val="{size}"/></w:rPr>'
+            f'<w:t xml:space="preserve">{_su.escape(text)}</w:t></w:r></w:p>')
+
+
+def build_week_by_week_block(doc, asof, hist, dates_png, strip_pngs):
+    """The Week by Week Development block (19 Aug 2026, per Eduardo). Table rows:
+    header → explainer + legend → column headers (with the shared date strip) →
+    one row per theme: name | dot strip | since-AIP verdict chip | how it developed.
+    The dot strips are the pngs from engine/make_light_history.py, all with identical
+    x-geometry so the date header and every row stay column-aligned; they compress
+    as weeks accumulate, so the page holds any number of tracked weeks."""
+    widths = [1650, 3350, 1600, 4438]                    # sum 11038 (block width)
+    total = sum(widths)
+    evo = hist["evolution"]
+    # HARD GATE (19 Aug 2026): the Routine finish auto-merges on the checks, and a
+    # blank verdict chip or a verdict on the wrong theme row is invisible to
+    # check_layout (it reads rendered text, not which row carries it). So an
+    # incomplete or misordered evolution set FAILS the build outright, never
+    # warn-and-skips: six complete entries in AIP theme order or no dashboard.
+    problems = []
+    if len(evo) != len(hist["themes"]):
+        problems.append(f"{len(evo)} evolution entries for {len(hist['themes'])} themes")
+    for i, (theme, e) in enumerate(zip(hist["themes"], evo)):
+        if not (e.get("verdict") or "").strip():
+            problems.append(f"evolution[{i}] ({theme}) has an empty verdict")
+        if not (e.get("description") or "").strip():
+            problems.append(f"evolution[{i}] ({theme}) has an empty description")
+        lbl = (e.get("theme") or "").strip()
+        if lbl and lbl != theme.strip():
+            problems.append(f"evolution[{i}] labelled {lbl!r} but themes[{i}] is "
+                            f"{theme!r} (rows match by ORDER)")
+    if problems:
+        sys.exit("FATAL: Week by Week Development content incomplete — "
+                 + "; ".join(problems)
+                 + ". Fill light_history.evolution (six complete entries in AIP "
+                   "theme order, schema _light_history_note) and rebuild.")
+    tbl = etree.fromstring(_block_tbl_xml(
+        widths, _header_row_xml("Week by Week Development", asof, total, len(widths))))
+
+    intro = (_italic_p_xml(
+        "Each dot is that week's status call from the weekly dashboard: the direction "
+        "of the theme, not whether it was good or bad for the portfolio. The verdict "
+        "states how each theme has evolved since the Annual Investment Plan (AIP) "
+        "baseline; series starts 18 June 2026 (three lights since 2 July).")
+        + _legend_p_xml([("92D050", "Escalating, more of the theme"),
+                         ("FFC000", "Held, mixed or null"),
+                         ("EE0000", "Deescalating, less of the theme")]))
+    tbl.append(etree.fromstring(
+        f'<w:tr xmlns:w="{WNS}">{_tc_xml(total, intro, span=len(widths))}</w:tr>'))
+
+    def _tc_el(xml_tc):
+        return etree.fromstring(
+            f'<w:tr xmlns:w="{WNS}">{xml_tc}</w:tr>').find(qn('w:tc'))
+
+    hdr = etree.fromstring(f'<w:tr xmlns:w="{WNS}"></w:tr>')
+    hdr.append(_tc_el(_tc_xml(
+        widths[0], _p_xml("Theme", color="7B2952", bold=True, size="17"),
+        fill="EFE7EB")))
+    tc_dates = etree.fromstring(
+        f'<w:tc xmlns:w="{WNS}"><w:tcPr><w:tcW w:w="{widths[1]}" w:type="dxa"/>'
+        f'<w:shd w:val="clear" w:color="auto" w:fill="EFE7EB"/>'
+        f'<w:tcMar><w:top w:w="10" w:type="dxa"/><w:left w:w="90" w:type="dxa"/>'
+        f'<w:bottom w:w="10" w:type="dxa"/><w:right w:w="110" w:type="dxa"/></w:tcMar>'
+        f'<w:vAlign w:val="center"/></w:tcPr></w:tc>')
+    tc_dates.append(_inline_image_para(doc, dates_png, width_emu=1980000))
+    hdr.append(tc_dates)
+    hdr.append(_tc_el(_tc_xml(
+        widths[2], _p_xml("Since the AIP", color="7B2952", bold=True, size="17",
+                          align="center"), fill="EFE7EB")))
+    hdr.append(_tc_el(_tc_xml(
+        widths[3], _p_xml("How it developed", color="7B2952", bold=True, size="17"),
+        fill="EFE7EB")))
+    tbl.append(hdr)
+
+    for ti, theme in enumerate(hist["themes"]):
+        e = evo[ti]
+        fill, txt = _evolution_tone(e)
+        tr = etree.fromstring(f'<w:tr xmlns:w="{WNS}"></w:tr>')
+        tr.append(_tc_el(_tc_xml(
+            widths[0], _p_xml(theme, color="7B2952", bold=True, size="18"))))
+        tc_dots = etree.fromstring(
+            f'<w:tc xmlns:w="{WNS}"><w:tcPr><w:tcW w:w="{widths[1]}" w:type="dxa"/>'
+            f'<w:tcMar><w:top w:w="10" w:type="dxa"/><w:left w:w="90" w:type="dxa"/>'
+            f'<w:bottom w:w="10" w:type="dxa"/><w:right w:w="110" w:type="dxa"/></w:tcMar>'
+            f'<w:vAlign w:val="center"/></w:tcPr></w:tc>')
+        tc_dots.append(_inline_image_para(doc, strip_pngs[ti], width_emu=1980000))
+        tr.append(tc_dots)
+        tr.append(_tc_el(_tc_xml(
+            widths[2], _p_xml(e.get("verdict", ""), color=txt, bold=True, size="17",
+                              align="center"), fill=fill)))
+        desc = e.get("description", "")
+        desc = desc if isinstance(desc, list) else [desc]
+        tr.append(_tc_el(_tc_xml(
+            widths[3], "".join(_p_xml(d, size="17", align="both") for d in desc),
+            valign="top")))
+        tbl.append(tr)
+    _no_split_rows(tbl)
+    return tbl
+
+
 def build_light_history_block(doc, asof, hist, png=None):
-    """Visual history of each theme's light. With `png` (9 Jul 2026) embeds a heatmap
-    image that scales to ANY number of weeks; otherwise falls back to a coloured word
-    matrix (which grows wide and is capped by page width)."""
+    """The history page. Since 19 Aug 2026 the PREFERRED render is the Week by Week
+    Development block (dot strips + since-AIP verdict + how it developed), taken when
+    `light_history.evolution` exists and the dot-strip pngs (make_light_history.py)
+    sit beside `light_history_png`. Legacy renders, for old content files only: the
+    heatmap image (9 Jul 2026), else a coloured word matrix."""
     total = 11038
+    if hist.get("evolution"):
+        # Regenerate the dot strips at build (19 Aug 2026) so they can never go
+        # stale against light_history.weeks (e.g. a resumed session that appended
+        # the week after an earlier render). make_light_history.py stays the
+        # standalone way to produce them plus the fallback heatmap and the
+        # quadrant chart; this call only refreshes the strips.
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import make_light_history as _mlh
+            _mlh.make_dot_strips({"light_history": hist, "light_history_png": png})
+        except SystemExit:
+            raise
+        except Exception as _e:
+            print(f"WARN: dot strips not regenerated at build ({_e}); "
+                  f"using the existing files if present")
+        dots_dir = os.path.dirname(png) if png else None
+        dates_png = os.path.join(dots_dir, "history_dates.png") if dots_dir else None
+        strips = [os.path.join(dots_dir, f"history_dots_{i + 1}.png")
+                  for i in range(len(hist.get("themes") or []))] if dots_dir else []
+        if dates_png and os.path.exists(dates_png) and strips \
+                and all(os.path.exists(s) for s in strips):
+            return build_week_by_week_block(doc, asof, hist, dates_png, strips)
+        print(f"WARN: light_history.evolution is set but the dot strips are missing in "
+              f"{dots_dir!r} — run engine/make_light_history.py first; falling back to "
+              f"the legacy heatmap render (check_layout will fail on the block title)")
     if png:
         rows = _header_row_xml("Theme Light History", asof, total, 1)
         tbl = etree.fromstring(_block_tbl_xml([total], rows))
@@ -2357,8 +2537,11 @@ def main():
                        "Theme 2", "Theme 3", "Theme 4", "Theme 5", "Theme 6")
     # 13 Aug 2026: Eduardo's approved 07 Aug dashboard renamed the Illiquids header to
     # "Allocation Insights - Illiquid Assets"; match both so the block keeps its own page.
+    # 19 Aug 2026: "Week by Week Development" replaces "Theme Light History" as the
+    # history page's header; the old header stays matched for legacy renders.
     _gen_prefixes = ("Illiquid Assets", "Allocation Insights", "Light Scoring",
-                     "Inflation and Growth Read", "Theme Light History")
+                     "Inflation and Growth Read", "Week by Week Development",
+                     "Theme Light History")
     _tmin = int(C.get("theme_row_min_twips", 1250))
     def _drop_spacer_before(tbl):
         prev = tbl.getprevious()

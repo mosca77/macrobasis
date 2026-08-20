@@ -43,4 +43,4 @@ This file deliberately carries **no dated state section** (the 11 Aug snapshot i
 - Last runs and their gates: newest `runs/YYYY-MM-DD/` folder (read `self_audit.md` first).
 - Recent decisions: `git log --oneline -20` and `memory/projects/macroagent.md`.
 
-> Last synced against Run Prompt v5.6 (13 Aug 2026).
+> Last synced against Run Prompt v5.7 (19 Aug 2026).

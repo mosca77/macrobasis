@@ -39,7 +39,11 @@ the six Charter risks are tracked in triage.
 Title → Exec Summary (quadrant + marker trail of 3 · Weekly Direction ONE sentence +
 3 Influencing-Factor lines · Status Dashboard · Key Developments | Implications) →
 Theme 1 → Monetary appendix (no light/status word) → Themes 2–6 → Lights Guide → References
-(by topic, tier-labelled). Theme blocks: Status Ball + status line, What changed (3–5
+(by topic, tier-labelled). Back matter since 19 Aug 2026 (decision, per Eduardo's mock):
+Illiquid Assets → Light Scoring → Inflation and Growth Read → **Week by Week Development**
+(per theme: weekly light dots since June + a since-AIP verdict chip, e.g. Intensified /
+Two-sided / Volatility validated, + a "How it developed" note; replaced the Theme Light
+History heatmap; agent-maintained in `light_history.weeks` + `.evolution`). Theme blocks: Status Ball + status line, What changed (3–5
 facts-first paragraphs incl. the market's reaction), Key Development (text left, chart right,
 no "Key development:" prefix), Implication (growth/inflation sign + offsets), Watch next week.
 

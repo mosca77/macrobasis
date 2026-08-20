@@ -68,6 +68,14 @@ check(title in canon.get("block_order", []), "block_order carries the canonical 
 check(canon["status_words"] == ["Escalating", "Held", "Deescalating"],
       "status words unchanged (Escalating/Held/Deescalating)")
 check("budgets" in canon, "_canonical.budgets exists (single source for layout budgets)")
+check("Week by Week Development" in canon.get("block_order", []),
+      "block_order carries the Week by Week Development page (19 Aug 2026)")
+check("Week by Week Development" in fill,
+      "engine carries the Week by Week Development header")
+check("evolution_verdicts" in canon and "evolution_tones" in canon,
+      "canonical since-AIP evolution vocabulary + tones present")
+check(bool((schema.get("light_history") or {}).get("evolution")),
+      "schema light_history template carries the evolution entries")
 
 # ---- 3. banned patterns ----
 print("== Banned patterns (allowlist: retirement/ban statements) ==")

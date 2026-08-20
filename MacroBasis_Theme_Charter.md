@@ -1,5 +1,5 @@
 # MacroBasis Theme Charter
-**Version: August 2026 (rev. 3; Illiquids beat added 6 Aug, risk-routing synced 13 Aug) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt. Last synced against Run Prompt v5.6 (13 Aug 2026).**
+**Version: August 2026 (rev. 3; Illiquids beat added 6 Aug, risk-routing synced 13 Aug) — derived from the Annual Investment Plan (AIP) Back Pocket Document and aligned to the dashboard reporting format defined in the MacroBasis Weekly Run Prompt. Last synced against Run Prompt v5.7 (19 Aug 2026).**
 
 This is the agent's knowledge base. Theses, drivers, baseline metrics, watchpoints, named-entity sweeps, and queries below define what the agent tracks. Baseline values are the AIP's as-written anchors; they are the **"Prior anchor"** values for the inaugural (baseline) run **only**. From the first weekly run onward, the "Prior anchor" comes from last week's report, never from this file and never from memory. The team edits this file — never the run prompt — when views change.
 
