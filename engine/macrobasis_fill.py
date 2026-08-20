@@ -11,13 +11,13 @@ every weekly light since June, a since-AIP verdict chip and a 'how it developed'
 note, filled from light_history.evolution + the dot-strip pngs written by
 engine/make_light_history.py; the heatmap render survives only as the fallback
 for legacy content files.
-v4.2 (13 Aug 2026): real chart insertion — Eduardo's uploads in ChartsThemes/
+v4.2 (13 Aug 2026): real chart insertion — the Co-Op's uploads in ChartsThemes/
 are placed into their Insert <slot> cells at the slot's measured geometry;
 unresolved slots keep the dashed placeholder.
 v4.1 (6 Aug 2026): the Illiquid Assets block (build_illiquids_block, 2x2
 framework grid, no light), centred block tables.
 
-v4.0 (23 Jul 2026, Eduardo's 17 Jul restructure folded in):
+v4.0 (23 Jul 2026, the Co-Op's 17 Jul restructure folded in):
 - **Jun-30 quadrant format.** The quadrant is the AIP's Jun 30th macroeconomic
   environment (map + note box + fixed Jun 30 reference point, all carried by the
   template). Each week shows ONE dated marker placed relative to that Jun 30
@@ -34,7 +34,7 @@ v4.0 (23 Jul 2026, Eduardo's 17 Jul restructure folded in):
 v3.3 (6 Jul 2026): missing cells/blocks WARN and skip instead of crashing
 (hand-edited dashboards can drop rows; the fill degrades gracefully).
 
-v3.2 (from Eduardo's 3 Jul hand edits): theme Status lines get an inline
+v3.2 (from the Co-Op's 3 Jul hand edits): theme Status lines get an inline
 'Status Ball' oval shape (identical to the exec dashboard lights) instead of
 the coloured-text ●; the Monetary Tracker status line carries NO light and NO
 status word (any leading 'Held ▸' in the JSON is stripped).
@@ -154,7 +154,7 @@ _TBLPR_ORDER = ["tblStyle", "tblpPr", "tblOverlap", "bidiVisual", "tblStyleRowBa
 
 
 def centre_block_tables(doc):
-    """6 Aug 2026 (Eduardo): the template's page margins are asymmetric (left 720,
+    """6 Aug 2026 (the Co-Op): the template's page margins are asymmetric (left 720,
     right 284 twips), so a left-aligned 11038-twip block table shows a visibly larger
     gap on the left than the right. Rather than touch the template's page setup, give
     every TOP-LEVEL table an indent that centres it on the physical page: the white
@@ -194,7 +194,7 @@ def centre_block_tables(doc):
 def restore_atleast_heights(doc):
     """Word drops hRule='atLeast' from row heights when it saves, and LibreOffice then
     reads the bare value as EXACT and clips whatever overflows. Because the template is
-    built from a dashboard Eduardo has hand-edited in Word, the exec direction row can
+    built from a dashboard the Co-Op has hand-edited in Word, the exec direction row can
     arrive with an exact height that silently crops the top of the risk-quadrant map.
     That was invisible while the highlighted quadrant sat in the bottom row and became
     visible the first week it moved to the top row (6 Aug 2026). Restore atLeast on
@@ -419,7 +419,7 @@ _STATUS_WORD_RE = re.compile(r'^\s*(?:de-?escalating|escalating|held)\s*▸?\s*'
 def _status_ball_run(col):
     """An inline 'Status Ball' oval — the SAME wps ellipse shape as the exec
     Status Dashboard lights (0.16x0.17in), filled with the status colour.
-    Since 3 Jul 2026 this replaces the old coloured-text ● (Eduardo's standard:
+    Since 3 Jul 2026 this replaces the old coloured-text ● (the Co-Op's standard:
     theme status lights match the dashboard ovals exactly)."""
     did = _next_id()
     xml = f'''<w:r xmlns:w="{WNS}" xmlns:mc="{MC}" xmlns:wp="{WP}" xmlns:a="{A}" xmlns:wps="{WPS}">
@@ -447,7 +447,7 @@ def fill_status_line(block_tbl, text, light=True):
     """Fill the Status line. Theme blocks (light=True): prepend the coloured
     'Status Ball' oval (same shape as the exec dashboard lights) + a space run,
     colour from the status word. Monetary Tracker appendix (light=False,
-    Eduardo's 3 Jul standard): NO light and NO status word — any leading
+    the Co-Op's 3 Jul standard): NO light and NO status word — any leading
     'Held ▸' etc. is stripped so the line starts at the deciding sentence."""
     for p in block_tbl.iter(qn('w:p')):
         if '[[Status' in para_text(p):
@@ -459,7 +459,7 @@ def fill_status_line(block_tbl, text, light=True):
             fill_para_placeholder(p, text)
             # 9 Jul 2026: the status line is plain body text (10pt sz20, black, not bold); ONLY
             # the ball carries colour. Overrides the template placeholder run (was 15pt green
-            # 92D050), matching Eduardo's approved 07-03 status lines exactly.
+            # 92D050), matching the Co-Op's approved 07-03 status lines exactly.
             for r in p.findall(qn('w:r')):
                 if r.find('.//' + qn('w:drawing')) is not None or r.find(MC_AC) is not None:
                     continue
@@ -960,7 +960,7 @@ def quadrant_behind_text(exec_t, on):
     for anch in r1c0.iter('{%s}anchor' % WP):
         anch.set('behindDoc', '1')
 
-# ---------- Quadrant highlight format (30 Jul 2026 standard, Eduardo) ----------
+# ---------- Quadrant highlight format (30 Jul 2026 standard, the Co-Op) ----------
 # Replaces the single dated dot marker. The whole quadrant the week sits in is
 # shaded with a translucent wash, the standing AIP note box is removed, and the
 # reasons the marker used to imply are spelled out as bullets in the exec cell.
@@ -1083,7 +1083,7 @@ def _bake_wash(part, box, spec):
     part._blob = buf.getvalue()
 
 
-# ---------- Chart slot placeholders (30 Jul 2026 standard, Eduardo) ----------
+# ---------- Chart slot placeholders (30 Jul 2026 standard, the Co-Op) ----------
 # The chart cells used to hold only an "Insert <slot>" marker, so they reserved ONE
 # LINE of height. The block then fitted a page while empty and overflowed the moment a
 # real chart was pasted in. Each slot now carries a placeholder image at the exact size
@@ -1123,8 +1123,8 @@ def _placeholder_png(label, w_in, h_in, dpi=96):
     return path
 
 
-# ---------- Real chart insertion from ChartsThemes/ (13 Aug 2026, Eduardo) ----------
-# Eduardo now uploads his weekly theme charts to ChartsThemes/ at the repo root, and the
+# ---------- Real chart insertion from ChartsThemes/ (13 Aug 2026, the Co-Op) ----------
+# The Co-Op now uploads their weekly theme charts to ChartsThemes/ at the repo root, and the
 # engine places them INTO the report at build time instead of leaving a dashed
 # placeholder for a hand paste. Three rules keep the calibrated layout intact:
 # (a) the chart is letterboxed onto a white canvas of EXACTLY the slot's measured
@@ -1269,7 +1269,7 @@ def fill_chart_placeholders(doc, blk, slots, default, images=None):
         # default before/after spacing, so a two-slot block spent roughly a fifth of an
         # inch on gaps around images that are themselves fixed-size. Zeroing it is the
         # only way to buy height in a chart-bound block without touching a MEASURED slot
-        # size, which must stay exactly what Eduardo pastes in. This is what lets the
+        # size, which must stay exactly what the Co-Op pastes in. This is what lets the
         # AI block, whose two slots reserve 4.64in, clear the 89.5% fill ceiling.
         _paras = (ip,) if source != "placeholder" else (p, ip)
         for _p in _paras:
@@ -1289,7 +1289,7 @@ def fill_chart_placeholders(doc, blk, slots, default, images=None):
 
 
 def quadrant_inline_layout(doc, exec_t, C):
-    """30 Jul 2026 v2 (Eduardo): the quadrant map becomes an INLINE image in a third
+    """30 Jul 2026 v2 (the Co-Op): the quadrant map becomes an INLINE image in a third
     column of the Weekly Direction table, with the 'Why this quadrant' bullets styled
     directly beneath it in the same cell. Kills the floating-anchor machinery for this
     path entirely: floats with deep negative offsets render differently across Word and
@@ -1496,7 +1496,7 @@ def fill_quadrant_rationale(exec_t, items, heading="Why this quadrant", font_hal
 
 
 def drop_exec_key_developments(exec_t):
-    """30 Jul 2026 (Eduardo): the exec 'Key Developments | Implication for Themes' page
+    """30 Jul 2026 (the Co-Op): the exec 'Key Developments | Implication for Themes' page
     was a restatement of the theme blocks. Remove the header row and every row after
     it, so the Executive Summary ends at the Status Dashboard."""
     trs = exec_t.findall(qn('w:tr'))
@@ -1665,11 +1665,11 @@ def build_light_scoring_block(asof, entries, sz="17"):
         rows += f'<w:tr>{cells}</w:tr>'
     _t = etree.fromstring(_block_tbl_xml(widths, rows)); _no_split_rows(_t); return _t
 
-# ---------- Illiquids block (NEW, 6 Aug 2026, per Eduardo; framework v3 same day) ----------
+# ---------- Illiquids block (NEW, 6 Aug 2026, per the Co-Op; framework v3 same day) ----------
 # A full page on private / unlisted markets, sitting AFTER Theme 6 and BEFORE Light
 # Scoring, written in the THEME BLOCK grammar. It deliberately stays OUTSIDE the lights
 # system: no traffic light, no exec status row, no Light Scoring or Light History entry.
-# v3 (6 Aug 2026, Eduardo): the Buy / Hold / Sell per sleeve is RETIRED. The page now
+# v3 (6 Aug 2026, the Co-Op): the Buy / Hold / Sell per sleeve is RETIRED. The page now
 # assesses the asset class through FOUR PRIMARY CATEGORIES, each carrying a short
 # directional read in the strip where a theme carries its light:
 #   Performance — how illiquids are doing against public alternatives, literally returns
@@ -1759,7 +1759,7 @@ def _signal_strip_xml(signals, total):
 
 
 def build_illiquids_block(doc, asof, illiquids, slots=None, default=None):
-    """Illiquid Assets (6 Aug 2026 v4, per Eduardo).
+    """Illiquid Assets (6 Aug 2026 v4, per the Co-Op).
 
     Layout: header → [chart column | 'What changed this week'] → a 2x2 FRAMEWORK GRID.
     'What changed this week' carries the window's most important PRIVATE EQUITY news,
@@ -1811,7 +1811,7 @@ def build_illiquids_block(doc, asof, illiquids, slots=None, default=None):
 
 def check_illiquids(C):
     """The Illiquids block sits outside the lights system by design (6 Aug 2026,
-    Eduardo). Warn loudly if it ever leaks into the light machinery, and if a call
+    the Co-Op). Warn loudly if it ever leaks into the light machinery, and if a call
     is not one of the three permitted words."""
     ill = C.get("illiquids")
     if not ill:
@@ -1849,7 +1849,7 @@ def check_illiquids(C):
         print("WARN: status_dashboard should still be SIX rows — Illiquids does not get an exec row")
 
 
-# 30 Jul 2026 (Eduardo): signs are BINARY, + or - only. The pair IS the quadrant
+# 30 Jul 2026 (the Co-Op): signs are BINARY, + or - only. The pair IS the quadrant
 # coordinate, so a third state cannot exist: (+,+) Inflation, (+,-) Stagflation,
 # (-,+) Productivity Boost, (-,-) Deflation. Nuance (held vs rising) lives in the
 # label and the prose, never in the sign.
@@ -1951,7 +1951,7 @@ def fill_direction_signs(exec_t, signs):
 
 
 def build_regime_history_block(doc, asof, hist, quad_hist=None, quad_png=None):
-    """30 Jul 2026 (Eduardo): companion strip under the Inflation and Growth Read.
+    """30 Jul 2026 (the Co-Op): companion strip under the Inflation and Growth Read.
     (a) sign history, the weekly + / = / - for each factor across all tracked weeks,
     the regime analogue of the theme light history; (b) quadrant residency, a count of
     weekly reads per AIP quadrant with a bar chart, agent-maintained from the
@@ -2018,7 +2018,7 @@ def build_regime_history_block(doc, asof, hist, quad_hist=None, quad_png=None):
 
 
 def build_regime_block(asof, regime):
-    """30 Jul 2026 (Eduardo): the Inflation / Growth read that FEEDS the page-1 quadrant,
+    """30 Jul 2026 (the Co-Op): the Inflation / Growth read that FEEDS the page-1 quadrant,
     stated explicitly and gradeable the same way the lights are. Two rows, each with a
     + or - sign cell (the analogue of the Light cell) and bulleted reasons, so the
     quadrant call on page 1 can be audited against the evidence at the back."""
@@ -2047,7 +2047,7 @@ def build_regime_block(asof, regime):
     _t = etree.fromstring(_block_tbl_xml(widths, rows)); _no_split_rows(_t); return _t
 
 
-# ---------- Week by Week Development (19 Aug 2026, per Eduardo) ----------
+# ---------- Week by Week Development (19 Aug 2026, per the Co-Op) ----------
 # The since-June history page: per theme, a dot strip of every weekly light, a
 # SINCE-THE-AIP verdict chip, and a short account of how the development took place.
 # Replaces the heatmap render of Theme Light History; the heatmap remains only as
@@ -2099,7 +2099,7 @@ def _italic_p_xml(text, size="15", align="center", color="595959"):
 
 
 def build_week_by_week_block(doc, asof, hist, dates_png, strip_pngs):
-    """The Week by Week Development block (19 Aug 2026, per Eduardo). Table rows:
+    """The Week by Week Development block (19 Aug 2026, per the Co-Op). Table rows:
     header → explainer + legend → column headers (with the shared date strip) →
     one row per theme: name | dot strip | since-AIP verdict chip | how it developed.
     The dot strips are the pngs from engine/make_light_history.py, all with identical
@@ -2277,7 +2277,7 @@ def main():
 
     tbls = top_tables(doc)
 
-    # 1b) resolve Eduardo's uploaded charts (13 Aug 2026): one pass over ChartsThemes/
+    # 1b) resolve the Co-Op's uploaded charts (13 Aug 2026): one pass over ChartsThemes/
     # (or `chart_source_dir`), explicit `chart_images` overrides win per slot. Every
     # resolved slot gets the REAL chart at the slot's measured geometry; unresolved
     # slots keep the dashed placeholder and are named here — never a silent gap.
@@ -2390,7 +2390,7 @@ def main():
         else:
             fill_token(exec_t, "[[influencing_factors]]", fac)
     # 2d) Key Developments | Implication for Themes rows.
-    # RETIRED 30 Jul 2026 (Eduardo): the exec keydev page restated the theme blocks.
+    # RETIRED 30 Jul 2026 (the Co-Op): the exec keydev page restated the theme blocks.
     # Set `keep_exec_key_developments: true` to bring it back.
     if not C.get("keep_exec_key_developments", False):
         drop_exec_key_developments(exec_t)
@@ -2453,7 +2453,7 @@ def main():
         else:
             print("WARN: no 'Watch next week' cell in '%s'" % title_startswith)
         drop_empty_fullwidth_rows(blk)
-        # 30 Jul 2026: reserve the real chart geometry so Eduardo's inserts do not
+        # 30 Jul 2026: reserve the real chart geometry so the Co-Op's inserts do not
         # reflow; 13 Aug 2026: slots with a ChartsThemes upload get the REAL chart.
         got = fill_chart_placeholders(doc, blk, C.get("chart_slots"),
                                       C.get("chart_slot_default"), chart_images)
@@ -2502,12 +2502,12 @@ def main():
         if "".join(t.text or '' for t in p.iter(qn('w:t'))).strip().startswith("Lights Guide Appendix"):
             lg_anchor = p; break
     if lg_anchor is not None:
-        # 6 Aug 2026 (Eduardo): Illiquids goes FIRST of the generated back-matter blocks,
+        # 6 Aug 2026 (the Co-Op): Illiquids goes FIRST of the generated back-matter blocks,
         # i.e. immediately after Theme 6 and before Light Scoring. It carries no light.
         if C.get("illiquids"):
             _ib = build_illiquids_block(doc, asof, C["illiquids"])
             lg_anchor.addprevious(_ib)
-            # same sized chart placeholders as a theme block, so Eduardo's own charts
+            # same sized chart placeholders as a theme block, so the Co-Op's own charts
             # paste in without reflowing the page
             _got = fill_chart_placeholders(doc, _ib, C.get("chart_slots"),
                                            C.get("chart_slot_default"), chart_images)
@@ -2535,7 +2535,7 @@ def main():
     _tbls = top_tables(doc)
     _theme_prefixes = ("Theme 1 —", "Theme 1 -", "Theme 1 Appendix", "Theme 1 (Appendix)",
                        "Theme 2", "Theme 3", "Theme 4", "Theme 5", "Theme 6")
-    # 13 Aug 2026: Eduardo's approved 07 Aug dashboard renamed the Illiquids header to
+    # 13 Aug 2026: the Co-Op's approved 07 Aug dashboard renamed the Illiquids header to
     # "Allocation Insights - Illiquid Assets"; match both so the block keeps its own page.
     # 19 Aug 2026: "Week by Week Development" replaces "Theme Light History" as the
     # history page's header; the old header stays matched for legacy renders.
@@ -2570,7 +2570,7 @@ def main():
         elif any(ttl.startswith(pfx) for pfx in _gen_prefixes):
             _drop_spacer_before(t)
             t.addprevious(break_before_para())
-    # Exec pagination (24 Jul 2026 standard, per Eduardo): page 1 = Weekly Direction +
+    # Exec pagination (24 Jul 2026 standard, per the Co-Op): page 1 = Weekly Direction +
     # Influencing Factors + Jun-30 quadrant + the FULL Status Dashboard; the Key
     # Developments start page 2. In-table row breaks are unreliable in renderers, so
     # the exec table is SPLIT at the Key Developments header into a second table with

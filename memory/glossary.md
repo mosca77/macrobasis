@@ -3,9 +3,9 @@
 ## Acronyms & terms
 | Term | Meaning | Notes |
 |------|---------|-------|
-| OCIO | Office of the Chief Investment Officer | Eduardo's team |
+| OCIO | Office of the Chief Investment Officer | The Co-Op's team |
 | OPTrust | OPSEU Pension Trust | Employer / pension fund |
-| Co-op | Co-op student / intern | Eduardo's role |
+| Co-op | Co-op student / intern | The Co-Op's role |
 | Macro theme | A tracked macroeconomic narrative | Monitored for progress + investment implications |
 | MacroAgent / MacroBasis | Internal project (see projects/macroagent.md) | Weekly standardized macro dashboard report |
 | AIP | Annual Investment Plan ("Back Pocket Document") | Upstream source of theses, figures, baselines |
@@ -16,8 +16,8 @@
 | TIC | US Treasury Int'l Capital (foreign holdings) | Tier 1 source, Currency Debasement theme |
 | SIPRI | Stockholm Int'l Peace Research Institute | Military-spending source, Fiscal theme |
 | WGC | World Gold Council | Central-bank gold statistics, Currency theme |
-| Baseline mode | Run with no prior report in `Dashboards_Eduardo_Updated/` | All statuses Held; confirm with Eduardo first |
-| ChartsThemes | Repo folder of Eduardo's weekly chart uploads | Engine inserts them into the report at build (since 13 Aug 2026) |
+| Baseline mode | Run with no prior report in `Weekly Reports/` | All statuses Held; confirm with the Co-Op first |
+| ChartsThemes | Repo folder of the Co-Op's weekly chart uploads | Engine inserts them into the report at build (since 13 Aug 2026) |
 | Quadrant highlight | The whole current quadrant shaded on the AIP risk map | Replaced the dated dot marker (30 Jul 2026) |
 | Week by Week Development | Back-matter history page: per theme, weekly light dots since June + a since-AIP verdict chip + "How it developed" | Replaced the Theme Light History heatmap (19 Aug 2026); data in `light_history` (`weeks` + `evolution`) |
 | Regime signs | Weekly +/- per Inflation and Growth | The pair IS the quadrant coordinate: (+,+) Inflation, (+,-) Stagflation, (-,+) Productivity Boost, (-,-) Deflation |

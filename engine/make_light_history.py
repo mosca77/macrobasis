@@ -4,7 +4,7 @@
 Was an ad-hoc step before 30 July 2026; made reusable so every run produces the
 images the same way. Three products, all from `light_history` (+ `quadrant_history`):
 
-1. DOT STRIPS (19 Aug 2026, Eduardo's Week by Week Development page): a shared
+1. DOT STRIPS (19 Aug 2026, the Co-Op's Week by Week Development page): a shared
    date-header png plus one dot-strip png per theme — `history_dates.png` and
    `history_dots_1.png` .. `history_dots_N.png` — written into the same folder as
    `light_history_png`. All strips share IDENTICAL geometry (same width, same x
@@ -67,7 +67,7 @@ def make_quadrant_chart(content):
 
 
 def make_dot_strips(content):
-    """19 Aug 2026 (Eduardo): the Week by Week Development page renders each theme's
+    """19 Aug 2026 (the Co-Op): the Week by Week Development page renders each theme's
     lights as a row of coloured dots under a shared date header. Every figure here
     uses the SAME width, x-limits and margins and is saved WITHOUT tight cropping,
     so the columns align across the date header and all theme strips when the engine
@@ -90,7 +90,7 @@ def make_dot_strips(content):
     pad = 12.0 / cell_pt
 
     def _short(d):
-        """'06-18' -> '6/18' (the compact form Eduardo's mock uses)."""
+        """'06-18' -> '6/18' (the compact form the Co-Op's mock uses)."""
         parts = str(d).replace("/", "-").split("-")
         if len(parts) == 2 and all(p.isdigit() for p in parts):
             return f"{int(parts[0])}/{int(parts[1])}"

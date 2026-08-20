@@ -2,7 +2,7 @@
 
 ## Organization
 - **OPTrust** (OPSEU Pension Trust) — pension fund.
-- **OCIO** — Office of the Chief Investment Officer. Eduardo works in/with this team as a co-op.
+- **OCIO** — Office of the Chief Investment Officer. The Co-Op works in/with this team.
 
 ## Team focus
 - Tracking and monitoring macroeconomic developments to inform investment decisions.
@@ -13,5 +13,5 @@
 - Connect one to enable scanning for people, projects, and shorthand.
 
 ## Gaps to fill
-- Team members and roles (CIO, PMs, analysts Eduardo works with).
+- Team members and roles (CIO, PMs, analysts the Co-Op works with).
 - Internal systems/data sources for macro data.

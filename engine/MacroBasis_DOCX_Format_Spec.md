@@ -15,15 +15,15 @@ folder's `macrobasis_fill.py` does exactly that.
 
 Template lineage: the plain `MacroBasis_Report_Template.docx` filename is retired
 (6 Jul 2026) — use the newest `MacroBasis_Report_Template*` file. **Current:
-`MacroBasis_Report_Template_v6.docx`, built 30 Jul 2026 from Eduardo's approved
+`MacroBasis_Report_Template_v6.docx`, built 30 Jul 2026 from the Co-Op's approved
 30 Jul dashboard** (inline three-column exec, one page per section, 14 chart
 slots; supersedes v5, which was built 23 Jul from the approved 17 Jul dashboard:
 Jun-30 reference quadrant, two-page exec, charts beside bulleted 'What changed',
 full-width text keydev, Implication | Watch side by side, 7-row central-bank
 table, no Monetary keydev) with
 `engine/build_template_from_dashboard.py` (v3, 13 Aug 2026) — run that script
-against the newest approved dashboard whenever his structural hand edits should
-become the template (it re-inserts every placeholder token, restores Insert
+against the newest dashboard in `Weekly Reports/` whenever their structural hand
+edits should become the template (it re-inserts every placeholder token, restores Insert
 markers and any keydev/implication/watch rows a hand edit removed, resets the
 status ovals to the engine's base colour, restores hRule=atLeast on every row
 height Word dropped on save, DROPS the engine-generated back-matter blocks
@@ -31,11 +31,11 @@ including Illiquid Assets under either header spelling, and re-stamps
 YYYY_MM_DD). **Rebuild acceptance test (MANDATORY before adopting a rebuilt
 template):** fill it with the newest content JSON and run `check_layout.py` —
 exit 0 or the rebuilt template is NOT adopted. Known limitation (13 Aug 2026):
-a rebuild from a v6-era approved dashboard currently produces a taller exec
+a rebuild from a v6-era dashboard currently produces a taller exec
 that can push the status rows to page 2 — the acceptance test catches it;
 hand-tune the exec row/geometry (as was done for v6 itself) before adoption.
-His newest approved dashboard (`Dashboards_Eduardo_Updated/`) stays the
-formatting ground truth.
+The newest dashboard in `Weekly Reports/` stays the
+formatting ground truth (hand-calibrated history lives in `Weekly Reports/archive/approved/`).
 
 ## Engine changelog (dated history)
 
@@ -52,11 +52,11 @@ cluster is anchored below the Influencing Factors cell — if the factors run lo
 the cluster slides off page 1. The factor-count budget (4-6 lines since 6 Aug 2026; was exactly 3) is what keeps the
 exec block on one page; treat it as layout-critical, not just voice.
 
-Engine v3.4 (9 Jul 2026, Eduardo's hand-edit feedback folded in):
+Engine v3.4 (9 Jul 2026, the Co-Op's hand-edit feedback folded in):
 - **Status line = plain 10pt BLACK body text.** `fill_status_line` now forces every
   text run in a theme Status line to sz 20 / colour 000000 / not-bold, overriding the
   template placeholder run (which carried sz 30 green 92D050 and rendered a "big green"
-  status word). Only the Status Ball oval carries colour — matching Eduardo's approved
+  status word). Only the Status Ball oval carries colour — matching the Co-Op's approved
   07-03 lines. The `tblLayout`/`tblCellMar` order in the keydev nested table was also
   fixed so output validates.
 - **"Macro take:" label stripped.** The engine removes any literal "Macro take:" from the
@@ -94,7 +94,7 @@ Engine v3.5 (9 Jul 2026 — deterministic page schema + automated check):
   pages). MANDATORY after every build; must exit 0 before filing. This is the regression guard
   so the layout never silently breaks again.
 
-Engine v4.0 (23 Jul 2026 — Eduardo's 17 Jul restructure folded in):
+Engine v4.0 (23 Jul 2026 — the Co-Op's 17 Jul restructure folded in):
 - **Jun-30 quadrant.** The template carries the AIP Jun 30th environment (map + black
   Jun 30 reference point + standing note box) and ONE dated marker. Each run
   `quadrant_relabel_and_move` renames that marker to this week's MM-DD and shifts it
@@ -111,7 +111,7 @@ Engine v4.0 (23 Jul 2026 — Eduardo's 17 Jul restructure folded in):
 - **Theme geometry (from the v5 template).** Charts occupy a column beside the
   bulleted 'What changed' cell (side varies by theme); keydev = full-width text row
   (no nested chart table); Implication | Watch share the bottom row; chart cells
-  carry `Insert <theme>_chart_N` markers for Eduardo's own charts. The Monetary
+  carry `Insert <theme>_chart_N` markers for the Co-Op's own charts. The Monetary
   appendix has NO keydev row and a 7-row central-bank table
   (| Central Bank | Key Policy Rate | Expected Cycle / Note |).
 - **Page schema mechanics.** Each theme table is preceded by a zero-height
@@ -124,11 +124,11 @@ Engine v4.0 (23 Jul 2026 — Eduardo's 17 Jul restructure folded in):
   Key Developments, one theme per page, Light Scoring then Light History, no spills.
 - **Charts.** The only engine-generated image is the light-history heatmap
   (`engine/charts/YYYY-MM-DD/light_history.png`). Keydev chart generation is retired.
-  Since 13 Aug 2026 the side-chart slots are filled with Eduardo's UPLOADED charts
+  Since 13 Aug 2026 the side-chart slots are filled with the Co-Op's UPLOADED charts
   from `ChartsThemes/` at build time (see Engine v4.2 below); the agent still never
   generates or fabricates a side chart.
 
-Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
+Engine v4.1 (6 Aug 2026 — the Co-Op's Illiquids page):
 - **`build_illiquids_block` (from `illiquids`)** — a new engine-generated bordered block
   inserted **after Theme 6 and before Light Scoring**, on its own page, built in the
   **theme block grammar**: 2 columns of 5519 twips, burgundy borders, the same bold
@@ -150,7 +150,7 @@ Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
 - **Block tables are centred on the page at build.** `centre_block_tables` gives every
   top-level table a `tblInd` that equalises the white space either side of the block,
   compensating for the template's asymmetric page margins (left 720 / right 284 twips)
-  without touching the section setup. 6 Aug 2026, per Eduardo.
+  without touching the section setup. 6 Aug 2026, per the Co-Op.
 - **The block carries no light by design.** `check_illiquids` warns at build if an
   Illiquids row leaks into `light_scoring` or `light_history`, if the exec
   `status_dashboard` is not still six rows, if the grid categories drift from
@@ -163,7 +163,7 @@ Engine v4.1 (6 Aug 2026 — Eduardo's Illiquids page):
   after the last theme page, and is directly followed by Light Scoring.
 
 Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
-- **Eduardo's charts are now placed INTO the report at build time.** He uploads the
+- **The Co-Op's charts are now placed INTO the report at build time.** They upload the
   week's theme charts to `ChartsThemes/` at the repo root; `fill_chart_placeholders`
   fills every `Insert <slot>` cell with the REAL chart when one resolves, and only
   falls back to the 30 Jul dashed placeholder (marker line kept) when none does.
@@ -185,7 +185,7 @@ Engine v4.2 (13 Aug 2026 — real chart insertion from `ChartsThemes/`):
   slot's source file — an unresolved slot is a visible gap, never a silent null.
   Record the resolution line in `self_audit.md`.
 
-Engine v4.3 (19 Aug 2026 — Eduardo's Week by Week Development page):
+Engine v4.3 (19 Aug 2026 — the Co-Op's Week by Week Development page):
 - **`build_week_by_week_block` replaces the heatmap render of Theme Light History.**
   The history page's header is now **"Week by Week Development"**: per theme, one row
   of [name | dot strip | since-AIP verdict chip | "How it developed"], preceded by an
@@ -233,7 +233,7 @@ until it fits (status-ball ovals and the light-history heatmap are never touched
 A block that is text-heavy AND chart-heavy (Currency) also takes a ~0.9x line
 compression so its charts stay readable rather than being shrunk to fit. Run it as
 the last step on any hand-edited dashboard; then `check_layout.py` should pass and
-`validate.py` should be clean. (24 Jul 2026: used to fit Eduardo's charted 07-24.)
+`validate.py` should be clean. (24 Jul 2026: used to fit the Co-Op's charted 07-24.)
 
 ## How to generate a report (every week)
 
@@ -245,9 +245,9 @@ python3 engine/macrobasis_fill.py \
 ```
 
 No prev-docx argument since v4.0: the template itself carries the Jun-30 quadrant
-and its single dated marker (relabelled/moved each run). When Eduardo approves a
-restructured dashboard, fold it back into the next template first:
-`python3 engine/build_template_from_dashboard.py <approved.docx> MacroBasis_Report_Template_vN.docx`.
+and its single dated marker (relabelled/moved each run). When the Co-Op hand-edits a
+dashboard's structure, fold the change back into the next template first:
+`python3 engine/build_template_from_dashboard.py <dashboard.docx> MacroBasis_Report_Template_vN.docx`.
 
 The agent's job each week is to produce `content_YYYY-MM-DD.json` (the researched
 content) plus any generated keydev chart PNGs (`engine/charts/`). The engine handles
@@ -347,7 +347,7 @@ Side chart slots, by theme (manual insert, unchanged):
 | Theme 6 Domestic | `Insert domestic_1` (R2 right), `Insert domestic_2` (R3) | "What changed" top-left |
 | Illiquid Assets (generated block) | `Insert illiquid_1`, `Insert illiquid_2` | "What changed" right |
 
-**Since 13 Aug 2026 (Engine v4.2) the engine fills these slots from Eduardo's
+**Since 13 Aug 2026 (Engine v4.2) the engine fills these slots from the Co-Op's
 `ChartsThemes/` uploads at build**; a slot with no upload keeps the sized dashed
 placeholder + marker for a hand paste. Slot names above are the canonical
 `<base>_<n>` forms the alias resolver and `build_template_from_dashboard.py`
@@ -386,5 +386,6 @@ python3 .../skills/docx/scripts/office/validate.py MacroBasis_Dashboard_YYYY-MM-
 - Edit the **Charter** when views change; edit **this engine/spec** only when the
   template structure itself changes. Never hand-format a one-off docx.
 - If the template is revised, re-run the analyzer and update the Block & Chart Map.
-- Eduardo's updated dashboards (`Dashboards_Eduardo_Updated/`) are the formatting
-  ground truth; when he restructures a block by hand, fold it back into the template.
+- The newest dashboard in `Weekly Reports/` is the formatting
+  ground truth (hand-calibrated history in `Weekly Reports/archive/approved/`); when the
+  Co-Op restructures a block by hand, fold it back into the template.

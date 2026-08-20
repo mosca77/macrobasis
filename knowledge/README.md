@@ -50,8 +50,8 @@ To ask for a brief built only from this file, no web research, no sweeps: **"Syn
 
 Not built in the 20 Aug 2026 run. To switch it on, add a gated Phase 0 step, "KB maintenance," to the Run Prompt: each week, after the dashboard is approved, check it against the promotion rule below; a matching event gets a new entry in `events_2026H2.md` (create the file the first time this fires), same format and ID scheme as this file, IDs continuing from where a section left off if the theme already appears here, or starting fresh with `KB-<CODE>-001` for a section that does not yet exist.
 
-**Promotion rule:** at most one entry per theme per week, and only if the event did at least one of: flip a status light, move the quadrant, or get flagged by Eduardo directly. Until this gate is turned on, weekly runs only read this file; they never write to it.
+**Promotion rule:** at most one entry per theme per week, and only if the event did at least one of: flip a status light, move the quadrant, or get flagged by the Co-Op directly. Until this gate is turned on, weekly runs only read this file; they never write to it.
 
 ## Calibration
 
-Eduardo's hand edits to any KB entry are calibration data, the same as anywhere else in this project (`CLAUDE.md`, invariant 7): a correction here means the underlying research or framing was off and should inform how future beats are briefed, not just a one-off fix.
+The Co-Op's hand edits to any KB entry are calibration data, the same as anywhere else in this project (`CLAUDE.md`, invariant 7): a correction here means the underlying research or framing was off and should inform how future beats are briefed, not just a one-off fix.

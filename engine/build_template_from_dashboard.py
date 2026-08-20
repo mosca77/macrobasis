@@ -6,12 +6,13 @@ v3 (13 Aug 2026): the Illiquid Assets block (either header spelling) is now DROP
 like the other engine-generated back-matter blocks — it is rebuilt from content every
 run, so it must never ride into a template as fixed text (spec_audit item 26).
 
-Turns Eduardo's newest approved dashboard (formatting ground truth) into the
+Turns the newest report in Weekly Reports/ (hand-calibrated history in
+Weekly Reports/archive/approved/) into the
 next MacroBasis_Report_Template_vN.docx by stripping the week's content and
 re-inserting the [[placeholder]] tokens macrobasis_fill.py expects. Run it
-whenever his structural hand edits should become the new template.
+whenever the Co-Op's structural hand edits should become the new template.
 
-v2 (23 Jul 2026) — rebuilt for Eduardo's 17 Jul restructure:
+v2 (23 Jul 2026) — rebuilt for the Co-Op's 17 Jul restructure:
   * exec: quadrant cluster in the Jun-30 reference format is KEPT VERBATIM
     (AIP Jun 30 map + note box + prior week's single dated marker; the fill
     engine relabels/moves that marker, no transplant, no trail);
@@ -209,7 +210,7 @@ def main():
     # generated from `illiquids` content every run (build_illiquids_block), exactly like
     # Light Scoring; before this fix the script carried the approved week's literal
     # Illiquids text and charts into the new template as fixed content (audit item 26).
-    # Both header spellings are matched: the original "Illiquid Assets" and Eduardo's
+    # Both header spellings are matched: the original "Illiquid Assets" and the Co-Op's
     # approved rename "Allocation Insights - Illiquid Assets" (canonical display title).
     for t in list(body.findall(qn('w:tbl'))):
         ttl = block_title(t)

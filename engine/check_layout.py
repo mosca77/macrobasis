@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Layout checker (v5, 19 Aug 2026) — run after EVERY build; exits non-zero on any failure.
 
-Required page schema (v4, per Eduardo):
+Required page schema (v4, per the Co-Op):
   page 1  Executive Summary: Weekly Direction + Influencing Factors + the HIGHLIGHTED
           quadrant + the 'Why this quadrant' bullets + the FULL Status Dashboard
           (all 6 rows). The standing AIP note box is gone and so is the dot marker.
@@ -9,7 +9,7 @@ Required page schema (v4, per Eduardo):
           it restated the theme blocks. Themes now start on page 2.
   themes  each block (Theme 1, Monetary appendix, Themes 2-6) occupies exactly ONE
           page, on consecutive pages (via the block-internal 'Watch next week' marker)
-  then    Illiquid Assets (6 Aug 2026, per Eduardo — one page: charts beside the
+  then    Illiquid Assets (6 Aug 2026, per the Co-Op — one page: charts beside the
           private-equity 'What changed this week', then the 2x2 framework grid
           Performance | Valuations / Leverage | Dry powder; NO traffic light, no
           exec status row, no Buy/Hold/Sell), then Light Scoring,
@@ -21,7 +21,7 @@ Usage: python3 engine/check_layout.py <dashboard.docx>
 """
 import sys, subprocess, tempfile, os, glob
 
-FILL_CEILING = 89.5      # % of page height; calibrated 30 Jul 2026 against Eduardo's
+FILL_CEILING = 89.5      # % of page height; calibrated 30 Jul 2026 against the Co-Op's
                          # approved 07-17 dashboard, whose Word-fitting pages render at
                          # up to 90.8% in LibreOffice while SPILLING there — the two
                          # renderers diverge by 1-2 lines, so blocks must keep headroom.

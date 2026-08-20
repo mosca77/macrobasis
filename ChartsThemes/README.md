@@ -1,4 +1,4 @@
-# ChartsThemes — Eduardo's weekly theme charts
+# ChartsThemes — the Co-Op's weekly theme charts
 
 Here you will find the charts that will be used inside each theme. Take them for the weeks run.
 
