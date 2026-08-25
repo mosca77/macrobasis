@@ -152,5 +152,29 @@ if daily:
 else:
     print("  SKIP no daily file found")
 
+# ---- 7. Projects-mode spec (optional folder) ----
+print("== Projects-mode spec (inlined canonical block) ==")
+pm_rel = os.path.join("Projects Mode", "MacroBasis_Content_Spec.md")
+if not os.path.exists(os.path.join(ROOT, pm_rel)):
+    print("  SKIP no Projects Mode/ folder")
+else:
+    pm = read(pm_rel)
+    # The Projects-mode spec has no content_schema.json to defer to, so it inlines
+    # _canonical. Anything inlined must still match the schema, or a Project run
+    # drafts to stale budgets and enums that nothing else would catch.
+    for w in canon["status_words"]:
+        check(w in pm, f"Projects spec carries canonical status word '{w}'")
+    for t in canon["reference_topics"]:
+        check(t in pm, f"Projects spec carries reference topic '{t[:40]}...'")
+    for c in canon["illiquid_categories"]:
+        check(c in pm, f"Projects spec carries illiquid category '{c}'")
+    check(canon["illiquids_display_title"] in pm,
+          "Projects spec carries the canonical illiquids display title")
+    for key, val in canon["budgets"].items():
+        # budgets are prose in the Projects spec ("20-24 words"); match the value's
+        # numeric core, which is what actually drifts.
+        core = re.sub(r"\s*\(.*\)\s*$", "", str(val)).strip().lstrip("~")
+        check(core in pm, f"Projects spec budget matches _canonical.budgets['{key}'] = '{core}'")
+
 print(f"\nFailures: {len(fails)}")
 sys.exit(1 if fails else 0)
